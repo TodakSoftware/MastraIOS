@@ -220,7 +220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatSerializer__ctor_m9C4C58C9E498B39
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134776
+// Method Definition Index: 134799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_SubscribeToAdapterAndMetricEvents_mD5C1B513417F2C0D86A7851DE04261960EB523F3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -247,7 +247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_SubscribeTo
 		return;
 	}
 }
-// Method Definition Index: 134777
+// Method Definition Index: 134800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_OnAdapterAdded_mE8FFB57D503CDB4FEB9BB80A62C489436689CD71 (RuntimeObject* ___0_adapter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -289,7 +289,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 134778
+// Method Definition Index: 134801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_OnAdapterRemoved_m2D96FF92DE1111A3CAB6B07E1852C80C1B03A6BB (RuntimeObject* ___0_adapter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -331,7 +331,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 134779
+// Method Definition Index: 134802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_OnMetricsReceived_m23E7098C67648C4CC541351C6ADEA74C638C6D97 (MetricCollection_tC854AC2B17132ADE592D32683C1EF00AB6B2B8AA* ___0_metricCollection, const RuntimeMethod* method) 
 {
 	{
@@ -339,7 +339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener_OnMetricsRe
 		return;
 	}
 }
-// Method Definition Index: 134780
+// Method Definition Index: 134803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerAdapterEventListener__cctor_m95F9F00DD1794CD7AE0D1578EB785861B798A8C9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

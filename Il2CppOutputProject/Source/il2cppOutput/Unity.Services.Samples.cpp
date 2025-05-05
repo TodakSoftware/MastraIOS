@@ -210,7 +210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134718
+// Method Definition Index: 134741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t0A60733AB7F27FEE395865630CF09F5ABF32A0E2 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m17BC3C2B40107AB84AD9909221106256E0C53296 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -244,7 +244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t0A60733AB7F27FEE395865630CF09
 		return L_6;
 	}
 }
-// Method Definition Index: 134719
+// Method Definition Index: 134742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0896D4D2C810B268EEAAFF0C0FA2E4BD4EE21016 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t4647407CA11C97BAFDF5CB71513C051B4E77987E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -330,7 +330,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t0A60733AB7F27FEE395865630CF09F5ABF32A0E2_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134720
+// Method Definition Index: 134743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerProfile_get_Name_m026C007D52708687B83B608CC0F9311C857ABD4F (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, const RuntimeMethod* method) 
 {
 	{
@@ -339,7 +339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerProfile_get_Name_m026C007D527
 		return L_0;
 	}
 }
-// Method Definition Index: 134721
+// Method Definition Index: 134744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_set_Name_m838EB45FB21934898CF0E134F4A17AA5AAD1658B (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -350,7 +350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_set_Name_m838EB45FB2193489
 		return;
 	}
 }
-// Method Definition Index: 134722
+// Method Definition Index: 134745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerProfile_get_Id_m8580012A6684B5135148115BE083B6F0BDE91B16 (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, const RuntimeMethod* method) 
 {
 	{
@@ -359,7 +359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerProfile_get_Id_m8580012A6684B
 		return L_0;
 	}
 }
-// Method Definition Index: 134723
+// Method Definition Index: 134746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_set_Id_m81CF8FB4E932E4F7FD1206243A5027DE0824CD23 (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -370,7 +370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_set_Id_m81CF8FB4E932E4F7FD
 		return;
 	}
 }
-// Method Definition Index: 134724
+// Method Definition Index: 134747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile__ctor_m4D4C6037D67915233B6C5F8BD35F3D22DC112EED (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, String_t* ___0_name, String_t* ___1_id, const RuntimeMethod* method) 
 {
 	{
@@ -386,7 +386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile__ctor_m4D4C6037D67915233B6
 		return;
 	}
 }
-// Method Definition Index: 134725
+// Method Definition Index: 134748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerProfile_ToString_mA91556DD04E80A88BAC13B98A2210CC7E0EF5880 (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -433,7 +433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerProfile_ToString_mA91556DD04E
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 134721
+// Method Definition Index: 134744
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerProfile_set_Name_m838EB45FB21934898CF0E134F4A17AA5AAD1658B_inline (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -444,7 +444,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerProfile_set_Name_m838E
 		return;
 	}
 }
-// Method Definition Index: 134723
+// Method Definition Index: 134746
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerProfile_set_Id_m81CF8FB4E932E4F7FD1206243A5027DE0824CD23_inline (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -455,7 +455,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerProfile_set_Id_m81CF8F
 		return;
 	}
 }
-// Method Definition Index: 134720
+// Method Definition Index: 134743
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PlayerProfile_get_Name_m026C007D52708687B83B608CC0F9311C857ABD4F_inline (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, const RuntimeMethod* method) 
 {
 	{
@@ -464,7 +464,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PlayerProfile_get_Name_
 		return L_0;
 	}
 }
-// Method Definition Index: 134722
+// Method Definition Index: 134745
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PlayerProfile_get_Id_m8580012A6684B5135148115BE083B6F0BDE91B16_inline (PlayerProfile_t7C8ED91B6A2B233FD3029DA438AEE40E3CF38811* __this, const RuntimeMethod* method) 
 {
 	{

@@ -261,7 +261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134708
+// Method Definition Index: 134731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIDisplayBehaviour__ctor_mF0F833A4FC5EAF65C0481B0E05B7115C8B88150A (GUIDisplayBehaviour_tB965D5657D2FF769B2ADEAB8349709BF718BF791* __this, const RuntimeMethod* method) 
 {
 	{
@@ -277,7 +277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIDisplayBehaviour__ctor_mF0F833A4FC5EA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134709
+// Method Definition Index: 134732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScriptableObject_UpdateSetting_m2EEC24075FF8D5A41A6C494E6CBF188826702E0C (SettingsScriptableObject_t2E9E0FFD98BD6E6333E40C6CF367A1F852D882B9* __this, String_t* ___0_newSetting, const RuntimeMethod* method) 
 {
 	{
@@ -288,7 +288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScriptableObject_UpdateSetting_m
 		return;
 	}
 }
-// Method Definition Index: 134710
+// Method Definition Index: 134733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScriptableObject__ctor_mD0937DA5F7CB0CD95BFCE5228BA36928D0448B24 (SettingsScriptableObject_t2E9E0FFD98BD6E6333E40C6CF367A1F852D882B9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -348,7 +348,7 @@ IL2CPP_EXTERN_C void SubSetting_tAD6D64FECCCF8D562DA75C3850A7D35A94D3C500_marsha
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134711
+// Method Definition Index: 134734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tFE7A73BC26C3F7A3D37CE193B21E26B725590497 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m7A365DCCBCA701308F5F7A7F1A1CF8921E10333C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -382,7 +382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tFE7A73BC26C3F7A3D37CE193B21E2
 		return L_6;
 	}
 }
-// Method Definition Index: 134712
+// Method Definition Index: 134735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE2F9C5009E8C0098A84D37EACA00A80F2D6CEC2F (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tBACADB836126FD2AF70ED15C65F29DE85AD2FBAA* __this, const RuntimeMethod* method) 
 {
 	{

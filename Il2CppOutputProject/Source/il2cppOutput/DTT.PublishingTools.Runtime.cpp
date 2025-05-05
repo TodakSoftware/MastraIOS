@@ -211,7 +211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134713
+// Method Definition Index: 134736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t3CA71DDDD2557A7CFEBEC7D1743B5909D4086620 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m171BF4203651BC065A9354C778D307B2EFDD37A3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -245,7 +245,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t3CA71DDDD2557A7CFEBEC7D1743B5
 		return L_6;
 	}
 }
-// Method Definition Index: 134714
+// Method Definition Index: 134737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m367F4EB6A040F916D6B44BB5C2246FD67D6A2A57 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t8CAECB8C07E39A77E33E6B4A6F27F1082D30BBF8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -331,7 +331,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t3CA71DDDD2557A7CFEBEC7D1743B5909D4086620_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134715
+// Method Definition Index: 134738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DTTAssetAttribute__ctor_mD3A90261DCA1DF646EF510194B780B488B637839 (DTTAssetAttribute_t7DAC17C2F4340FA9ED6764D97FD332B1FE17DFBC* __this, String_t* ___0_fullPackageName, bool ___1_isResource, const RuntimeMethod* method) 
 {
 	{
@@ -348,7 +348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DTTAssetAttribute__ctor_mD3A90261DCA1DF6
 		return;
 	}
 }
-// Method Definition Index: 134716
+// Method Definition Index: 134739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DTTAssetAttribute__ctor_mCAF3C029E5A1E8FE954C16AC381FA73920E3C33C (DTTAssetAttribute_t7DAC17C2F4340FA9ED6764D97FD332B1FE17DFBC* __this, String_t* ___0_fullPackageName, String_t* ___1_assetName, bool ___2_isResource, const RuntimeMethod* method) 
 {
 	{
@@ -369,7 +369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DTTAssetAttribute__ctor_mCAF3C029E5A1E8F
 		return;
 	}
 }
-// Method Definition Index: 134717
+// Method Definition Index: 134740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DTTAssetAttribute__ctor_m6D9138518250BC357992650F08E0596A3A0B53A7 (DTTAssetAttribute_t7DAC17C2F4340FA9ED6764D97FD332B1FE17DFBC* __this, String_t* ___0_fullPackageName, String_t* ___1_relativePath, const RuntimeMethod* method) 
 {
 	{

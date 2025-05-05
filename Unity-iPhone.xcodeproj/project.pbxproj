@@ -2704,6 +2704,7 @@
 				F021D34CCD890D3E0B21B1DA /* com.unity.services.analytics */,
 				07900163204C51D1DAEC9FC1 /* com.unity.services.authentication */,
 				EDD56120873895E95A9F955C /* com.unity.services.core */,
+				285C4B9B973B8EF2381E4695 /* com.unity.services.vivox */,
 				1FB0C712AEE94EA9AC801289 /* io.backtrace.unity */,
 				03F528621B447098000F4FB8 /* Il2CppOptions.cpp */,
 				AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */,
@@ -2712,7 +2713,6 @@
 				DAB61E49F0B27D71CDA3B02F /* lib_burst_generated.a */,
 				17B8DA4C2189239C555CC0EC /* lib_burst_generated.cpp */,
 				D8A1C72A0E8063A1000160D3 /* libiPhone-lib.a */,
-				285C4B9B973B8EF2381E4695 /* com.unity.services.vivox */,
 			);
 			path = Libraries;
 			sourceTree = SOURCE_ROOT;
@@ -3161,7 +3161,7 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
@@ -3181,7 +3181,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Debug;
@@ -3204,7 +3204,7 @@
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
@@ -3224,7 +3224,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Release;
@@ -3259,7 +3259,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/Plugins/iOS/Firebase",
@@ -3275,7 +3275,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -3318,7 +3318,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/Plugins/iOS/Firebase",
@@ -3335,7 +3335,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -3379,7 +3379,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForRunning;
@@ -3402,7 +3402,7 @@
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
@@ -3422,7 +3422,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForRunning;
@@ -3457,7 +3457,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/Plugins/iOS/Firebase",
@@ -3473,7 +3473,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -3518,7 +3518,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForProfiling;
@@ -3541,7 +3541,7 @@
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
@@ -3561,7 +3561,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForProfiling;
@@ -3596,7 +3596,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/Plugins/iOS/Firebase",
@@ -3612,7 +3612,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -3807,7 +3807,7 @@
 				);
 				INFOPLIST_FILE = UnityFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -3845,7 +3845,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -3887,7 +3887,7 @@
 				);
 				INFOPLIST_FILE = UnityFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -3926,7 +3926,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -3968,7 +3968,7 @@
 				);
 				INFOPLIST_FILE = UnityFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -4007,7 +4007,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -4051,7 +4051,7 @@
 				);
 				INFOPLIST_FILE = UnityFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -4090,7 +4090,7 @@
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
 				UNITY_RUNTIME_VERSION = 6000.0.31f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -4135,7 +4135,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Debug;
@@ -4178,7 +4178,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "9495bede-abf0-44f1-9238-9b54304bdcce";
-				USYM_UPLOAD_AUTH_TOKEN = 6018b63c4c6e890ef646d7145ff8cfd69b54b1fd131776ba5959ec401be53316;
+				USYM_UPLOAD_AUTH_TOKEN = 89862465e9561f881b3bae02fdcb7f0630eac38d4e0a72464cda9cb192f30b4c;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Release;

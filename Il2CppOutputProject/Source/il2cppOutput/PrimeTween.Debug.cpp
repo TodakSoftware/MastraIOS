@@ -278,7 +278,7 @@ inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134663
+// Method Definition Index: 134686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tEF8465DF62AA384BC695556037C9146D75425859 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m029FDCF0C5703B0C8B4632A6DDCB4CD483285226 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -312,7 +312,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tEF8465DF62AA384BC695556037C91
 		return L_6;
 	}
 }
-// Method Definition Index: 134664
+// Method Definition Index: 134687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m98BD6344C1350B3C199B43E19A40A5BA6F6C9C1A (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t9543D909B57C30A0A08B6DBE2F931F589225C2ED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -398,7 +398,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tEF8465DF62AA384BC695556037C9146D75425859_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134665
+// Method Definition Index: 134688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugInfo__ctor_mD5C54E3D2DAFF3E80B5ABD51793473527AE1F01E (DebugInfo_tF0759783D3B18B695AEA0347CD1BE8A29E99D915* __this, const RuntimeMethod* method) 
 {
 	{
@@ -414,7 +414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugInfo__ctor_mD5C54E3D2DAFF3E80B5ABD5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134666
+// Method Definition Index: 134689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeasureMemoryAllocations_Awake_m1687E27D181C7A65589D167B6ED4ACCBBAA407D9 (MeasureMemoryAllocations_t57952620B9F1DFB2D5BB17BAD7C2B7A158C75210* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -453,7 +453,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 134667
+// Method Definition Index: 134690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeasureMemoryAllocations__ctor_m3EC62914BEDF4B4F3FEB8BFBA42B05FCFF093A51 (MeasureMemoryAllocations_t57952620B9F1DFB2D5BB17BAD7C2B7A158C75210* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

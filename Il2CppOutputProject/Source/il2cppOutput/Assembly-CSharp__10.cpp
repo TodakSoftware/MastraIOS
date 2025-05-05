@@ -6366,6 +6366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float GameManager_get_currentGameTime_m697B5D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill3_m72F585FB03F776C47BB5EBED94FDC1E6BB2718F4 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill2_m971F88EB8386B76349CA8C7E0ED4DA1451D62F5E (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill1_mD3F909A7E6DB8B3B3A7D3C9466A25179F000F3D7 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BasicAttack_get_attackRange_m0C3D6218F76B4ED5A1B69D7903214200914B9AB0 (BasicAttack_t9DA33F651B0E90A2E521C9B75D8B65A3ED4C7ADA* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_BasicAttack_m03ABA1D223454B9EE7EF902D9BBCCDC2601EDB1F (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsAnimatingBasicAtttack_m8E918EB1B25B77753385FB83AFAFC42D79EC45A9 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsAnimatingBasicAtttackPassive_m943DCA6814957A412B051E780ED7E8FABE69DA19 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) ;
@@ -6382,7 +6383,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Inequality_m8C940F3CFC42866709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, int32_t ___0_index, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BasicAttack_get_attackRange_m0C3D6218F76B4ED5A1B69D7903214200914B9AB0 (BasicAttack_t9DA33F651B0E90A2E521C9B75D8B65A3ED4C7ADA* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackBehaviour_m806E1D0E64502FE827A0610A49C7AFA97736FCB1 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsTargetInSkillRange_mD393210AA9073FF91C2D9018C02D3D7D556FBA3E (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* ServerCharacterMovement_GetPath_mE04B2757578D232B24A3E96F4686A75A95F88F9C (ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_destination, const RuntimeMethod* method) ;
@@ -6594,7 +6594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastBufferWriter_Grow_mAD43637D60A44A3D7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3550
+// Method Definition Index: 3573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCombustU3Ed__4__ctor_m456AAA4C7CD119DB85D6F1EE7905306090C182EF (U3CStartCombustU3Ed__4_tC1904480BE3226F6838F80517C28280F656C1F95* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -6604,14 +6604,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCombustU3Ed__4__ctor_m456AAA4C7C
 		return;
 	}
 }
-// Method Definition Index: 3551
+// Method Definition Index: 3574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCombustU3Ed__4_System_IDisposable_Dispose_m0BB2291AA5E992C978A8AE4C28BB2F2CF3DBBCD7 (U3CStartCombustU3Ed__4_tC1904480BE3226F6838F80517C28280F656C1F95* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 3552
+// Method Definition Index: 3575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartCombustU3Ed__4_MoveNext_m6A9137411785EEA8D300E9C56430A2CD15EA10B4 (U3CStartCombustU3Ed__4_tC1904480BE3226F6838F80517C28280F656C1F95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6686,7 +6686,7 @@ IL_0037:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3553
+// Method Definition Index: 3576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCombustU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4828B5830C3345A79C9265E8CC492178045C8BA9 (U3CStartCombustU3Ed__4_tC1904480BE3226F6838F80517C28280F656C1F95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6694,7 +6694,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCombustU3Ed__4_System_
 		return L_0;
 	}
 }
-// Method Definition Index: 3554
+// Method Definition Index: 3577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCombustU3Ed__4_System_Collections_IEnumerator_Reset_mF73E41DE8E09601AE34CEB736776A30AF5B8505F (U3CStartCombustU3Ed__4_tC1904480BE3226F6838F80517C28280F656C1F95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6703,7 +6703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCombustU3Ed__4_System_Collection
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartCombustU3Ed__4_System_Collections_IEnumerator_Reset_mF73E41DE8E09601AE34CEB736776A30AF5B8505F_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3555
+// Method Definition Index: 3578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCombustU3Ed__4_System_Collections_IEnumerator_get_Current_m88AFB838E4734432049C469F91F43F819E8E9394 (U3CStartCombustU3Ed__4_tC1904480BE3226F6838F80517C28280F656C1F95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6719,7 +6719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCombustU3Ed__4_System_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3556
+// Method Definition Index: 3579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EarthAnimatorBehaviour_OnStateEnter_mB3114720106BF3AEDED1D50B6B53C554078645F7 (EarthAnimatorBehaviour_tE3ED8055468A698EA1961C70466855E242F8F296* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_animator, AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 ___1_stateInfo, int32_t ___2_layerIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6806,7 +6806,7 @@ IL_0067:
 		return;
 	}
 }
-// Method Definition Index: 3557
+// Method Definition Index: 3580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EarthAnimatorBehaviour__ctor_mAE761E5002C7DBD42EADC37B2261B0BF94BD6C56 (EarthAnimatorBehaviour_tE3ED8055468A698EA1961C70466855E242F8F296* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6822,7 +6822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EarthAnimatorBehaviour__ctor_mAE761E5002
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3558
+// Method Definition Index: 3581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_OnNetworkSpawn_m99764D4740933D6856B2F8531223627436023BBD (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6935,7 +6935,7 @@ IL_007b:
 		return;
 	}
 }
-// Method Definition Index: 3559
+// Method Definition Index: 3582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_OnNetworkDespawn_mD27AD568335AC0DEE317FDDE74C676AB41F0EA06 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6962,7 +6962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_OnNetworkDespawn_mD2
 		return;
 	}
 }
-// Method Definition Index: 3560
+// Method Definition Index: 3583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Update_m1ADD33C2B4E91CDF38CEE41106026D8F4040217E (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7141,7 +7141,7 @@ IL_00c9:
 		return;
 	}
 }
-// Method Definition Index: 3561
+// Method Definition Index: 3584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_ClientHandleCurrentElementalStatus_m26859214B92B9DE6DCD83C3F03C867A2A80EACF8 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, uint8_t ___0_previousValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	{
@@ -7218,7 +7218,7 @@ IL_0040:
 		return;
 	}
 }
-// Method Definition Index: 3562
+// Method Definition Index: 3585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_ApplyElementalStatus_m8C5244B18516966637FCBB12BC89875D86FCADB3 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, int16_t ___0__elemental, uint64_t ___1__triggeredBy, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7519,7 +7519,7 @@ IL_0151:
 		return;
 	}
 }
-// Method Definition Index: 3563
+// Method Definition Index: 3586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_RemoveElementalStatus_m0650DAA1FCA283E793E83AC757FEB9F01D5D05D5 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7573,7 +7573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_RemoveElementalStatu
 		return;
 	}
 }
-// Method Definition Index: 3564
+// Method Definition Index: 3587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_StartDuration_m31C137E2B4DE30FC9B4FC13499BC1617CD70386D (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7589,7 +7589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_StartDuration_m31C13
 		return;
 	}
 }
-// Method Definition Index: 3565
+// Method Definition Index: 3588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Duration_mB9A7EEA48845879E70F35422696E3E3A1824E18E (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7705,7 +7705,7 @@ IL_00d8:
 		return;
 	}
 }
-// Method Definition Index: 3566
+// Method Definition Index: 3589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Cooldown_mAB2A50FA98FB967A4231EA2284EFE087393769B9 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7759,7 +7759,7 @@ IL_0074:
 		return;
 	}
 }
-// Method Definition Index: 3567
+// Method Definition Index: 3590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ElementalController_CanApplySecondElemental_mD87EC873513CE74146E82D31B1AECA4A6220B898 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, String_t* ___0_elemental, const RuntimeMethod* method) 
 {
 	{
@@ -7787,7 +7787,7 @@ IL_001d:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 3568
+// Method Definition Index: 3591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Vaporise_m65D3D5D6FDAC2F627F342160939858735BB6EFF0 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7803,7 +7803,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Vaporise_m65D3D5D6FD
 		return;
 	}
 }
-// Method Definition Index: 3569
+// Method Definition Index: 3592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_ReverseVaporise_m10B4D3655654741C103865D7683A53E5EA07732F (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7819,7 +7819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_ReverseVaporise_m10B
 		return;
 	}
 }
-// Method Definition Index: 3570
+// Method Definition Index: 3593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Combustion_mB27CE97FDC548961B8EE75CD6BCE05816433578E (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7921,7 +7921,7 @@ IL_00b8:
 		return;
 	}
 }
-// Method Definition Index: 3571
+// Method Definition Index: 3594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Frostbite_m4DF553D167773DEB1BBB82C27CD156561FBB84C3 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8082,7 +8082,7 @@ IL_014d:
 		return;
 	}
 }
-// Method Definition Index: 3572
+// Method Definition Index: 3595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Smoke_m4E13462E8D34649E8C1C6875D3D6B3DB6D937873 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8098,7 +8098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Smoke_m4E13462E8D346
 		return;
 	}
 }
-// Method Definition Index: 3573
+// Method Definition Index: 3596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Mud_mE25150EE2C5037FC3443DF93401F07334A29EDA4 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8114,7 +8114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Mud_mE25150EE2C5037F
 		return;
 	}
 }
-// Method Definition Index: 3574
+// Method Definition Index: 3597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_WildFire_m0E64E35FFB9B79B7B4F6242C981F7CEB184CBCF7 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8200,7 +8200,7 @@ IL_009f:
 		return;
 	}
 }
-// Method Definition Index: 3575
+// Method Definition Index: 3598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_Overgrow_m2EA66C9346A8DC0FE04881667F8BF4FAD6BB2E82 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8261,7 +8261,7 @@ IL_006a:
 		return;
 	}
 }
-// Method Definition Index: 3576
+// Method Definition Index: 3599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_ActiveEffect_mF7C7D1EDC41103A96997B62A951D0FA32B8DB1DD (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, int32_t ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8777,7 +8777,7 @@ IL_02bc:
 		return;
 	}
 }
-// Method Definition Index: 3577
+// Method Definition Index: 3600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController_AddSensorComponent_mA360B5F3F8B0B3FE25B8BCFAD0548C0BEFC8EAA0 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, float ___0_radius, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8875,7 +8875,7 @@ IL_0087:
 		return;
 	}
 }
-// Method Definition Index: 3578
+// Method Definition Index: 3601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController__ctor_mDEA47A329037FEB7A854FDBCAF84ECEF9879E284 (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8937,7 +8937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController__ctor_mDEA47A329037F
 		return;
 	}
 }
-// Method Definition Index: 3579
+// Method Definition Index: 3602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController___initializeVariables_m6BC94C5C1EFBB8A0724B751C9124C8564B04776C (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9108,7 +9108,7 @@ IL_019e:
 		return;
 	}
 }
-// Method Definition Index: 3580
+// Method Definition Index: 3603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController___initializeRpcs_m3C4A69A99E75C221198407BC6F05D39B5E8C185F (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9116,7 +9116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementalController___initializeRpcs_m3C
 		return;
 	}
 }
-// Method Definition Index: 3581
+// Method Definition Index: 3604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ElementalController___getTypeName_mFA603569C024C8B8179593EC6D558735D5AB988C (ElementalController_t56E972814D75B7170F6DA96FC69258A748B840EC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9137,7 +9137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ElementalController___getTypeName_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3582
+// Method Definition Index: 3605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireAnimatorBehaviour_OnStateEnter_m70DE92B9CD26F36DFF7C52D8B362CA3AE094E862 (FireAnimatorBehaviour_t5CA29381BF120D5C125259BA77947FD442CC7EE4* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_animator, AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 ___1_stateInfo, int32_t ___2_layerIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9224,7 +9224,7 @@ IL_0067:
 		return;
 	}
 }
-// Method Definition Index: 3583
+// Method Definition Index: 3606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireAnimatorBehaviour__ctor_m69D10A696771DBF3471708AF17B5EEF758A3484F (FireAnimatorBehaviour_t5CA29381BF120D5C125259BA77947FD442CC7EE4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9240,7 +9240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireAnimatorBehaviour__ctor_m69D10A69677
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3584
+// Method Definition Index: 3607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrostbiteRelay_ApplyDamage_m023F3C833DCAF39C6B15B00F88AE52DA0E393271 (FrostbiteRelay_t969A4E94C9BECC0863FE0AD6E2F6B07160169098* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_target, const RuntimeMethod* method) 
 {
 	{
@@ -9252,7 +9252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrostbiteRelay_ApplyDamage_m023F3C833DCA
 		return;
 	}
 }
-// Method Definition Index: 3585
+// Method Definition Index: 3608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FrostbiteRelay_DamageOverTime_m5770E4144AF155729B0CEFED92B2BBCDA8FB56BD (FrostbiteRelay_t969A4E94C9BECC0863FE0AD6E2F6B07160169098* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9271,7 +9271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FrostbiteRelay_DamageOverTime_
 		return L_1;
 	}
 }
-// Method Definition Index: 3586
+// Method Definition Index: 3609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrostbiteRelay__ctor_m495958BE73569E7B33336FE7A13D7904FC9A40A4 (FrostbiteRelay_t969A4E94C9BECC0863FE0AD6E2F6B07160169098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9287,7 +9287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrostbiteRelay__ctor_m495958BE73569E7B33
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3587
+// Method Definition Index: 3610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDamageOverTimeU3Ed__2__ctor_mB0627DBDD13E2CDBEE8488115125BC9B711360FF (U3CDamageOverTimeU3Ed__2_t85F03C2EAE64EC2A3F95D28E23B333AB276D8A88* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9297,14 +9297,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDamageOverTimeU3Ed__2__ctor_mB0627DBD
 		return;
 	}
 }
-// Method Definition Index: 3588
+// Method Definition Index: 3611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDamageOverTimeU3Ed__2_System_IDisposable_Dispose_m0BFD574629D97BC42E0E35C734E6E848207E3AB5 (U3CDamageOverTimeU3Ed__2_t85F03C2EAE64EC2A3F95D28E23B333AB276D8A88* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 3589
+// Method Definition Index: 3612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDamageOverTimeU3Ed__2_MoveNext_m7B858F329DBF52B2C43394CF37EE941EFBEDD9EF (U3CDamageOverTimeU3Ed__2_t85F03C2EAE64EC2A3F95D28E23B333AB276D8A88* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9468,7 +9468,7 @@ IL_00d3:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3590
+// Method Definition Index: 3613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDamageOverTimeU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3E161B63E7ECEE6149D32E30E8A4772183E5746F (U3CDamageOverTimeU3Ed__2_t85F03C2EAE64EC2A3F95D28E23B333AB276D8A88* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9476,7 +9476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDamageOverTimeU3Ed__2_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 3591
+// Method Definition Index: 3614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDamageOverTimeU3Ed__2_System_Collections_IEnumerator_Reset_m3322F716E10EAA5233F8F7E384D2ED15FC71E38A (U3CDamageOverTimeU3Ed__2_t85F03C2EAE64EC2A3F95D28E23B333AB276D8A88* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9485,7 +9485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDamageOverTimeU3Ed__2_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDamageOverTimeU3Ed__2_System_Collections_IEnumerator_Reset_m3322F716E10EAA5233F8F7E384D2ED15FC71E38A_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3592
+// Method Definition Index: 3615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDamageOverTimeU3Ed__2_System_Collections_IEnumerator_get_Current_m0A084CF7A2003FC8CBC30B7D2608C66CBA237A69 (U3CDamageOverTimeU3Ed__2_t85F03C2EAE64EC2A3F95D28E23B333AB276D8A88* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9501,7 +9501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDamageOverTimeU3Ed__2_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3593
+// Method Definition Index: 3616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterAnimatorBehaviour_OnStateEnter_mF8CA9F5B9F48EDE5C6C776EAF45F5642E9ECC298 (WaterAnimatorBehaviour_t2CD07E6CC63B2E7CF9FEA1B5A014D79F9E8A749F* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_animator, AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 ___1_stateInfo, int32_t ___2_layerIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9588,7 +9588,7 @@ IL_0067:
 		return;
 	}
 }
-// Method Definition Index: 3594
+// Method Definition Index: 3617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterAnimatorBehaviour__ctor_mE7B0C9A59AC404675B00AF8E70D8F445EB062420 (WaterAnimatorBehaviour_t2CD07E6CC63B2E7CF9FEA1B5A014D79F9E8A749F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9604,7 +9604,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterAnimatorBehaviour__ctor_mE7B0C9A59A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3595
+// Method Definition Index: 3618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WildfireRelay_Start_m1857F25F7EC3AE9162F68F48594B1C06BBAEB5C0 (WildfireRelay_tA287F704650CED90483A5EAE1A4F127A52790A09* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9612,7 +9612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WildfireRelay_Start_m1857F25F7EC3AE9162F
 		return;
 	}
 }
-// Method Definition Index: 3596
+// Method Definition Index: 3619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WildfireRelay_ApplyDamage_m6F23F87475631F6EF5895F6EEC110DCAFE097A99 (WildfireRelay_tA287F704650CED90483A5EAE1A4F127A52790A09* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9737,7 +9737,7 @@ IL_0077:
 		return;
 	}
 }
-// Method Definition Index: 3597
+// Method Definition Index: 3620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WildfireRelay__ctor_mDB74CB9CDC6F1368682B6082C3A62CED0EB52446 (WildfireRelay_tA287F704650CED90483A5EAE1A4F127A52790A09* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9753,7 +9753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WildfireRelay__ctor_mDB74CB9CDC6F1368682
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3598
+// Method Definition Index: 3621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BushDetectionComponent_OnTriggerEnter_m3129D0558573AA6564299AAE39793C6FBE67BC70 (BushDetectionComponent_tC3C2BF6CF1CA69D4FFC56F0F7F15EE5A9C5EE31B* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9797,7 +9797,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 3599
+// Method Definition Index: 3622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BushDetectionComponent_OnTriggerExit_mF2C560DB31017187F4FF15098199EA14FC42F7E2 (BushDetectionComponent_tC3C2BF6CF1CA69D4FFC56F0F7F15EE5A9C5EE31B* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9838,7 +9838,7 @@ IL_0016:
 		return;
 	}
 }
-// Method Definition Index: 3600
+// Method Definition Index: 3623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BushDetectionComponent__ctor_m9F273AE76352C3EEEDA203600CEEFC689CBB0A04 (BushDetectionComponent_tC3C2BF6CF1CA69D4FFC56F0F7F15EE5A9C5EE31B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9854,7 +9854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BushDetectionComponent__ctor_m9F273AE763
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3601
+// Method Definition Index: 3624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* FogOfWarWorldManager_get_Instance_m2CC2E4A7D7168B0060024C3C88AF5EBD3FF74F78 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9869,7 +9869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D
 		return L_0;
 	}
 }
-// Method Definition Index: 3602
+// Method Definition Index: 3625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_set_Instance_m267FA596FD9CD8CA5937B5A2C3356F38FF0927EB (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9886,7 +9886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_set_Instance_m267FA
 		return;
 	}
 }
-// Method Definition Index: 3603
+// Method Definition Index: 3626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FogOfWarWorldManager_get__ticksBetweenUpdates_m6FE5CA5C77ECC45A381CA00B6ED791ACE9536000 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9910,7 +9910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FogOfWarWorldManager_get__ticksBetwee
 		return ((int32_t)((int32_t)L_2/L_3));
 	}
 }
-// Method Definition Index: 3604
+// Method Definition Index: 3627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_Awake_m3F149A81A4F6940591D4B070CBFC88A839C38676 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9948,7 +9948,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 3605
+// Method Definition Index: 3628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_OnNetworkSpawn_mCB475DA1DB7C59105EF555937BDE323BAB8C339F (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10059,7 +10059,7 @@ IL_00c7:
 		return;
 	}
 }
-// Method Definition Index: 3606
+// Method Definition Index: 3629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_OnClientConnected_mDA1D53CF91B4CDA4BF5EA3D15A4884D195E77639 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, uint64_t ___0_clientId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10086,7 +10086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_OnClientConnected_m
 		return;
 	}
 }
-// Method Definition Index: 3607
+// Method Definition Index: 3630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FogOfWarWorldManager_DelayFoWLogic_m8FB4D3273CB6BF49220A3B9B34CEF1A8A3DE7DFB (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, uint64_t ___0_clientId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10109,7 +10109,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FogOfWarWorldManager_DelayFoWL
 		return L_2;
 	}
 }
-// Method Definition Index: 3608
+// Method Definition Index: 3631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_OnNetworkTick_m11EF9640CC07F9A28EA74FF9F3DCA26888DDF55F (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10908,7 +10908,7 @@ IL_0358:
 		return;
 	}
 }
-// Method Definition Index: 3609
+// Method Definition Index: 3632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_ShowAll_m7025B8193BD0CFE41005A2BD96D2DAF63E8E7C64 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11087,7 +11087,7 @@ IL_00a2:
 		return;
 	}
 }
-// Method Definition Index: 3610
+// Method Definition Index: 3633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_RegisterPlayer_mC9AECB27CEABA8E9E67956F560D3BDD8B76B2731 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* ___0_player, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11136,7 +11136,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 3611
+// Method Definition Index: 3634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager_UnregisterPlayer_m1EC0EF2AE928D527F10EFEF0C5BF43D7C59C02C0 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* ___0_player, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11186,7 +11186,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 3612
+// Method Definition Index: 3635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FogOfWarWorldManager_CheckVisibility_m2808611BE4D1428B8A8043B93952077F74A1A132 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* ___0_player, PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* ___1_otherPlayer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11462,7 +11462,7 @@ IL_00f0:
 		return (bool)((((int32_t)((!(((float)L_59) <= ((float)L_60)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 3613
+// Method Definition Index: 3636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* FogOfWarWorldManager_GetPlayerVisibilityComponent_m3B8172B2665F37EAD4AD60D43702C76C60088A48 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, uint64_t ___0_networkObjectId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11496,7 +11496,7 @@ IL_0012:
 		return (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD*)NULL;
 	}
 }
-// Method Definition Index: 3614
+// Method Definition Index: 3637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager__ctor_m942980E0B06CA6C8AE4CC2C5A5A30CD56AD109F4 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11529,7 +11529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager__ctor_m942980E0B06C
 		return;
 	}
 }
-// Method Definition Index: 3615
+// Method Definition Index: 3638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager___initializeVariables_m80E48D7CB0522750EE0405BF479B083229AD601D (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -11538,7 +11538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager___initializeVariabl
 		return;
 	}
 }
-// Method Definition Index: 3616
+// Method Definition Index: 3639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager___initializeRpcs_m0D809DC06FA1A543502CED8BBC870D1550937CA7 (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11546,7 +11546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarWorldManager___initializeRpcs_m0
 		return;
 	}
 }
-// Method Definition Index: 3617
+// Method Definition Index: 3640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FogOfWarWorldManager___getTypeName_m3D184F88B2345BE19605EB781E8E7B229E53A6EC (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11567,7 +11567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FogOfWarWorldManager___getTypeName_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3618
+// Method Definition Index: 3641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayFoWLogicU3Ed__14__ctor_mC89389F81A42A1B6629E9AD9ABC5478B1E7BB0F3 (U3CDelayFoWLogicU3Ed__14_tA68DF12D72E6B7685051ED075E241FE62019AC9E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -11577,14 +11577,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayFoWLogicU3Ed__14__ctor_mC89389F8
 		return;
 	}
 }
-// Method Definition Index: 3619
+// Method Definition Index: 3642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayFoWLogicU3Ed__14_System_IDisposable_Dispose_mE7133A99C4BC183646639E32B7B27838B35D80D9 (U3CDelayFoWLogicU3Ed__14_tA68DF12D72E6B7685051ED075E241FE62019AC9E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 3620
+// Method Definition Index: 3643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDelayFoWLogicU3Ed__14_MoveNext_m4E9FDDAF66847826FE5CEF18D2589211DDD691E4 (U3CDelayFoWLogicU3Ed__14_tA68DF12D72E6B7685051ED075E241FE62019AC9E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11644,7 +11644,7 @@ IL_0037:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3621
+// Method Definition Index: 3644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDelayFoWLogicU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD7E7049BF6CDAB02D1159AE23216138C5D389CB4 (U3CDelayFoWLogicU3Ed__14_tA68DF12D72E6B7685051ED075E241FE62019AC9E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11652,7 +11652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDelayFoWLogicU3Ed__14_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 3622
+// Method Definition Index: 3645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayFoWLogicU3Ed__14_System_Collections_IEnumerator_Reset_mA1A455E451434E06F490D1F71FDD7A8E520B8AF3 (U3CDelayFoWLogicU3Ed__14_tA68DF12D72E6B7685051ED075E241FE62019AC9E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11661,7 +11661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayFoWLogicU3Ed__14_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDelayFoWLogicU3Ed__14_System_Collections_IEnumerator_Reset_mA1A455E451434E06F490D1F71FDD7A8E520B8AF3_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3623
+// Method Definition Index: 3646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDelayFoWLogicU3Ed__14_System_Collections_IEnumerator_get_Current_mD0AF343BE975573D1BE4C4BFD711D723B545DD29 (U3CDelayFoWLogicU3Ed__14_tA68DF12D72E6B7685051ED075E241FE62019AC9E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11677,7 +11677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDelayFoWLogicU3Ed__14_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3624
+// Method Definition Index: 3647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerVisibilityComponent_get_IsInBush_m65AF9A667846697C492CD7AF614B9C3ED9472E7F (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11686,7 +11686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerVisibilityComponent_get_IsInBush_m
 		return L_0;
 	}
 }
-// Method Definition Index: 3625
+// Method Definition Index: 3648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_set_IsInBush_m8AFCED0A24418C4EA864831920BC215813348D05 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11696,7 +11696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_set_IsInBush_m
 		return;
 	}
 }
-// Method Definition Index: 3626
+// Method Definition Index: 3649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerVisibilityComponent_get_IsAttacking_mBD443D16B8BD512BF1375F5CA8BD107B13F7DFB4 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11705,7 +11705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerVisibilityComponent_get_IsAttackin
 		return L_0;
 	}
 }
-// Method Definition Index: 3627
+// Method Definition Index: 3650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_set_IsAttacking_mBD1F6BD8CB8CEAC208F85EE063BE2E8BB2AB3980 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11715,7 +11715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_set_IsAttackin
 		return;
 	}
 }
-// Method Definition Index: 3628
+// Method Definition Index: 3651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* PlayerVisibilityComponent_get_CurrentBush_mE62563CCB1316ADDC3CDC9465520DB20D9F06ADF (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11724,7 +11724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D
 		return L_0;
 	}
 }
-// Method Definition Index: 3629
+// Method Definition Index: 3652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_set_CurrentBush_m8D4A044D65CE50A6F2B089F96C7EF53243C13F94 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11735,7 +11735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_set_CurrentBus
 		return;
 	}
 }
-// Method Definition Index: 3630
+// Method Definition Index: 3653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_OnNetworkSpawn_m2DAB47BB777CCEFEDD4A16218919BD6B89F89F06 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11944,7 +11944,7 @@ IL_0113:
 		return;
 	}
 }
-// Method Definition Index: 3631
+// Method Definition Index: 3654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_HandleLifeStateChanged_mFC2324836442647A65E5F1BFD7490AC27F3E677B (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, uint8_t ___0_previousValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	{
@@ -11987,7 +11987,7 @@ IL_0021:
 		return;
 	}
 }
-// Method Definition Index: 3632
+// Method Definition Index: 3655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_HandleTeamChanged_m0CED1D1162C5E5B30886C63CB9360166E3FD45EB (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, uint8_t ___0_previousValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	{
@@ -11998,7 +11998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_HandleTeamChan
 		return;
 	}
 }
-// Method Definition Index: 3633
+// Method Definition Index: 3656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_OnNetworkDespawn_m7F1ECB079BB9F6214EFF0396CE2EC7E46129A1BE (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12093,7 +12093,7 @@ IL_0087:
 		return;
 	}
 }
-// Method Definition Index: 3634
+// Method Definition Index: 3657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_EnterBush_m9441D7FEABE4ACBD97AAADD7B672719DB51D4196 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_bush, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12127,7 +12127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_EnterBush_m944
 		return;
 	}
 }
-// Method Definition Index: 3635
+// Method Definition Index: 3658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_ExitBush_mC8CC86B6D9D7392B89F1B096AE793462DC09A447 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12162,7 +12162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_ExitBush_mC8CC
 		return;
 	}
 }
-// Method Definition Index: 3636
+// Method Definition Index: 3659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_SetAttacking_mD0A7D6C16084102A90656DE56776FB39D5956561 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, bool ___0_isAttacking, const RuntimeMethod* method) 
 {
 	{
@@ -12227,7 +12227,7 @@ IL_004c:
 		return;
 	}
 }
-// Method Definition Index: 3637
+// Method Definition Index: 3660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerVisibilityComponent_AttackingCooldownCoroutine_m0F284AB8F8978B63E07DEE041994DA8AF16536E8 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12246,7 +12246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerVisibilityComponent_Atta
 		return L_1;
 	}
 }
-// Method Definition Index: 3638
+// Method Definition Index: 3661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent__ctor_m6D013634964F010FE6948F6068CB625BCAFB5A6A (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12270,7 +12270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent__ctor_m6D01363
 		return;
 	}
 }
-// Method Definition Index: 3639
+// Method Definition Index: 3662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent___initializeVariables_mF99CF733B2E98B00C53A161E67108451721DEF83 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12311,7 +12311,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 3640
+// Method Definition Index: 3663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent___initializeRpcs_m3ACDE625646F99103F9023A15D5F200EC98656E0 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12319,7 +12319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerVisibilityComponent___initializeRp
 		return;
 	}
 }
-// Method Definition Index: 3641
+// Method Definition Index: 3664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerVisibilityComponent___getTypeName_mD8CCCDAF92E806CD454194A66824E2852D651174 (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12340,7 +12340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerVisibilityComponent___getType
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3642
+// Method Definition Index: 3665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttackingCooldownCoroutineU3Ed__29__ctor_m08DD1EE6554A5D5525EBA01F2183913BC8979A0B (U3CAttackingCooldownCoroutineU3Ed__29_tDCBA18045F5897DDFC07DC7C5CB4027B209547FD* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12350,14 +12350,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttackingCooldownCoroutineU3Ed__29__c
 		return;
 	}
 }
-// Method Definition Index: 3643
+// Method Definition Index: 3666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttackingCooldownCoroutineU3Ed__29_System_IDisposable_Dispose_m2166B7545E2FF6ACCE4DCD4B3EA3CC17612D5F4C (U3CAttackingCooldownCoroutineU3Ed__29_tDCBA18045F5897DDFC07DC7C5CB4027B209547FD* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 3644
+// Method Definition Index: 3667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAttackingCooldownCoroutineU3Ed__29_MoveNext_m865FF4B9834F3A4EEB899C6E9561738F0FEA10CC (U3CAttackingCooldownCoroutineU3Ed__29_tDCBA18045F5897DDFC07DC7C5CB4027B209547FD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12421,7 +12421,7 @@ IL_0038:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3645
+// Method Definition Index: 3668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAttackingCooldownCoroutineU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD5BAC70D2BB0F45DC31F68E9121B8C000F728E69 (U3CAttackingCooldownCoroutineU3Ed__29_tDCBA18045F5897DDFC07DC7C5CB4027B209547FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12429,7 +12429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAttackingCooldownCoroutineU
 		return L_0;
 	}
 }
-// Method Definition Index: 3646
+// Method Definition Index: 3669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttackingCooldownCoroutineU3Ed__29_System_Collections_IEnumerator_Reset_m3F81F0E69AB55375BB9385AAD614F68628FB4C2A (U3CAttackingCooldownCoroutineU3Ed__29_tDCBA18045F5897DDFC07DC7C5CB4027B209547FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12438,7 +12438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttackingCooldownCoroutineU3Ed__29_Sy
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAttackingCooldownCoroutineU3Ed__29_System_Collections_IEnumerator_Reset_m3F81F0E69AB55375BB9385AAD614F68628FB4C2A_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3647
+// Method Definition Index: 3670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAttackingCooldownCoroutineU3Ed__29_System_Collections_IEnumerator_get_Current_m41E084D7B4806E55F6A76C114F474330C65607A4 (U3CAttackingCooldownCoroutineU3Ed__29_tDCBA18045F5897DDFC07DC7C5CB4027B209547FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12454,7 +12454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAttackingCooldownCoroutineU
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3648
+// Method Definition Index: 3671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarLocal_OnEnable_m2C2587F94F308559E88F0D472A7FA3AC542E7174 (FogOfWarLocal_t7FD25718CC5CE120E9928F583413EA14DA162D4C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12565,7 +12565,7 @@ IL_0091:
 		return;
 	}
 }
-// Method Definition Index: 3649
+// Method Definition Index: 3672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarLocal_OnDisable_mCD9C237845924BF14F9DD5DAAD7A8BFE565DBF5D (FogOfWarLocal_t7FD25718CC5CE120E9928F583413EA14DA162D4C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12577,7 +12577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarLocal_OnDisable_mCD9C237845924BF
 		return;
 	}
 }
-// Method Definition Index: 3650
+// Method Definition Index: 3673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarLocal_HandleTeamChange_mE3D133B0A70A4A646AE7C2D4CB6C777E7EA0E2EC (FogOfWarLocal_t7FD25718CC5CE120E9928F583413EA14DA162D4C* __this, uint8_t ___0_team, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12614,7 +12614,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 3651
+// Method Definition Index: 3674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FogOfWarLocal_CheckTeamLocalPlayer_m48ED93805D84374C7002C73C3CD65A558570CD68 (FogOfWarLocal_t7FD25718CC5CE120E9928F583413EA14DA162D4C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12633,7 +12633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FogOfWarLocal_CheckTeamLocalPl
 		return L_1;
 	}
 }
-// Method Definition Index: 3652
+// Method Definition Index: 3675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* FogOfWarLocal_FindHeroPlayerObject_m6E604214DFBE5D97A4D62D671D1EC2A92B032DAB (FogOfWarLocal_t7FD25718CC5CE120E9928F583413EA14DA162D4C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12685,7 +12685,7 @@ IL_002d:
 		return (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 	}
 }
-// Method Definition Index: 3653
+// Method Definition Index: 3676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarLocal_TeamFOW_m0CA31616DF5E53396809E2DA3AB622B7A491B2BA (FogOfWarLocal_t7FD25718CC5CE120E9928F583413EA14DA162D4C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12738,7 +12738,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 3654
+// Method Definition Index: 3677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarLocal_HandleTeamProjectileChanged_m39269E415BB9AC13F05E94E23080B246AAEF6B58 (FogOfWarLocal_t7FD25718CC5CE120E9928F583413EA14DA162D4C* __this, ProjectileRelay_t74E0530BF43D0AF39A2A474D8478BAC96F7C5A3F* ___0_projectileRelay, const RuntimeMethod* method) 
 {
 	{
@@ -12746,7 +12746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarLocal_HandleTeamProjectileChange
 		return;
 	}
 }
-// Method Definition Index: 3655
+// Method Definition Index: 3678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarLocal__ctor_m20A4534EE5CE7C6B9D39C0A7B4E79D803FF41870 (FogOfWarLocal_t7FD25718CC5CE120E9928F583413EA14DA162D4C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12762,7 +12762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FogOfWarLocal__ctor_m20A4534EE5CE7C6B9D3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3656
+// Method Definition Index: 3679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckTeamLocalPlayerU3Ed__6__ctor_m8E12FEBAF4CD4C146A60752106CB42A7883E52EE (U3CCheckTeamLocalPlayerU3Ed__6_tB4F4E7D0A309D4343CD91709D10B19ACD9FC497B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12772,14 +12772,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckTeamLocalPlayerU3Ed__6__ctor_m8E
 		return;
 	}
 }
-// Method Definition Index: 3657
+// Method Definition Index: 3680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckTeamLocalPlayerU3Ed__6_System_IDisposable_Dispose_mCD21F22957B0673B902AEC9149F208CF913365CD (U3CCheckTeamLocalPlayerU3Ed__6_tB4F4E7D0A309D4343CD91709D10B19ACD9FC497B* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 3658
+// Method Definition Index: 3681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCheckTeamLocalPlayerU3Ed__6_MoveNext_mF9980C0BFAAA7A571A136B664D9DC39C743B10FE (U3CCheckTeamLocalPlayerU3Ed__6_tB4F4E7D0A309D4343CD91709D10B19ACD9FC497B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12912,7 +12912,7 @@ IL_0076:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3659
+// Method Definition Index: 3682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckTeamLocalPlayerU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB726089D1F7E2D4A625DF9F851211A8D07D54038 (U3CCheckTeamLocalPlayerU3Ed__6_tB4F4E7D0A309D4343CD91709D10B19ACD9FC497B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12920,7 +12920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckTeamLocalPlayerU3Ed__6
 		return L_0;
 	}
 }
-// Method Definition Index: 3660
+// Method Definition Index: 3683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckTeamLocalPlayerU3Ed__6_System_Collections_IEnumerator_Reset_mCE637DABA246C18166654F77FFF09E86305CF27A (U3CCheckTeamLocalPlayerU3Ed__6_tB4F4E7D0A309D4343CD91709D10B19ACD9FC497B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12929,7 +12929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckTeamLocalPlayerU3Ed__6_System_Co
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCheckTeamLocalPlayerU3Ed__6_System_Collections_IEnumerator_Reset_mCE637DABA246C18166654F77FFF09E86305CF27A_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3661
+// Method Definition Index: 3684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckTeamLocalPlayerU3Ed__6_System_Collections_IEnumerator_get_Current_m8F5292D0BA4360BBB7A8B7D21429C8B1FABB79AF (U3CCheckTeamLocalPlayerU3Ed__6_tB4F4E7D0A309D4343CD91709D10B19ACD9FC497B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12945,7 +12945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCheckTeamLocalPlayerU3Ed__6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3662
+// Method Definition Index: 3685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GanaCrowdControlController_ApplyCC_m1922599146389E00B6D583DEF9FBEF741F7EB231 (GanaCrowdControlController_t5B986B2870F0041A32BDB52E9F613350F5AB8E8F* __this, uint8_t ___0_controlType, float ___1_duration, float ___2_floatData, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_ccSource, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12992,7 +12992,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 3663
+// Method Definition Index: 3686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GanaCrowdControlController_SetCCNone_m0938965EFE74A73D8012463D6ECEDBE09B8A69CF (GanaCrowdControlController_t5B986B2870F0041A32BDB52E9F613350F5AB8E8F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13014,7 +13014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GanaCrowdControlController_SetCCNone_m09
 		return;
 	}
 }
-// Method Definition Index: 3664
+// Method Definition Index: 3687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GanaCrowdControlController__ctor_m89151F05DE620761D5BBBA4A52D36790A165BFF2 (GanaCrowdControlController_t5B986B2870F0041A32BDB52E9F613350F5AB8E8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13022,7 +13022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GanaCrowdControlController__ctor_m89151F
 		return;
 	}
 }
-// Method Definition Index: 3665
+// Method Definition Index: 3688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GanaCrowdControlController___initializeVariables_mE7C714106F549BFC0056ECB7D874ABF14DF68C55 (GanaCrowdControlController_t5B986B2870F0041A32BDB52E9F613350F5AB8E8F* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -13031,7 +13031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GanaCrowdControlController___initializeV
 		return;
 	}
 }
-// Method Definition Index: 3666
+// Method Definition Index: 3689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GanaCrowdControlController___initializeRpcs_m063675EDAE43B378D8476DDCC8ADAA436B4D456D (GanaCrowdControlController_t5B986B2870F0041A32BDB52E9F613350F5AB8E8F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13039,7 +13039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GanaCrowdControlController___initializeR
 		return;
 	}
 }
-// Method Definition Index: 3667
+// Method Definition Index: 3690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GanaCrowdControlController___getTypeName_mE8D3345B12C53AD076766F8F4E61C273CC77F995 (GanaCrowdControlController_t5B986B2870F0041A32BDB52E9F613350F5AB8E8F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13068,7 +13068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GanaCrowdControlController___getTyp
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3668
+// Method Definition Index: 3691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountainIndicator__ctor_mA19AAA0DF8F44378291311D2F808F88342D86DAD (HealingFountainIndicator_t5C8DB2BED4F650DFB6AB5E7E687151953590DFCB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13084,7 +13084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountainIndicator__ctor_mA19AAA0D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3669
+// Method Definition Index: 3692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HealingFountain_get_IsAvailable_mD1FB54C5ACB092850CC7D2259DF86A42128572BC (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13093,7 +13093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HealingFountain_get_IsAvailable_mD1FB54C
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 3670
+// Method Definition Index: 3693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnNetworkSpawn_mD8B585553119FDC6842C5FA20D889435236D5261 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13349,7 +13349,7 @@ IL_01f9:
 		return;
 	}
 }
-// Method Definition Index: 3671
+// Method Definition Index: 3694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_ServerHandleFountainStateChanged_m2AF05BC1076374E3BD023CDC585F2128EC2236F8 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, uint8_t ___0_previousValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13466,7 +13466,7 @@ IL_0066:
 		return;
 	}
 }
-// Method Definition Index: 3672
+// Method Definition Index: 3695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_HandleFountainStateChanged_m82FF9A8B86316F483BF1CD3B95F25CB10FCE2209 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, uint8_t ___0_previousValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13602,7 +13602,7 @@ IL_0094:
 		return;
 	}
 }
-// Method Definition Index: 3673
+// Method Definition Index: 3696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnObjectSpawned_mC6FE28DBFE3CE00BF61F26C9ADAED3711424E75A (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_spawnedObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13699,7 +13699,7 @@ IL_0080:
 		return;
 	}
 }
-// Method Definition Index: 3674
+// Method Definition Index: 3697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_FixedUpdate_m88F9EE1343BE3EC39CA5253906B6731D9C68753B (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13959,7 +13959,7 @@ IL_00e3:
 		return;
 	}
 }
-// Method Definition Index: 3675
+// Method Definition Index: 3698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnDetectHero_mBC134E29C5202460E7BCB20E2A03BC67D97462B9 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_obj, Sensor_t19EEF146915A6C7EC8D5E4708AD810190714944A* ___1_sensor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14526,7 +14526,7 @@ IL_02b4:
 		return;
 	}
 }
-// Method Definition Index: 3676
+// Method Definition Index: 3699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnLostDetectHero_m9E00BD6F74CF244994DDEC8CE2E2F7362C7041CF (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_obj, Sensor_t19EEF146915A6C7EC8D5E4708AD810190714944A* ___1_sensor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14839,7 +14839,7 @@ IL_01ee:
 		return;
 	}
 }
-// Method Definition Index: 3677
+// Method Definition Index: 3700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HealingFountain_BothTeamAvailable_m40F1857039B50030BF6BC10BCE9E0DFF8F11731B (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15035,7 +15035,7 @@ IL_00c5:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3678
+// Method Definition Index: 3701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_TimeActive_m25A7DFCBE2F06FEAA3E7D59E4B6876924E6CDF5A (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_hero, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15087,7 +15087,7 @@ IL_0044:
 		return;
 	}
 }
-// Method Definition Index: 3679
+// Method Definition Index: 3702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HealingFountain_StartTimeActive_m553B50D74D7391065AF417B329C7C8A7A71E7B6F (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_hero, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15106,7 +15106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HealingFountain_StartTimeActiv
 		return L_1;
 	}
 }
-// Method Definition Index: 3680
+// Method Definition Index: 3703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnActive_mC3C84943E03283858DCA0BDF97608041C6ABA90B (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15119,7 +15119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnActive_mC3C84943E03283
 		return;
 	}
 }
-// Method Definition Index: 3681
+// Method Definition Index: 3704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_ResetTimeActive_mDE35207C72C28A0FEF9BAC8A0B65F82098ECA5C3 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15168,7 +15168,7 @@ IL_0047:
 		return;
 	}
 }
-// Method Definition Index: 3682
+// Method Definition Index: 3705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_Cooldown_m00BE464581F9F62866BF32F0EF29B59747F2F42C (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15197,7 +15197,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 3683
+// Method Definition Index: 3706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HealingFountain_StartCooldown_m13D15CD98A0C17D78A90AB44671BE9243B5317FA (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15216,7 +15216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HealingFountain_StartCooldown_
 		return L_1;
 	}
 }
-// Method Definition Index: 3684
+// Method Definition Index: 3707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnEndCooldown_m84D244AFEF4E1D9B14DA3C00808C6D432EC2B99F (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15235,7 +15235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnEndCooldown_m84D244AFE
 		return;
 	}
 }
-// Method Definition Index: 3685
+// Method Definition Index: 3708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HealingFountain_Heal_mCACFB6CC38F95AD9202CC08F6EC1FB3AFFDF28DE (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15254,7 +15254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HealingFountain_Heal_mCACFB6CC
 		return L_1;
 	}
 }
-// Method Definition Index: 3686
+// Method Definition Index: 3709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnDrawGizmosSelected_mFF7310C4F5A5D18038E7B0452DD875AA16B15CF9 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15295,7 +15295,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 3687
+// Method Definition Index: 3710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OpenHealingUI_m635D904C1EDAAB8DD9619CA844133E83AF48DD9D (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15330,7 +15330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OpenHealingUI_m635D904C1
 		return;
 	}
 }
-// Method Definition Index: 3688
+// Method Definition Index: 3711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_CloseHealingUI_mC28070B27AD835ACDFE35655E7D0D6BAB16C0F79 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15396,7 +15396,7 @@ IL_0054:
 		return;
 	}
 }
-// Method Definition Index: 3689
+// Method Definition Index: 3712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain_OnNetworkDespawn_m76E36C73158E1D6ECF6221A8AF13D453D9DB1974 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15431,7 +15431,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 3690
+// Method Definition Index: 3713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain__ctor_mC4F59FBB01C3EDC4BD3C7844C6734AD1484D0C3F (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15467,7 +15467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain__ctor_mC4F59FBB01C3EDC4B
 		return;
 	}
 }
-// Method Definition Index: 3691
+// Method Definition Index: 3714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain___initializeVariables_mF7B93CC33253EF0079DCDF76898DFE0122047143 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15508,7 +15508,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 3692
+// Method Definition Index: 3715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain___initializeRpcs_m851D112D5F9A0C278533FF775002DEBAB9A22A8A (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15516,7 +15516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountain___initializeRpcs_m851D11
 		return;
 	}
 }
-// Method Definition Index: 3693
+// Method Definition Index: 3716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HealingFountain___getTypeName_m9DE838CEF06B77904D8CA72B131C3C88A3A6DC49 (HealingFountain_t63E3A517CA35BC89A4C708DD57F14EEF2D4A4D95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15537,7 +15537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HealingFountain___getTypeName_m9DE8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3694
+// Method Definition Index: 3717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mCE959E15BEA108587E3946B3CBB4776E1ABDA751 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15554,7 +15554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mCE959E15BEA108587E3946B3
 		return;
 	}
 }
-// Method Definition Index: 3695
+// Method Definition Index: 3718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mF128ACC7C44C7E5680E29B1011777C18827371F3 (U3CU3Ec_tE61BF32A3EB41C6B0B52A33D43AA13A6174E5C89* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15562,7 +15562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mF128ACC7C44C7E5680E29B101
 		return;
 	}
 }
-// Method Definition Index: 3696
+// Method Definition Index: 3719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CFixedUpdateU3Eb__33_0_mD11F59B8581DAF8DBC228D813CB0BCB6F6F656A9 (U3CU3Ec_tE61BF32A3EB41C6B0B52A33D43AA13A6174E5C89* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15584,7 +15584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CFixedUpdateU3Eb__33_0_mD11F59
 		return (bool)((((int32_t)L_2) == ((int32_t)1))? 1 : 0);
 	}
 }
-// Method Definition Index: 3697
+// Method Definition Index: 3720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CFixedUpdateU3Eb__33_1_m3F49BEFD41AF27B3D8BEA712282CD9CC41529EEA (U3CU3Ec_tE61BF32A3EB41C6B0B52A33D43AA13A6174E5C89* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15614,7 +15614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CFixedUpdateU3Eb__33_1_m3F49BE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3698
+// Method Definition Index: 3721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_mE1F9E83AD4D6D5D593C948D45FE3F850FF7AD87E (U3CU3Ec__DisplayClass35_0_tEEACA518961878B87BCF0C5710B16183997D062A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15622,7 +15622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_mE1F9E83
 		return;
 	}
 }
-// Method Definition Index: 3699
+// Method Definition Index: 3722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3COnLostDetectHeroU3Eb__0_m3F7D455723673EE50BAE0A76C595DD7DB3E8954F (U3CU3Ec__DisplayClass35_0_tEEACA518961878B87BCF0C5710B16183997D062A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_x, const RuntimeMethod* method) 
 {
 	{
@@ -15649,7 +15649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3COnLostDetec
 		return (bool)((((int32_t)((!(((float)L_6) <= ((float)((float)il2cpp_codegen_add(L_8, (0.5f))))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 3700
+// Method Definition Index: 3723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3COnLostDetectHeroU3Eb__1_m4D0A8DEB0932D5EAD6CE846ABF454A3068B61140 (U3CU3Ec__DisplayClass35_0_tEEACA518961878B87BCF0C5710B16183997D062A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15701,7 +15701,7 @@ IL_0045:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3701
+// Method Definition Index: 3724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3COnLostDetectHeroU3Eb__2_mE850056E293E90A56D37B3A70606FF7AC5EEF2E4 (U3CU3Ec__DisplayClass35_0_tEEACA518961878B87BCF0C5710B16183997D062A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15753,7 +15753,7 @@ IL_0045:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3702
+// Method Definition Index: 3725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3COnLostDetectHeroU3Eb__3_m77D9E2915F6905ACB03187BD7F7F49BC8AFB1E13 (U3CU3Ec__DisplayClass35_0_tEEACA518961878B87BCF0C5710B16183997D062A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15789,7 +15789,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3COnLostDetec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3703
+// Method Definition Index: 3726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHealU3Ed__44__ctor_m3105DC18009F5A2ED92C793F67EB41F6025252B9 (U3CHealU3Ed__44_t33830F7E02E0DFC9A2315134285CD1B395C62CD4* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -15799,14 +15799,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHealU3Ed__44__ctor_m3105DC18009F5A2ED
 		return;
 	}
 }
-// Method Definition Index: 3704
+// Method Definition Index: 3727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHealU3Ed__44_System_IDisposable_Dispose_mACAB60911A43693AFBA1D80A3471E7097EFDA879 (U3CHealU3Ed__44_t33830F7E02E0DFC9A2315134285CD1B395C62CD4* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 3705
+// Method Definition Index: 3728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHealU3Ed__44_MoveNext_m18A3748FD12BC36A161EA7134A8DC9420EC2E518 (U3CHealU3Ed__44_t33830F7E02E0DFC9A2315134285CD1B395C62CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16192,7 +16192,7 @@ IL_01fd:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3706
+// Method Definition Index: 3729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHealU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDB4E0301332B8AA69E87A3C4D5FA5FC0FCB9A90D (U3CHealU3Ed__44_t33830F7E02E0DFC9A2315134285CD1B395C62CD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16200,7 +16200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHealU3Ed__44_System_Collect
 		return L_0;
 	}
 }
-// Method Definition Index: 3707
+// Method Definition Index: 3730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHealU3Ed__44_System_Collections_IEnumerator_Reset_m3099BF3C0FDA8C5E9B1245403DBD4FA7F3CEE8E8 (U3CHealU3Ed__44_t33830F7E02E0DFC9A2315134285CD1B395C62CD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16209,7 +16209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHealU3Ed__44_System_Collections_IEnum
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CHealU3Ed__44_System_Collections_IEnumerator_Reset_m3099BF3C0FDA8C5E9B1245403DBD4FA7F3CEE8E8_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3708
+// Method Definition Index: 3731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHealU3Ed__44_System_Collections_IEnumerator_get_Current_m4F064D7BF1C2C9AC4810EFAC6B711BF644EF59C8 (U3CHealU3Ed__44_t33830F7E02E0DFC9A2315134285CD1B395C62CD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16225,7 +16225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHealU3Ed__44_System_Collect
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3709
+// Method Definition Index: 3732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCooldownU3Ed__42__ctor_mAB7E70CD6C7E75414724AE3C4551C543197323D2 (U3CStartCooldownU3Ed__42_t65EBFBADCD8A872A149F02B14A58B126BDAB0CE1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -16235,14 +16235,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCooldownU3Ed__42__ctor_mAB7E70CD
 		return;
 	}
 }
-// Method Definition Index: 3710
+// Method Definition Index: 3733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCooldownU3Ed__42_System_IDisposable_Dispose_m1D0A80833D7397D77B16CB9DA661451D935C0500 (U3CStartCooldownU3Ed__42_t65EBFBADCD8A872A149F02B14A58B126BDAB0CE1* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 3711
+// Method Definition Index: 3734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartCooldownU3Ed__42_MoveNext_mBBE18530F4AAA53D9B27F2B1B62F7334942133DD (U3CStartCooldownU3Ed__42_t65EBFBADCD8A872A149F02B14A58B126BDAB0CE1* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16366,7 +16366,7 @@ IL_00a5:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3712
+// Method Definition Index: 3735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCooldownU3Ed__42_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m978990FE66D16BD4C0A95018E1F5196CE3F8BA2A (U3CStartCooldownU3Ed__42_t65EBFBADCD8A872A149F02B14A58B126BDAB0CE1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16374,7 +16374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCooldownU3Ed__42_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 3713
+// Method Definition Index: 3736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCooldownU3Ed__42_System_Collections_IEnumerator_Reset_mB83DED04D2EAC35FAE8051AF994FA8E873B82503 (U3CStartCooldownU3Ed__42_t65EBFBADCD8A872A149F02B14A58B126BDAB0CE1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16383,7 +16383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartCooldownU3Ed__42_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartCooldownU3Ed__42_System_Collections_IEnumerator_Reset_mB83DED04D2EAC35FAE8051AF994FA8E873B82503_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3714
+// Method Definition Index: 3737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCooldownU3Ed__42_System_Collections_IEnumerator_get_Current_m2D8B705F5EE409263D9529DDF3246B1303415CA6 (U3CStartCooldownU3Ed__42_t65EBFBADCD8A872A149F02B14A58B126BDAB0CE1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16399,7 +16399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartCooldownU3Ed__42_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3715
+// Method Definition Index: 3738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimeActiveU3Ed__38__ctor_mC78A02D92B80217F26B4F8AC3B5DEFDAB711D021 (U3CStartTimeActiveU3Ed__38_tC5CC0C03812AE33BF3C768F5238800EF9D833497* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -16409,14 +16409,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimeActiveU3Ed__38__ctor_mC78A02
 		return;
 	}
 }
-// Method Definition Index: 3716
+// Method Definition Index: 3739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimeActiveU3Ed__38_System_IDisposable_Dispose_mBFD5BD45A815B69809C66C47581532E91BF2EF71 (U3CStartTimeActiveU3Ed__38_tC5CC0C03812AE33BF3C768F5238800EF9D833497* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 3717
+// Method Definition Index: 3740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartTimeActiveU3Ed__38_MoveNext_mD1704263932C5B62DDA335157944FB3850DD30B1 (U3CStartTimeActiveU3Ed__38_tC5CC0C03812AE33BF3C768F5238800EF9D833497* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16542,7 +16542,7 @@ IL_00a4:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3718
+// Method Definition Index: 3741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTimeActiveU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m85D4946F3A111BB89291D96534099C6C4D5571F3 (U3CStartTimeActiveU3Ed__38_tC5CC0C03812AE33BF3C768F5238800EF9D833497* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16550,7 +16550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTimeActiveU3Ed__38_Sys
 		return L_0;
 	}
 }
-// Method Definition Index: 3719
+// Method Definition Index: 3742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimeActiveU3Ed__38_System_Collections_IEnumerator_Reset_m6B26E2ABC38619DC08787F0756888F71805A3D1B (U3CStartTimeActiveU3Ed__38_tC5CC0C03812AE33BF3C768F5238800EF9D833497* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16559,7 +16559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimeActiveU3Ed__38_System_Collec
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartTimeActiveU3Ed__38_System_Collections_IEnumerator_Reset_m6B26E2ABC38619DC08787F0756888F71805A3D1B_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3720
+// Method Definition Index: 3743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTimeActiveU3Ed__38_System_Collections_IEnumerator_get_Current_mD90FD854BD341521FE80E7CD8B7896CF18D72948 (U3CStartTimeActiveU3Ed__38_tC5CC0C03812AE33BF3C768F5238800EF9D833497* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16575,7 +16575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTimeActiveU3Ed__38_Sys
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3721
+// Method Definition Index: 3744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountainRelay_Start_mA934065217DCAD0C642D35BBC4DC6A77F7B44713 (HealingFountainRelay_tD1593293B11EB39D30156721B24D6297ACDEBBF2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16583,7 +16583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountainRelay_Start_mA934065217DC
 		return;
 	}
 }
-// Method Definition Index: 3722
+// Method Definition Index: 3745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountainRelay_OnTriggerStay_m06901C753193244A73F3D4011B790A1E479000E6 (HealingFountainRelay_tD1593293B11EB39D30156721B24D6297ACDEBBF2* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0__other, const RuntimeMethod* method) 
 {
 	{
@@ -16591,7 +16591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountainRelay_OnTriggerStay_m0690
 		return;
 	}
 }
-// Method Definition Index: 3723
+// Method Definition Index: 3746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountainRelay__ctor_m49180F901F296F25401464752263C97597FB51B1 (HealingFountainRelay_tD1593293B11EB39D30156721B24D6297ACDEBBF2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16607,7 +16607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HealingFountainRelay__ctor_m49180F901F29
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3724
+// Method Definition Index: 3747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JungleGate_OnTriggerStay_m4C191F768D818D219A8818F71CAC48F45604DF8A (JungleGate_tAEF5609BFE6D1CC6FF503D740BB611CEF968797C* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16706,7 +16706,7 @@ IL_005c:
 		return;
 	}
 }
-// Method Definition Index: 3725
+// Method Definition Index: 3748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JungleGate__ctor_mBFE768B22A237DD1A2E31F296DD56F5B19F43329 (JungleGate_tAEF5609BFE6D1CC6FF503D740BB611CEF968797C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16722,7 +16722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JungleGate__ctor_mBFE768B22A237DD1A2E31F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3726
+// Method Definition Index: 3749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_OnNetworkSpawn_m45902B8FBE90A9E4170DAE68F539F6F1F0D1C7A8 (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16820,7 +16820,7 @@ IL_005f:
 		return;
 	}
 }
-// Method Definition Index: 3727
+// Method Definition Index: 3750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_HandleSceneEvent_m5AAC54647AEBC63D20E48AA7498CD31B6067F6F1 (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, SceneEvent_t9D66115BA9A205FA24A1E28DAF2CFD7720268284* ___0_sceneEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16899,7 +16899,7 @@ IL_0048:
 		return;
 	}
 }
-// Method Definition Index: 3728
+// Method Definition Index: 3751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_HandleClientDisconnect_m34DEE94C1E5287D3D17AF8A7B7F62894721BE05F (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, uint64_t ___0_clientId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16938,7 +16938,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 3729
+// Method Definition Index: 3752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_OnNetworkDespawn_mB03B841DC23B549B48897BA97C3B0F3C87F2E8A2 (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16965,7 +16965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_OnNetworkDespawn_mB03B841D
 		return;
 	}
 }
-// Method Definition Index: 3730
+// Method Definition Index: 3753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_SetName_m507A800606593A817876D9BFF0469E73504043AF (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17016,7 +17016,7 @@ IL_002d:
 		return;
 	}
 }
-// Method Definition Index: 3731
+// Method Definition Index: 3754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_OnNetworkObjectParentChanged_m2F4C15F4E5EDBA11BB166DFBD0654AB44470C24E (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, NetworkObject_t8D6F76C7440A9E6176FC7F9268E5720C346A7366* ___0_parentNetworkObject, const RuntimeMethod* method) 
 {
 	{
@@ -17026,7 +17026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_OnNetworkObjectParentChang
 		return;
 	}
 }
-// Method Definition Index: 3732
+// Method Definition Index: 3755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_SetProfile_m9B2C16D2568F9366BAC72CA9D8655FD27635DB8A (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17231,7 +17231,7 @@ IL_0135:
 		return;
 	}
 }
-// Method Definition Index: 3733
+// Method Definition Index: 3756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_ResetSlot_m75E4F3F5E874FEBA7C596895310554B5F8709EE1 (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17302,7 +17302,7 @@ IL_0071:
 		return;
 	}
 }
-// Method Definition Index: 3734
+// Method Definition Index: 3757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile_SetFinalSelectTeam_m2ECF9473FB04210086C12BEF43419C7151AD8498 (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17403,7 +17403,7 @@ IL_007e:
 		return;
 	}
 }
-// Method Definition Index: 3735
+// Method Definition Index: 3758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile__ctor_mA465DB0C08258607D3CBDDCDCE0A9039B0BBAC85 (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17429,7 +17429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile__ctor_mA465DB0C08258607D3C
 		return;
 	}
 }
-// Method Definition Index: 3736
+// Method Definition Index: 3759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile___initializeVariables_m103AC69A8AF24BD90FFA3FA22390AC2ADD5C9696 (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17470,7 +17470,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 3737
+// Method Definition Index: 3760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile___initializeRpcs_m1148A748E676564AA6656C6B675E4FE79CF1F2B8 (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17478,7 +17478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerProfile___initializeRpcs_m1148A748
 		return;
 	}
 }
-// Method Definition Index: 3738
+// Method Definition Index: 3761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerProfile___getTypeName_mF87B75D16F23CF56C86C5478BD6FF25444D7A11A (PlayerProfile_t485584ACA36D9374FF3CE2F8E145F76894AA7CD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17499,7 +17499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerProfile___getTypeName_mF87B75
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3739
+// Method Definition Index: 3762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t28C21CE37D9BFB8F79482C1E2FF3D61C4C5FBC4E* SlotManager_get_TeamSlots_m14F960B6B5BACB04AAD55948A2615D049C486FCF (SlotManager_t5AC7589ADAA25A4ABDB14471573BA1F9BECDE31B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17508,7 +17508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t28C21CE37D9BFB8F79482C1E2FF3D61C4C5FB
 		return L_0;
 	}
 }
-// Method Definition Index: 3740
+// Method Definition Index: 3763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t28C21CE37D9BFB8F79482C1E2FF3D61C4C5FBC4E* SlotManager_get_SpectatorSlots_m7B64245FB66E9B81A5F690C5E5E2C927B07471FE (SlotManager_t5AC7589ADAA25A4ABDB14471573BA1F9BECDE31B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17517,7 +17517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t28C21CE37D9BFB8F79482C1E2FF3D61C4C5FB
 		return L_0;
 	}
 }
-// Method Definition Index: 3741
+// Method Definition Index: 3764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotManager_Awake_m3F77A7BE789CDC59C8BEB542B40D63FFD7572FCE (SlotManager_t5AC7589ADAA25A4ABDB14471573BA1F9BECDE31B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17556,7 +17556,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 3742
+// Method Definition Index: 3765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotManager_OnAttackTeamSlot_m0789B6DD1C03D5C307C3BBF59694DBAD19137D34 (SlotManager_t5AC7589ADAA25A4ABDB14471573BA1F9BECDE31B* __this, TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* ___0_slot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17601,7 +17601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotManager_OnAttackTeamSlot_m0789B6DD1C
 		return;
 	}
 }
-// Method Definition Index: 3743
+// Method Definition Index: 3766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotManager_OnAttackSpectatorSlot_m45C910CB7D68835D38C3C91E0E7C0BD716716A94 (SlotManager_t5AC7589ADAA25A4ABDB14471573BA1F9BECDE31B* __this, TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* ___0_slot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17636,7 +17636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotManager_OnAttackSpectatorSlot_m45C91
 		return;
 	}
 }
-// Method Definition Index: 3744
+// Method Definition Index: 3767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotManager_OnRemovePlayer_mF3D7531998EA27AA942675D5BFA6A5D4B7C17EF4 (SlotManager_t5AC7589ADAA25A4ABDB14471573BA1F9BECDE31B* __this, TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* ___0_slot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17672,7 +17672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotManager_OnRemovePlayer_mF3D7531998EA
 		return;
 	}
 }
-// Method Definition Index: 3745
+// Method Definition Index: 3768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotManager__ctor_m8259B7550E280CD18954C76DC48A24E0744C15AA (SlotManager_t5AC7589ADAA25A4ABDB14471573BA1F9BECDE31B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17705,7 +17705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotManager__ctor_m8259B7550E280CD18954C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3746
+// Method Definition Index: 3769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpectatorSlot_get_LobbyRoles_m63AC7291ABCFB8CC7C7C46831C96655C09F5DC7A (SpectatorSlot_tA004A4B8FB9A0C58CBEAB33C2F08B2D843DF5BC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17714,7 +17714,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpectatorSlot_get_LobbyRoles_m63AC729
 		return L_0;
 	}
 }
-// Method Definition Index: 3747
+// Method Definition Index: 3770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* SpectatorSlot_get_SpectatorButton_mECBE39CE968721C56AA323F20435964EEA5C3255 (SpectatorSlot_tA004A4B8FB9A0C58CBEAB33C2F08B2D843DF5BC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17723,7 +17723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		return L_0;
 	}
 }
-// Method Definition Index: 3748
+// Method Definition Index: 3771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpectatorSlot_get_SlotNumber_mFF70F27873C79DA516479A4D9507C68E68B6D9E4 (SpectatorSlot_tA004A4B8FB9A0C58CBEAB33C2F08B2D843DF5BC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17732,7 +17732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpectatorSlot_get_SlotNumber_mFF70F27
 		return L_0;
 	}
 }
-// Method Definition Index: 3749
+// Method Definition Index: 3772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpectatorSlot_OnEnable_m9DC0BEB3E5ECFAF0BDD3364E610C65659C516E36 (SpectatorSlot_tA004A4B8FB9A0C58CBEAB33C2F08B2D843DF5BC3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17756,7 +17756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpectatorSlot_OnEnable_m9DC0BEB3E5ECFAF0
 		return;
 	}
 }
-// Method Definition Index: 3750
+// Method Definition Index: 3773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpectatorSlot_OnDisable_mBA3A79DF425C3897F5E0F35D866BF1DF7FA36EF9 (SpectatorSlot_tA004A4B8FB9A0C58CBEAB33C2F08B2D843DF5BC3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17780,7 +17780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpectatorSlot_OnDisable_mBA3A79DF425C389
 		return;
 	}
 }
-// Method Definition Index: 3751
+// Method Definition Index: 3774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpectatorSlot_OnSwapButtonClick_m2AEB8319C29F0C9DEA9A4F461038FD19BAF2E4DF (SpectatorSlot_tA004A4B8FB9A0C58CBEAB33C2F08B2D843DF5BC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17788,7 +17788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpectatorSlot_OnSwapButtonClick_m2AEB831
 		return;
 	}
 }
-// Method Definition Index: 3752
+// Method Definition Index: 3775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpectatorSlot_OpenSlot_m5E6EAC8EB3F6A8BED3325D7EB1AB18B0AB873540 (SpectatorSlot_tA004A4B8FB9A0C58CBEAB33C2F08B2D843DF5BC3* __this, bool ___0_active, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17842,7 +17842,7 @@ IL_0037:
 		return;
 	}
 }
-// Method Definition Index: 3753
+// Method Definition Index: 3776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpectatorSlot__ctor_m742792EFA1AF4F33501D3FE9A825FA9016A4C703 (SpectatorSlot_tA004A4B8FB9A0C58CBEAB33C2F08B2D843DF5BC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17860,7 +17860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpectatorSlot__ctor_m742792EFA1AF4F33501
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3754
+// Method Definition Index: 3777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TeamSlot_get_Team_m549341CB142B89046ACDBE4B802ACCE84CDB151B (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17869,7 +17869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TeamSlot_get_Team_m549341CB142B89046A
 		return L_0;
 	}
 }
-// Method Definition Index: 3755
+// Method Definition Index: 3778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TeamSlot_get_SlotNumber_m14FDD6AE810C4913E6AE514658C36807F620CC92 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17878,7 +17878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TeamSlot_get_SlotNumber_m14FDD6AE810C
 		return L_0;
 	}
 }
-// Method Definition Index: 3756
+// Method Definition Index: 3779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* TeamSlot_get_BlankProfilePictureSlot_m1C3B8CFEF8B0328371ABE04088C7AB35186EE51D (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17887,7 +17887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 3757
+// Method Definition Index: 3780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* TeamSlot_get_ProfilePictureSlot_m792EB9AC5BAA9EDA45A1843EB7807A9843B95E48 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17896,7 +17896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 3758
+// Method Definition Index: 3781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* TeamSlot_get_NameText_mCEBFE81001FAFAEAF288CBC1656409D01473FDEA (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17905,7 +17905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B
 		return L_0;
 	}
 }
-// Method Definition Index: 3759
+// Method Definition Index: 3782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* TeamSlot_get_LevelText_mDD699E8C83208EF8DC6C95E8F83158F35483D809 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17914,7 +17914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B
 		return L_0;
 	}
 }
-// Method Definition Index: 3760
+// Method Definition Index: 3783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* TeamSlot_get_SwapButton_m88E08E4720727277C27A2416B9AFAA8764AA892B (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17923,7 +17923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		return L_0;
 	}
 }
-// Method Definition Index: 3761
+// Method Definition Index: 3784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* TeamSlot_get_KickButton_mDB50602ABF5168701126B2DD0D7748123025E82B (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17932,7 +17932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE
 		return L_0;
 	}
 }
-// Method Definition Index: 3762
+// Method Definition Index: 3785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TeamSlot_get_LobbyRoles_mF0978C88259E45410ABE3447552FE68D8BEECAFF (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17941,7 +17941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TeamSlot_get_LobbyRoles_mF0978C88259E
 		return L_0;
 	}
 }
-// Method Definition Index: 3763
+// Method Definition Index: 3786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_OnEnable_mA2E4D068DD48D738E32E86953579F8707AF13E0A (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17975,7 +17975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_OnEnable_mA2E4D068DD48D738E32E8
 		return;
 	}
 }
-// Method Definition Index: 3764
+// Method Definition Index: 3787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_OnDisable_m9425FF6FDB035736CF894C4A4236DDEF009EB098 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18009,7 +18009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_OnDisable_m9425FF6FDB035736CF89
 		return;
 	}
 }
-// Method Definition Index: 3765
+// Method Definition Index: 3788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_OnSwapButtonClick_m606B54E649C327461445B9933134B0F7A211FEA5 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18056,7 +18056,7 @@ IL_0029:
 		return;
 	}
 }
-// Method Definition Index: 3766
+// Method Definition Index: 3789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_OnKickButtonClick_m603F044C2C823A3F66C3682B73784F8773B40E52 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18074,7 +18074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_OnKickButtonClick_m603F044C2C82
 		return;
 	}
 }
-// Method Definition Index: 3767
+// Method Definition Index: 3790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_OpenSlot_mF60B699A555E977147CD04A89F9D26AB87172712 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, String_t* ___0_playerName, String_t* ___1_level, bool ___2_active, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18171,7 +18171,7 @@ IL_006b:
 		return;
 	}
 }
-// Method Definition Index: 3768
+// Method Definition Index: 3791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_OnKickButton_m0F19BA1602146E32E4850554161BA8494947B2B8 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18220,7 +18220,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 3769
+// Method Definition Index: 3792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_ToggleHostState_m568207017E35DE9AA70F8FBED6DBD345CB90021D (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, bool ___0_amITheHost, const RuntimeMethod* method) 
 {
 	{
@@ -18238,7 +18238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_ToggleHostState_m568207017E35DE
 		return;
 	}
 }
-// Method Definition Index: 3770
+// Method Definition Index: 3793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_ToggleSlotFilledState_m18A23A55A3B17B3B05CE24AD969B82AB86720A76 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, bool ___0_isMySlotFilled, const RuntimeMethod* method) 
 {
 	{
@@ -18256,7 +18256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot_ToggleSlotFilledState_m18A23A55
 		return;
 	}
 }
-// Method Definition Index: 3771
+// Method Definition Index: 3794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot__ctor_mA0B4D889EBF9EB14DE3423EA38008DD32EB8FA08 (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18274,7 +18274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeamSlot__ctor_mA0B4D889EBF9EB14DE3423EA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 3772
+// Method Definition Index: 3795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_get_Targetable_m919BF2A5D3A7C4DBE1D19443FF1AAF5325FA5E02 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18283,7 +18283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_get_Targetable_
 		return L_0;
 	}
 }
-// Method Definition Index: 3773
+// Method Definition Index: 3796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_get_LastStoreBasicAttack_m29853319315ECA29A4326B3D936322469909508A (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18292,7 +18292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_get_LastStoreBasicAtta
 		return L_0;
 	}
 }
-// Method Definition Index: 3774
+// Method Definition Index: 3797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_set_LastStoreBasicAttack_mB3412171DC8263ED83C82C19226ED236559D3E75 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -18302,7 +18302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_set_LastStoreBasicAttack_
 		return;
 	}
 }
-// Method Definition Index: 3775
+// Method Definition Index: 3798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Awake_m73581E3B90BD853CAF7EB985AAC86D20C7E74C51 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18607,7 +18607,7 @@ IL_015e:
 		return;
 	}
 }
-// Method Definition Index: 3776
+// Method Definition Index: 3799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnStart_m815739A6AFED37E2DFF6F7F0F2D12AA7B1A66E50 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19231,7 +19231,7 @@ IL_0258:
 		return;
 	}
 }
-// Method Definition Index: 3777
+// Method Definition Index: 3800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_HandleGameStateChanged_m1CAAAD9D7BEBA83C08515D185972939CBA682724 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, uint8_t ___0_previousValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19315,7 +19315,7 @@ IL_0090:
 		return;
 	}
 }
-// Method Definition Index: 3778
+// Method Definition Index: 3801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnEnable_m5679E38CCF52722FB806CEEFC99D0880AB73E553 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19388,7 +19388,7 @@ IL_0070:
 		return;
 	}
 }
-// Method Definition Index: 3779
+// Method Definition Index: 3802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnDisable_m5E21CE3D14B575B9AC41D2DC290263F53FA11161 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19850,7 +19850,7 @@ IL_020e:
 		return;
 	}
 }
-// Method Definition Index: 3780
+// Method Definition Index: 3803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Start_m1A3DC3988D62A83EA6CB54D28D6F918DF53EE26F (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19858,7 +19858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Start_m1A3DC3988D62A83EA6
 		return;
 	}
 }
-// Method Definition Index: 3781
+// Method Definition Index: 3804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_FixedUpdate_m3785B975BC3B867E59EBE81B285F0CAAD9808CC7 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20310,7 +20310,7 @@ IL_0234:
 		return;
 	}
 }
-// Method Definition Index: 3782
+// Method Definition Index: 3805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, uint8_t ___0_aIState, const RuntimeMethod* method) 
 {
 	{
@@ -20324,7 +20324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChangeState_mD38633E7366A
 		return;
 	}
 }
-// Method Definition Index: 3783
+// Method Definition Index: 3806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_ChangeStateCoroutine_mF56D5A6B1A27FFE026FC90D0F208BE7528577650 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, uint8_t ___0_aIState, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20347,13 +20347,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_ChangeStateCoro
 		return L_2;
 	}
 }
-// Method Definition Index: 3784
+// Method Definition Index: 3807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackBehaviour_m806E1D0E64502FE827A0610A49C7AFA97736FCB1 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ITargetable_t470249903CB52B6D617372AF77E13D0445B24E64_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral890BBD42E74A55C7FB0C567ACCDD34D39D382BBD);
@@ -20375,7 +20376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackBehaviour_m806E1D0E
 		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(17, L_4);
 		if ((((float)((float)(((float)L_2)/((float)L_5)))) >= ((float)(0.200000003f))))
 		{
-			goto IL_0032;
+			goto IL_0035;
 		}
 	}
 	{
@@ -20383,11 +20384,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackBehaviour_m806E1D0E
 		L_6 = AIBrainDefault_PossibleKill_m65512BA33855043699CFE6CE531BBC8CFE2D74ED(__this, NULL);
 		if (!L_6)
 		{
-			goto IL_008c;
+			goto IL_00ca;
 		}
 	}
 
-IL_0032:
+IL_0035:
 	{
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:386>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
@@ -20400,10 +20401,11 @@ IL_0032:
 		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_9)
 		{
-			goto IL_0085;
+			goto IL_00c3;
 		}
 	}
 	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:389>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_10 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_10);
 		float L_11;
@@ -20412,69 +20414,104 @@ IL_0032:
 		float L_13 = __this->___decisionInterval;
 		if ((!(((float)((float)il2cpp_codegen_subtract(L_11, L_12))) >= ((float)L_13))))
 		{
-			goto IL_0085;
+			goto IL_008a;
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:389>
-		AIBrainDefault_Skill3_m72F585FB03F776C47BB5EBED94FDC1E6BB2718F4(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:390>
-		AIBrainDefault_Skill2_m971F88EB8386B76349CA8C7E0ED4DA1451D62F5E(__this, NULL);
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:391>
-		AIBrainDefault_Skill1_mD3F909A7E6DB8B3B3A7D3C9466A25179F000F3D7(__this, NULL);
+		AIBrainDefault_Skill3_m72F585FB03F776C47BB5EBED94FDC1E6BB2718F4(__this, NULL);
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:392>
+		AIBrainDefault_Skill2_m971F88EB8386B76349CA8C7E0ED4DA1451D62F5E(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:393>
+		AIBrainDefault_Skill1_mD3F909A7E6DB8B3B3A7D3C9466A25179F000F3D7(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:394>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_14 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_14);
 		float L_15;
 		L_15 = GameManager_get_currentGameTime_m697B5D39DB68222CA13D457A62BD6B4D8A889C92(L_14, NULL);
 		__this->___lastDecisionTime = L_15;
+		goto IL_00c3;
 	}
 
-IL_0085:
+IL_008a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:394>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:396>
+		RuntimeObject* L_16 = __this->___targetable;
+		NullCheck(L_16);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
+		L_17 = InterfaceFuncInvoker0< GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* >::Invoke(2, ITargetable_t470249903CB52B6D617372AF77E13D0445B24E64_il2cpp_TypeInfo_var, L_16);
+		NullCheck(L_17);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
+		L_18 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_17, NULL);
+		NullCheck(L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_18, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_20);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_20, NULL);
+		float L_22;
+		L_22 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_19, L_21, NULL);
+		BasicAttack_t9DA33F651B0E90A2E521C9B75D8B65A3ED4C7ADA* L_23 = __this->___basicAttack;
+		NullCheck(L_23);
+		float L_24;
+		L_24 = BasicAttack_get_attackRange_m0C3D6218F76B4ED5A1B69D7903214200914B9AB0(L_23, NULL);
+		if ((!(((float)L_22) > ((float)L_24))))
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:398>
+		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 4, NULL);
+	}
+
+IL_00c3:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:401>
 		AIBrainDefault_BasicAttack_m03ABA1D223454B9EE7EF902D9BBCCDC2601EDB1F(__this, NULL);
 		return;
 	}
 
-IL_008c:
+IL_00ca:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:398>
-		TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF* L_16 = ((TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_StaticFields*)il2cpp_codegen_static_fields_for(TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_il2cpp_TypeInfo_var))->___instance;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:405>
+		TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF* L_25 = ((TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_StaticFields*)il2cpp_codegen_static_fields_for(TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_17;
-		L_17 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_16, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_17)
+		bool L_26;
+		L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_26)
 		{
-			goto IL_00b0;
+			goto IL_00ee;
 		}
 	}
 	{
-		TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF* L_18 = ((TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_StaticFields*)il2cpp_codegen_static_fields_for(TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_il2cpp_TypeInfo_var))->___instance;
-		NullCheck(L_18);
-		String_t* L_19;
-		L_19 = TutorialManager_LoadTutorialPhase_m07D918552527FA5CBFB43BBF9606AEC3BA5D9020(L_18, NULL);
-		bool L_20;
-		L_20 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_19, _stringLiteral890BBD42E74A55C7FB0C567ACCDD34D39D382BBD, NULL);
-		if (!L_20)
+		TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF* L_27 = ((TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_StaticFields*)il2cpp_codegen_static_fields_for(TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_27);
+		String_t* L_28;
+		L_28 = TutorialManager_LoadTutorialPhase_m07D918552527FA5CBFB43BBF9606AEC3BA5D9020(L_27, NULL);
+		bool L_29;
+		L_29 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_28, _stringLiteral890BBD42E74A55C7FB0C567ACCDD34D39D382BBD, NULL);
+		if (!L_29)
 		{
-			goto IL_00b0;
+			goto IL_00ee;
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:398>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:405>
 		return;
 	}
 
-IL_00b0:
+IL_00ee:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:399>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:406>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:401>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:408>
 		return;
 	}
 }
-// Method Definition Index: 3785
+// Method Definition Index: 3808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChangeBehaviour_mDE7918DA9D30267A622CEBC8D3C927D4434F892D (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20486,7 +20523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChangeBehaviour_mDE7918DA
 	}
 	uint8_t V_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:406>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:413>
 		il2cpp_codegen_runtime_class_init_inline(NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468_il2cpp_TypeInfo_var);
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0;
 		L_0 = NetworkManager_get_Singleton_m0F86FB1D52C8EDB866101D9CAE0CAA1D7DAE2266_inline(NULL);
@@ -20499,13 +20536,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChangeBehaviour_mDE7918DA
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:406>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:413>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:408>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:415>
 		NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* L_2 = __this->___networkLifeState;
 		NullCheck(L_2);
 		NetworkVariable_1_tC46DC1CECD6F80AE0C10531DED238D536E0A8D91* L_3;
@@ -20519,22 +20556,22 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:410>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:417>
 		return;
 	}
 
 IL_0021:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:412>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:413>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:414>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:415>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:416>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:417>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:418>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:419>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:420>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:421>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:422>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:423>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:424>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:425>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:426>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:427>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:428>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_5 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_5);
 		NetworkVariable_1_tED33E03456F51FFB05A1D0489A5F92B5F9F86698* L_6 = L_5->___GameState;
@@ -20692,16 +20729,16 @@ IL_0097:
 
 IL_010b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:423>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:430>
 		return;
 	}
 
 IL_010c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:426>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:433>
 		__this->___OnReachCorner = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OnReachCorner), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:428>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:435>
 		uint8_t L_41 = __this->___aIState;
 		V_0 = L_41;
 		uint8_t L_42 = V_0;
@@ -20747,39 +20784,39 @@ IL_010c:
 
 IL_0143:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:431>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:438>
 		AIBrainDefault_IdleRoutine_m0BB576D91052599A1838FB5B7BEBD28EEE7EFD1C(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:432>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:439>
 		return;
 	}
 
 IL_014a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:435>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:442>
 		AIBrainDefault_WalkingInLaneRoutine_m10D0790CB390CB45087E05FA6A483E6FF9D67615(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:436>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:443>
 		return;
 	}
 
 IL_0151:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:439>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:446>
 		AIBrainDefault_AttackRoutine_mDB645AB0AEAD7BBFB52BB63D9D8B2110A2310DA5(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:440>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:447>
 		return;
 	}
 
 IL_0158:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:443>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:450>
 		AIBrainDefault_ChasingRoutine_mE7839B5BBC289509B80EBCAECDD7F272C55BCDF4(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:444>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:451>
 		return;
 	}
 
 IL_015f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:447>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:454>
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_43 = __this->___health;
 		NullCheck(L_43);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_44 = L_43->___CurrentHealth;
@@ -20798,14 +20835,14 @@ IL_015f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:449>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:456>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
 		return;
 	}
 
 IL_0191:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:451>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:458>
 		bool L_49;
 		L_49 = AIBrainDefault_IsReachCorner_m5CC50C22D2D14BC30EEBB4E8F7BF92191195BD1F(__this, NULL);
 		if (!L_49)
@@ -20814,33 +20851,33 @@ IL_0191:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:453>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:460>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 1, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:455>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:462>
 		return;
 	}
 
 IL_01a1:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:458>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:465>
 		AIBrainDefault_Retreat_m52A60DDE8575ECDD835128420E65018DE623EC6D(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:459>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:466>
 		return;
 	}
 
 IL_01a8:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:462>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:469>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
 		L_50 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		AIBrainDefault_MovementJoystick_m6A2ADB45623B0C31ACDD16C32B8B53EA68EB1364(__this, L_50, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:463>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:470>
 		return;
 	}
 
 IL_01b4:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:466>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:473>
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_51 = __this->___health;
 		NullCheck(L_51);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_52 = L_51->___CurrentHealth;
@@ -20859,14 +20896,14 @@ IL_01b4:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:468>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:475>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
 		return;
 	}
 
 IL_01e6:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:470>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:477>
 		bool L_57;
 		L_57 = AIBrainDefault_IsReachCorner_m5CC50C22D2D14BC30EEBB4E8F7BF92191195BD1F(__this, NULL);
 		if (!L_57)
@@ -20875,21 +20912,21 @@ IL_01e6:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:472>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:479>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 1, NULL);
 	}
 
 IL_01f5:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:477>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:484>
 		return;
 	}
 }
-// Method Definition Index: 3786
+// Method Definition Index: 3809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_IdleRoutine_m0BB576D91052599A1838FB5B7BEBD28EEE7EFD1C (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:481>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:488>
 		uint8_t L_0 = __this->___aIState;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -20897,11 +20934,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_IdleRoutine_m0BB576D91052
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:483>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:490>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		AIBrainDefault_MovementJoystick_m6A2ADB45623B0C31ACDD16C32B8B53EA68EB1364(__this, L_1, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:485>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:492>
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_2 = __this->___health;
 		NullCheck(L_2);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_3 = L_2->___CurrentHealth;
@@ -20948,14 +20985,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_IdleRoutine_m0BB576D91052
 
 IL_006d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:487>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:494>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 2, NULL);
 		return;
 	}
 
 IL_0075:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:489>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:496>
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_15 = __this->___health;
 		NullCheck(L_15);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_16 = L_15->___CurrentHealth;
@@ -20974,28 +21011,28 @@ IL_0075:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:491>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:498>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
 		return;
 	}
 
 IL_00a7:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:495>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:502>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
 		return;
 	}
 
 IL_00af:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:500>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:507>
 		uint8_t L_21 = __this->___aIState;
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, L_21, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:502>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:509>
 		return;
 	}
 }
-// Method Definition Index: 3787
+// Method Definition Index: 3810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_WalkingInLaneRoutine_m10D0790CB390CB45087E05FA6A483E6FF9D67615 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21010,7 +21047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_WalkingInLaneRoutine_m10D
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:506>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:513>
 		uint8_t L_0 = __this->___aIState;
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
 		{
@@ -21018,7 +21055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_WalkingInLaneRoutine_m10D
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:508>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:515>
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_1 = __this->___health;
 		NullCheck(L_1);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_2 = L_1->___CurrentHealth;
@@ -21037,7 +21074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_WalkingInLaneRoutine_m10D
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:510>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:517>
 		TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF* L_7 = ((TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_StaticFields*)il2cpp_codegen_static_fields_for(TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -21062,11 +21099,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_WalkingInLaneRoutine_m10D
 
 IL_0059:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:512>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:519>
 		int32_t L_12;
 		L_12 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, 2, NULL);
 		V_0 = L_12;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:513>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:520>
 		int32_t L_13 = V_0;
 		int32_t L_14 = __this->___chooseLane;
 		if ((((int32_t)L_13) == ((int32_t)L_14)))
@@ -21083,7 +21120,7 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:515>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:522>
 		int32_t L_16 = V_0;
 		__this->___chooseLane = L_16;
 		goto IL_0089;
@@ -21091,18 +21128,18 @@ IL_0059:
 
 IL_0082:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:520>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:527>
 		__this->___chooseLane = 0;
 	}
 
 IL_0089:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:523>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:530>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
 		L_17 = AIBrainDefault_GetNextWayPoint_mAD8443706A758D7BB8E94F81FD76B67025D988FC(__this, NULL);
 		bool L_18;
 		L_18 = AIBrainDefault_GoTo_m7167980A2D4689D3AF41EBA37659CB66122B8677(__this, L_17, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:524>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:531>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_19 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_19, __this, (intptr_t)((void*)AIBrainDefault_U3CWalkingInLaneRoutineU3Eb__79_0_mA26CBFE0E37D366BCEB79E08422DA6B987663949_RuntimeMethod_var), NULL);
 		__this->___OnReachCorner = L_19;
@@ -21112,7 +21149,7 @@ IL_0089:
 
 IL_00a9:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:528>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:535>
 		TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF* L_20 = ((TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_StaticFields*)il2cpp_codegen_static_fields_for(TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -21137,25 +21174,25 @@ IL_00a9:
 
 IL_00cc:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:530>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:537>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
 		return;
 	}
 
 IL_00d4:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:540>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:547>
 		uint8_t L_25 = __this->___aIState;
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, L_25, NULL);
 	}
 
 IL_00e0:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:542>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:549>
 		return;
 	}
 }
-// Method Definition Index: 3788
+// Method Definition Index: 3811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackRoutine_mDB645AB0AEAD7BBFB52BB63D9D8B2110A2310DA5 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21167,7 +21204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackRoutine_mDB645AB0AE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:546>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:553>
 		uint8_t L_0 = __this->___aIState;
 		if ((!(((uint32_t)L_0) == ((uint32_t)3))))
 		{
@@ -21175,7 +21212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackRoutine_mDB645AB0AE
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:548>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:555>
 		RuntimeObject* L_1 = __this->___targetable;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
@@ -21189,7 +21226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackRoutine_mDB645AB0AE
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:550>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:557>
 		RuntimeObject* L_4 = __this->___targetable;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
@@ -21205,7 +21242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackRoutine_mDB645AB0AE
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:553>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:560>
 		RuntimeObject* L_8 = __this->___targetable;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
@@ -21241,21 +21278,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_AttackRoutine_mDB645AB0AE
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:555>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:562>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 4, NULL);
 		return;
 	}
 
 IL_0088:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:561>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:568>
 		AIBrainDefault_AttackBehaviour_m806E1D0E64502FE827A0610A49C7AFA97736FCB1(__this, NULL);
 		return;
 	}
 
 IL_008f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:567>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:574>
 		RuntimeObject* L_20 = __this->___targetable;
 		NullCheck(L_20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
@@ -21279,13 +21316,13 @@ IL_008f:
 		NullCheck(L_28);
 		float L_29;
 		L_29 = BasicAttack_get_attackRange_m0C3D6218F76B4ED5A1B69D7903214200914B9AB0(L_28, NULL);
-		if ((!(((float)L_26) >= ((float)L_29))))
+		if ((!(((float)L_26) > ((float)L_29))))
 		{
 			goto IL_00dd;
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:569>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:576>
 		bool L_30;
 		L_30 = AIBrainDefault_IsTargetInSkillRange_mD393210AA9073FF91C2D9018C02D3D7D556FBA3E(__this, NULL);
 		if (L_30)
@@ -21294,42 +21331,42 @@ IL_008f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:571>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:578>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 4, NULL);
 		return;
 	}
 
 IL_00d6:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:575>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:582>
 		AIBrainDefault_AttackBehaviour_m806E1D0E64502FE827A0610A49C7AFA97736FCB1(__this, NULL);
 		return;
 	}
 
 IL_00dd:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:581>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:588>
 		AIBrainDefault_AttackBehaviour_m806E1D0E64502FE827A0610A49C7AFA97736FCB1(__this, NULL);
 		return;
 	}
 
 IL_00e4:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:591>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:598>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 2, NULL);
 		return;
 	}
 
 IL_00ec:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:596>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:603>
 		uint8_t L_31 = __this->___aIState;
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, L_31, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:598>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:605>
 		return;
 	}
 }
-// Method Definition Index: 3789
+// Method Definition Index: 3812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChasingRoutine_mE7839B5BBC289509B80EBCAECDD7F272C55BCDF4 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21344,7 +21381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChasingRoutine_mE7839B5BB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:602>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:609>
 		uint8_t L_0 = __this->___aIState;
 		if ((!(((uint32_t)L_0) == ((uint32_t)4))))
 		{
@@ -21352,7 +21389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChasingRoutine_mE7839B5BB
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:604>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:611>
 		RuntimeObject* L_1 = __this->___targetable;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
@@ -21366,7 +21403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChasingRoutine_mE7839B5BB
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:606>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:613>
 		RuntimeObject* L_4 = __this->___targetable;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
@@ -21382,7 +21419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChasingRoutine_mE7839B5BB
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:608>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:615>
 		RuntimeObject* L_8 = __this->___targetable;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
@@ -21418,7 +21455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChasingRoutine_mE7839B5BB
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:610>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:617>
 		RuntimeObject* L_20 = __this->___targetable;
 		NullCheck(L_20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
@@ -21434,7 +21471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChasingRoutine_mE7839B5BB
 		L_24 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_23, NULL);
 		bool L_25;
 		L_25 = AIBrainDefault_GoTo_m7167980A2D4689D3AF41EBA37659CB66122B8677(__this, L_24, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:611>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:618>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_26 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_26, __this, (intptr_t)((void*)AIBrainDefault_U3CChasingRoutineU3Eb__81_0_m7C4233344C515D3B5D648D10982269C171A56FAA_RuntimeMethod_var), NULL);
 		__this->___OnReachCorner = L_26;
@@ -21444,14 +21481,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ChasingRoutine_mE7839B5BB
 
 IL_00b5:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:615>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:622>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 		return;
 	}
 
 IL_00bd:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:621>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:628>
 		RuntimeObject* L_27 = __this->___targetable;
 		NullCheck(L_27);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28;
@@ -21481,7 +21518,7 @@ IL_00bd:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:623>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:630>
 		bool L_37;
 		L_37 = AIBrainDefault_IsTargetInSkillRange_mD393210AA9073FF91C2D9018C02D3D7D556FBA3E(__this, NULL);
 		if (L_37)
@@ -21490,7 +21527,7 @@ IL_00bd:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:625>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:632>
 		RuntimeObject* L_38 = __this->___targetable;
 		NullCheck(L_38);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39;
@@ -21500,7 +21537,7 @@ IL_00bd:
 		L_40 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_39, NULL);
 		bool L_41;
 		L_41 = AIBrainDefault_GoTo_m7167980A2D4689D3AF41EBA37659CB66122B8677(__this, L_40, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:626>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:633>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_42 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_42, __this, (intptr_t)((void*)AIBrainDefault_U3CChasingRoutineU3Eb__81_1_mE30A6F7EED8CD712789749A3F08A2AD2306532FA_RuntimeMethod_var), NULL);
 		__this->___OnReachCorner = L_42;
@@ -21510,35 +21547,35 @@ IL_00bd:
 
 IL_0126:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:630>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:637>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 		return;
 	}
 
 IL_012e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:635>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:642>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 		return;
 	}
 
 IL_0136:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:645>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:652>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 2, NULL);
 		return;
 	}
 
 IL_013e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:650>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:657>
 		uint8_t L_43 = __this->___aIState;
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, L_43, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:652>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:659>
 		return;
 	}
 }
-// Method Definition Index: 3790
+// Method Definition Index: 3813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_GoTo_m7167980A2D4689D3AF41EBA37659CB66122B8677 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21548,16 +21585,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_GoTo_m7167980A2D4689D3AF4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:656>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:657>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:658>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:659>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:660>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:661>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:662>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:663>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:664>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:665>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:666>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:667>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:668>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:669>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:670>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:671>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:672>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		NetworkVariable_1_tED33E03456F51FFB05A1D0489A5F92B5F9F86698* L_1 = L_0->___GameState;
@@ -21715,13 +21752,13 @@ IL_0076:
 
 IL_00ea:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:667>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:674>
 		return (bool)1;
 	}
 
 IL_00ec:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:675>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:682>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_36 = __this->___currentPath;
 		if (L_36)
 		{
@@ -21729,9 +21766,9 @@ IL_00ec:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:677>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:684>
 		__this->___currentCorner = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:678>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:685>
 		ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* L_37 = __this->___serverCharacterMovement;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = ___0_target;
 		NullCheck(L_38);
@@ -21742,7 +21779,7 @@ IL_00ec:
 		L_40 = ServerCharacterMovement_GetPath_mE04B2757578D232B24A3E96F4686A75A95F88F9C(L_37, L_39, NULL);
 		__this->___currentPath = L_40;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentPath), (void*)L_40);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:679>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:686>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_41 = __this->___currentPath;
 		if (L_41)
 		{
@@ -21750,25 +21787,25 @@ IL_00ec:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:681>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:688>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:682>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:689>
 		return (bool)0;
 	}
 
 IL_0123:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:684>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:691>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42 = ___0_target;
 		__this->___targetDestination = L_42;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetDestination), (void*)L_42);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:685>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:692>
 		return (bool)1;
 	}
 
 IL_012c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:687>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:694>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_43 = __this->___currentPath;
 		ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* L_44 = __this->___serverCharacterMovement;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45 = ___0_target;
@@ -21784,9 +21821,9 @@ IL_012c:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:689>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:696>
 		__this->___currentCorner = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:690>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:697>
 		ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* L_48 = __this->___serverCharacterMovement;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_49 = ___0_target;
 		NullCheck(L_49);
@@ -21797,7 +21834,7 @@ IL_012c:
 		L_51 = ServerCharacterMovement_GetPath_mE04B2757578D232B24A3E96F4686A75A95F88F9C(L_48, L_50, NULL);
 		__this->___currentPath = L_51;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentPath), (void*)L_51);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:691>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:698>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_52 = __this->___currentPath;
 		if (L_52)
 		{
@@ -21805,29 +21842,29 @@ IL_012c:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:693>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:700>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:694>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:701>
 		return (bool)0;
 	}
 
 IL_0174:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:696>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:703>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_53 = ___0_target;
 		__this->___targetDestination = L_53;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetDestination), (void*)L_53);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:697>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:704>
 		return (bool)1;
 	}
 
 IL_017d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:699>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:706>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3791
+// Method Definition Index: 3814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_SetInputMovement_mA8797BDA1C22713A3762F9E1CFCB70E4B1C7817A (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, uint8_t ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21837,16 +21874,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_SetInputMovement_mA8797BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:704>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:705>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:706>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:707>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:708>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:709>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:710>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:711>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:712>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:713>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:714>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:715>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:716>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:717>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:718>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:719>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:720>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		NetworkVariable_1_tED33E03456F51FFB05A1D0489A5F92B5F9F86698* L_1 = L_0->___GameState;
@@ -22004,13 +22041,13 @@ IL_0076:
 
 IL_00ea:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:715>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:722>
 		return;
 	}
 
 IL_00eb:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:718>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:725>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_36 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		uint8_t L_37 = L_36->___movementState;
 		uint8_t L_38 = ___0_state;
@@ -22020,7 +22057,7 @@ IL_00eb:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:720>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:727>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_39 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		uint8_t L_40 = ___0_state;
 		L_39->___movementState = L_40;
@@ -22028,15 +22065,15 @@ IL_00eb:
 
 IL_0105:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:722>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:729>
 		return;
 	}
 }
-// Method Definition Index: 3792
+// Method Definition Index: 3815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AIBrainDefault_GetTimeReachToDestination_m473FA39B93E12BA2BEFA31176703907C5E000B3F (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_destination, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:726>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:733>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -22054,11 +22091,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AIBrainDefault_GetTimeReachToDestinatio
 		return ((float)(L_3/L_6));
 	}
 }
-// Method Definition Index: 3793
+// Method Definition Index: 3816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_GoTo_m148EF57CD4866F3E632596BE4114603F922B4050 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_target, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:731>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:738>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_target;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -22080,13 +22117,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_GoTo_m148EF57CD4866F3E632
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:731>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:738>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:733>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:740>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_7 = __this->___currentPath;
 		if (L_7)
 		{
@@ -22094,9 +22131,9 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:735>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:742>
 		__this->___currentCorner = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:736>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:743>
 		ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* L_8 = __this->___serverCharacterMovement;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_target;
 		NullCheck(L_8);
@@ -22109,7 +22146,7 @@ IL_0024:
 
 IL_0046:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:739>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:746>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_11 = __this->___currentPath;
 		ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* L_12 = __this->___serverCharacterMovement;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_target;
@@ -22122,9 +22159,9 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:741>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:748>
 		__this->___currentCorner = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:742>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:749>
 		ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* L_15 = __this->___serverCharacterMovement;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_target;
 		NullCheck(L_15);
@@ -22136,11 +22173,11 @@ IL_0046:
 
 IL_0073:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:745>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:752>
 		return;
 	}
 }
-// Method Definition Index: 3794
+// Method Definition Index: 3817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_MovementJoystick_m6A2ADB45623B0C31ACDD16C32B8B53EA68EB1364 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22150,16 +22187,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_MovementJoystick_m6A2ADB4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:749>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:750>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:751>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:752>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:753>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:754>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:755>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:756>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:757>
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:758>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:759>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:760>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:761>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:762>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:763>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:764>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:765>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		NetworkVariable_1_tED33E03456F51FFB05A1D0489A5F92B5F9F86698* L_1 = L_0->___GameState;
@@ -22317,32 +22354,32 @@ IL_0076:
 
 IL_00ea:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:760>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:767>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
 		L_36 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		___0_input = L_36;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:761>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:768>
 		ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* L_37 = __this->___serverCharacterMovement;
 		NullCheck(L_37);
 		NavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F* L_38;
 		L_38 = ServerCharacterMovement_get_NavMeshAgent_m721C394478684B35AD27B91240D05175A6E71DB3_inline(L_37, NULL);
 		NullCheck(L_38);
 		NavMeshAgent_ResetPath_mE29D3956C1BFABDB3D6B4B7DF2B376B4EEB24E7F(L_38, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:762>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:769>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_39 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = ___0_input;
 		float L_41 = L_40.___z;
 		int32_t L_42;
 		L_42 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)il2cpp_codegen_multiply(L_41, (100.0f))), NULL);
 		L_39->___forward = ((float)(((float)L_42)/(100.0f)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:763>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:770>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_43 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = ___0_input;
 		float L_45 = L_44.___x;
 		int32_t L_46;
 		L_46 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)il2cpp_codegen_multiply(L_45, (100.0f))), NULL);
 		L_43->___right = ((float)(((float)L_46)/(100.0f)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:764>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:771>
 		__this->___currentPath = (NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentPath), (void*)(NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7*)NULL);
 		goto IL_0196;
@@ -22350,14 +22387,14 @@ IL_00ea:
 
 IL_0150:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:768>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:775>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_47 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = ___0_input;
 		float L_49 = L_48.___z;
 		int32_t L_50;
 		L_50 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)il2cpp_codegen_multiply(L_49, (100.0f))), NULL);
 		L_47->___forward = ((float)(((float)L_50)/(100.0f)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:769>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:776>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_51 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = ___0_input;
 		float L_53 = L_52.___x;
@@ -22368,7 +22405,7 @@ IL_0150:
 
 IL_0196:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:773>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:780>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = ___0_input;
 		float L_56 = L_55.___z;
 		if ((((float)L_56) == ((float)(0.0f))))
@@ -22385,7 +22422,7 @@ IL_0196:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:775>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:782>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_59 = __this->___serverCharacter;
 		NullCheck(L_59);
 		NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* L_60 = L_59->___NetLifeState;
@@ -22410,7 +22447,7 @@ IL_0196:
 
 IL_01d3:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:777>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:784>
 		PlayerStat_tCF1C57496F4C9EC0424E901CFF02628AF644115F* L_64 = __this->___playerStat;
 		NullCheck(L_64);
 		S_Stats_t8976BA1109823F18D06136E3A6E6E5F2B5F2A86E L_65;
@@ -22423,14 +22460,14 @@ IL_01d3:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:779>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:786>
 		AIBrainDefault_SetInputMovement_mA8797BDA1C22713A3762F9E1CFCB70E4B1C7817A(__this, 2, NULL);
 		goto IL_022f;
 	}
 
 IL_01f8:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:781>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:788>
 		PlayerStat_tCF1C57496F4C9EC0424E901CFF02628AF644115F* L_68 = __this->___playerStat;
 		NullCheck(L_68);
 		S_Stats_t8976BA1109823F18D06136E3A6E6E5F2B5F2A86E L_69;
@@ -22443,27 +22480,27 @@ IL_01f8:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:784>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:791>
 		AIBrainDefault_SetInputMovement_mA8797BDA1C22713A3762F9E1CFCB70E4B1C7817A(__this, ((int32_t)32), NULL);
 		goto IL_022f;
 	}
 
 IL_021e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:788>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:795>
 		AIBrainDefault_SetInputMovement_mA8797BDA1C22713A3762F9E1CFCB70E4B1C7817A(__this, ((int32_t)16), NULL);
 		goto IL_022f;
 	}
 
 IL_0228:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:794>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:801>
 		AIBrainDefault_SetInputMovement_mA8797BDA1C22713A3762F9E1CFCB70E4B1C7817A(__this, 1, NULL);
 	}
 
 IL_022f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:797>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:804>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_72 = ___0_input;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_73;
 		L_73 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
@@ -22475,7 +22512,7 @@ IL_022f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:799>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:806>
 		int32_t L_75;
 		L_75 = AIBrainDefault_get_LastStoreBasicAttack_m29853319315ECA29A4326B3D936322469909508A_inline(__this, NULL);
 		if ((((int32_t)L_75) == ((int32_t)(-1))))
@@ -22484,21 +22521,21 @@ IL_022f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:801>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:808>
 		AIBrainDefault_set_LastStoreBasicAttack_mB3412171DC8263ED83C82C19226ED236559D3E75_inline(__this, (-1), NULL);
 	}
 
 IL_024c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:804>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:811>
 		return;
 	}
 }
-// Method Definition Index: 3795
+// Method Definition Index: 3818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsReachCorner_m5CC50C22D2D14BC30EEBB4E8F7BF92191195BD1F (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:808>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:815>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_0 = __this->___currentPath;
 		if (!L_0)
 		{
@@ -22518,7 +22555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsReachCorner_m5CC50C22D2
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:811>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:818>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
@@ -22546,15 +22583,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsReachCorner_m5CC50C22D2
 
 IL_0059:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:815>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:822>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 3796
+// Method Definition Index: 3819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsInBase_mDBE44A847AF8167C96480DB7A92D97C1F72286F9 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:821>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:828>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -22566,11 +22603,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsInBase_mDBE44A847AF8167
 		return (bool)((((int32_t)((!(((float)L_3) <= ((float)(5.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 3797
+// Method Definition Index: 3820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsHitWall_m2713483BA13D8446F482565826FD2AB4515F2297 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:827>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:834>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_0 = __this->___serverCharacter;
 		NullCheck(L_0);
 		ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* L_1;
@@ -22598,17 +22635,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsHitWall_m2713483BA13D84
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:827>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:834>
 		return (bool)1;
 	}
 
 IL_002d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:828>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:835>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3798
+// Method Definition Index: 3821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnSensorDetected_m10139BAE437873203DAF9F0133CFDD478D6743D2 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_obj, Sensor_t19EEF146915A6C7EC8D5E4708AD810190714944A* ___1_sensor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22619,7 +22656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnSensorDetected_m10139BA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:847>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:854>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_obj;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		RuntimeObject* L_1;
@@ -22640,13 +22677,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnSensorDetected_m10139BA
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:850>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:857>
 		return;
 	}
 
 IL_001e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:853>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:860>
 		uint8_t L_6 = __this->___aIState;
 		if ((!(((uint32_t)L_6) == ((uint32_t)5))))
 		{
@@ -22682,18 +22719,18 @@ IL_001e:
 
 IL_0058:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:855>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:862>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = AIBrainDefault_CheckForTarget_mF25E3EAD2C943125C971C4A9F879DB08E2445419(__this, NULL);
 	}
 
 IL_005f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:858>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:865>
 		return;
 	}
 }
-// Method Definition Index: 3799
+// Method Definition Index: 3822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnSensorLost_mBE9B4A1025C21967C691B8F6E68700CED4CAD7B0 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_obj, Sensor_t19EEF146915A6C7EC8D5E4708AD810190714944A* ___1_sensor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22709,7 +22746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnSensorLost_mBE9B4A1025C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:862>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:869>
 		uint8_t L_0 = __this->___aIState;
 		if ((!(((uint32_t)L_0) == ((uint32_t)5))))
 		{
@@ -22745,7 +22782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnSensorLost_mBE9B4A1025C
 
 IL_003a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:864>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:871>
 		RuntimeObject* L_8 = __this->___targetable;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
@@ -22759,20 +22796,20 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:866>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:873>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 2, NULL);
 	}
 
 IL_0054:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:868>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:875>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = AIBrainDefault_CheckForTarget_mF25E3EAD2C943125C971C4A9F879DB08E2445419(__this, NULL);
 	}
 
 IL_005b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:870>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:877>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = ___0_obj;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_13;
@@ -22786,7 +22823,7 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:875>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:882>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = ___0_obj;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_16;
@@ -22803,7 +22840,7 @@ IL_005b:
 		NullCheck(L_18);
 		L_18->___OnValueChanged = ((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_21, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_18->___OnValueChanged), (void*)((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_21, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:876>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:883>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = ___0_obj;
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_23;
 		L_23 = DictionaryCache_GetCachedHealth_m73F287D46F015DB6F6A3F18B3823FA4A8535F233(L_22, NULL);
@@ -22821,11 +22858,11 @@ IL_005b:
 
 IL_00bc:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:880>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:887>
 		return;
 	}
 }
-// Method Definition Index: 3800
+// Method Definition Index: 3823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* AIBrainDefault_CheckForTarget_mF25E3EAD2C943125C971C4A9F879DB08E2445419 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22847,7 +22884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:884>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:891>
 		RuntimeObject* L_0 = __this->___targetable;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -22861,19 +22898,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:887>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:894>
 		RuntimeObject* L_3 = __this->___targetable;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = InterfaceFuncInvoker0< GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* >::Invoke(3, ITargetable_t470249903CB52B6D617372AF77E13D0445B24E64_il2cpp_TypeInfo_var, L_3);
 		V_0 = L_4;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:889>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:896>
 		RuntimeObject* L_5 = __this->___targetable;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = InterfaceFuncInvoker0< GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* >::Invoke(4, ITargetable_t470249903CB52B6D617372AF77E13D0445B24E64_il2cpp_TypeInfo_var, L_5);
 		V_1 = L_6;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:890>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:897>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_8;
@@ -22902,7 +22939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:892>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:899>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_15;
@@ -22929,9 +22966,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:894>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:901>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:895>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:902>
 		RuntimeObject* L_20 = __this->___targetable;
 		NullCheck(L_20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
@@ -22941,7 +22978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 
 IL_008d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:897>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:904>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_23;
@@ -22975,7 +23012,7 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:899>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:906>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_32;
@@ -22990,7 +23027,7 @@ IL_008d:
 		NullCheck(L_33);
 		L_33->___OnTeamfight = ((Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C*)Castclass((RuntimeObject*)L_36, Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_33->___OnTeamfight), (void*)((Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C*)Castclass((RuntimeObject*)L_36, Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C_il2cpp_TypeInfo_var)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:900>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:907>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = V_0;
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_38;
 		L_38 = DictionaryCache_GetCachedHealth_m73F287D46F015DB6F6A3F18B3823FA4A8535F233(L_37, NULL);
@@ -23008,7 +23045,7 @@ IL_008d:
 
 IL_010a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:902>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:909>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_44;
@@ -23025,7 +23062,7 @@ IL_010a:
 		NullCheck(L_46);
 		L_46->___OnValueChanged = ((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_49, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_46->___OnValueChanged), (void*)((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_49, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:903>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:910>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50 = V_0;
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_51;
 		L_51 = DictionaryCache_GetCachedHealth_m73F287D46F015DB6F6A3F18B3823FA4A8535F233(L_50, NULL);
@@ -23039,7 +23076,7 @@ IL_010a:
 		NullCheck(L_52);
 		L_52->___OnDeath = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_55, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_52->___OnDeath), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_55, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:904>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:911>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56 = V_0;
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_57;
 		L_57 = DictionaryCache_GetCachedHealth_m73F287D46F015DB6F6A3F18B3823FA4A8535F233(L_56, NULL);
@@ -23055,7 +23092,7 @@ IL_010a:
 		NullCheck(L_59);
 		L_59->___OnValueChanged = ((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_62, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_59->___OnValueChanged), (void*)((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_62, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:905>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:912>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_63 = V_0;
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_64;
 		L_64 = DictionaryCache_GetCachedHealth_m73F287D46F015DB6F6A3F18B3823FA4A8535F233(L_63, NULL);
@@ -23069,13 +23106,13 @@ IL_010a:
 		NullCheck(L_65);
 		L_65->___OnDeath = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_68, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_65->___OnDeath), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_68, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:906>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:913>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 	}
 
 IL_01b7:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:908>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:915>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_69 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_70;
@@ -23086,7 +23123,7 @@ IL_01b7:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:910>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:917>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_71 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		RuntimeObject* L_72;
@@ -23122,7 +23159,7 @@ IL_01b7:
 
 IL_01eb:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:912>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:919>
 		il2cpp_codegen_runtime_class_init_inline(TutorialEvent_tEE3291983CDEEE5E6D10DC2094AEB3F59B813676_il2cpp_TypeInfo_var);
 		TutorialEvent_tEE3291983CDEEE5E6D10DC2094AEB3F59B813676* L_80 = ((TutorialEvent_tEE3291983CDEEE5E6D10DC2094AEB3F59B813676_StaticFields*)il2cpp_codegen_static_fields_for(TutorialEvent_tEE3291983CDEEE5E6D10DC2094AEB3F59B813676_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -23134,27 +23171,27 @@ IL_01eb:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:915>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:922>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 		goto IL_0211;
 	}
 
 IL_0201:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:919>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:926>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
 		goto IL_0211;
 	}
 
 IL_020a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:928>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:935>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 2, NULL);
 	}
 
 IL_0211:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:930>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:937>
 		RuntimeObject* L_82 = __this->___targetable;
 		NullCheck(L_82);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_83;
@@ -23162,7 +23199,7 @@ IL_0211:
 		return L_83;
 	}
 }
-// Method Definition Index: 3801
+// Method Definition Index: 3824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnEnemyTowerAttackHero_m233E9E3197F52D1C275F25E1B17D45772944D46D (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_tower, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23174,7 +23211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnEnemyTowerAttackHero_m2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:935>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:942>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_tower;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 		RuntimeObject* L_1;
@@ -23193,17 +23230,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnEnemyTowerAttackHero_m2
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:937>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:944>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
 	}
 
 IL_001f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:939>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:946>
 		return;
 	}
 }
-// Method Definition Index: 3802
+// Method Definition Index: 3825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnAllyInTeamFight_mDE3ABF007F0F2139D6A027D450B108FC45148890 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_ally, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23214,7 +23251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnAllyInTeamFight_mDE3ABF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:957>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:964>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_ally;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -23260,16 +23297,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnAllyInTeamFight_mDE3ABF
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:959>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:966>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 7, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:960>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:967>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = ___0_ally;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
 		L_14 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_13, NULL);
 		bool L_15;
 		L_15 = AIBrainDefault_GoTo_m7167980A2D4689D3AF41EBA37659CB66122B8677(__this, L_14, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:961>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:968>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_16 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_16, __this, (intptr_t)((void*)AIBrainDefault_U3COnAllyInTeamFightU3Eb__94_0_mAB786A259BE9B07C7016C4846DA3DED0D16C4697_RuntimeMethod_var), NULL);
 		__this->___OnReachCorner = L_16;
@@ -23278,11 +23315,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnAllyInTeamFight_mDE3ABF
 
 IL_007b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:963>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:970>
 		return;
 	}
 }
-// Method Definition Index: 3803
+// Method Definition Index: 3826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_DefendTower_m3E6F513E185A487181A5D51B108D7385F3F93D03 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_tower, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23293,7 +23330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_DefendTower_m3E6F513E185A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:969>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:976>
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_0 = __this->___health;
 		NullCheck(L_0);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_1 = L_0->___CurrentHealth;
@@ -23312,15 +23349,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_DefendTower_m3E6F513E185A
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:969>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:976>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:970>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:977>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 8, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:971>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:978>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___0_tower;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -23330,16 +23367,16 @@ IL_002b:
 		L_8 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_7, 0, NULL);
 		bool L_9;
 		L_9 = AIBrainDefault_GoTo_m7167980A2D4689D3AF41EBA37659CB66122B8677(__this, L_8, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:972>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:979>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, __this, (intptr_t)((void*)AIBrainDefault_U3CDefendTowerU3Eb__95_0_m9B418F8165DDCCF32B29F3CE1ECEE9324EE242B4_RuntimeMethod_var), NULL);
 		__this->___OnReachCorner = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OnReachCorner), (void*)L_10);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:974>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:981>
 		return;
 	}
 }
-// Method Definition Index: 3804
+// Method Definition Index: 3827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_HandleBasicAttack_mBCA7122009AB3B61143ABE185513E22C92820651 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23351,10 +23388,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_HandleBasicAttack_mBCA712
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:978>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:979>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:980>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:981>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:985>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:986>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:987>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:988>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_0 = __this->___serverCharacter;
 		NullCheck(L_0);
 		CrowdControlController_t5DD2179FA8945828252F51EA1490EC1558716CB1* L_1;
@@ -23414,17 +23451,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_HandleBasicAttack_mBCA712
 
 IL_005c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:981>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:988>
 		return;
 	}
 
 IL_005d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:983>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:990>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_15 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		int32_t L_16 = ___0_i;
 		L_15->___basicAttackTarget = (uint8_t)((int32_t)(uint8_t)L_16);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:985>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:992>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_17 = __this->___serverCharacter;
 		NullCheck(L_17);
 		ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* L_18;
@@ -23451,13 +23488,13 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:985>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:992>
 		return;
 	}
 
 IL_0091:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:987>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:994>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_23 = __this->___serverCharacter;
 		NullCheck(L_23);
 		ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* L_24;
@@ -23486,13 +23523,13 @@ IL_0091:
 
 IL_00b5:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:987>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:994>
 		return;
 	}
 
 IL_00b6:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:989>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:996>
 		int32_t L_29 = __this->___previousBasicAttack;
 		int32_t L_30 = __this->___currentBasicAttack;
 		if ((!(((uint32_t)L_29) == ((uint32_t)L_30))))
@@ -23501,13 +23538,13 @@ IL_00b6:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:989>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:996>
 		return;
 	}
 
 IL_00c5:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:991>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:998>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_31 = __this->___cacheCurrentBasicAttackCoroutine;
 		if (L_31)
 		{
@@ -23515,7 +23552,7 @@ IL_00c5:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:994>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1001>
 		int32_t L_32 = ___0_i;
 		RuntimeObject* L_33;
 		L_33 = AIBrainDefault_SetBasicAttack_mEE6340371364F7392647B99608C2AEFA78480DF1(__this, L_32, NULL);
@@ -23527,14 +23564,14 @@ IL_00c5:
 
 IL_00e0:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:998>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1005>
 		int32_t L_35 = ___0_i;
 		AIBrainDefault_set_LastStoreBasicAttack_mB3412171DC8263ED83C82C19226ED236559D3E75_inline(__this, L_35, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1001>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1008>
 		return;
 	}
 }
-// Method Definition Index: 3805
+// Method Definition Index: 3828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_SetBasicAttack_mEE6340371364F7392647B99608C2AEFA78480DF1 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23553,11 +23590,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_SetBasicAttack_
 		return L_1;
 	}
 }
-// Method Definition Index: 3806
+// Method Definition Index: 3829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetBasicAttack_m8DA8383DD47B3E00FE5706C28FDB67252F2729B5 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1029>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1036>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___cacheCurrentBasicAttackCoroutine;
 		if (!L_0)
 		{
@@ -23565,16 +23602,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetBasicAttack_m8DA8383
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1031>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1038>
 		int32_t L_1 = __this->___currentBasicAttack;
 		__this->___previousBasicAttack = L_1;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1032>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1039>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___cacheCurrentBasicAttackCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_2, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1033>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1040>
 		__this->___cacheCurrentBasicAttackCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cacheCurrentBasicAttackCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1035>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1042>
 		int32_t L_3 = __this->___currentBasicAttack;
 		if ((!(((uint32_t)L_3) == ((uint32_t)3))))
 		{
@@ -23582,25 +23619,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetBasicAttack_m8DA8383
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1037>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1044>
 		__this->___currentBasicAttack = 1;
 		return;
 	}
 
 IL_0038:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1041>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1048>
 		int32_t L_4 = __this->___currentBasicAttack;
 		__this->___currentBasicAttack = ((int32_t)il2cpp_codegen_add(L_4, 1));
 	}
 
 IL_0046:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1044>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1051>
 		return;
 	}
 }
-// Method Definition Index: 3807
+// Method Definition Index: 3830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_BasicAttack_m03ABA1D223454B9EE7EF902D9BBCCDC2601EDB1F (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23612,11 +23649,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_BasicAttack_m03ABA1D22345
 	AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* G_B3_1 = NULL;
 	AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* G_B3_2 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1048>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1055>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		AIBrainDefault_MovementJoystick_m6A2ADB45623B0C31ACDD16C32B8B53EA68EB1364(__this, L_0, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1049>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1056>
 		int32_t L_1 = __this->___currentBasicAttack;
 		if ((((int32_t)L_1) > ((int32_t)3)))
 		{
@@ -23655,11 +23692,11 @@ IL_002a:
 		int32_t L_6 = V_0;
 		NullCheck(G_B3_2);
 		AIBrainDefault_HandleBasicAttack_mBCA7122009AB3B61143ABE185513E22C92820651(G_B3_2, L_6, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1050>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1057>
 		return;
 	}
 }
-// Method Definition Index: 3808
+// Method Definition Index: 3831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_UpdatePlayerSkillUIPositionClientRpc_m19B2E10FB2A75A6668368D7F398E559F5660702A (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, int32_t ___1_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23781,7 +23818,7 @@ IL_00d3:
 IL_00d4:
 	{
 		((NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE*)__this)->_____rpc_exec_stage = ((int32_t)0);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1055>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1062>
 		PlayerSkillUI_t4E2BB05EAF32037239B4CD5751F3448B42BDA094* L_19 = __this->___playerSkillUI;
 		NullCheck(L_19);
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_20 = L_19->___skillMarker;
@@ -23789,11 +23826,11 @@ IL_00d4:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = ___0_position;
 		NullCheck(L_20);
 		List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C(L_20, L_21, L_22, List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1056>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1063>
 		return;
 	}
 }
-// Method Definition Index: 3809
+// Method Definition Index: 3832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnActivateSkill_m65E004C75841E3EB7410DB157E2144A2D41E8E6B (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23807,10 +23844,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnActivateSkill_m65E004C7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1060>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1061>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1062>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1063>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1067>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1068>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1069>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1070>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_0 = __this->___serverCharacter;
 		NullCheck(L_0);
 		CrowdControlController_t5DD2179FA8945828252F51EA1490EC1558716CB1* L_1;
@@ -23873,13 +23910,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnActivateSkill_m65E004C7
 
 IL_0062:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1063>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1070>
 		return;
 	}
 
 IL_0063:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1065>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1072>
 		RuntimeObject* L_16 = __this->___targetable;
 		NullCheck(L_16);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
@@ -23893,7 +23930,7 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1067>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1074>
 		PlayerSkillUI_t4E2BB05EAF32037239B4CD5751F3448B42BDA094* L_19 = __this->___playerSkillUI;
 		NullCheck(L_19);
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_20 = L_19->___skillMarker;
@@ -23910,7 +23947,7 @@ IL_0063:
 		L_25 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_24, NULL);
 		NullCheck(L_20);
 		List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C(L_20, L_21, L_25, List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1068>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1075>
 		PlayerSkillUI_t4E2BB05EAF32037239B4CD5751F3448B42BDA094* L_26 = __this->___playerSkillUI;
 		NullCheck(L_26);
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_27 = L_26->___skillMarker;
@@ -23925,7 +23962,7 @@ IL_0063:
 
 IL_00b6:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1072>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1079>
 		RuntimeObject* L_31 = __this->___targetable;
 		NullCheck(L_31);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32;
@@ -23939,7 +23976,7 @@ IL_00b6:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1074>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1081>
 		PlayerSkillUI_t4E2BB05EAF32037239B4CD5751F3448B42BDA094* L_34 = __this->___playerSkillUI;
 		NullCheck(L_34);
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_35 = L_34->___skillMarker;
@@ -23956,7 +23993,7 @@ IL_00b6:
 		L_40 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_39, NULL);
 		NullCheck(L_35);
 		List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C(L_35, L_36, L_40, List_1_set_Item_m35C8C18BF5DF9A5C8867BF0C872BC39275A41A9C_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1075>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1082>
 		PlayerSkillUI_t4E2BB05EAF32037239B4CD5751F3448B42BDA094* L_41 = __this->___playerSkillUI;
 		NullCheck(L_41);
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_42 = L_41->___skillMarker;
@@ -23971,13 +24008,13 @@ IL_00b6:
 
 IL_0109:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1078>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1085>
 		return;
 	}
 
 IL_010a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1080>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1087>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_46 = __this->___serverCharacter;
 		NullCheck(L_46);
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_47;
@@ -23997,7 +24034,7 @@ IL_010a:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1082>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1089>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_52 = __this->___serverCharacter;
 		NullCheck(L_52);
 		ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* L_53;
@@ -24026,9 +24063,9 @@ IL_010a:
 
 IL_014b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1084>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1091>
 		AIBrainDefault_set_LastStoreBasicAttack_mB3412171DC8263ED83C82C19226ED236559D3E75_inline(__this, (-1), NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1085>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1092>
 		PlayerSkillUI_t4E2BB05EAF32037239B4CD5751F3448B42BDA094* L_58 = __this->___playerSkillUI;
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_59 = __this->___characterAbility;
 		NullCheck(L_59);
@@ -24044,7 +24081,7 @@ IL_014b:
 		L_64 = VirtualFuncInvoker0< float >::Invoke(17, L_63);
 		NullCheck(L_58);
 		PlayerSkillUI_DeactiveAllGuideIndicator_m4D9AE7F0775896FDE798A4493E767BB9441D1A83(L_58, (bool)0, L_64, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1086>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1093>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_65 = __this->___cacheSkillCoroutine;
 		if (L_65)
 		{
@@ -24052,7 +24089,7 @@ IL_014b:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1088>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1095>
 		int32_t L_66 = ___0_i;
 		RuntimeObject* L_67;
 		L_67 = AIBrainDefault_ExecuteQueueSkillAfterAnimation_m0A52F21D40A4A9F16A4F11E4265871B29FE3CCEA(__this, L_66, NULL);
@@ -24064,13 +24101,13 @@ IL_014b:
 
 IL_0194:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1091>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1098>
 		return;
 	}
 
 IL_0195:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1095>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1102>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_69 = __this->___serverCharacter;
 		NullCheck(L_69);
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_70;
@@ -24090,7 +24127,7 @@ IL_0195:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1097>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1104>
 		int32_t L_75 = ___0_i;
 		RuntimeObject* L_76;
 		L_76 = AIBrainDefault_SetInputPauseMovement_m60CA0F8A952F5262D4ACB8AB05C1A3316670961F(__this, L_75, NULL);
@@ -24103,13 +24140,13 @@ IL_0195:
 
 IL_01c7:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1101>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1108>
 		__this->___canMove = (bool)1;
 	}
 
 IL_01ce:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1104>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1111>
 		int32_t L_78 = ___0_i;
 		RuntimeObject* L_79;
 		L_79 = AIBrainDefault_SetInputSkill_m221ED9D596507F66ECCEBCC4C6222FDAE41A1F8C(__this, L_78, NULL);
@@ -24117,13 +24154,13 @@ IL_01ce:
 		L_80 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_79, NULL);
 		__this->___cacheCurrentSkillCoroutine = L_80;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cacheCurrentSkillCoroutine), (void*)L_80);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1107>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1114>
 		AIBrainDefault_ResetBasicAttack_m8DA8383DD47B3E00FE5706C28FDB67252F2729B5(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1108>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1115>
 		return;
 	}
 }
-// Method Definition Index: 3810
+// Method Definition Index: 3833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_SetInputPauseMovement_m60CA0F8A952F5262D4ACB8AB05C1A3316670961F (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24142,7 +24179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_SetInputPauseMo
 		return L_1;
 	}
 }
-// Method Definition Index: 3811
+// Method Definition Index: 3834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_ExecuteQueueSkillAfterAnimation_m0A52F21D40A4A9F16A4F11E4265871B29FE3CCEA (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24165,19 +24202,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_ExecuteQueueSki
 		return L_2;
 	}
 }
-// Method Definition Index: 3812
+// Method Definition Index: 3835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetState_m7A666F4C17E24EA0D4A938B8B6B2C125FD51AF0D (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1148>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1155>
 		AIBrainDefault_ResetMoveState_mEA07AACDF79CB20AC1587309E5AD56212C1B6DB7(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1150>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1157>
 		AIBrainDefault_ResetAbilityState_mD1D8242C6715BC3AD2E03C9D6F29E2867BEE7728(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1152>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1159>
 		AIBrainDefault_ResetBasicAttackState_mA14F008C1D6FFD3C09FE1EB1D61EFBD829E94334(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1154>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1161>
 		AIBrainDefault_ResetRecallState_mE8912CA7AF3F78F168C529D2BCAFFAE8EF9A48D5(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1156>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1163>
 		bool L_0 = __this->___canMove;
 		if (L_0)
 		{
@@ -24185,13 +24222,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetState_m7A666F4C17E24
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1158>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1165>
 		__this->___canMove = (bool)1;
 	}
 
 IL_0027:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1161>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1168>
 		int32_t L_1;
 		L_1 = AIBrainDefault_get_LastStoreBasicAttack_m29853319315ECA29A4326B3D936322469909508A_inline(__this, NULL);
 		if ((((int32_t)L_1) == ((int32_t)(-1))))
@@ -24200,13 +24237,13 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1163>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1170>
 		AIBrainDefault_set_LastStoreBasicAttack_mB3412171DC8263ED83C82C19226ED236559D3E75_inline(__this, (-1), NULL);
 	}
 
 IL_0037:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1166>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1173>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___cacheCurrentSkillCoroutine;
 		if (!L_2)
 		{
@@ -24214,25 +24251,25 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1168>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1175>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___cacheCurrentSkillCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_3, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1169>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1176>
 		__this->___cacheCurrentSkillCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cacheCurrentSkillCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
 	}
 
 IL_0052:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1171>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1178>
 		return;
 	}
 }
-// Method Definition Index: 3813
+// Method Definition Index: 3836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetRecallState_mE8912CA7AF3F78F168C529D2BCAFFAE8EF9A48D5 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1175>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1182>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_0 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		uint8_t L_1 = L_0->___recallAbilityState;
 		if ((((int32_t)L_1) == ((int32_t)4)))
@@ -24241,24 +24278,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetRecallState_mE8912CA
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1177>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1184>
 		__this->___isRecall = (bool)0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1178>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1185>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_2 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_2->___recallAbilityState = 4;
 	}
 
 IL_0021:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1180>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1187>
 		return;
 	}
 }
-// Method Definition Index: 3814
+// Method Definition Index: 3837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetBasicAttackState_mA14F008C1D6FFD3C09FE1EB1D61EFBD829E94334 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1184>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1191>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_0 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		uint8_t L_1 = L_0->___basicAttackAbilityState;
 		if (!L_1)
@@ -24267,22 +24304,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetBasicAttackState_mA1
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1186>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1193>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_2 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_2->___basicAttackAbilityState = 0;
 	}
 
 IL_0019:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1188>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1195>
 		return;
 	}
 }
-// Method Definition Index: 3815
+// Method Definition Index: 3838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetMoveState_mEA07AACDF79CB20AC1587309E5AD56212C1B6DB7 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1192>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1199>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_0 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		uint8_t L_1 = L_0->___movementState;
 		if ((((int32_t)L_1) == ((int32_t)1)))
@@ -24291,22 +24328,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetMoveState_mEA07AACDF
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1194>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1201>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_2 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_2->___movementState = 1;
 	}
 
 IL_001a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1196>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1203>
 		return;
 	}
 }
-// Method Definition Index: 3816
+// Method Definition Index: 3839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetAbilityState_mD1D8242C6715BC3AD2E03C9D6F29E2867BEE7728 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1200>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1207>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_0 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		int16_t L_1 = L_0->___skillAbilityState;
 		if (!L_1)
@@ -24315,18 +24352,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetAbilityState_mD1D824
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1202>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1209>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_2 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_2->___skillAbilityState = 0;
 	}
 
 IL_0019:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1204>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1211>
 		return;
 	}
 }
-// Method Definition Index: 3817
+// Method Definition Index: 3840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_SetInputSkill_m221ED9D596507F66ECCEBCC4C6222FDAE41A1F8C (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24349,7 +24386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_SetInputSkill_m
 		return L_2;
 	}
 }
-// Method Definition Index: 3818
+// Method Definition Index: 3841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AIBrainDefault_GetSkillMarkerPosition_m49B2A328B290E3766863064F32E5962CCD56478E (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24365,7 +24402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B3_0 = NULL;
 	AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* G_B3_1 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1316>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1323>
 		RuntimeObject* L_0 = __this->___targetable;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -24400,14 +24437,14 @@ IL_0018:
 		NullCheck(G_B3_1);
 		G_B3_1->___currentTarget = G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B3_1->___currentTarget), (void*)G_B3_0);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1334>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1341>
 		int32_t L_4 = ___0_i;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = AIBrainDefault_SetSkillMarkerInput_mF8C01C55AC90046005DAE89906AA2BFEDFF8856C(__this, L_4, 1, NULL);
 		return L_5;
 	}
 }
-// Method Definition Index: 3819
+// Method Definition Index: 3842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AIBrainDefault_SetSkillMarkerInput_mF8C01C55AC90046005DAE89906AA2BFEDFF8856C (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, int32_t ___1_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24422,7 +24459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1341>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1348>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___currentTarget;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -24433,7 +24470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1343>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1350>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___currentTarget;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -24449,10 +24486,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_4, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1344>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1351>
 		float L_8;
 		L_8 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_0), NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1346>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1353>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_9 = __this->___characterAbility;
 		NullCheck(L_9);
 		List_1_t6EA8B3C0BBC282E2F8507203C3491F7BF623B0EF* L_10 = L_9->___abilities;
@@ -24471,7 +24508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1348>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1355>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = __this->___currentTarget;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -24484,7 +24521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0067:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1352>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1359>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
 		L_18 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_18);
@@ -24508,13 +24545,13 @@ IL_0067:
 		L_27 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_20, L_26, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
 		L_28 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_19, L_27, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1353>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1360>
 		return L_28;
 	}
 
 IL_009f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1356>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1363>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = __this->___currentTarget;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_30;
@@ -24525,7 +24562,7 @@ IL_009f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1358>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1365>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
 		L_31 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_31);
@@ -24548,13 +24585,13 @@ IL_009f:
 
 IL_00da:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1361>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1368>
 		il2cpp_codegen_initobj((&V_1), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_1;
 		return L_39;
 	}
 }
-// Method Definition Index: 3820
+// Method Definition Index: 3843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_ResetCharge_m9587DD4797638381C7181764DC895834710D877E (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24577,7 +24614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_ResetCharge_m95
 		return L_2;
 	}
 }
-// Method Definition Index: 3821
+// Method Definition Index: 3844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetRechargeSkill_m6F8C2578C70C952D5F74D6CB58C461F2CB05AE48 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24587,7 +24624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetRechargeSkill_m6F8C2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1378>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1385>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_0 = __this->___characterAbility;
 		NullCheck(L_0);
 		List_1_t6EA8B3C0BBC282E2F8507203C3491F7BF623B0EF* L_1 = L_0->___abilities;
@@ -24604,29 +24641,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetRechargeSkill_m6F8C2
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1378>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1385>
 		return;
 	}
 
 IL_001a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1379>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1386>
 		__this->___isCharging = (bool)0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1380>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1387>
 		return;
 	}
 }
-// Method Definition Index: 3822
+// Method Definition Index: 3845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ResetMultitap_m2E419EF30F697F07B5441DAB10131BBB0EF6F886 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1384>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1391>
 		__this->___multitap = (bool)0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1385>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1392>
 		return;
 	}
 }
-// Method Definition Index: 3823
+// Method Definition Index: 3846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ExecuteNormalSkill_m0C7EC8CD8B24B7B99A08997087EE05B1B14C981E (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
@@ -24653,41 +24690,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ExecuteNormalSkill_m0C7EC
 
 IL_0013:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1392>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1399>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_1 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_1->___skillAbilityState = 2;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1393>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1400>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_2 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_2->___abilitySkill = (uint8_t)0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1394>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1401>
 		return;
 	}
 
 IL_002c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1396>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1403>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_3 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_3->___skillAbilityState = ((int32_t)16);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1397>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1404>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_4 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_4->___abilitySkill = (uint8_t)1;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1398>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1405>
 		return;
 	}
 
 IL_0046:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1400>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1407>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_5 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_5->___skillAbilityState = ((int32_t)64);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1401>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1408>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_6 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_6->___abilitySkill = (uint8_t)2;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1406>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1413>
 		return;
 	}
 }
-// Method Definition Index: 3824
+// Method Definition Index: 3847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ExecuteMultitapSkill_m881B765427CAD905A8CA81A0EFE82E49C3F18248 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
@@ -24714,41 +24751,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_ExecuteMultitapSkill_m881
 
 IL_0013:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1413>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1420>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_1 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_1->___skillAbilityState = 8;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1414>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1421>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_2 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_2->___abilitySkill = (uint8_t)0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1415>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1422>
 		return;
 	}
 
 IL_002c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1417>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1424>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_3 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_3->___skillAbilityState = ((int32_t)32);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1418>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1425>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_4 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_4->___abilitySkill = (uint8_t)1;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1419>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1426>
 		return;
 	}
 
 IL_0046:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1421>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1428>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_5 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_5->___skillAbilityState = ((int32_t)128);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1422>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1429>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_6 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		L_6->___abilitySkill = (uint8_t)2;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1427>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1434>
 		return;
 	}
 }
-// Method Definition Index: 3825
+// Method Definition Index: 3848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill1_mD3F909A7E6DB8B3B3A7D3C9466A25179F000F3D7 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24758,7 +24795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill1_mD3F909A7E6DB8B3B3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1431>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1438>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_0 = __this->___characterAbility;
 		NullCheck(L_0);
 		List_1_t6EA8B3C0BBC282E2F8507203C3491F7BF623B0EF* L_1 = L_0->___abilities;
@@ -24793,23 +24830,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill1_mD3F909A7E6DB8B3B3
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1433>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1440>
 		CharacterTargetHandler_t8F12955F37726CFBA860BD52B424D31AC38431E6* L_10 = __this->___characterTargetHandler;
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188 L_11;
 		L_11 = AIBrainDefault_GetInput_m768A1D2D3DE2A07B6B09D786991537C7AF5E06BC_inline(__this, NULL);
 		NullCheck(L_10);
 		CharacterTargetHandler_FindTarget_m908F924083D1A2F364A0BFF858205D251607821A(L_10, L_11, (bool)1, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1434>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1441>
 		AIBrainDefault_OnActivateSkill_m65E004C75841E3EB7410DB157E2144A2D41E8E6B(__this, 0, NULL);
 	}
 
 IL_0054:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1436>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1443>
 		return;
 	}
 }
-// Method Definition Index: 3826
+// Method Definition Index: 3849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill2_m971F88EB8386B76349CA8C7E0ED4DA1451D62F5E (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24819,7 +24856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill2_m971F88EB8386B7634
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1440>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1447>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_0 = __this->___characterAbility;
 		NullCheck(L_0);
 		List_1_t6EA8B3C0BBC282E2F8507203C3491F7BF623B0EF* L_1 = L_0->___abilities;
@@ -24854,23 +24891,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill2_m971F88EB8386B7634
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1442>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1449>
 		CharacterTargetHandler_t8F12955F37726CFBA860BD52B424D31AC38431E6* L_10 = __this->___characterTargetHandler;
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188 L_11;
 		L_11 = AIBrainDefault_GetInput_m768A1D2D3DE2A07B6B09D786991537C7AF5E06BC_inline(__this, NULL);
 		NullCheck(L_10);
 		CharacterTargetHandler_FindTarget_m908F924083D1A2F364A0BFF858205D251607821A(L_10, L_11, (bool)1, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1443>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1450>
 		AIBrainDefault_OnActivateSkill_m65E004C75841E3EB7410DB157E2144A2D41E8E6B(__this, 1, NULL);
 	}
 
 IL_0054:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1445>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1452>
 		return;
 	}
 }
-// Method Definition Index: 3827
+// Method Definition Index: 3850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill3_m72F585FB03F776C47BB5EBED94FDC1E6BB2718F4 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24880,7 +24917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill3_m72F585FB03F776C47
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1449>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1456>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_0 = __this->___characterAbility;
 		NullCheck(L_0);
 		List_1_t6EA8B3C0BBC282E2F8507203C3491F7BF623B0EF* L_1 = L_0->___abilities;
@@ -24915,27 +24952,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Skill3_m72F585FB03F776C47
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1451>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1458>
 		CharacterTargetHandler_t8F12955F37726CFBA860BD52B424D31AC38431E6* L_10 = __this->___characterTargetHandler;
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188 L_11;
 		L_11 = AIBrainDefault_GetInput_m768A1D2D3DE2A07B6B09D786991537C7AF5E06BC_inline(__this, NULL);
 		NullCheck(L_10);
 		CharacterTargetHandler_FindTarget_m908F924083D1A2F364A0BFF858205D251607821A(L_10, L_11, (bool)1, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1452>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1459>
 		AIBrainDefault_OnActivateSkill_m65E004C75841E3EB7410DB157E2144A2D41E8E6B(__this, 2, NULL);
 	}
 
 IL_0054:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1454>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1461>
 		return;
 	}
 }
-// Method Definition Index: 3828
+// Method Definition Index: 3851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnRecallButtonPressed_m2573BE906FFB332C9CD20B65CCE499957997FA9B (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1458>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1465>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_0 = __this->___serverCharacter;
 		NullCheck(L_0);
 		NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* L_1 = L_0->___NetLifeState;
@@ -24951,13 +24988,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnRecallButtonPressed_m25
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1458>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1465>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1459>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1466>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_4 = __this->___serverCharacter;
 		NullCheck(L_4);
 		ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* L_5;
@@ -25001,22 +25038,22 @@ IL_003d:
 
 IL_004f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1459>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1466>
 		return;
 	}
 
 IL_0050:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1460>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1467>
 		RuntimeObject* L_13;
 		L_13 = AIBrainDefault_StartRecall_m40D1D63FC7D65DBA1B6ACE52EDD20A8CD496953C(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
 		L_14 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_13, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1461>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1468>
 		return;
 	}
 }
-// Method Definition Index: 3829
+// Method Definition Index: 3852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_StartRecall_m40D1D63FC7D65DBA1B6ACE52EDD20A8CD496953C (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25035,27 +25072,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_StartRecall_m40
 		return L_1;
 	}
 }
-// Method Definition Index: 3830
+// Method Definition Index: 3853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnRecoveryButtonPressed_m81684607C59D193BF78414A247ACB79D6029076A (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1483>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1490>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_0 = __this->___characterAbility;
 		NullCheck(L_0);
 		CharacterAbility_OnActiveRecovery_m1A68E64F6E300DF7BB753CEC68BD79A2E01EF388(L_0, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1484>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1491>
 		return;
 	}
 }
-// Method Definition Index: 3831
+// Method Definition Index: 3854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnClickSpellButtonPressed_m07A15AB83BF8A7F77D511DC9AD00D21EE544BFC7 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1488>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1495>
 		return;
 	}
 }
-// Method Definition Index: 3832
+// Method Definition Index: 3855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* AIBrainDefault_GetNextWayPoint_mAD8443706A758D7BB8E94F81FD76B67025D988FC (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25083,7 +25120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B20_0 = NULL;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B26_0 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1493>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1500>
 		PlayerMainController_t30CF592C1DCE4F8AAF282FF7339FC5CC7894380E* L_0 = __this->___playerMainController;
 		if (L_0)
 		{
@@ -25099,9 +25136,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 
 IL_0014:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1494>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1501>
 		V_0 = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1495>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1502>
 		PlayerMainController_t30CF592C1DCE4F8AAF282FF7339FC5CC7894380E* L_2 = __this->___playerMainController;
 		NullCheck(L_2);
 		uint8_t L_3;
@@ -25112,7 +25149,7 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1498>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1505>
 		int32_t L_4 = __this->___chooseLane;
 		if (L_4)
 		{
@@ -25120,17 +25157,17 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1500>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1507>
 		PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52* L_5 = ((PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52_StaticFields*)il2cpp_codegen_static_fields_for(PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_5);
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_6 = L_5->___minionBlueTopWaypoints;
 		__this->___waypoints = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___waypoints), (void*)L_6);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1501>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1508>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_7;
 		L_7 = AIBrainDefault_GetUpperEnemyTowers_m0F209998D7E837C0EFBD3240CC23EAE4CAC9BF3B(__this, NULL);
 		V_2 = L_7;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1502>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1509>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = V_2;
 		NullCheck(L_8);
 		if (!(((RuntimeArray*)L_8)->max_length))
@@ -25178,7 +25215,7 @@ IL_005d:
 
 IL_0063:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1506>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1513>
 		int32_t L_17 = __this->___chooseLane;
 		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
 		{
@@ -25186,17 +25223,17 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1508>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1515>
 		PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52* L_18 = ((PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52_StaticFields*)il2cpp_codegen_static_fields_for(PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_18);
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_19 = L_18->___minionBlueBottomWaypoints;
 		__this->___waypoints = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___waypoints), (void*)L_19);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1509>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1516>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_20;
 		L_20 = AIBrainDefault_GetBottomEnemyTowers_m273CA589E8B1D041922C2F40F8613A09FE6AC421(__this, NULL);
 		V_3 = L_20;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1510>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1517>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_21 = V_3;
 		NullCheck(L_21);
 		if (!(((RuntimeArray*)L_21)->max_length))
@@ -25244,7 +25281,7 @@ IL_00a0:
 
 IL_00a3:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1516>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1523>
 		int32_t L_30 = __this->___chooseLane;
 		if (L_30)
 		{
@@ -25252,17 +25289,17 @@ IL_00a3:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1518>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1525>
 		PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52* L_31 = ((PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52_StaticFields*)il2cpp_codegen_static_fields_for(PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_31);
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_32 = L_31->___minionRedTopWaypoints;
 		__this->___waypoints = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___waypoints), (void*)L_32);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1519>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1526>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_33;
 		L_33 = AIBrainDefault_GetUpperEnemyTowers_m0F209998D7E837C0EFBD3240CC23EAE4CAC9BF3B(__this, NULL);
 		V_4 = L_33;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1520>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1527>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_34 = V_4;
 		NullCheck(L_34);
 		if (!(((RuntimeArray*)L_34)->max_length))
@@ -25310,7 +25347,7 @@ IL_00e0:
 
 IL_00e3:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1523>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1530>
 		int32_t L_43 = __this->___chooseLane;
 		if ((!(((uint32_t)L_43) == ((uint32_t)1))))
 		{
@@ -25318,17 +25355,17 @@ IL_00e3:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1525>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1532>
 		PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52* L_44 = ((PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52_StaticFields*)il2cpp_codegen_static_fields_for(PointsReference_t1753512858E3C8A662FB2B186DE29664E0B44D52_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_44);
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_45 = L_44->___minionRedBottomWaypoints;
 		__this->___waypoints = L_45;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___waypoints), (void*)L_45);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1526>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1533>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_46;
 		L_46 = AIBrainDefault_GetBottomEnemyTowers_m273CA589E8B1D041922C2F40F8613A09FE6AC421(__this, NULL);
 		V_5 = L_46;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1527>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1534>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_47 = V_5;
 		NullCheck(L_47);
 		if (!(((RuntimeArray*)L_47)->max_length))
@@ -25375,9 +25412,9 @@ IL_0121:
 
 IL_0122:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1531>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1538>
 		V_1 = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1532>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1539>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_56 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_57;
@@ -25398,7 +25435,7 @@ IL_0122:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1534>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1541>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60;
 		L_60 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_60);
@@ -25411,7 +25448,7 @@ IL_0122:
 		float L_64;
 		L_64 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_61, L_63, NULL);
 		V_6 = L_64;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1535>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1542>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_65;
 		L_65 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_65);
@@ -25426,14 +25463,14 @@ IL_0122:
 		L_69 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_68, NULL);
 		float L_70;
 		L_70 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_66, L_69, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1537>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1544>
 		V_7 = 0;
 		goto IL_021b;
 	}
 
 IL_0183:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1539>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1546>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_71 = V_0;
 		NullCheck(L_71);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_72;
@@ -25448,7 +25485,7 @@ IL_0183:
 		L_76 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_75, NULL);
 		float L_77;
 		L_77 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_72, L_76, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1540>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1547>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_78 = __this->___waypoints;
 		NullCheck(L_78);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_79;
@@ -25466,7 +25503,7 @@ IL_0183:
 		L_84 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_83, NULL);
 		float L_85;
 		L_85 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_80, L_84, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1541>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1548>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_86;
 		L_86 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_86);
@@ -25483,7 +25520,7 @@ IL_0183:
 		float L_92;
 		L_92 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_87, L_91, NULL);
 		V_8 = L_92;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1543>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1550>
 		float L_93 = V_6;
 		if ((!(((float)L_77) < ((float)L_93))))
 		{
@@ -25505,27 +25542,27 @@ IL_0183:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1545>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1552>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_98 = __this->___waypoints;
 		int32_t L_99 = V_7;
 		NullCheck(L_98);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_100;
 		L_100 = List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA(L_98, L_99, List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
 		V_1 = L_100;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1546>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1553>
 		goto IL_022d;
 	}
 
 IL_0215:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1537>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1544>
 		int32_t L_101 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_101, 1));
 	}
 
 IL_021b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1537>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1544>
 		int32_t L_102 = V_7;
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_103 = __this->___waypoints;
 		NullCheck(L_103);
@@ -25539,7 +25576,7 @@ IL_021b:
 
 IL_022d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1551>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1558>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_105 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_106;
@@ -25560,7 +25597,7 @@ IL_022d:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1553>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1560>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_109 = __this->___waypoints;
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_110 = __this->___waypoints;
 		NullCheck(L_110);
@@ -25577,16 +25614,16 @@ IL_022d:
 
 IL_0269:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1556>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1563>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_114 = V_1;
 		__this->___targetDestination = L_114;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetDestination), (void*)L_114);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1557>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1564>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_115 = V_1;
 		return L_115;
 	}
 }
-// Method Definition Index: 3833
+// Method Definition Index: 3856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnLevelUp_m17B71F69CF3BE4262874758C658D20573154ADDD (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, RuntimeObject* ___0_sender, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___1_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25598,7 +25635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnLevelUp_m17B71F69CF3BE4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1562>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1569>
 		il2cpp_codegen_runtime_class_init_inline(NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468_il2cpp_TypeInfo_var);
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0;
 		L_0 = NetworkManager_get_Singleton_m0F86FB1D52C8EDB866101D9CAE0CAA1D7DAE2266_inline(NULL);
@@ -25611,11 +25648,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnLevelUp_m17B71F69CF3BE4
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1564>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1571>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_2 = __this->___characterAbility;
 		NullCheck(L_2);
 		CharacterAbility_UpgradeSkillAI_mF57B0E04731699306694F78104DE0B58B9A22BEB(L_2, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1565>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1572>
 		TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF* L_3 = ((TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_StaticFields*)il2cpp_codegen_static_fields_for(TutorialManager_tA517EF826FE03300C6A8ED492158E82A0E210CCF_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -25635,7 +25672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnLevelUp_m17B71F69CF3BE4
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1565>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1572>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_7 = __this->___chakraVeinController;
 		int32_t L_8;
 		L_8 = AIBrainDefault_GetChakraVeinNextUpgradeRandom_mD8EEC6B926B99A8AB6E08CC320D2D86F60308045(__this, NULL);
@@ -25645,15 +25682,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnLevelUp_m17B71F69CF3BE4
 
 IL_0044:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1567>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1574>
 		return;
 	}
 }
-// Method Definition Index: 3834
+// Method Definition Index: 3857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_GetChakraVeinNextUpgradeDefault_m2370346523942C6F6F3F6E62F710183EEE9D7051 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1572>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1579>
 		PlayerMainController_t30CF592C1DCE4F8AAF282FF7339FC5CC7894380E* L_0 = __this->___playerMainController;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -25664,7 +25701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_GetChakraVeinNextUpgra
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1574>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1581>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_2 = __this->___chakraVeinController;
 		NullCheck(L_2);
 		bool L_3;
@@ -25675,13 +25712,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_GetChakraVeinNextUpgra
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1576>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1583>
 		return 1;
 	}
 
 IL_001e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1578>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1585>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_4 = __this->___chakraVeinController;
 		NullCheck(L_4);
 		bool L_5;
@@ -25692,13 +25729,13 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1580>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1587>
 		return 3;
 	}
 
 IL_002e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1582>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1589>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_6 = __this->___chakraVeinController;
 		NullCheck(L_6);
 		bool L_7;
@@ -25709,13 +25746,13 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1584>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1591>
 		return 0;
 	}
 
 IL_003e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1586>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1593>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_8 = __this->___chakraVeinController;
 		NullCheck(L_8);
 		bool L_9;
@@ -25726,13 +25763,13 @@ IL_003e:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1588>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1595>
 		return 2;
 	}
 
 IL_0051:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1592>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1599>
 		PlayerMainController_t30CF592C1DCE4F8AAF282FF7339FC5CC7894380E* L_10 = __this->___playerMainController;
 		NullCheck(L_10);
 		int32_t L_11;
@@ -25743,7 +25780,7 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1594>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1601>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_12 = __this->___chakraVeinController;
 		NullCheck(L_12);
 		bool L_13;
@@ -25754,13 +25791,13 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1596>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1603>
 		return 0;
 	}
 
 IL_006f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1598>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1605>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_14 = __this->___chakraVeinController;
 		NullCheck(L_14);
 		bool L_15;
@@ -25771,13 +25808,13 @@ IL_006f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1600>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1607>
 		return 1;
 	}
 
 IL_007f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1602>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1609>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_16 = __this->___chakraVeinController;
 		NullCheck(L_16);
 		bool L_17;
@@ -25788,13 +25825,13 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1604>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1611>
 		return 2;
 	}
 
 IL_008f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1606>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1613>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_18 = __this->___chakraVeinController;
 		NullCheck(L_18);
 		bool L_19;
@@ -25805,13 +25842,13 @@ IL_008f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1608>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1615>
 		return 3;
 	}
 
 IL_00a2:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1612>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1619>
 		PlayerMainController_t30CF592C1DCE4F8AAF282FF7339FC5CC7894380E* L_20 = __this->___playerMainController;
 		NullCheck(L_20);
 		int32_t L_21;
@@ -25822,7 +25859,7 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1614>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1621>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_22 = __this->___chakraVeinController;
 		NullCheck(L_22);
 		bool L_23;
@@ -25833,13 +25870,13 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1616>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1623>
 		return 0;
 	}
 
 IL_00c0:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1618>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1625>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_24 = __this->___chakraVeinController;
 		NullCheck(L_24);
 		bool L_25;
@@ -25850,13 +25887,13 @@ IL_00c0:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1620>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1627>
 		return 3;
 	}
 
 IL_00d0:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1622>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1629>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_26 = __this->___chakraVeinController;
 		NullCheck(L_26);
 		bool L_27;
@@ -25867,13 +25904,13 @@ IL_00d0:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1624>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1631>
 		return 2;
 	}
 
 IL_00e0:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1626>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1633>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_28 = __this->___chakraVeinController;
 		NullCheck(L_28);
 		bool L_29;
@@ -25884,13 +25921,13 @@ IL_00e0:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1628>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1635>
 		return 1;
 	}
 
 IL_00f3:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1632>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1639>
 		PlayerMainController_t30CF592C1DCE4F8AAF282FF7339FC5CC7894380E* L_30 = __this->___playerMainController;
 		NullCheck(L_30);
 		int32_t L_31;
@@ -25901,7 +25938,7 @@ IL_00f3:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1634>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1641>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_32 = __this->___chakraVeinController;
 		NullCheck(L_32);
 		bool L_33;
@@ -25912,13 +25949,13 @@ IL_00f3:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1636>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1643>
 		return 0;
 	}
 
 IL_0111:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1638>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1645>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_34 = __this->___chakraVeinController;
 		NullCheck(L_34);
 		bool L_35;
@@ -25929,13 +25966,13 @@ IL_0111:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1640>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1647>
 		return 3;
 	}
 
 IL_0121:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1642>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1649>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_36 = __this->___chakraVeinController;
 		NullCheck(L_36);
 		bool L_37;
@@ -25946,13 +25983,13 @@ IL_0121:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1644>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1651>
 		return 2;
 	}
 
 IL_0131:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1646>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1653>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_38 = __this->___chakraVeinController;
 		NullCheck(L_38);
 		bool L_39;
@@ -25963,13 +26000,13 @@ IL_0131:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1648>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1655>
 		return 1;
 	}
 
 IL_0141:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1652>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1659>
 		PlayerMainController_t30CF592C1DCE4F8AAF282FF7339FC5CC7894380E* L_40 = __this->___playerMainController;
 		NullCheck(L_40);
 		int32_t L_41;
@@ -25980,7 +26017,7 @@ IL_0141:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1654>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1661>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_42 = __this->___chakraVeinController;
 		NullCheck(L_42);
 		bool L_43;
@@ -25991,13 +26028,13 @@ IL_0141:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1656>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1663>
 		return 0;
 	}
 
 IL_015f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1658>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1665>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_44 = __this->___chakraVeinController;
 		NullCheck(L_44);
 		bool L_45;
@@ -26008,13 +26045,13 @@ IL_015f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1660>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1667>
 		return 2;
 	}
 
 IL_016f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1662>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1669>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_46 = __this->___chakraVeinController;
 		NullCheck(L_46);
 		bool L_47;
@@ -26025,13 +26062,13 @@ IL_016f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1664>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1671>
 		return 3;
 	}
 
 IL_017f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1666>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1673>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_48 = __this->___chakraVeinController;
 		NullCheck(L_48);
 		bool L_49;
@@ -26042,26 +26079,26 @@ IL_017f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1668>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1675>
 		return 1;
 	}
 
 IL_018f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1672>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1679>
 		return 0;
 	}
 }
-// Method Definition Index: 3835
+// Method Definition Index: 3858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_GetChakraVeinNextUpgradeRandom_mD8EEC6B926B99A8AB6E08CC320D2D86F60308045 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1677>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1684>
 		int32_t L_0;
 		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, 4, NULL);
 		V_0 = L_0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1678>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1685>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_1 = __this->___chakraVeinController;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
@@ -26073,20 +26110,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_GetChakraVeinNextUpgra
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1680>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1687>
 		int32_t L_4 = V_0;
 		return L_4;
 	}
 
 IL_0019:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1684>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1691>
 		int32_t L_5;
 		L_5 = AIBrainDefault_GetChakraVeinNextUpgradeRandom_mD8EEC6B926B99A8AB6E08CC320D2D86F60308045(__this, NULL);
 		return L_5;
 	}
 }
-// Method Definition Index: 3836
+// Method Definition Index: 3859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Retreat_m52A60DDE8575ECDD835128420E65018DE623EC6D (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26097,7 +26134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Retreat_m52A60DDE8575ECDD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1690>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1697>
 		NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* L_0 = __this->___networkLifeState;
 		NullCheck(L_0);
 		NetworkVariable_1_tC46DC1CECD6F80AE0C10531DED238D536E0A8D91* L_1;
@@ -26111,18 +26148,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_Retreat_m52A60DDE8575ECDD
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1690>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1697>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1691>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1698>
 		RuntimeObject* L_3 = __this->___targetable;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = InterfaceFuncInvoker0< GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* >::Invoke(2, ITargetable_t470249903CB52B6D617372AF77E13D0445B24E64_il2cpp_TypeInfo_var, L_3);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1692>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1699>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -26141,7 +26178,7 @@ IL_0014:
 
 IL_002f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1694>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1701>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = __this->___baseSpawn;
 		AIBrainDefault_GoTo_m148EF57CD4866F3E632596BE4114603F922B4050(__this, L_7, NULL);
 		return;
@@ -26149,7 +26186,7 @@ IL_002f:
 
 IL_003c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1699>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1706>
 		bool L_8;
 		L_8 = AIBrainDefault_IsInBase_mDBE44A847AF8167C96480DB7A92D97C1F72286F9(__this, NULL);
 		if (L_8)
@@ -26158,7 +26195,7 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1701>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1708>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_9 = __this->___serverCharacter;
 		NullCheck(L_9);
 		ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* L_10;
@@ -26172,12 +26209,12 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1703>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1710>
 		AIBrainDefault_OnRecallButtonPressed_m2573BE906FFB332C9CD20B65CCE499957997FA9B(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1704>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1711>
 		__this->___currentPath = (NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentPath), (void*)(NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7*)NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1705>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1712>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		AIBrainDefault_MovementJoystick_m6A2ADB45623B0C31ACDD16C32B8B53EA68EB1364(__this, L_12, NULL);
@@ -26186,7 +26223,7 @@ IL_003c:
 
 IL_006f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1711>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1718>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		AIBrainDefault_MovementJoystick_m6A2ADB45623B0C31ACDD16C32B8B53EA68EB1364(__this, L_13, NULL);
@@ -26195,13 +26232,13 @@ IL_006f:
 
 IL_007b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1716>
-		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 1, NULL);
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1723>
+		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1730>
 		return;
 	}
 }
-// Method Definition Index: 3837
+// Method Definition Index: 3860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* AIBrainDefault_GetNearestTeamTower_mA439A60B657A574152D86C02CA5B07B82F6AEAF3 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26223,7 +26260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	Func_2_tD5855DA3DC1C614C29762075E12B0B72B8B1F51C* G_B1_0 = NULL;
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* G_B1_1 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1727>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1734>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___teamTowers;
 		Func_2_tA26CC06F251E5318131EF8475E1A4BDADDFAD8BC* L_1 = (Func_2_tA26CC06F251E5318131EF8475E1A4BDADDFAD8BC*)il2cpp_codegen_object_new(Func_2_tA26CC06F251E5318131EF8475E1A4BDADDFAD8BC_il2cpp_TypeInfo_var);
 		Func_2__ctor_m5750050EBB60074F75746C1F8D7C3EA22904A011(L_1, __this, (intptr_t)((void*)AIBrainDefault_U3CGetNearestTeamTowerU3Eb__129_0_m3384308B4FD638A600AFB9E5BA89D12AC58B1713_RuntimeMethod_var), NULL);
@@ -26233,7 +26270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		L_3 = Enumerable_ToList_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m9E37AD934D79D8F8B57FB8029B5C53502429AEFA(L_2, Enumerable_ToList_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m9E37AD934D79D8F8B57FB8029B5C53502429AEFA_RuntimeMethod_var);
 		__this->___teamTowers = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___teamTowers), (void*)L_3);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1728>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1735>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_4 = __this->___teamTowers;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t4B148307E48A46B2A57E630B22675E0B64EBE782_il2cpp_TypeInfo_var);
 		Func_2_tD5855DA3DC1C614C29762075E12B0B72B8B1F51C* L_5 = ((U3CU3Ec_t4B148307E48A46B2A57E630B22675E0B64EBE782_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t4B148307E48A46B2A57E630B22675E0B64EBE782_il2cpp_TypeInfo_var))->___U3CU3E9__129_1;
@@ -26271,7 +26308,7 @@ IL_0047:
 		return L_12;
 	}
 }
-// Method Definition Index: 3838
+// Method Definition Index: 3861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* AIBrainDefault_GetNearestEnemyTower_m9AAA7840DC4A1E0624BDD00ADE3834643CFFFE09 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26293,7 +26330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	Func_2_tD5855DA3DC1C614C29762075E12B0B72B8B1F51C* G_B1_0 = NULL;
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* G_B1_1 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1733>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1740>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___enemyTowers;
 		Func_2_tA26CC06F251E5318131EF8475E1A4BDADDFAD8BC* L_1 = (Func_2_tA26CC06F251E5318131EF8475E1A4BDADDFAD8BC*)il2cpp_codegen_object_new(Func_2_tA26CC06F251E5318131EF8475E1A4BDADDFAD8BC_il2cpp_TypeInfo_var);
 		Func_2__ctor_m5750050EBB60074F75746C1F8D7C3EA22904A011(L_1, __this, (intptr_t)((void*)AIBrainDefault_U3CGetNearestEnemyTowerU3Eb__130_0_m3757A644E75BB30EEDE4173F935440039CDE3A57_RuntimeMethod_var), NULL);
@@ -26303,7 +26340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		L_3 = Enumerable_ToList_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m9E37AD934D79D8F8B57FB8029B5C53502429AEFA(L_2, Enumerable_ToList_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m9E37AD934D79D8F8B57FB8029B5C53502429AEFA_RuntimeMethod_var);
 		__this->___enemyTowers = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___enemyTowers), (void*)L_3);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1734>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1741>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_4 = __this->___enemyTowers;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t4B148307E48A46B2A57E630B22675E0B64EBE782_il2cpp_TypeInfo_var);
 		Func_2_tD5855DA3DC1C614C29762075E12B0B72B8B1F51C* L_5 = ((U3CU3Ec_t4B148307E48A46B2A57E630B22675E0B64EBE782_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t4B148307E48A46B2A57E630B22675E0B64EBE782_il2cpp_TypeInfo_var))->___U3CU3E9__130_1;
@@ -26341,7 +26378,7 @@ IL_0047:
 		return L_12;
 	}
 }
-// Method Definition Index: 3839
+// Method Definition Index: 3862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* AIBrainDefault_GetUpperEnemyTowers_m0F209998D7E837C0EFBD3240CC23EAE4CAC9BF3B (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26369,11 +26406,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15
 	NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* V_3 = NULL;
 	Tower_t93901F9ACBCBFBC827C3977B871BE5EF4D2425E6* V_4 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1742>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1749>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1744>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1751>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_1 = __this->___enemyTowers;
 		NullCheck(L_1);
 		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_2;
@@ -26398,28 +26435,28 @@ FINALLY_006d:
 
 IL_0014_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1744>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1751>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 				L_3 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_1), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1746>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1753>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 				Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_5;
 				L_5 = DictionaryCache_GetCachedHealth_m73F287D46F015DB6F6A3F18B3823FA4A8535F233(L_4, NULL);
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1747>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1754>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_2;
 				NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* L_7;
 				L_7 = DictionaryCache_GetCachedLifeState_m8716B585657AA8443417BD3C30E0603F3B22CC5C(L_6, NULL);
 				V_3 = L_7;
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1748>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1755>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
 				Tower_t93901F9ACBCBFBC827C3977B871BE5EF4D2425E6* L_9;
 				L_9 = DictionaryCache_GetCachedTower_m2A9219D7ABD47FD2AD3D4E822EBF5D39DBE706FF(L_8, NULL);
 				V_4 = L_9;
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1750>
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1751>
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1752>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1757>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1758>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1759>
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_10;
 				L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -26462,7 +26499,7 @@ IL_0014_1:
 
 IL_005b_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1754>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1761>
 				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_18 = V_0;
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_2;
 				NullCheck(L_18);
@@ -26471,7 +26508,7 @@ IL_005b_1:
 
 IL_0062_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1744>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1751>
 				bool L_20;
 				L_20 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_1), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_20)
@@ -26491,18 +26528,18 @@ IL_0062_1:
 
 IL_007b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1759>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1760>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1761>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1762>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1763>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1764>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1766>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1767>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1768>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1769>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1770>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1771>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_21 = V_0;
 		Comparison_1_t48F09636634857D61E406009D472941BB2A2358F* L_22 = (Comparison_1_t48F09636634857D61E406009D472941BB2A2358F*)il2cpp_codegen_object_new(Comparison_1_t48F09636634857D61E406009D472941BB2A2358F_il2cpp_TypeInfo_var);
 		Comparison_1__ctor_m3A0DAD29EFE86C10726A9BA34608E88B5BE199B9(L_22, __this, (intptr_t)((void*)AIBrainDefault_U3CGetUpperEnemyTowersU3Eb__131_0_m6DB17EADB941DB5C3CD983D05886493EBAA167FA_RuntimeMethod_var), NULL);
 		NullCheck(L_21);
 		List_1_Sort_mCBEE22E31FA4513E11FB040E9AADCD6E718DBCA8(L_21, L_22, List_1_Sort_mCBEE22E31FA4513E11FB040E9AADCD6E718DBCA8_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1767>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1774>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_23 = V_0;
 		NullCheck(L_23);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_24;
@@ -26510,7 +26547,7 @@ IL_007b:
 		return L_24;
 	}
 }
-// Method Definition Index: 3840
+// Method Definition Index: 3863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* AIBrainDefault_GetBottomEnemyTowers_m273CA589E8B1D041922C2F40F8613A09FE6AC421 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26539,11 +26576,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15
 	NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* V_3 = NULL;
 	Tower_t93901F9ACBCBFBC827C3977B871BE5EF4D2425E6* V_4 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1775>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1782>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1777>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1784>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_1 = __this->___enemyTowers;
 		NullCheck(L_1);
 		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_2;
@@ -26568,28 +26605,28 @@ FINALLY_006d:
 
 IL_0014_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1777>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1784>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 				L_3 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_1), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1779>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1786>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
 				Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_5;
 				L_5 = DictionaryCache_GetCachedHealth_m73F287D46F015DB6F6A3F18B3823FA4A8535F233(L_4, NULL);
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1780>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1787>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_2;
 				NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* L_7;
 				L_7 = DictionaryCache_GetCachedLifeState_m8716B585657AA8443417BD3C30E0603F3B22CC5C(L_6, NULL);
 				V_3 = L_7;
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1781>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1788>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
 				Tower_t93901F9ACBCBFBC827C3977B871BE5EF4D2425E6* L_9;
 				L_9 = DictionaryCache_GetCachedTower_m2A9219D7ABD47FD2AD3D4E822EBF5D39DBE706FF(L_8, NULL);
 				V_4 = L_9;
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1783>
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1784>
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1785>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1790>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1791>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1792>
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_10;
 				L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -26632,7 +26669,7 @@ IL_0014_1:
 
 IL_005b_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1787>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1794>
 				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_18 = V_0;
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_2;
 				NullCheck(L_18);
@@ -26641,7 +26678,7 @@ IL_005b_1:
 
 IL_0062_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1777>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1784>
 				bool L_20;
 				L_20 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_1), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 				if (L_20)
@@ -26661,18 +26698,18 @@ IL_0062_1:
 
 IL_007b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1792>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1793>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1794>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1795>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1796>
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1797>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1799>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1800>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1801>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1802>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1803>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1804>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_21 = V_0;
 		Comparison_1_t48F09636634857D61E406009D472941BB2A2358F* L_22 = (Comparison_1_t48F09636634857D61E406009D472941BB2A2358F*)il2cpp_codegen_object_new(Comparison_1_t48F09636634857D61E406009D472941BB2A2358F_il2cpp_TypeInfo_var);
 		Comparison_1__ctor_m3A0DAD29EFE86C10726A9BA34608E88B5BE199B9(L_22, __this, (intptr_t)((void*)AIBrainDefault_U3CGetBottomEnemyTowersU3Eb__132_0_m4FF36B936C0252A2197F14BA8443DAD31C110BE1_RuntimeMethod_var), NULL);
 		NullCheck(L_21);
 		List_1_Sort_mCBEE22E31FA4513E11FB040E9AADCD6E718DBCA8(L_21, L_22, List_1_Sort_mCBEE22E31FA4513E11FB040E9AADCD6E718DBCA8_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1800>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1807>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_23 = V_0;
 		NullCheck(L_23);
 		int32_t L_24;
@@ -26683,7 +26720,7 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1802>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1809>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_25 = V_0;
 		NullCheck(L_25);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_25, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
@@ -26691,7 +26728,7 @@ IL_007b:
 
 IL_009c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1804>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1811>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_26 = V_0;
 		NullCheck(L_26);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_27;
@@ -26699,20 +26736,20 @@ IL_009c:
 		return L_27;
 	}
 }
-// Method Definition Index: 3841
+// Method Definition Index: 3864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188 AIBrainDefault_GetInput_m768A1D2D3DE2A07B6B09D786991537C7AF5E06BC (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1809>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1816>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188 L_0 = __this->___networkPlayerInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 3842
+// Method Definition Index: 3865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AIBrainDefault_GetInputJoystick_mB05453277AFAE10C5A9FFBEDD54E0885286CA84E (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1814>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1821>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_0 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		float L_1 = L_0->___forward;
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_2 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
@@ -26723,11 +26760,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_4;
 	}
 }
-// Method Definition Index: 3843
+// Method Definition Index: 3866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AIBrainDefault_GetInputKeyboard_m553AC0533BA7B8F4C3C744A4256703C4426F5FB9 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1819>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1826>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_0 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
 		float L_1 = L_0->___forward;
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188* L_2 = (NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188*)(&__this->___networkPlayerInput);
@@ -26738,11 +26775,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_4;
 	}
 }
-// Method Definition Index: 3844
+// Method Definition Index: 3867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsActiveSkill_m34BDFEBB545BB3F00D49725A6F39B7E5ED8E840C (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1824>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1831>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___cacheSkillCoroutine;
 		if (!L_0)
 		{
@@ -26750,21 +26787,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsActiveSkill_m34BDFEBB54
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1826>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1833>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1829>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1836>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3845
+// Method Definition Index: 3868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsActiveBasicAttack_mEC23022E9216478EB43503AB3B429690B002C764 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1834>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1841>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___cacheCurrentBasicAttackCoroutine;
 		if (!L_0)
 		{
@@ -26772,17 +26809,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsActiveBasicAttack_mEC23
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1836>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1843>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1839>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1846>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3846
+// Method Definition Index: 3869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_CheckIsStillInDanger_m2A2113FECB71CFDD5EEE0E52A8C243D0AC00315F (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26801,7 +26838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AIBrainDefault_CheckIsStillInD
 		return L_1;
 	}
 }
-// Method Definition Index: 3847
+// Method Definition Index: 3870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsTargetInSkillRange_mD393210AA9073FF91C2D9018C02D3D7D556FBA3E (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26817,7 +26854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsTargetInSkillRange_mD39
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1853>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1860>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_0 = __this->___characterAbility;
 		NullCheck(L_0);
 		List_1_t6EA8B3C0BBC282E2F8507203C3491F7BF623B0EF* L_1 = L_0->___abilities;
@@ -26828,7 +26865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsTargetInSkillRange_mD39
 		float L_4;
 		L_4 = Enumerable_Max_m3215FA2A65ACAFE226A0FBE065D772C7CE1A5E9F(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1854>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1861>
 		RuntimeObject* L_5 = __this->___targetable;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
@@ -26842,7 +26879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsTargetInSkillRange_mD39
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1856>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1863>
 		RuntimeObject* L_8 = __this->___targetable;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
@@ -26858,13 +26895,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_IsTargetInSkillRange_mD39
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1864>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1871>
 		return (bool)0;
 	}
 
 IL_0053:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1869>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1876>
 		RuntimeObject* L_12 = __this->___targetable;
 		NullCheck(L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
@@ -26889,35 +26926,35 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1871>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1878>
 		return (bool)1;
 	}
 
 IL_007d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1875>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1882>
 		return (bool)0;
 	}
 
 IL_007f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1879>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1886>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 3848
+// Method Definition Index: 3871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnDeath_mCACE8A1E924A194B471DC0E13DAE3DF5901C31C2 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1885>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1892>
 		return;
 	}
 }
-// Method Definition Index: 3849
+// Method Definition Index: 3872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnLifeStateChange_m727FC2D78D8A34D636587EF48D76D07F3ADCB56E (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, uint8_t ___0_oldValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1889>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1896>
 		uint8_t L_0 = ___1_newValue;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -26925,17 +26962,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnLifeStateChange_m727FC2
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1891>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1898>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 2, NULL);
 	}
 
 IL_000b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1893>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1900>
 		return;
 	}
 }
-// Method Definition Index: 3850
+// Method Definition Index: 3873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnHealthReduce_m5D20B8CDFF6B6954DA2E4D5372FA2BAD8FADF955 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_oldValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26949,7 +26986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnHealthReduce_m5D20B8CDF
 	NetworkObject_t8D6F76C7440A9E6176FC7F9268E5720C346A7366* G_B7_0 = NULL;
 	String_t* G_B9_0 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1897>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1904>
 		int32_t L_0 = ___0_oldValue;
 		int32_t L_1 = ___1_newValue;
 		if ((((int32_t)L_0) <= ((int32_t)L_1)))
@@ -26958,7 +26995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnHealthReduce_m5D20B8CDF
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1899>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1906>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_2 = __this->___serverCharacter;
 		NullCheck(L_2);
 		ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* L_3;
@@ -26972,17 +27009,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnHealthReduce_m5D20B8CDF
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1901>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1908>
 		AIBrainDefault_ResetRecallState_mE8912CA7AF3F78F168C529D2BCAFFAE8EF9A48D5(__this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1902>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1909>
 		AIBrainDefault_ChangeBehaviour_mDE7918DA9D30267A622CEBC8D3C927D4434F892D(__this, NULL);
 	}
 
 IL_0025:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1904>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1911>
 		__this->___isInDanger = (bool)1;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1905>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1912>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5 = __this->___resetIsInDanger;
 		if (L_5)
 		{
@@ -26990,7 +27027,7 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1907>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1914>
 		RuntimeObject* L_6;
 		L_6 = AIBrainDefault_CheckIsStillInDanger_m2A2113FECB71CFDD5EEE0E52A8C243D0AC00315F(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
@@ -27002,10 +27039,10 @@ IL_0025:
 
 IL_0048:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1911>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1918>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8 = __this->___resetIsInDanger;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_8, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1912>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1919>
 		RuntimeObject* L_9;
 		L_9 = AIBrainDefault_CheckIsStillInDanger_m2A2113FECB71CFDD5EEE0E52A8C243D0AC00315F(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -27016,7 +27053,7 @@ IL_0048:
 
 IL_0066:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1915>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1922>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_11 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_12 = __this->___health;
 		NullCheck(L_12);
@@ -27068,14 +27105,14 @@ IL_008c:
 
 IL_00a0:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1917>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1924>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 5, NULL);
 		return;
 	}
 
 IL_00a8:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1922>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1929>
 		int32_t L_20 = ___1_newValue;
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_21 = __this->___health;
 		NullCheck(L_21);
@@ -27089,25 +27126,25 @@ IL_00a8:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1924>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1931>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 2, NULL);
 	}
 
 IL_00c2:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1927>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1934>
 		return;
 	}
 }
-// Method Definition Index: 3851
+// Method Definition Index: 3874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnReduceTargetHealth_mCDADAA3C8D5DD0E77A37B6E683FA74498081E231 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_before, int32_t ___1_after, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1931>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1938>
 		return;
 	}
 }
-// Method Definition Index: 3852
+// Method Definition Index: 3875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnTargetDeath_m173CE134C92715DC2CC49FD2231E26E8A6B0E1C7 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27154,7 +27191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnTargetDeath_m173CE134C9
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B16_0 = NULL;
 	AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* G_B16_1 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1936>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1943>
 		RuntimeObject* L_0 = __this->___targetable;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -27181,7 +27218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnTargetDeath_m173CE134C9
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1938>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1945>
 		RuntimeObject* L_6 = __this->___targetable;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
@@ -27275,7 +27312,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1940>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1947>
 		RuntimeObject* L_22 = __this->___targetable;
 		NullCheck(L_22);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
@@ -27354,7 +27391,7 @@ IL_00cb:
 		NullCheck(G_B18_1);
 		bool L_31;
 		L_31 = AIBrainDefault_GoTo_m7167980A2D4689D3AF41EBA37659CB66122B8677(G_B18_1, G_B18_0, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1941>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1948>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_32 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_32, __this, (intptr_t)((void*)AIBrainDefault_U3COnTargetDeathU3Eb__144_0_m469EDE5B933167BFAEC4B5A335F5A878053AB03A_RuntimeMethod_var), NULL);
 		__this->___OnReachCorner = L_32;
@@ -27364,7 +27401,7 @@ IL_00cb:
 
 IL_00e4:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1944>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1951>
 		RuntimeObject* L_33 = __this->___targetable;
 		NullCheck(L_33);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
@@ -27378,48 +27415,48 @@ IL_00e4:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1946>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1953>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 2, NULL);
 		return;
 	}
 
 IL_00ff:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1950>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1957>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 	}
 
 IL_0106:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1952>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1959>
 		return;
 	}
 }
-// Method Definition Index: 3853
+// Method Definition Index: 3876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AIBrainDefault_GetNetworkInputJoystick_mE2C83DDF3A83F1A0C50D4CE5394D50B3E91FF7F3 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1960>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1967>
 		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
 		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_0, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AIBrainDefault_GetNetworkInputJoystick_mE2C83DDF3A83F1A0C50D4CE5394D50B3E91FF7F3_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3854
+// Method Definition Index: 3877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 AIBrainDefault_GetNetworkInputKeyboard_m2C38C9705CE0E594F4CB5B6398083BE42315A8DF (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1965>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1972>
 		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
 		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_0, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AIBrainDefault_GetNetworkInputKeyboard_m2C38C9705CE0E594F4CB5B6398083BE42315A8DF_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 3855
+// Method Definition Index: 3878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_CanChangeState_mB33A09221EFA710C6F8AC733E37F59BE4F3D6831 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1970>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1977>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_0 = __this->___serverCharacter;
 		NullCheck(L_0);
 		ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* L_1;
@@ -27430,12 +27467,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_CanChangeState_mB33A09221
 		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 3856
+// Method Definition Index: 3879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnDrawGizmosSelected_m130F1EE23DF6EF64346EE46E03FEE9B5412E66EE (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1975>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1982>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_0 = __this->___currentPath;
 		if (!L_0)
 		{
@@ -27443,18 +27480,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_OnDrawGizmosSelected_m130
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1977>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1984>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_cyan_m182A29E7475C0A98ACC03E1CF5252BAB83F0BA31_inline(NULL);
 		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_1, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1978>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1985>
 		V_0 = 0;
 		goto IL_0041;
 	}
 
 IL_0016:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1980>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1987>
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_2 = __this->___currentPath;
 		NullCheck(L_2);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3;
@@ -27471,14 +27508,14 @@ IL_0016:
 		int32_t L_9 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		Gizmos_DrawLine_mB139054F55D615637A39A3127AADB16043387F8A(L_6, L_10, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1978>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1985>
 		int32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0041:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1978>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1985>
 		int32_t L_12 = V_0;
 		NavMeshPath_tC77ABF4A25FC0F0A94E8A70E304E114FE690A3A7* L_13 = __this->___currentPath;
 		NullCheck(L_13);
@@ -27493,11 +27530,11 @@ IL_0041:
 
 IL_0053:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1983>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1990>
 		return;
 	}
 }
-// Method Definition Index: 3857
+// Method Definition Index: 3880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_PossibleKill_m65512BA33855043699CFE6CE531BBC8CFE2D74ED (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27521,7 +27558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_PossibleKill_m65512BA3385
 	BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* V_3 = NULL;
 	BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* V_4 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1987>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1994>
 		RuntimeObject* L_0 = __this->___targetable;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -27550,16 +27587,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_PossibleKill_m65512BA3385
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1989>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1996>
 		V_0 = (0.0f);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1990>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1997>
 		float L_7 = V_0;
 		BasicAttack_t9DA33F651B0E90A2E521C9B75D8B65A3ED4C7ADA* L_8 = __this->___basicAttack;
 		NullCheck(L_8);
 		float L_9;
 		L_9 = VirtualFuncInvoker0< float >::Invoke(35, L_8);
 		V_0 = ((float)il2cpp_codegen_add(L_7, L_9));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1991>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1998>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_10 = __this->___characterAbility;
 		NullCheck(L_10);
 		List_1_t6EA8B3C0BBC282E2F8507203C3491F7BF623B0EF* L_11 = L_10->___abilities;
@@ -27586,11 +27623,11 @@ FINALLY_00cc:
 
 IL_005c_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1991>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1998>
 				BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_13;
 				L_13 = Enumerator_get_Current_mD6F8DC92BDED6DA4EA820FD62B0868AAE1999E2B_inline((&V_2), Enumerator_get_Current_mD6F8DC92BDED6DA4EA820FD62B0868AAE1999E2B_RuntimeMethod_var);
 				V_3 = L_13;
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1993>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2000>
 				BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_14 = V_3;
 				NullCheck(L_14);
 				NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_15 = L_14->___IsCooldownSkill;
@@ -27603,7 +27640,7 @@ IL_005c_1:
 				}
 			}
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1995>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2002>
 				float L_17 = V_0;
 				RuntimeObject* L_18 = __this->___targetable;
 				NullCheck(L_18);
@@ -27623,7 +27660,7 @@ IL_005c_1:
 				float L_25;
 				L_25 = GameCalculationUtils_GetFormulaDamage_m9C8C7163D88642DC18ECB5D4D9039999363BEA27(L_19, L_20, L_22, L_24, (bool)0, (Action_2_t0D0FAC9A9D78890ADD7873A450DA424C6E267C39*)NULL, (bool)1, NULL);
 				V_0 = ((float)il2cpp_codegen_add(L_17, L_25));
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1996>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2003>
 				float L_26 = V_0;
 				RuntimeObject* L_27 = __this->___targetable;
 				NullCheck(L_27);
@@ -27646,7 +27683,7 @@ IL_005c_1:
 
 IL_00c1_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1991>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1998>
 				bool L_35;
 				L_35 = Enumerator_MoveNext_m8B4A5003D5631536539B504640487E2930DA32CC((&V_2), Enumerator_MoveNext_m8B4A5003D5631536539B504640487E2930DA32CC_RuntimeMethod_var);
 				if (L_35)
@@ -27666,9 +27703,9 @@ IL_00c1_1:
 
 IL_00da:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2000>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2007>
 		V_1 = (0.0f);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2001>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2008>
 		float L_36 = V_1;
 		RuntimeObject* L_37 = __this->___targetable;
 		NullCheck(L_37);
@@ -27681,7 +27718,7 @@ IL_00da:
 		float L_40;
 		L_40 = VirtualFuncInvoker0< float >::Invoke(35, L_39);
 		V_1 = ((float)il2cpp_codegen_add(L_36, L_40));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2002>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2009>
 		RuntimeObject* L_41 = __this->___targetable;
 		NullCheck(L_41);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42;
@@ -27713,11 +27750,11 @@ FINALLY_018b:
 
 IL_0115_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2002>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2009>
 				BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_46;
 				L_46 = Enumerator_get_Current_mD6F8DC92BDED6DA4EA820FD62B0868AAE1999E2B_inline((&V_2), Enumerator_get_Current_mD6F8DC92BDED6DA4EA820FD62B0868AAE1999E2B_RuntimeMethod_var);
 				V_4 = L_46;
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2004>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2011>
 				BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_47 = V_4;
 				NullCheck(L_47);
 				NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_48 = L_47->___IsCooldownSkill;
@@ -27730,7 +27767,7 @@ IL_0115_1:
 				}
 			}
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2006>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2013>
 				float L_50 = V_0;
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51;
 				L_51 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
@@ -27750,7 +27787,7 @@ IL_0115_1:
 				float L_58;
 				L_58 = GameCalculationUtils_GetFormulaDamage_m9C8C7163D88642DC18ECB5D4D9039999363BEA27(L_51, L_53, L_55, L_57, (bool)0, (Action_2_t0D0FAC9A9D78890ADD7873A450DA424C6E267C39*)NULL, (bool)1, NULL);
 				V_0 = ((float)il2cpp_codegen_add(L_50, L_58));
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2007>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2014>
 				float L_59 = V_0;
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60;
 				L_60 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
@@ -27773,7 +27810,7 @@ IL_0115_1:
 
 IL_0180_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2002>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2009>
 				bool L_68;
 				L_68 = Enumerator_MoveNext_m8B4A5003D5631536539B504640487E2930DA32CC((&V_2), Enumerator_MoveNext_m8B4A5003D5631536539B504640487E2930DA32CC_RuntimeMethod_var);
 				if (L_68)
@@ -27793,7 +27830,7 @@ IL_0180_1:
 
 IL_0199:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2011>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2018>
 		float L_69 = V_0;
 		RuntimeObject* L_70 = __this->___targetable;
 		NullCheck(L_70);
@@ -27826,47 +27863,47 @@ IL_0199:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2016>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2023>
 		return (bool)1;
 	}
 
 IL_01cd:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2023>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2030>
 		return (bool)0;
 	}
 
 IL_01cf:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2026>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2033>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 3858
+// Method Definition Index: 3881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_CheckForGetAntaboga_mB84FCE64C519E9FD1A5D75BBBFA77C0B07F42E53 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_antaboga, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2032>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2039>
 		return;
 	}
 }
-// Method Definition Index: 3859
+// Method Definition Index: 3882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_CheckForGetBota_m3F63E52B52B9D8242D3F18B0FA1EF5514678B1AB (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_bota, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2037>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2044>
 		return;
 	}
 }
-// Method Definition Index: 3860
+// Method Definition Index: 3883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_CheckForGetPirate_mADB3297F405A92CC19E9632D90E8E0CC9B236FC3 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_pirate, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2042>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2049>
 		return;
 	}
 }
-// Method Definition Index: 3861
+// Method Definition Index: 3884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_CalculateObjectiveScore_m5BB5C698B35E02AFAD6835A2C4E477A1A081F9D5 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_objective, int32_t ___1_objectiveType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27901,7 +27938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_CalculateObjectiveScor
 	NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* G_B2_0 = NULL;
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2046>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2053>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_objective;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -27948,15 +27985,15 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2048>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2055>
 		return 0;
 	}
 
 IL_002a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2051>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2058>
 		V_0 = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2054>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2061>
 		PlayerMainController_t30CF592C1DCE4F8AAF282FF7339FC5CC7894380E* L_7 = __this->___playerMainController;
 		NullCheck(L_7);
 		int32_t L_8;
@@ -28005,34 +28042,34 @@ IL_002a:
 
 IL_0060:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2060>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2067>
 		int32_t L_10 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_10, ((int32_t)30)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2061>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2068>
 		goto IL_0079;
 	}
 
 IL_0067:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2065>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2072>
 		int32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_11, ((int32_t)20)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2066>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2073>
 		goto IL_0079;
 	}
 
 IL_006e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2068>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2075>
 		int32_t L_12 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_12, ((int32_t)10)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2069>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2076>
 		goto IL_0079;
 	}
 
 IL_0075:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2073>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2080>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 5));
 	}
@@ -28070,7 +28107,7 @@ IL_0079:
 
 IL_0097:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2081>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2088>
 		int32_t L_15 = ___1_objectiveType;
 		if ((!(((uint32_t)L_15) == ((uint32_t)5))))
 		{
@@ -28078,16 +28115,16 @@ IL_0097:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2081>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2088>
 		int32_t L_16 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_16, ((int32_t)10)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2082>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2089>
 		goto IL_00da;
 	}
 
 IL_00a2:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2084>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2091>
 		int32_t L_17 = ___1_objectiveType;
 		if ((!(((uint32_t)L_17) == ((uint32_t)7))))
 		{
@@ -28095,16 +28132,16 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2084>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2091>
 		int32_t L_18 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_18, ((int32_t)10)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2085>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2092>
 		goto IL_00da;
 	}
 
 IL_00ad:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2087>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2094>
 		int32_t L_19 = ___1_objectiveType;
 		if ((((int32_t)L_19) == ((int32_t)5)))
 		{
@@ -28121,16 +28158,16 @@ IL_00ad:
 
 IL_00b5:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2087>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2094>
 		int32_t L_21 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_21, 7));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2088>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2095>
 		goto IL_00da;
 	}
 
 IL_00bb:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2090>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2097>
 		int32_t L_22 = ___1_objectiveType;
 		if ((((int32_t)L_22) == ((int32_t)7)))
 		{
@@ -28147,16 +28184,16 @@ IL_00bb:
 
 IL_00c3:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2090>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2097>
 		int32_t L_24 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_24, 8));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2091>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2098>
 		goto IL_00da;
 	}
 
 IL_00c9:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2093>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2100>
 		int32_t L_25 = ___1_objectiveType;
 		if ((!(((uint32_t)L_25) == ((uint32_t)4))))
 		{
@@ -28164,14 +28201,14 @@ IL_00c9:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2093>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2100>
 		int32_t L_26 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_26, ((int32_t)12)));
 	}
 
 IL_00d2:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2094>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2101>
 		int32_t L_27 = ___1_objectiveType;
 		if ((!(((uint32_t)L_27) == ((uint32_t)5))))
 		{
@@ -28179,14 +28216,14 @@ IL_00d2:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2094>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2101>
 		int32_t L_28 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_28, 5));
 	}
 
 IL_00da:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2099>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2106>
 		Health_t1ED9B3565743C4664CA097759AFE6D7B6A6DF2B1* L_29 = __this->___health;
 		NullCheck(L_29);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_30 = L_29->___CurrentHealth;
@@ -28200,7 +28237,7 @@ IL_00da:
 		int32_t L_34;
 		L_34 = VirtualFuncInvoker0< int32_t >::Invoke(17, L_33);
 		V_2 = ((float)il2cpp_codegen_multiply(((float)(((float)L_31)/((float)L_34))), (100.0f)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2102>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2109>
 		int32_t L_35 = ___1_objectiveType;
 		if ((((int32_t)L_35) == ((int32_t)6)))
 		{
@@ -28208,7 +28245,7 @@ IL_00da:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2104>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2111>
 		float L_36 = V_2;
 		if ((!(((float)L_36) > ((float)(75.0f)))))
 		{
@@ -28216,7 +28253,7 @@ IL_00da:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2104>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2111>
 		int32_t L_37 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_37, ((int32_t)10)));
 		goto IL_015f;
@@ -28224,7 +28261,7 @@ IL_00da:
 
 IL_0117:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2105>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2112>
 		float L_38 = V_2;
 		if ((!(((float)L_38) > ((float)(50.0f)))))
 		{
@@ -28232,7 +28269,7 @@ IL_0117:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2105>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2112>
 		int32_t L_39 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_39, 5));
 		goto IL_015f;
@@ -28240,7 +28277,7 @@ IL_0117:
 
 IL_0125:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2106>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2113>
 		float L_40 = V_2;
 		if ((!(((float)L_40) < ((float)(25.0f)))))
 		{
@@ -28248,7 +28285,7 @@ IL_0125:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2106>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2113>
 		int32_t L_41 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_41, ((int32_t)10)));
 		goto IL_015f;
@@ -28256,7 +28293,7 @@ IL_0125:
 
 IL_0134:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2110>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2117>
 		float L_42 = V_2;
 		if ((!(((float)L_42) > ((float)(75.0f)))))
 		{
@@ -28264,7 +28301,7 @@ IL_0134:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2110>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2117>
 		int32_t L_43 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_43, ((int32_t)15)));
 		goto IL_015f;
@@ -28272,7 +28309,7 @@ IL_0134:
 
 IL_0143:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2111>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2118>
 		float L_44 = V_2;
 		if ((!(((float)L_44) > ((float)(50.0f)))))
 		{
@@ -28280,7 +28317,7 @@ IL_0143:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2111>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2118>
 		int32_t L_45 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_45, ((int32_t)10)));
 		goto IL_015f;
@@ -28288,7 +28325,7 @@ IL_0143:
 
 IL_0152:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2112>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2119>
 		float L_46 = V_2;
 		if ((!(((float)L_46) < ((float)(25.0f)))))
 		{
@@ -28296,22 +28333,22 @@ IL_0152:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2112>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2119>
 		int32_t L_47 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_47, ((int32_t)10)));
 	}
 
 IL_015f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2116>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2123>
 		V_3 = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2116>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2123>
 		V_4 = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2117>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2124>
 		V_5 = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2117>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2124>
 		V_6 = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2119>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2126>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_48 = __this->___allies;
 		V_10 = L_48;
 		V_11 = 0;
@@ -28320,14 +28357,14 @@ IL_015f:
 
 IL_0177:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2119>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2126>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_49 = V_10;
 		int32_t L_50 = V_11;
 		NullCheck(L_49);
 		int32_t L_51 = L_50;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52 = (L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_51));
 		V_12 = L_52;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2121>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2128>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53 = V_12;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_54;
@@ -28358,10 +28395,10 @@ IL_0177:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2123>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2130>
 		int32_t L_61 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_61, 1));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2124>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2131>
 		int32_t L_62 = V_4;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_63 = V_12;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
@@ -28383,7 +28420,7 @@ IL_01c5:
 
 IL_01cb:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2119>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2126>
 		int32_t L_68 = V_11;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_69 = V_10;
 		NullCheck(L_69);
@@ -28393,7 +28430,7 @@ IL_01cb:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2128>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2135>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_70 = __this->___enemies;
 		V_10 = L_70;
 		V_11 = 0;
@@ -28402,14 +28439,14 @@ IL_01cb:
 
 IL_01e0:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2128>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2135>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_71 = V_10;
 		int32_t L_72 = V_11;
 		NullCheck(L_71);
 		int32_t L_73 = L_72;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_74 = (L_71)->GetAt(static_cast<il2cpp_array_size_t>(L_73));
 		V_13 = L_74;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2130>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2137>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_75 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_76;
@@ -28440,10 +28477,10 @@ IL_01e0:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2132>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2139>
 		int32_t L_83 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_83, 1));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2133>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2140>
 		int32_t L_84 = V_6;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_85 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
@@ -28465,7 +28502,7 @@ IL_0230:
 
 IL_0236:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2128>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2135>
 		int32_t L_90 = V_11;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_91 = V_10;
 		NullCheck(L_91);
@@ -28475,7 +28512,7 @@ IL_0236:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2138>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2145>
 		int32_t L_92 = V_3;
 		if ((((int32_t)L_92) <= ((int32_t)0)))
 		{
@@ -28483,7 +28520,7 @@ IL_0236:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2138>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2145>
 		int32_t L_93 = V_0;
 		int32_t L_94 = V_3;
 		int32_t L_95 = V_4;
@@ -28493,7 +28530,7 @@ IL_0236:
 
 IL_024f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2139>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2146>
 		int32_t L_97 = V_5;
 		if ((((int32_t)L_97) <= ((int32_t)0)))
 		{
@@ -28501,7 +28538,7 @@ IL_024f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2139>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2146>
 		int32_t L_98 = V_0;
 		int32_t L_99 = V_5;
 		int32_t L_100 = V_6;
@@ -28511,7 +28548,7 @@ IL_024f:
 
 IL_0263:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2142>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2149>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_102;
 		L_102 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_102);
@@ -28527,9 +28564,9 @@ IL_0263:
 		float L_107;
 		L_107 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_103, L_106, NULL);
 		V_7 = L_107;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2143>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2150>
 		V_8 = ((int32_t)10);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2144>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2151>
 		int32_t L_108 = V_8;
 		float L_109 = V_7;
 		int32_t L_110 = V_8;
@@ -28537,11 +28574,11 @@ IL_0263:
 		int32_t L_112;
 		L_112 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(((int32_t)il2cpp_codegen_subtract(L_108, il2cpp_codegen_cast_double_to_int<int32_t>(((float)(L_109/(1.5f)))))), ((-L_110)), L_111, NULL);
 		V_9 = L_112;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2145>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2152>
 		int32_t L_113 = V_0;
 		int32_t L_114 = V_9;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_113, L_114));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2148>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2155>
 		bool L_115;
 		L_115 = AIBrainDefault_PossibleKill_m65512BA33855043699CFE6CE531BBC8CFE2D74ED(__this, NULL);
 		if (!L_115)
@@ -28550,14 +28587,14 @@ IL_0263:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2150>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2157>
 		int32_t L_116 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_116, 5));
 	}
 
 IL_02ad:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2154>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2161>
 		CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* L_117 = __this->___characterAbility;
 		NullCheck(L_117);
 		List_1_t6EA8B3C0BBC282E2F8507203C3491F7BF623B0EF* L_118 = L_117->___abilities;
@@ -28584,11 +28621,11 @@ FINALLY_02fc:
 
 IL_02c1_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2154>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2161>
 				BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_120;
 				L_120 = Enumerator_get_Current_mD6F8DC92BDED6DA4EA820FD62B0868AAE1999E2B_inline((&V_14), Enumerator_get_Current_mD6F8DC92BDED6DA4EA820FD62B0868AAE1999E2B_RuntimeMethod_var);
 				V_15 = L_120;
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2156>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2163>
 				BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_121 = V_15;
 				NullCheck(L_121);
 				NetworkVariable_1_t815C16FD9A5F4C026F4EFC8293D19E35B66B1B05* L_122 = L_121->___skillLevel;
@@ -28613,7 +28650,7 @@ IL_02c1_1:
 				}
 			}
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2158>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2165>
 				int32_t L_127 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_127, 5));
 				goto IL_02f1_1;
@@ -28621,14 +28658,14 @@ IL_02c1_1:
 
 IL_02ed_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2162>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2169>
 				int32_t L_128 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_subtract(L_128, 5));
 			}
 
 IL_02f1_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2154>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2161>
 				bool L_129;
 				L_129 = Enumerator_MoveNext_m8B4A5003D5631536539B504640487E2930DA32CC((&V_14), Enumerator_MoveNext_m8B4A5003D5631536539B504640487E2930DA32CC_RuntimeMethod_var);
 				if (L_129)
@@ -28648,12 +28685,12 @@ IL_02f1_1:
 
 IL_030a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2166>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:2173>
 		int32_t L_130 = V_0;
 		return L_130;
 	}
 }
-// Method Definition Index: 3862
+// Method Definition Index: 3885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault__ctor_mAAF2DB2E23E223FD4D326575ECA7FC8FD888CE8D (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28694,60 +28731,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault__ctor_mAAF2DB2E23E223FD4D
 		return;
 	}
 }
-// Method Definition Index: 3863
+// Method Definition Index: 3886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_U3CWalkingInLaneRoutineU3Eb__79_0_mA26CBFE0E37D366BCEB79E08422DA6B987663949 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:524>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:531>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = AIBrainDefault_GetNextWayPoint_mAD8443706A758D7BB8E94F81FD76B67025D988FC(__this, NULL);
 		bool L_1;
 		L_1 = AIBrainDefault_GoTo_m7167980A2D4689D3AF41EBA37659CB66122B8677(__this, L_0, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:524>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:531>
 		return;
 	}
 }
-// Method Definition Index: 3864
+// Method Definition Index: 3887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_U3CChasingRoutineU3Eb__81_0_m7C4233344C515D3B5D648D10982269C171A56FAA (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:611>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:618>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 		return;
 	}
 }
-// Method Definition Index: 3865
+// Method Definition Index: 3888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_U3CChasingRoutineU3Eb__81_1_mE30A6F7EED8CD712789749A3F08A2AD2306532FA (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:626>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:633>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 		return;
 	}
 }
-// Method Definition Index: 3866
+// Method Definition Index: 3889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_U3COnAllyInTeamFightU3Eb__94_0_mAB786A259BE9B07C7016C4846DA3DED0D16C4697 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:961>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:968>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 		return;
 	}
 }
-// Method Definition Index: 3867
+// Method Definition Index: 3890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_U3CDefendTowerU3Eb__95_0_m9B418F8165DDCCF32B29F3CE1ECEE9324EE242B4 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:972>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:979>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 		return;
 	}
 }
-// Method Definition Index: 3868
+// Method Definition Index: 3891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_U3CExecuteQueueSkillAfterAnimationU3Eb__103_0_m9A7B12C1C0F0BDBC1FD3C512D65C2CD2D43204B2 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1130>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1137>
 		ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* L_0 = __this->___serverCharacter;
 		NullCheck(L_0);
 		ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* L_1;
@@ -28758,11 +28795,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AIBrainDefault_U3CExecuteQueueSkillAfter
 		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 3869
+// Method Definition Index: 3892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AIBrainDefault_U3CGetNearestTeamTowerU3Eb__129_0_m3384308B4FD638A600AFB9E5BA89D12AC58B1713 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_tower, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1727>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1734>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_tower;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -28786,11 +28823,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AIBrainDefault_U3CGetNearestTeamTowerU3
 		return L_7;
 	}
 }
-// Method Definition Index: 3870
+// Method Definition Index: 3893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AIBrainDefault_U3CGetNearestEnemyTowerU3Eb__130_0_m3757A644E75BB30EEDE4173F935440039CDE3A57 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_tower, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1733>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1740>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_tower;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -28814,13 +28851,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AIBrainDefault_U3CGetNearestEnemyTowerU
 		return L_7;
 	}
 }
-// Method Definition Index: 3871
+// Method Definition Index: 3894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_U3CGetUpperEnemyTowersU3Eb__131_0_m6DB17EADB941DB5C3CD983D05886493EBAA167FA (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_a, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1761>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1768>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_a;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -28838,7 +28875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_U3CGetUpperEnemyTowers
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_4, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1762>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1769>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___1_b;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -28856,20 +28893,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_U3CGetUpperEnemyTowers
 		float L_13;
 		L_13 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_11, L_12, NULL);
 		V_1 = L_13;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1763>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1770>
 		float L_14 = V_1;
 		int32_t L_15;
 		L_15 = Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F((&V_0), L_14, NULL);
 		return L_15;
 	}
 }
-// Method Definition Index: 3872
+// Method Definition Index: 3895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_U3CGetBottomEnemyTowersU3Eb__132_0_m4FF36B936C0252A2197F14BA8443DAD31C110BE1 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_a, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1794>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1801>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_a;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -28887,7 +28924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_U3CGetBottomEnemyTower
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_4, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1795>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1802>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___1_b;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -28905,18 +28942,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AIBrainDefault_U3CGetBottomEnemyTower
 		float L_13;
 		L_13 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_11, L_12, NULL);
 		V_1 = L_13;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1796>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1803>
 		float L_14 = V_0;
 		int32_t L_15;
 		L_15 = Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F((&V_1), L_14, NULL);
 		return L_15;
 	}
 }
-// Method Definition Index: 3873
+// Method Definition Index: 3896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AIBrainDefault_U3CIsTargetInSkillRangeU3Eb__139_0_m49AB29AC0412AE534164F41A6B5A4F33B1894582 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* ___0_ability, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1853>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1860>
 		BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_0 = ___0_ability;
 		NullCheck(L_0);
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_1 = L_0->___IsCooldownSkill;
@@ -28925,7 +28962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AIBrainDefault_U3CIsTargetInSkillRangeU
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(17, L_1);
 		if (L_2)
 		{
-			goto IL_0025;
+			goto IL_0033;
 		}
 	}
 	{
@@ -28939,38 +28976,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AIBrainDefault_U3CIsTargetInSkillRangeU
 		NullCheck(L_6);
 		float L_7;
 		L_7 = BaseAbility_get_ChakraCost_m34B1A278439314AABCC4773F093308665FAC6641(L_6, NULL);
-		if ((((float)L_5) > ((float)L_7)))
+		if ((!(((float)L_5) > ((float)L_7))))
 		{
-			goto IL_002b;
+			goto IL_0033;
+		}
+	}
+	{
+		BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_8 = ___0_ability;
+		NullCheck(L_8);
+		NetworkVariable_1_t815C16FD9A5F4C026F4EFC8293D19E35B66B1B05* L_9 = L_8->___skillLevel;
+		NullCheck(L_9);
+		int8_t L_10;
+		L_10 = VirtualFuncInvoker0< int8_t >::Invoke(17, L_9);
+		if ((((int32_t)L_10) >= ((int32_t)0)))
+		{
+			goto IL_0039;
 		}
 	}
 
-IL_0025:
+IL_0033:
 	{
 		return (0.0f);
 	}
 
-IL_002b:
+IL_0039:
 	{
-		BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_8 = ___0_ability;
-		NullCheck(L_8);
-		NetworkVariable_1_t05568979F40C9FE47CC10A404849F6B415B333EB* L_9 = L_8->___Range;
-		NullCheck(L_9);
-		float L_10;
-		L_10 = VirtualFuncInvoker0< float >::Invoke(17, L_9);
-		return ((float)il2cpp_codegen_subtract(L_10, (0.5f)));
+		BaseAbility_t00AD171C445DB79CFB2198AD21461D58E1A85F92* L_11 = ___0_ability;
+		NullCheck(L_11);
+		NetworkVariable_1_t05568979F40C9FE47CC10A404849F6B415B333EB* L_12 = L_11->___Range;
+		NullCheck(L_12);
+		float L_13;
+		L_13 = VirtualFuncInvoker0< float >::Invoke(17, L_12);
+		return ((float)il2cpp_codegen_subtract(L_13, (0.5f)));
 	}
 }
-// Method Definition Index: 3874
+// Method Definition Index: 3897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault_U3COnTargetDeathU3Eb__144_0_m469EDE5B933167BFAEC4B5A335F5A878053AB03A (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1941>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1948>
 		AIBrainDefault_ChangeState_mD38633E7366AEB0EB477AA0C3D1E17C979324DAE(__this, 3, NULL);
 		return;
 	}
 }
-// Method Definition Index: 3875
+// Method Definition Index: 3898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault___initializeVariables_m4691B1BDB02016CFDDE34B84881818E25F7C385B (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29037,7 +29086,7 @@ IL_006a:
 		return;
 	}
 }
-// Method Definition Index: 3876
+// Method Definition Index: 3899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault___initializeRpcs_m6DCAE3BE2520B70397E7C356FAAF304F4C85E0D3 (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29056,7 +29105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault___initializeRpcs_m6DCAE3B
 		return;
 	}
 }
-// Method Definition Index: 3877
+// Method Definition Index: 3900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIBrainDefault___rpc_handler_3870749310_m2D57942D44F8CC1BB52CB6D3CF5EA5C6D4C2F9DF (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* ___0_target, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___1_reader, __RpcParams_tA4F5B2601A930BA667C4084C62B0FA7CABA5980E ___2_rpcParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29116,7 +29165,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 3878
+// Method Definition Index: 3901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AIBrainDefault___getTypeName_m8190DC5895750D561688BEA96618D55EBC03C2AE (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29132,7 +29181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AIBrainDefault___getTypeName_m8190D
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 81573
+// Method Definition Index: 81596
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsClient_m5F2509260F66EBA5217A83CC65F40D5D117F59C8_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29141,7 +29190,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsClien
 		return L_0;
 	}
 }
-// Method Definition Index: 81564
+// Method Definition Index: 81587
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29150,7 +29199,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsServe
 		return L_0;
 	}
 }
-// Method Definition Index: 60476
+// Method Definition Index: 60499
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29173,7 +29222,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 60529
+// Method Definition Index: 60552
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29210,7 +29259,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 81708
+// Method Definition Index: 81731
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* NetworkManager_get_Singleton_m0F86FB1D52C8EDB866101D9CAE0CAA1D7DAE2266_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29226,7 +29275,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3C1F76E0C1B39BB36
 		return L_0;
 	}
 }
-// Method Definition Index: 2363
+// Method Definition Index: 2379
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* ServerCharacter_get_clientCharacter_mD602F3FB6971792640CAC01ABBE5ABF972B42FEC_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29235,7 +29284,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClientCharacter_t3048ED68C2390777
 		return L_0;
 	}
 }
-// Method Definition Index: 81828
+// Method Definition Index: 81851
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkObject_get_NetworkObjectId_m40FAD6ADD87B78F51BCE10D716BBEC5C0FED22E6_inline (NetworkObject_t8D6F76C7440A9E6176FC7F9268E5720C346A7366* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29244,7 +29293,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkObject_get_Networ
 		return L_0;
 	}
 }
-// Method Definition Index: 81733
+// Method Definition Index: 81756
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkTickSystem_t03E11F229B752CF97C7A1616D2CFF513D988780A* NetworkManager_get_NetworkTickSystem_m932840C0DC497A492EE381B003FA1A5957DFDE57_inline (NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29253,7 +29302,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkTickSystem_t03E11F229B752C
 		return L_0;
 	}
 }
-// Method Definition Index: 83879
+// Method Definition Index: 83902
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t NetworkTickSystem_get_TickRate_mE053E1F4706D7744E24E0CB387DADE9454EDD337_inline (NetworkTickSystem_t03E11F229B752CF97C7A1616D2CFF513D988780A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29262,7 +29311,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t NetworkTickSystem_get_Ti
 		return L_0;
 	}
 }
-// Method Definition Index: 3601
+// Method Definition Index: 3624
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* FogOfWarWorldManager_get_Instance_m2CC2E4A7D7168B0060024C3C88AF5EBD3FF74F78_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29277,7 +29326,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FogOfWarWorldManager_tDC4450D1EEC
 		return L_0;
 	}
 }
-// Method Definition Index: 3602
+// Method Definition Index: 3625
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FogOfWarWorldManager_set_Instance_m267FA596FD9CD8CA5937B5A2C3356F38FF0927EB_inline (FogOfWarWorldManager_tDC4450D1EEC2F30284EDC1D0695933849CDF5192* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29294,7 +29343,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FogOfWarWorldManager_set_Ins
 		return;
 	}
 }
-// Method Definition Index: 14108
+// Method Definition Index: 14131
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkVariable_1_tC46DC1CECD6F80AE0C10531DED238D536E0A8D91* NetworkLifeState_get_LifeState_mDEA37B093A8763BD5211AD1E54F92522DF20C4EE_inline (NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29303,7 +29352,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkVariable_1_tC46DC1CECD6F80
 		return L_0;
 	}
 }
-// Method Definition Index: 81579
+// Method Definition Index: 81602
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsSpawned_m61C7DDBA4399DA812385A297821986D619423C96_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29312,7 +29361,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsSpawn
 		return L_0;
 	}
 }
-// Method Definition Index: 81589
+// Method Definition Index: 81612
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkBehaviour_get_OwnerClientId_m59ED21DE97867ED0CAE0C553A2BBE369543360BF_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29321,7 +29370,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkBehaviour_get_Own
 		return L_0;
 	}
 }
-// Method Definition Index: 81846
+// Method Definition Index: 81869
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkObject_IsNetworkVisibleTo_mE429F4B9A886AC93E179746BF6FFE7AB2D837667_inline (NetworkObject_t8D6F76C7440A9E6176FC7F9268E5720C346A7366* __this, uint64_t ___0_clientId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29355,7 +29404,7 @@ IL_000a:
 		return L_3;
 	}
 }
-// Method Definition Index: 81584
+// Method Definition Index: 81607
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkBehaviour_get_NetworkObjectId_m5FDE87B0BF440C37E2BF04662EDBAD97FCCD0A9E_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29364,7 +29413,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkBehaviour_get_Net
 		return L_0;
 	}
 }
-// Method Definition Index: 3624
+// Method Definition Index: 3647
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PlayerVisibilityComponent_get_IsInBush_m65AF9A667846697C492CD7AF614B9C3ED9472E7F_inline (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29373,7 +29422,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PlayerVisibilityComponent_ge
 		return L_0;
 	}
 }
-// Method Definition Index: 3628
+// Method Definition Index: 3651
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* PlayerVisibilityComponent_get_CurrentBush_mE62563CCB1316ADDC3CDC9465520DB20D9F06ADF_inline (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29382,7 +29431,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816
 		return L_0;
 	}
 }
-// Method Definition Index: 14109
+// Method Definition Index: 14132
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* NetworkLifeState_get_Targetable_m07E45E87099CFA6A79AAA9078E26C627CB97B1C9_inline (NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29391,7 +29440,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkVariable_1_tCB4418FFEA24AD
 		return L_0;
 	}
 }
-// Method Definition Index: 3626
+// Method Definition Index: 3649
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PlayerVisibilityComponent_get_IsAttacking_mBD443D16B8BD512BF1375F5CA8BD107B13F7DFB4_inline (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29400,7 +29449,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PlayerVisibilityComponent_ge
 		return L_0;
 	}
 }
-// Method Definition Index: 60431
+// Method Definition Index: 60454
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29448,7 +29497,7 @@ IL_0040:
 		return L_19;
 	}
 }
-// Method Definition Index: 8767
+// Method Definition Index: 8790
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Tower_GetTeam_mD8198644C71ACA5CE26881CAD5F4E8C459F2E15F_inline (Tower_t93901F9ACBCBFBC827C3977B871BE5EF4D2425E6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29457,7 +29506,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Tower_GetTeam_mD8198644C7
 		return L_0;
 	}
 }
-// Method Definition Index: 3625
+// Method Definition Index: 3648
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_set_IsInBush_m8AFCED0A24418C4EA864831920BC215813348D05_inline (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29467,7 +29516,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_se
 		return;
 	}
 }
-// Method Definition Index: 3629
+// Method Definition Index: 3652
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_set_CurrentBush_m8D4A044D65CE50A6F2B089F96C7EF53243C13F94_inline (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29478,7 +29527,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_se
 		return;
 	}
 }
-// Method Definition Index: 3627
+// Method Definition Index: 3650
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_set_IsAttacking_mBD1F6BD8CB8CEAC208F85EE063BE2E8BB2AB3980_inline (PlayerVisibilityComponent_tEB91F5DA38BA76F91F7EA5225F0DB43ED785EEAD* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29488,7 +29537,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerVisibilityComponent_se
 		return;
 	}
 }
-// Method Definition Index: 2540
+// Method Definition Index: 2556
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ClientHealingFountain_get_WellMesh_mAC8F4B2AE2553B7A76087C798269ABE7A50D3FBB_inline (ClientHealingFountain_tCAD024903AEF9F9A48D2D735AF624E65EE1E2E74* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29497,7 +29546,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 2541
+// Method Definition Index: 2557
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ClientHealingFountain_get_Vfxheal_m4216E1D16AA979BC7D53E6ACCD90C80FCAB0EE16_inline (ClientHealingFountain_tCAD024903AEF9F9A48D2D735AF624E65EE1E2E74* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29506,7 +29555,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 81830
+// Method Definition Index: 81853
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkObject_get_OwnerClientId_m049930D5FE84BDA9104F03995AC29953BAB247E4_inline (NetworkObject_t8D6F76C7440A9E6176FC7F9268E5720C346A7366* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29515,7 +29564,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkObject_get_OwnerC
 		return L_0;
 	}
 }
-// Method Definition Index: 60546
+// Method Definition Index: 60569
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -29566,7 +29615,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 81727
+// Method Definition Index: 81750
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkSceneManager_tC93DADE5972B29C0860CC236D9E11A74953C65BC* NetworkManager_get_SceneManager_m88D4B3F1D93093835BE6C7D13A4E3E3D337637C2_inline (NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29575,7 +29624,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkSceneManager_tC93DADE5972B
 		return L_0;
 	}
 }
-// Method Definition Index: 3758
+// Method Definition Index: 3781
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* TeamSlot_get_NameText_mCEBFE81001FAFAEAF288CBC1656409D01473FDEA_inline (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29584,7 +29633,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TMP_Text_tE8D677872D43AD4B2AAF0D6
 		return L_0;
 	}
 }
-// Method Definition Index: 3756
+// Method Definition Index: 3779
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* TeamSlot_get_BlankProfilePictureSlot_m1C3B8CFEF8B0328371ABE04088C7AB35186EE51D_inline (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29593,7 +29642,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 3757
+// Method Definition Index: 3780
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* TeamSlot_get_ProfilePictureSlot_m792EB9AC5BAA9EDA45A1843EB7807A9843B95E48_inline (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29602,7 +29651,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 3761
+// Method Definition Index: 3784
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* TeamSlot_get_KickButton_mDB50602ABF5168701126B2DD0D7748123025E82B_inline (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29611,7 +29660,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112F
 		return L_0;
 	}
 }
-// Method Definition Index: 3760
+// Method Definition Index: 3783
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* TeamSlot_get_SwapButton_m88E08E4720727277C27A2416B9AFAA8764AA892B_inline (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29620,7 +29669,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Button_t6786514A57F7AFDEE5431112F
 		return L_0;
 	}
 }
-// Method Definition Index: 3754
+// Method Definition Index: 3777
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TeamSlot_get_Team_m549341CB142B89046ACDBE4B802ACCE84CDB151B_inline (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29629,7 +29678,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TeamSlot_get_Team_m549341
 		return L_0;
 	}
 }
-// Method Definition Index: 81560
+// Method Definition Index: 81583
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsLocalPlayer_m7F03351D42B4BA857F9770EE2241A10804025301_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29638,7 +29687,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsLocal
 		return L_0;
 	}
 }
-// Method Definition Index: 60263
+// Method Definition Index: 60286
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -29653,7 +29702,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
-// Method Definition Index: 60283
+// Method Definition Index: 60306
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -29672,7 +29721,7 @@ IL_001d:
 		return L_1;
 	}
 }
-// Method Definition Index: 81575
+// Method Definition Index: 81598
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsHost_m8467EE16C1819716A8427F93EEE0D6CA13AC8422_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29681,7 +29730,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsHost_
 		return L_0;
 	}
 }
-// Method Definition Index: 7877
+// Method Definition Index: 7900
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HostGameManager_t73F393AD269CE6C8AE25336F04C730B15F394B90* HostSingleton_get_GameManager_mF471FA040E252F1DD7DEC9C545B7A50667B4E2DD_inline (HostSingleton_t320E9770371BCD10698F4C1CB9B05D7E136EC5F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29690,7 +29739,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HostGameManager_t73F393AD269CE6C8
 		return L_0;
 	}
 }
-// Method Definition Index: 7856
+// Method Definition Index: 7879
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkServer_tBD3F4FD4900397F9D746ADD5A6225944966DB286* HostGameManager_get_NetworkServer_mB02EBBE84E18FE742C1D95D87BCBDD3535882CC3_inline (HostGameManager_t73F393AD269CE6C8AE25336F04C730B15F394B90* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29699,7 +29748,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkServer_tBD3F4FD4900397F9D7
 		return L_0;
 	}
 }
-// Method Definition Index: 3755
+// Method Definition Index: 3778
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TeamSlot_get_SlotNumber_m14FDD6AE810C4913E6AE514658C36807F620CC92_inline (TeamSlot_t0BF1468DF01E1860C82BCCDE2B2694AB29C0D38C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29708,7 +29757,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TeamSlot_get_SlotNumber_m
 		return L_0;
 	}
 }
-// Method Definition Index: 102717
+// Method Definition Index: 102740
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29717,7 +29766,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1
 		return L_0;
 	}
 }
-// Method Definition Index: 60439
+// Method Definition Index: 60462
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29740,7 +29789,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 60449
+// Method Definition Index: 60472
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -29771,7 +29820,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 60425
+// Method Definition Index: 60448
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -29790,13 +29839,13 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 15650
+// Method Definition Index: 15673
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 2364
+// Method Definition Index: 2380
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CrowdControlController_t5DD2179FA8945828252F51EA1490EC1558716CB1* ServerCharacter_get_CrowdControlController_mFDAB825A571998615B52E54815C122E7BFF0B6A5_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29805,7 +29854,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CrowdControlController_t5DD2179FA
 		return L_0;
 	}
 }
-// Method Definition Index: 2405
+// Method Definition Index: 2421
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NavMeshAgent_t5D0CCC0B3B78242F286C9BD8EDD87C3CCBD0A66F* ServerCharacterMovement_get_NavMeshAgent_m721C394478684B35AD27B91240D05175A6E71DB3_inline (ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29814,7 +29863,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NavMeshAgent_t5D0CCC0B3B78242F286
 		return L_0;
 	}
 }
-// Method Definition Index: 60544
+// Method Definition Index: 60567
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29839,7 +29888,7 @@ IL_000c:
 		return L_2;
 	}
 }
-// Method Definition Index: 60455
+// Method Definition Index: 60478
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -29858,7 +29907,7 @@ IL_000e:
 		return L_3;
 	}
 }
-// Method Definition Index: 3773
+// Method Definition Index: 3796
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AIBrainDefault_get_LastStoreBasicAttack_m29853319315ECA29A4326B3D936322469909508A_inline (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29867,7 +29916,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AIBrainDefault_get_LastSt
 		return L_0;
 	}
 }
-// Method Definition Index: 3774
+// Method Definition Index: 3797
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AIBrainDefault_set_LastStoreBasicAttack_mB3412171DC8263ED83C82C19226ED236559D3E75_inline (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29877,7 +29926,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AIBrainDefault_set_LastStore
 		return;
 	}
 }
-// Method Definition Index: 2369
+// Method Definition Index: 2385
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* ServerCharacter_get_Movement_m9F21F4D3AA76E8E6CF427576DC0F856E4BE3382D_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29886,7 +29935,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ServerCharacterMovement_t1BB6C66B
 		return L_0;
 	}
 }
-// Method Definition Index: 2408
+// Method Definition Index: 2424
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t ServerCharacterMovement_get_MovementState_mAD4EDE256236DFB04D3ADF70A76E1CEAED8378B8_inline (ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29895,7 +29944,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t ServerCharacterMovement_g
 		return L_0;
 	}
 }
-// Method Definition Index: 60454
+// Method Definition Index: 60477
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -29937,7 +29986,7 @@ IL_0043:
 		return L_19;
 	}
 }
-// Method Definition Index: 83657
+// Method Definition Index: 83680
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteValueSafe_mA82B8C332BFA1FA2C68EF246D68A035DE2A0A5BF_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29955,7 +30004,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteValueS
 		return;
 	}
 }
-// Method Definition Index: 2370
+// Method Definition Index: 2386
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* ServerCharacter_get_Ability_mB4AEACCA497C23C3A044BE82B8288801A1B8A52A_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29964,7 +30013,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CharacterAbility_tDDFDE7EAA78AF20
 		return L_0;
 	}
 }
-// Method Definition Index: 60434
+// Method Definition Index: 60457
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29994,7 +30043,7 @@ IL_0034:
 		return L_7;
 	}
 }
-// Method Definition Index: 60451
+// Method Definition Index: 60474
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30022,7 +30071,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 60448
+// Method Definition Index: 60471
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30053,7 +30102,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 60452
+// Method Definition Index: 60475
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30081,16 +30130,16 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 3841
+// Method Definition Index: 3864
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188 AIBrainDefault_GetInput_m768A1D2D3DE2A07B6B09D786991537C7AF5E06BC_inline (AIBrainDefault_t0E1F5F7A167DF56E15D6BA29D7E2F323C3916416* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1809>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/MachineLearning/AIBrainDefault.cs:1816>
 		NetworkPlayerInput_tFC3DFE56C67398B2463D918A64FE033D7B6D8188 L_0 = __this->___networkPlayerInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 16940
+// Method Definition Index: 16963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float MathF_Max_m5C110C404CE4EE4A19347D8658D7B723A301A6CA_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30108,7 +30157,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float MathF_Max_m5C110C404CE4EE4A
 		return L_2;
 	}
 }
-// Method Definition Index: 60414
+// Method Definition Index: 60437
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -30121,7 +30170,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 60286
+// Method Definition Index: 60309
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_cyan_m182A29E7475C0A98ACC03E1CF5252BAB83F0BA31_inline (const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -30140,7 +30189,7 @@ IL_001d:
 		return L_1;
 	}
 }
-// Method Definition Index: 60547
+// Method Definition Index: 60570
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -30191,7 +30240,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 83538
+// Method Definition Index: 83561
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSafe_m0AC55FCF223F84F22F6C9B76AFA340E6591DE59E_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30207,7 +30256,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSa
 		return;
 	}
 }
-// Method Definition Index: 26285
+// Method Definition Index: 26308
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -30245,7 +30294,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 26181
+// Method Definition Index: 26204
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t1F749E064301C7FBDD1C0B79D6C7290359EA8141 Enumerator_get_Current_m6D29D26471D2D68AA6D86F9CD8D289D0C9C64516_gshared_inline (Enumerator_tD47D5E980DA77F17B740656DFC82938C8921A36E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30253,7 +30302,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t1F749E064301C7FBD
 		return L_0;
 	}
 }
-// Method Definition Index: 26266
+// Method Definition Index: 26289
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_mD8C68FAC73E70CDB6F3B0383A855C6806256A27D_gshared_inline (KeyValuePair_2_t1F749E064301C7FBDD1C0B79D6C7290359EA8141* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30261,7 +30310,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 26274
+// Method Definition Index: 26297
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30269,7 +30318,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 26337
+// Method Definition Index: 26360
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30277,7 +30326,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 17015
+// Method Definition Index: 17038
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Nullable_1_GetValueOrDefault_m6AF3AF6DB9554746726B5BB6D718859A894BD12E_gshared_inline (Nullable_1_t03E990096DA2676FE760B9E8D2FA90FE1452F0B2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30285,7 +30334,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Nullable_1_GetValueOrDefa
 		return L_0;
 	}
 }
-// Method Definition Index: 17013
+// Method Definition Index: 17036
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m734A0AE90EE3BDA701FBF3A60B4A485A0B1568A0_gshared_inline (Nullable_1_t03E990096DA2676FE760B9E8D2FA90FE1452F0B2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30293,7 +30342,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m734
 		return L_0;
 	}
 }
-// Method Definition Index: 81837
+// Method Definition Index: 81860
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkObject_get_IsSpawned_mDAF52C8099FE7F21C7AFF36622F74688E9E07CDA_inline (NetworkObject_t8D6F76C7440A9E6176FC7F9268E5720C346A7366* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30302,7 +30351,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkObject_get_IsSpawned_
 		return L_0;
 	}
 }
-// Method Definition Index: 60423
+// Method Definition Index: 60446
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -30345,7 +30394,7 @@ IL_0026:
 		return L_8;
 	}
 }
-// Method Definition Index: 83607
+// Method Definition Index: 83630
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteUnmanagedSafe_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m24083F73D425C912B88197F4A020CB58FED2F9A4_gshared_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30374,7 +30423,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteUnmana
 		return;
 	}
 }
-// Method Definition Index: 83490
+// Method Definition Index: 83513
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m8C7F2244FD383A6616E71FE07F260E8350B8C640_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* V_0 = NULL;
@@ -30396,7 +30445,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanag
 		return;
 	}
 }
-// Method Definition Index: 60433
+// Method Definition Index: 60456
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30432,7 +30481,7 @@ IL_0034:
 		return L_13;
 	}
 }
-// Method Definition Index: 60453
+// Method Definition Index: 60476
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -30460,7 +30509,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 83593
+// Method Definition Index: 83616
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteBytesSafe_mD6983BBB2B1A249EA173F6CF20B1B2D93B1079F6_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, uint8_t* ___0_value, int32_t ___1_size, int32_t ___2_offset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30525,7 +30574,7 @@ IL_003b:
 		return;
 	}
 }
-// Method Definition Index: 83486
+// Method Definition Index: 83509
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadBytesSafe_m109629AE2B684CFCCFF9111790DE4E1E26445649_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, uint8_t* ___0_value, int32_t ___1_size, int32_t ___2_offset, const RuntimeMethod* method) 
 {
 	{
@@ -30570,7 +30619,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 83576
+// Method Definition Index: 83599
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FastBufferWriter_TryBeginWriteInternal_m9DD6CDBDC49E5AF7A760EA05882BE4F52BEA1883_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30646,7 +30695,7 @@ IL_0059:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 83467
+// Method Definition Index: 83490
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FastBufferReader_TryBeginReadInternal_m5C597FDF5DF8DA7AE28A0A441AF6542DD05B05B1_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{

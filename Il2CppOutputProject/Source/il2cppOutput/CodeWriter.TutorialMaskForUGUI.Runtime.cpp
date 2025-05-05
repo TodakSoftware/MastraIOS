@@ -435,7 +435,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MaskableGraphic_get_maskable
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134581
+// Method Definition Index: 134604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t10F3488F4D3DA05AC41C146275A269B0A1D3DB25 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m63ACB17201397D4F46DAFE8B7E19731F1B45FDFB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -469,7 +469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t10F3488F4D3DA05AC41C146275A26
 		return L_6;
 	}
 }
-// Method Definition Index: 134582
+// Method Definition Index: 134605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2E8D1FFF51F65D73F207ABA218309BCC605D6F11 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t1D2BA96B68E383E2272F7267FE9DE56378D84738* __this, const RuntimeMethod* method) 
 {
 	{
@@ -555,7 +555,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t10F3488F4D3DA05AC41C146275A269B0A1D3DB25_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134583
+// Method Definition Index: 134606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* MaskFixForTutorial_get_Graphic_m79D2147D3FE5EB80366DF741FC5E65EC11B89AEF (MaskFixForTutorial_t0E34401DD81B51C7D5A97C0DD5900C9BA5161397* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -594,7 +594,7 @@ IL_0019:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 134584
+// Method Definition Index: 134607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* MaskFixForTutorial_get_Mask_m8FF7EB581D450F104C67885AD6EF7456D3BBF888 (MaskFixForTutorial_t0E34401DD81B51C7D5A97C0DD5900C9BA5161397* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -633,7 +633,7 @@ IL_0019:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 134585
+// Method Definition Index: 134608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* MaskFixForTutorial_GetModifiedMaterial_m20D1A52DE49381E2D7947BB9D04DFACFA9BC10AE (MaskFixForTutorial_t0E34401DD81B51C7D5A97C0DD5900C9BA5161397* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_baseMaterial, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -937,7 +937,7 @@ IL_00f0:
 		return L_57;
 	}
 }
-// Method Definition Index: 134586
+// Method Definition Index: 134609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskFixForTutorial__ctor_m034D46E609ED2659F1631C1EADDE99E3E4F6CBB6 (MaskFixForTutorial_t0E34401DD81B51C7D5A97C0DD5900C9BA5161397* __this, const RuntimeMethod* method) 
 {
 	{
@@ -953,7 +953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskFixForTutorial__ctor_m034D46E609ED26
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134587
+// Method Definition Index: 134610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* TutorialMask_get_Graphic_m1AE6E93DB483DE9F5230317F268BA4BA313152B8 (TutorialMask_tD019D52ECA7E9ADB0AE136740B8BD8A643599E89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -992,7 +992,7 @@ IL_0019:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 134588
+// Method Definition Index: 134611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TutorialMask_OnEnable_mACA4738A4FB03F3F4755625BEFA7069368FD8EF3 (TutorialMask_tD019D52ECA7E9ADB0AE136740B8BD8A643599E89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1049,7 +1049,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 134589
+// Method Definition Index: 134612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TutorialMask_OnDisable_m32C3DE79D49C7B6B27BCC2E03F2AA5EBA06B5D49 (TutorialMask_tD019D52ECA7E9ADB0AE136740B8BD8A643599E89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1116,7 +1116,7 @@ IL_0041:
 		return;
 	}
 }
-// Method Definition Index: 134590
+// Method Definition Index: 134613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* TutorialMask_GetModifiedMaterial_m2208A7ED7886BD8E40B574CEF9ADE0DCE76BC121 (TutorialMask_tD019D52ECA7E9ADB0AE136740B8BD8A643599E89* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_baseMaterial, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1287,7 +1287,7 @@ IL_00cd:
 		return L_23;
 	}
 }
-// Method Definition Index: 134591
+// Method Definition Index: 134614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TutorialMask__ctor_mC3312EE598BE3704C9903134A56101694057BEA1 (TutorialMask_tD019D52ECA7E9ADB0AE136740B8BD8A643599E89* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1305,7 +1305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TutorialMask__ctor_mC3312EE598BE3704C990
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134592
+// Method Definition Index: 134615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* TutorialObject_get_Graphic_mA94F005E4CD0EFBC012F1855C968CFB908DA08EB (TutorialObject_t26A96B889BCA1FB9D3161A1AB859AC564EC6F8F5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1344,7 +1344,7 @@ IL_0019:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 134593
+// Method Definition Index: 134616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TutorialObject_OnEnable_mA09893492213CA58E7CC02E0B3567F8A38E781A6 (TutorialObject_t26A96B889BCA1FB9D3161A1AB859AC564EC6F8F5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1381,7 +1381,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 134594
+// Method Definition Index: 134617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TutorialObject_OnDisable_mD2A3BEBB6DE3C6332C4A7ACA507E7D3C55F89D46 (TutorialObject_t26A96B889BCA1FB9D3161A1AB859AC564EC6F8F5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1426,7 +1426,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 134595
+// Method Definition Index: 134618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* TutorialObject_GetModifiedMaterial_m612ADCB3C9D267ED60271F6540F539EF293ED450 (TutorialObject_t26A96B889BCA1FB9D3161A1AB859AC564EC6F8F5* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_baseMaterial, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1648,7 +1648,7 @@ IL_009d:
 		return L_25;
 	}
 }
-// Method Definition Index: 134596
+// Method Definition Index: 134619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TutorialObject__ctor_mD7DCB7E57636C00778660DADB79EA241B3C2894E (TutorialObject_t26A96B889BCA1FB9D3161A1AB859AC564EC6F8F5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1685,7 +1685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TutorialObject__ctor_mD7DCB7E57636C00778
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 103525
+// Method Definition Index: 103548
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mask_get_showMaskGraphic_m87FD20C72F514AB305E05A5B104B180D9B35601B_inline (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1694,7 +1694,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mask_get_showMaskGraphic_m87
 		return L_0;
 	}
 }
-// Method Definition Index: 103537
+// Method Definition Index: 103560
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MaskableGraphic_get_maskable_m34B87CD87CFF73FF4E09D892ADB316E412F22660_inline (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{

@@ -305,7 +305,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MemorySnapshotMetadata_set_D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134668
+// Method Definition Index: 134691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mFD8B2FF85C5C3F2018369F9173D5F8E0B5BE1692 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tE0A6D46FF6E52F0E0D9D069F8B23F850CC3B6BE6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -391,7 +391,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tF9875C33C72F5AB5FEA02374B87CD9AB5F262455_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134669
+// Method Definition Index: 134692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetadataInjector_PlayerInitMetadata_m2B838710D556FEF89B35A29E71ACC0D3916E9E5B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -453,7 +453,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 134670
+// Method Definition Index: 134693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetadataInjector_InitializeMetadataCollection_mBFDFA4BFEAC247956FE4DF5C1D4B10DCC7C5C842 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -481,7 +481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetadataInjector_InitializeMetadataColle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134671
+// Method Definition Index: 134694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetadataCollect__ctor_m8B73A3517B023FAE77B2B0DBF943D2C46548A92C (MetadataCollect_tC8B0253510FEA145A1B4FF41A6F31715CC3BE7B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -544,7 +544,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 134673
+// Method Definition Index: 134696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetadataCollect_Dispose_m90383B4E59A4F18B060E271C8EE0FB01D1100C91 (MetadataCollect_tC8B0253510FEA145A1B4FF41A6F31715CC3BE7B3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -623,7 +623,7 @@ IL_006f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134674
+// Method Definition Index: 134697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultMetadataCollect__ctor_m53708F919948A047FFEE8A508A887A5FBE6075FD (DefaultMetadataCollect_tD6157C7E08B7D14AD836C32067640EF6AA25C7D7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -641,7 +641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultMetadataCollect__ctor_m53708F9199
 		return;
 	}
 }
-// Method Definition Index: 134675
+// Method Definition Index: 134698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultMetadataCollect_CollectMetadata_m589B5B3CFDBD635E89874B872382C96C07369908 (DefaultMetadataCollect_tD6157C7E08B7D14AD836C32067640EF6AA25C7D7* __this, MemorySnapshotMetadata_t84D895F4E85E108F7D0EC6D71162835801109532* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -692,7 +692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultMetadataCollect_CollectMetadata_m
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 56533
+// Method Definition Index: 56556
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MemorySnapshotMetadata_set_Description_m00757DCA7E64343633755932EC6F15A1B61A4621_inline (MemorySnapshotMetadata_t84D895F4E85E108F7D0EC6D71162835801109532* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{

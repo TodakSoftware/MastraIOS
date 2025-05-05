@@ -517,16 +517,16 @@ struct WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD;
 struct WwiseEventReference_tD8E8B8ABC21A2A05DDAE09FA8BDDBB7FC60F5BD6;
 struct U3CU3Ec__DisplayClass64_0_t410D42A23B88824DFF3B4E8544697117D6B5A787;
 struct U3CU3Ec__DisplayClass69_0_tC2C0A5F1A7ACE05B97CBDE4E5B1AEDA0B323E726;
-struct U3CU3Ec__DisplayClass86_0_t1E19B89B16E21601C84CE0A367A432F3D71B21C8;
-struct U3CCancelMoveAnimationU3Ed__96_t24B3B98F2A7245CC110521F0FE35E3B967B14F93;
-struct U3CCancelRecallAnimationU3Ed__98_tBC60D3A3A22C24406EC1953477564115BCCA77B6;
+struct U3CU3Ec__DisplayClass87_0_t6E269CA2CB3BE7A873BB715B0E5D98DD7956DAD1;
+struct U3CCancelMoveAnimationU3Ed__97_tA5CCF26C3238C0347BF62A80C9D1337B99420E8E;
+struct U3CCancelRecallAnimationU3Ed__99_t1877D28033BE05AFC898E44E1E3314B7DE8898A9;
 struct U3CInitiazeResourcesWithWaitRoutineU3Ed__24_t70A1112C546258CA89D5B8EE7403F0EC66B6FA92;
 struct U3CSetDatabaseU3Ed__27_tA369857A8884E7E6DC28E965791DA48CE282E07A;
 struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 struct U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6;
-struct U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575;
-struct U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A;
+struct U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660;
+struct U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699;
 struct OnCameraLiveEvent_t7D386167C72D0CF46B555EEB01B3E109CB55FE2E;
 struct CreatePipelineDelegate_tD3DA597AF4631B53D0809602C1D8839A5939597C;
 struct DestroyPipelineDelegate_tCD3E4BFD4BE2E14F5F9A9560C1F63FCB396BD82F;
@@ -606,11 +606,11 @@ IL2CPP_EXTERN_C RuntimeClass* RpcReceiveHandler_t9B7D20AFF49DC83F316E32605F53AE0
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TemporaryShield_tA24B4C6C89E75049EBC7BC764853AE0EA7D0ADDB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CInitiazeResourcesWithWaitRoutineU3Ed__24_t70A1112C546258CA89D5B8EE7403F0EC66B6FA92_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CSetDatabaseU3Ed__27_tA369857A8884E7E6DC28E965791DA48CE282E07A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CSetSkinSettingsU3Ed__50_t7D562C5D0F7EFFC1D2749AB06F6151836ABD7EA2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
@@ -752,13 +752,13 @@ IL2CPP_EXTERN_C const RuntimeMethod* ObservableList_1_add_OnListChanged_m0A491FA
 IL2CPP_EXTERN_C const RuntimeMethod* ObservableList_1_remove_OnListChanged_mF0BC24C28F90DC48DE5349AE267D306BF83EA65C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OrbOfShakti_Passive_mF0464D4E2768C9DD1085F1B45E9DB3798CFF99E0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RimauTalisman_Passive_m98BA2A05056EA425E37BFB25D5CC7975E61AC0B6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CCancelMoveAnimationU3Ed__96_System_Collections_IEnumerator_Reset_m49743AA29EC719461BA3084336E6E31253436306_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CCancelRecallAnimationU3Ed__98_System_Collections_IEnumerator_Reset_mD2544ABA1BB4ACB644FAEB5AABE41AC31CB5F79C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCancelMoveAnimationU3Ed__97_System_Collections_IEnumerator_Reset_mA516D610CD93A71ED762F85D63A194928E86BE36_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCancelRecallAnimationU3Ed__99_System_Collections_IEnumerator_Reset_mCA88EBFF3AAD3F1E7B1EDE7FD4270414747A99A4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CInitiazeResourcesWithWaitRoutineU3Ed__24_System_Collections_IEnumerator_Reset_mF24A00AB9609134C886B2623044F507244166120_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CSetCurrentLevelU3Ed__10_System_Collections_IEnumerator_Reset_m89BD4FC466F59A7B932767ED17DE3AACD46D9439_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CSetCurrentLevelU3Ed__12_System_Collections_IEnumerator_Reset_m0502BB77613C485C9F17CA64DCC591C84CEB2C18_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CSetDatabaseU3Ed__27_System_Collections_IEnumerator_Reset_m98FB9ADA9FCC28433ABD5DED1E780DE91A47AD82_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSetCurrentLevelU3Eb__10_0_mD52F62B4FB52688697C3D46A01EA88202B8A53BC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CWaitForUiManagerU3Ed__11_System_Collections_IEnumerator_Reset_m1AA93C6992D5BD9D6CD6E774AD211385766754F2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSetCurrentLevelU3Eb__12_0_mE21EA723EA537BEB197583C79F9F29FA7BE92019_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CWaitForUiManagerU3Ed__13_System_Collections_IEnumerator_Reset_m0DBFFB23E7EDC0390540C47DFCBFA54EBB0EE35D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* E_ChakraVein_t1C8E63DFC61F61F954F378D42B324808F0D0E7D6_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -922,17 +922,17 @@ struct U3CU3Ec__DisplayClass69_0_tC2C0A5F1A7ACE05B97CBDE4E5B1AEDA0B323E726  : pu
 {
 	String_t* ___lastPlayedEvent;
 };
-struct U3CU3Ec__DisplayClass86_0_t1E19B89B16E21601C84CE0A367A432F3D71B21C8  : public RuntimeObject
+struct U3CU3Ec__DisplayClass87_0_t6E269CA2CB3BE7A873BB715B0E5D98DD7956DAD1  : public RuntimeObject
 {
 	String_t* ___lastPlayedEvent;
 };
-struct U3CCancelMoveAnimationU3Ed__96_t24B3B98F2A7245CC110521F0FE35E3B967B14F93  : public RuntimeObject
+struct U3CCancelMoveAnimationU3Ed__97_tA5CCF26C3238C0347BF62A80C9D1337B99420E8E  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* ___U3CU3E4__this;
 };
-struct U3CCancelRecallAnimationU3Ed__98_tBC60D3A3A22C24406EC1953477564115BCCA77B6  : public RuntimeObject
+struct U3CCancelRecallAnimationU3Ed__99_t1877D28033BE05AFC898E44E1E3314B7DE8898A9  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -947,13 +947,13 @@ struct U3CInitiazeResourcesWithWaitRoutineU3Ed__24_t70A1112C546258CA89D5B8EE7403
 struct U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6  : public RuntimeObject
 {
 };
-struct U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575  : public RuntimeObject
+struct U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* ___U3CU3E4__this;
 };
-struct U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A  : public RuntimeObject
+struct U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -3197,6 +3197,7 @@ struct SO_Artifaks_tB62E4259F74814970564AD00106B32896067B44F  : public Scriptabl
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___artifaksIcon;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___artifaksIconInGame;
 	String_t* ___name;
+	String_t* ___nickName;
 	int32_t ___currentLevel;
 	float ___currentExp;
 	int32_t ___aimType;
@@ -5229,7 +5230,7 @@ struct String_t_StaticFields
 struct U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_StaticFields
 {
 	U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6* ___U3CU3E9;
-	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___U3CU3E9__10_0;
+	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___U3CU3E9__12_0;
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -5307,6 +5308,10 @@ struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
 	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
 	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
 	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+struct AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B_StaticFields
+{
+	bool ___IsGlobalStopActive;
 };
 struct CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB_StaticFields
 {
@@ -6264,8 +6269,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChakraVeinSystem_UpdateChakr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinSystem_HandlePlayerLevelChanged_m4D95BDA5F11C11AD2C48A7C3171C51A05F896F80 (ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057* __this, int32_t ___0_newValue, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChakraVeinController_SetCurrentLevel_m01CB1CDAEA00FE0B8C3ADAABF30F7483EACAB8A1 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChakraVeinController_WaitForUiManager_m0DB341B0DA93CAC834F89FB7EAF2435D49FDA065 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetCurrentLevelU3Ed__10__ctor_m731DC57E299884A6C0E05CFD0F8C76A9454EC2F6 (U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForUiManagerU3Ed__11__ctor_m6ECC5FC86259EEC8C8AE78848E8D4CE28961559F (U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetCurrentLevelU3Ed__12__ctor_m634A870F45AFAAD7DCB584902AD60479C25E73A4 (U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForUiManagerU3Ed__13__ctor_m43BF451C30517D682554E80A2986C9F620793E71 (U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016 (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* EventSystem_get_currentSelectedGameObject_mD606FFACF3E72755298A523CBB709535CF08C98A_inline (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) ;
 inline Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
@@ -6485,7 +6490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastBufferWriter_Grow_mAD43637D60A44A3D7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2010
+// Method Definition Index: 2024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass64_0__ctor_mDD77A232882C51F17F141305B2DC5CF0A920CA89 (U3CU3Ec__DisplayClass64_0_t410D42A23B88824DFF3B4E8544697117D6B5A787* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6493,11 +6498,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass64_0__ctor_mDD77A23
 		return;
 	}
 }
-// Method Definition Index: 2011
+// Method Definition Index: 2025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass64_0_U3CPlayVoiceOverU3Eb__0_m5440FE5B86E0DD765FAAEFEFA514D83BABE39E6C (U3CU3Ec__DisplayClass64_0_t410D42A23B88824DFF3B4E8544697117D6B5A787* __this, Event_tC94E1AD2EC4811A30B6284EBD369EFEC0670BEA4* ___0_e, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:738>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:744>
 		Event_tC94E1AD2EC4811A30B6284EBD369EFEC0670BEA4* L_0 = ___0_e;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -6516,7 +6521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass64_0_U3CPlayVoiceOv
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2012
+// Method Definition Index: 2026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass69_0__ctor_mC88AECA6F0A3C97B10A0871588A1FC9F422420EF (U3CU3Ec__DisplayClass69_0_tC2C0A5F1A7ACE05B97CBDE4E5B1AEDA0B323E726* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6524,11 +6529,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass69_0__ctor_mC88AECA
 		return;
 	}
 }
-// Method Definition Index: 2013
+// Method Definition Index: 2027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass69_0_U3CPlayVoiceOverSkillU3Eb__0_mB76511567406E4E42375D3C04D6AC4CB3B2C6888 (U3CU3Ec__DisplayClass69_0_tC2C0A5F1A7ACE05B97CBDE4E5B1AEDA0B323E726* __this, Event_tC94E1AD2EC4811A30B6284EBD369EFEC0670BEA4* ___0_e, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:806>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:815>
 		Event_tC94E1AD2EC4811A30B6284EBD369EFEC0670BEA4* L_0 = ___0_e;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -6547,19 +6552,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass69_0_U3CPlayVoiceOv
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2014
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass86_0__ctor_m972586676A18EEDE84394AA07A67C5BEE29067F6 (U3CU3Ec__DisplayClass86_0_t1E19B89B16E21601C84CE0A367A432F3D71B21C8* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2028
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass87_0__ctor_m642FCAD3805057749AB96FD4BCCF44ADC572220E (U3CU3Ec__DisplayClass87_0_t6E269CA2CB3BE7A873BB715B0E5D98DD7956DAD1* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 2015
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass86_0_U3CPlayRandomCharacterEventU3Eb__0_m560FCDE868057C7F70E1FC879B149AC43F30AF80 (U3CU3Ec__DisplayClass86_0_t1E19B89B16E21601C84CE0A367A432F3D71B21C8* __this, Event_tC94E1AD2EC4811A30B6284EBD369EFEC0670BEA4* ___0_e, const RuntimeMethod* method) 
+// Method Definition Index: 2029
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass87_0_U3CPlayRandomCharacterEventU3Eb__0_m57FDB7DB35A0F18525E9EB698B67AC841D1EF441 (U3CU3Ec__DisplayClass87_0_t6E269CA2CB3BE7A873BB715B0E5D98DD7956DAD1* __this, Event_tC94E1AD2EC4811A30B6284EBD369EFEC0670BEA4* ___0_e, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:954>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:971>
 		Event_tC94E1AD2EC4811A30B6284EBD369EFEC0670BEA4* L_0 = ___0_e;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -6578,8 +6583,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass86_0_U3CPlayRandomC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2016
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelMoveAnimationU3Ed__96__ctor_m3FD8A87D7E319C313617578A323FC3ED662D4E63 (U3CCancelMoveAnimationU3Ed__96_t24B3B98F2A7245CC110521F0FE35E3B967B14F93* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 2030
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelMoveAnimationU3Ed__97__ctor_mB86FEF134ABA30D5550C47ABCC060CFB5B99A610 (U3CCancelMoveAnimationU3Ed__97_tA5CCF26C3238C0347BF62A80C9D1337B99420E8E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -6588,15 +6593,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelMoveAnimationU3Ed__96__ctor_m3F
 		return;
 	}
 }
-// Method Definition Index: 2017
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelMoveAnimationU3Ed__96_System_IDisposable_Dispose_m0A0EBAD42682F3C1B9D083471556EBA1141780FF (U3CCancelMoveAnimationU3Ed__96_t24B3B98F2A7245CC110521F0FE35E3B967B14F93* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2031
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelMoveAnimationU3Ed__97_System_IDisposable_Dispose_mCE4DA37FC67CE908EAFAC884D694E45D64237979 (U3CCancelMoveAnimationU3Ed__97_tA5CCF26C3238C0347BF62A80C9D1337B99420E8E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 2018
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCancelMoveAnimationU3Ed__96_MoveNext_m2F4AC7097D6A16EC53C6E2BFA47D0A776FA152D2 (U3CCancelMoveAnimationU3Ed__96_t24B3B98F2A7245CC110521F0FE35E3B967B14F93* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2032
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCancelMoveAnimationU3Ed__97_MoveNext_mABCE6A33BDCDA45F6E85EC56B1F0873F4F700C95 (U3CCancelMoveAnimationU3Ed__97_tA5CCF26C3238C0347BF62A80C9D1337B99420E8E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6632,7 +6637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCancelMoveAnimationU3Ed__96_MoveNext_
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1101>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1129>
 		AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* L_4 = V_1;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___ownerGO;
@@ -6648,13 +6653,13 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1101>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1129>
 		return (bool)0;
 	}
 
 IL_0035:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1105>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1133>
 		AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* L_8 = V_1;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8->___ownerGO;
@@ -6710,7 +6715,7 @@ IL_0035:
 
 IL_007f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1107>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1135>
 		AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* L_24 = V_1;
 		NullCheck(L_24);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = L_24->___ownerGO;
@@ -6719,13 +6724,13 @@ IL_007f:
 		L_26 = DictionaryCache_GetCachedClientInputSender_m994204E06E678488E9F4BB8077A3182517C8897D(L_25, NULL);
 		NullCheck(L_26);
 		ClientInputSender_ResetState_m7549B3A395CFB6C1813AD65CC3676E4F9B904F73(L_26, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1109>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1137>
 		return (bool)0;
 	}
 
 IL_0091:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1112>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1140>
 		AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* L_27 = V_1;
 		NullCheck(L_27);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = L_27->___ownerGO;
@@ -6780,7 +6785,7 @@ IL_0091:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1114>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1142>
 		AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* L_42 = V_1;
 		NullCheck(L_42);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = L_42->___ownerGO;
@@ -6789,13 +6794,13 @@ IL_0091:
 		L_44 = DictionaryCache_GetCachedClientInputSender_m994204E06E678488E9F4BB8077A3182517C8897D(L_43, NULL);
 		NullCheck(L_44);
 		ClientInputSender_ResetState_m7549B3A395CFB6C1813AD65CC3676E4F9B904F73(L_44, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1116>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1144>
 		return (bool)0;
 	}
 
 IL_00e8:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1119>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1147>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_45 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_45, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_45;
@@ -6807,29 +6812,29 @@ IL_00e8:
 IL_0101:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1103>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1131>
 		goto IL_0035;
 	}
 }
-// Method Definition Index: 2019
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelMoveAnimationU3Ed__96_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9AE6C87212A290E0C0665D18699DA7FBB94E0047 (U3CCancelMoveAnimationU3Ed__96_t24B3B98F2A7245CC110521F0FE35E3B967B14F93* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2033
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelMoveAnimationU3Ed__97_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2A01E2DB9552DC421E89DEC057FDE25C5E613CAA (U3CCancelMoveAnimationU3Ed__97_tA5CCF26C3238C0347BF62A80C9D1337B99420E8E* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 2020
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelMoveAnimationU3Ed__96_System_Collections_IEnumerator_Reset_m49743AA29EC719461BA3084336E6E31253436306 (U3CCancelMoveAnimationU3Ed__96_t24B3B98F2A7245CC110521F0FE35E3B967B14F93* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2034
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelMoveAnimationU3Ed__97_System_Collections_IEnumerator_Reset_mA516D610CD93A71ED762F85D63A194928E86BE36 (U3CCancelMoveAnimationU3Ed__97_tA5CCF26C3238C0347BF62A80C9D1337B99420E8E* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCancelMoveAnimationU3Ed__96_System_Collections_IEnumerator_Reset_m49743AA29EC719461BA3084336E6E31253436306_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCancelMoveAnimationU3Ed__97_System_Collections_IEnumerator_Reset_mA516D610CD93A71ED762F85D63A194928E86BE36_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 2021
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelMoveAnimationU3Ed__96_System_Collections_IEnumerator_get_Current_m5073F3228DB5D71327D40D72C2A214781CD84F2F (U3CCancelMoveAnimationU3Ed__96_t24B3B98F2A7245CC110521F0FE35E3B967B14F93* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2035
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelMoveAnimationU3Ed__97_System_Collections_IEnumerator_get_Current_m98DAA5DE18FD4AA15FBCAC29A72A1A199B62DDB2 (U3CCancelMoveAnimationU3Ed__97_tA5CCF26C3238C0347BF62A80C9D1337B99420E8E* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -6844,8 +6849,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelMoveAnimationU3Ed__96
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2022
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelRecallAnimationU3Ed__98__ctor_m56E2F3CCEB14952FF1985924C71F8C5524CEE0AE (U3CCancelRecallAnimationU3Ed__98_tBC60D3A3A22C24406EC1953477564115BCCA77B6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 2036
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelRecallAnimationU3Ed__99__ctor_m54EFA965EB2539FCCEC3DF575D2416E93CEF3294 (U3CCancelRecallAnimationU3Ed__99_t1877D28033BE05AFC898E44E1E3314B7DE8898A9* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -6854,15 +6859,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelRecallAnimationU3Ed__98__ctor_m
 		return;
 	}
 }
-// Method Definition Index: 2023
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelRecallAnimationU3Ed__98_System_IDisposable_Dispose_m05F827753F0C7A77E1037C7D0B616F1479B3E126 (U3CCancelRecallAnimationU3Ed__98_tBC60D3A3A22C24406EC1953477564115BCCA77B6* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2037
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelRecallAnimationU3Ed__99_System_IDisposable_Dispose_mD370DF11020EA0DDF6E1F192F1BEE722480ADF14 (U3CCancelRecallAnimationU3Ed__99_t1877D28033BE05AFC898E44E1E3314B7DE8898A9* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 2024
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCancelRecallAnimationU3Ed__98_MoveNext_mF745AB54248F6C61D0BEFBFC3AF454973C7C7065 (U3CCancelRecallAnimationU3Ed__98_tBC60D3A3A22C24406EC1953477564115BCCA77B6* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2038
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCancelRecallAnimationU3Ed__99_MoveNext_m3B2490E9F55B95E2DD483CFD89CA4E0D009A5931 (U3CCancelRecallAnimationU3Ed__99_t1877D28033BE05AFC898E44E1E3314B7DE8898A9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6904,7 +6909,7 @@ IL_001a:
 
 IL_0021:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1132>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1160>
 		AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* L_4 = V_1;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___ownerGO;
@@ -6923,13 +6928,13 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1136>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1164>
 		return (bool)0;
 	}
 
 IL_003a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1139>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1167>
 		AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___ownerGO;
@@ -6945,7 +6950,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1141>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1169>
 		AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* L_13 = V_1;
 		NullCheck(L_13);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = L_13->___ownerGO;
@@ -7040,7 +7045,7 @@ IL_003a:
 
 IL_00cd:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1143>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1171>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_40 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_41;
@@ -7064,7 +7069,7 @@ IL_00cd:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1145>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1173>
 		AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* L_45 = V_1;
 		NullCheck(L_45);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_46 = L_45->___ownerGO;
@@ -7077,13 +7082,13 @@ IL_00cd:
 
 IL_00fa:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1149>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1177>
 		return (bool)0;
 	}
 
 IL_00fc:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1157>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1185>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_48 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_48, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_48;
@@ -7095,29 +7100,29 @@ IL_00fc:
 IL_0115:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1130>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Animator/AnimatorScript.cs:1158>
 		goto IL_0021;
 	}
 }
-// Method Definition Index: 2025
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelRecallAnimationU3Ed__98_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA28CE3E4B5B3A8ED17F963D1E98DA73B0E9F9E6E (U3CCancelRecallAnimationU3Ed__98_tBC60D3A3A22C24406EC1953477564115BCCA77B6* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2039
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelRecallAnimationU3Ed__99_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m320E7EDA513CC4EA3FAC666B38E147A36868D336 (U3CCancelRecallAnimationU3Ed__99_t1877D28033BE05AFC898E44E1E3314B7DE8898A9* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 2026
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelRecallAnimationU3Ed__98_System_Collections_IEnumerator_Reset_mD2544ABA1BB4ACB644FAEB5AABE41AC31CB5F79C (U3CCancelRecallAnimationU3Ed__98_tBC60D3A3A22C24406EC1953477564115BCCA77B6* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2040
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelRecallAnimationU3Ed__99_System_Collections_IEnumerator_Reset_mCA88EBFF3AAD3F1E7B1EDE7FD4270414747A99A4 (U3CCancelRecallAnimationU3Ed__99_t1877D28033BE05AFC898E44E1E3314B7DE8898A9* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCancelRecallAnimationU3Ed__98_System_Collections_IEnumerator_Reset_mD2544ABA1BB4ACB644FAEB5AABE41AC31CB5F79C_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCancelRecallAnimationU3Ed__99_System_Collections_IEnumerator_Reset_mCA88EBFF3AAD3F1E7B1EDE7FD4270414747A99A4_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 2027
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelRecallAnimationU3Ed__98_System_Collections_IEnumerator_get_Current_mC2092102A2A02F618181624DF0939204712D601C (U3CCancelRecallAnimationU3Ed__98_tBC60D3A3A22C24406EC1953477564115BCCA77B6* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2041
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelRecallAnimationU3Ed__99_System_Collections_IEnumerator_get_Current_m3B02CEB50E7559D5C911B0A9F14FAB69733EBD6A (U3CCancelRecallAnimationU3Ed__99_t1877D28033BE05AFC898E44E1E3314B7DE8898A9* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -7132,7 +7137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelRecallAnimationU3Ed__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2028
+// Method Definition Index: 2042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_OnNetworkSpawn_m60E0FADCC60B5ADAD2DEFDD754E5C04CE12725C7 (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7142,7 +7147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_OnNetworkSpawn_m60E0FADCC60B
 		return;
 	}
 }
-// Method Definition Index: 2029
+// Method Definition Index: 2043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_Start_m0D45ED40484A34E66C8A04E1A66C9BF3F07CBB83 (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7194,7 +7199,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 2030
+// Method Definition Index: 2044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_Update_mA3A205098DF294A6F45B2FAFA67CE4B0AAA10619 (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7202,7 +7207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_Update_mA3A205098DF294A6F45B
 		return;
 	}
 }
-// Method Definition Index: 2031
+// Method Definition Index: 2045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_StartBuff_m3C5366DEC5846627D0DB45DC4716FA8B8DF0E9E9 (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7210,7 +7215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_StartBuff_m3C5366DEC5846627D
 		return;
 	}
 }
-// Method Definition Index: 2032
+// Method Definition Index: 2046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_Trigger_m901BF3D7AF72DC6AC5F980186BDA56061F2368F8 (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7234,7 +7239,7 @@ IL_0015:
 		return;
 	}
 }
-// Method Definition Index: 2033
+// Method Definition Index: 2047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_Active_m2B56D6D2D84087394027421CC496A2C3D7C13B07 (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7242,7 +7247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_Active_m2B56D6D2D84087394027
 		return;
 	}
 }
-// Method Definition Index: 2034
+// Method Definition Index: 2048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_Passive_mB8A68B49592390D2CEDF4D07CBAC236198A1D125 (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7250,7 +7255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase_Passive_mB8A68B49592390D2CED
 		return;
 	}
 }
-// Method Definition Index: 2035
+// Method Definition Index: 2049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase__ctor_m682F185863CF333C4F5B1F83DFD8E457739E6AFA (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7272,7 +7277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase__ctor_m682F185863CF333C4F5B1
 		return;
 	}
 }
-// Method Definition Index: 2036
+// Method Definition Index: 2050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase___initializeVariables_mF57EB21E17E49E15D330302A8731FC561F747BE5 (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -7281,7 +7286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase___initializeVariables_mF57EB
 		return;
 	}
 }
-// Method Definition Index: 2037
+// Method Definition Index: 2051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase___initializeRpcs_m6874299EBC0405AA73159D1827200DAD3632567C (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7289,7 +7294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakBase___initializeRpcs_m6874299EBC
 		return;
 	}
 }
-// Method Definition Index: 2038
+// Method Definition Index: 2052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArtifakBase___getTypeName_mA9AD9A242F90C01B8A4A14A02B18B3815146DB0F (ArtifakBase_tD284A22FDC072D959201D4128170C12E69904509* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7318,7 +7323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArtifakBase___getTypeName_mA9AD9A24
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2039
+// Method Definition Index: 2053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_Awake_mE83D96E890B92AB159F1247692DD5CBC06C86235 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7361,7 +7366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_Awake_mE83D96E890B92AB
 		return;
 	}
 }
-// Method Definition Index: 2040
+// Method Definition Index: 2054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnNetworkPostSpawn_mC6141EB20AD08C8778D49DA6E9106B4FC00BB50E (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7470,7 +7475,7 @@ IL_00e6:
 		return;
 	}
 }
-// Method Definition Index: 2041
+// Method Definition Index: 2055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_HandleArtifakTypeChange_m0C84A1592B73C672DB21A62E179D9DD8C9B8B247 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, uint8_t ___0_previousValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	{
@@ -7487,7 +7492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_HandleArtifakTypeChang
 		return;
 	}
 }
-// Method Definition Index: 2042
+// Method Definition Index: 2056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArtifakController_InitiazeResourcesWithWaitRoutine_mD7CC594A409E28F5A80B03BCC43D2B7AE0171BED (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7506,7 +7511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArtifakController_InitiazeReso
 		return L_1;
 	}
 }
-// Method Definition Index: 2043
+// Method Definition Index: 2057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnStart_m2A774269EB38A4CFA891D72F79B141FB75F9ECB8 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, uint8_t ___0_type, int32_t ___1_level, const RuntimeMethod* method) 
 {
 	{
@@ -7518,7 +7523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnStart_m2A774269EB38A
 		return;
 	}
 }
-// Method Definition Index: 2044
+// Method Definition Index: 2058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_SetupArtifak_m5855BC940F6CA570EE61E4B7953069FADB587658 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, uint8_t ___0_type, int32_t ___1_level, const RuntimeMethod* method) 
 {
 	{
@@ -7535,7 +7540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_SetupArtifak_m5855BC94
 		return;
 	}
 }
-// Method Definition Index: 2045
+// Method Definition Index: 2059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArtifakController_SetDatabase_m80027191AF49BFB015DB5873B621CF923DC851DC (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, uint8_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7558,7 +7563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArtifakController_SetDatabase_
 		return L_2;
 	}
 }
-// Method Definition Index: 2046
+// Method Definition Index: 2060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_HandleArtifakStateChange_m71669389786992167A61C12972FC2ECA0B4B28B0 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, uint8_t ___0_oldValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7658,7 +7663,7 @@ IL_006c:
 		return;
 	}
 }
-// Method Definition Index: 2047
+// Method Definition Index: 2061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_LateUpdate_m10538EA0961BBFFE0039708EFD6E09C26BA0B814 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8597,7 +8602,7 @@ IL_057b:
 		return;
 	}
 }
-// Method Definition Index: 2048
+// Method Definition Index: 2062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnDrawGizmosSelected_mF27AFC911B9AFFF2BA11ADE3CEE66C16F6677C78 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8657,7 +8662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnDrawGizmosSelected_m
 		return;
 	}
 }
-// Method Definition Index: 2049
+// Method Definition Index: 2063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ArtifakController_DrawDetectionGizmos_m26C8385B92244DBA2E33012349AAF11403D0CD73 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_tags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8736,7 +8741,7 @@ IL_0067:
 		return (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 	}
 }
-// Method Definition Index: 2050
+// Method Definition Index: 2064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_DrawArc_m83C767E9EF9245F652A05C9165C971A1BB3E0731 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_forward, float ___2_angle, float ___3_radius, float ___4_arcWidth, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___5_color, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -8817,7 +8822,7 @@ IL_0068:
 		return;
 	}
 }
-// Method Definition Index: 2051
+// Method Definition Index: 2065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnClick_m407CD4EE48B508E5054B0F0DA795473B7A2E907E (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8883,7 +8888,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 2052
+// Method Definition Index: 2066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnDrag_mD94FFF8AC7197803FD37FE1DCEF708ACDB44D8FA (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
@@ -8910,7 +8915,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 2053
+// Method Definition Index: 2067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnActivate_m493E3119EBA726D06482FF4094503BDE7015DBE0 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9022,7 +9027,7 @@ IL_008a:
 		return;
 	}
 }
-// Method Definition Index: 2054
+// Method Definition Index: 2068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_UseArtifakWithTarget_m0C9B5F421D6BC896FDB05CDBE1928D273CB9928F (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9086,7 +9091,7 @@ IL_004f:
 		return;
 	}
 }
-// Method Definition Index: 2055
+// Method Definition Index: 2069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_UseArtifak_m36D3F73D6D0DD45DDE31FC7ACC2FDA24D4A4FC08 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9111,7 +9116,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 2056
+// Method Definition Index: 2070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_ChangeStateServerRpc_mEE89A75EA51852FBEAFE1EEFC06B8EC675D9D4FD (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, uint8_t ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9296,7 +9301,7 @@ IL_013b:
 		return;
 	}
 }
-// Method Definition Index: 2057
+// Method Definition Index: 2071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_ChangeState_m6AB2A11F02C4D6A84BF44F52488287D5ABD39482 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, uint8_t ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9336,7 +9341,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 2058
+// Method Definition Index: 2072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_ChangeStateToReady_mDF393487204C8BC724461400A7BD82A32D777986 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9346,7 +9351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_ChangeStateToReady_mDF
 		return;
 	}
 }
-// Method Definition Index: 2059
+// Method Definition Index: 2073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_Cooldown_mD293E66A418B8213C653459988E3DED5E006838B (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9376,7 +9381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_Cooldown_mD293E66A418B
 		return;
 	}
 }
-// Method Definition Index: 2060
+// Method Definition Index: 2074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_UpdateSkillMarkersState_mE3D0F08EC804EEE539C44E8559AD0BEE9B997341 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
@@ -9384,7 +9389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_UpdateSkillMarkersStat
 		return;
 	}
 }
-// Method Definition Index: 2061
+// Method Definition Index: 2075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnCancel_mC71145E03A1EAE877C5C9222BCEF1AC73CCB9800 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9415,7 +9420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_OnCancel_mC71145E03A1E
 		return;
 	}
 }
-// Method Definition Index: 2062
+// Method Definition Index: 2076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ArtifakController_GetSkillMarkerPosition_m6202F0C958129537CF49C75E47943F48DC201830 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
@@ -9426,7 +9431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 2063
+// Method Definition Index: 2077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ArtifakController_SetSkillMarkerInput_mCC20AC925699E5E156134DBC2F2E26AC0A6D2C31 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9588,7 +9593,7 @@ IL_00d1:
 		return L_41;
 	}
 }
-// Method Definition Index: 2064
+// Method Definition Index: 2078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_HideAllGuideIndicator_m6E8A26E79B274DA91D873D1FB2775272EE3D3482 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9603,7 +9608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_HideAllGuideIndicator_
 		return;
 	}
 }
-// Method Definition Index: 2065
+// Method Definition Index: 2079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_Selected_mDFBD3948E40674889A916A619FC47E9ED4D4068D (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9611,7 +9616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_Selected_mDFBD3948E406
 		return;
 	}
 }
-// Method Definition Index: 2066
+// Method Definition Index: 2080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_Deselected_m446E0DD74E1538DE6AD9DE864F5944B045547DBF (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9619,7 +9624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_Deselected_m446E0DD74E
 		return;
 	}
 }
-// Method Definition Index: 2067
+// Method Definition Index: 2081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ArtifakController_GetDamageValue_m92B4C78FFB16BB6F3816CF89F49F915B9D13A188 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, uint8_t ___0__dmgType, bool ___1__isTrueDamage, const RuntimeMethod* method) 
 {
 	{
@@ -9629,7 +9634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ArtifakController_GetDamageValue_m92B4C
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArtifakController_GetDamageValue_m92B4C78FFB16BB6F3816CF89F49F915B9D13A188_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 2068
+// Method Definition Index: 2082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController_SetArtifakIcon_m37FBBB1C2C5AC81AD8AEAB945F4CF8DC0B93DB15 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9695,7 +9700,7 @@ IL_0009:
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = L_11->___nameText;
 		SO_Artifaks_tB62E4259F74814970564AD00106B32896067B44F* L_16 = __this->___artifak;
 		NullCheck(L_16);
-		String_t* L_17 = L_16->___name;
+		String_t* L_17 = L_16->___nickName;
 		NullCheck(L_15);
 		TMP_Text_SetText_m5DCA387D68F6109E1B86327384B249B6900BFDE2(L_15, L_17, NULL);
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/Artifak/ArtifakController.cs:607>
@@ -9742,7 +9747,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 2069
+// Method Definition Index: 2083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController__ctor_m83B0578008837930630EE362CA89F1423DAB83A1 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9778,7 +9783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController__ctor_m83B057800883793
 		return;
 	}
 }
-// Method Definition Index: 2070
+// Method Definition Index: 2084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController___initializeVariables_m88A9301ED0D065E12CBCD8781728C4FECBC6CDCF (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9845,7 +9850,7 @@ IL_006a:
 		return;
 	}
 }
-// Method Definition Index: 2071
+// Method Definition Index: 2085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController___initializeRpcs_m59942442F89EDC4A667AAD0DF935370C0B4A5EDB (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9864,7 +9869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController___initializeRpcs_m5994
 		return;
 	}
 }
-// Method Definition Index: 2072
+// Method Definition Index: 2086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArtifakController___rpc_handler_2039851219_m36DAE64DB3287DEC6B4E12E39539B45254127FDB (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* ___0_target, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___1_reader, __RpcParams_tA4F5B2601A930BA667C4084C62B0FA7CABA5980E ___2_rpcParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9960,7 +9965,7 @@ IL_006f:
 		return;
 	}
 }
-// Method Definition Index: 2073
+// Method Definition Index: 2087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArtifakController___getTypeName_mBEEE9C2E6BA6C83DCEA92ECCCDCFD1D45FC670F3 (ArtifakController_t4313C0B965A4BC0B06705374A24419A1B5A816DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9981,7 +9986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ArtifakController___getTypeName_mBE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2074
+// Method Definition Index: 2088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitiazeResourcesWithWaitRoutineU3Ed__24__ctor_mAFDAC1B4FDB1AAE16BC82D86E555DE4BDFB4B8B1 (U3CInitiazeResourcesWithWaitRoutineU3Ed__24_t70A1112C546258CA89D5B8EE7403F0EC66B6FA92* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9991,14 +9996,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitiazeResourcesWithWaitRoutineU3Ed_
 		return;
 	}
 }
-// Method Definition Index: 2075
+// Method Definition Index: 2089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitiazeResourcesWithWaitRoutineU3Ed__24_System_IDisposable_Dispose_m99A80780BC6C6EF1231F3EF9C752BA056FAF92D7 (U3CInitiazeResourcesWithWaitRoutineU3Ed__24_t70A1112C546258CA89D5B8EE7403F0EC66B6FA92* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 2076
+// Method Definition Index: 2090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInitiazeResourcesWithWaitRoutineU3Ed__24_MoveNext_m5B091AC9769FE25CB92192D319CA97B04E46F609 (U3CInitiazeResourcesWithWaitRoutineU3Ed__24_t70A1112C546258CA89D5B8EE7403F0EC66B6FA92* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10101,7 +10106,7 @@ IL_0065:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2077
+// Method Definition Index: 2091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitiazeResourcesWithWaitRoutineU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m464AA3F23B6E82A58E0E3E9E10D29B7F5F2F89FD (U3CInitiazeResourcesWithWaitRoutineU3Ed__24_t70A1112C546258CA89D5B8EE7403F0EC66B6FA92* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10109,7 +10114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitiazeResourcesWithWaitRo
 		return L_0;
 	}
 }
-// Method Definition Index: 2078
+// Method Definition Index: 2092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitiazeResourcesWithWaitRoutineU3Ed__24_System_Collections_IEnumerator_Reset_mF24A00AB9609134C886B2623044F507244166120 (U3CInitiazeResourcesWithWaitRoutineU3Ed__24_t70A1112C546258CA89D5B8EE7403F0EC66B6FA92* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10118,7 +10123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInitiazeResourcesWithWaitRoutineU3Ed_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInitiazeResourcesWithWaitRoutineU3Ed__24_System_Collections_IEnumerator_Reset_mF24A00AB9609134C886B2623044F507244166120_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 2079
+// Method Definition Index: 2093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitiazeResourcesWithWaitRoutineU3Ed__24_System_Collections_IEnumerator_get_Current_mF577E274F23EC5255EEF6980302F5EF7B5BABF7F (U3CInitiazeResourcesWithWaitRoutineU3Ed__24_t70A1112C546258CA89D5B8EE7403F0EC66B6FA92* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10134,7 +10139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInitiazeResourcesWithWaitRo
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2080
+// Method Definition Index: 2094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetDatabaseU3Ed__27__ctor_m1F4D06703366EB5E72D191ED4791D07E8A4BE80A (U3CSetDatabaseU3Ed__27_tA369857A8884E7E6DC28E965791DA48CE282E07A* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10144,14 +10149,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetDatabaseU3Ed__27__ctor_m1F4D067033
 		return;
 	}
 }
-// Method Definition Index: 2081
+// Method Definition Index: 2095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetDatabaseU3Ed__27_System_IDisposable_Dispose_m8084EE62D26F9688803C0AD50A80D8D8E1B958DC (U3CSetDatabaseU3Ed__27_tA369857A8884E7E6DC28E965791DA48CE282E07A* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 2082
+// Method Definition Index: 2096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSetDatabaseU3Ed__27_MoveNext_m4C8DA2878C31650900F8E45DC33B484CCDA1F480 (U3CSetDatabaseU3Ed__27_tA369857A8884E7E6DC28E965791DA48CE282E07A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10419,7 +10424,7 @@ IL_0114:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2083
+// Method Definition Index: 2097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetDatabaseU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m550283FC82CB743692803175CDC14D9C0A19CBDC (U3CSetDatabaseU3Ed__27_tA369857A8884E7E6DC28E965791DA48CE282E07A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10427,7 +10432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetDatabaseU3Ed__27_System_
 		return L_0;
 	}
 }
-// Method Definition Index: 2084
+// Method Definition Index: 2098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetDatabaseU3Ed__27_System_Collections_IEnumerator_Reset_m98FB9ADA9FCC28433ABD5DED1E780DE91A47AD82 (U3CSetDatabaseU3Ed__27_tA369857A8884E7E6DC28E965791DA48CE282E07A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10436,7 +10441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetDatabaseU3Ed__27_System_Collection
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSetDatabaseU3Ed__27_System_Collections_IEnumerator_Reset_m98FB9ADA9FCC28433ABD5DED1E780DE91A47AD82_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 2085
+// Method Definition Index: 2099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetDatabaseU3Ed__27_System_Collections_IEnumerator_get_Current_mB493BB6C31FE8F4FD72A82719CD58A9CE29E3F5B (U3CSetDatabaseU3Ed__27_tA369857A8884E7E6DC28E965791DA48CE282E07A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10452,7 +10457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetDatabaseU3Ed__27_System_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2086
+// Method Definition Index: 2100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_get_dmgReductionDuration_m2CD2E1C435784176E5FD786043904E05440B33A4 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10465,7 +10470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_get_dmgReductionDuration_m2CD
 		return L_2;
 	}
 }
-// Method Definition Index: 2087
+// Method Definition Index: 2101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_get_selfShield_m0BDAA41BD94E9F0CE7786F6738C05D31ACFCE522 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10478,7 +10483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_get_selfShield_m0BDAA41BD94E9
 		return L_2;
 	}
 }
-// Method Definition Index: 2088
+// Method Definition Index: 2102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_get_allyShieldPercent_mE574CFE6D42010918AB0FD6767DB6297CCE01927 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10491,7 +10496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_get_allyShieldPercent_mE574CF
 		return L_2;
 	}
 }
-// Method Definition Index: 2089
+// Method Definition Index: 2103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield_Start_mBDA082B569CAE4F1077E9952CE5CCCA32AEFEBA7 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10563,7 +10568,7 @@ IL_0074:
 		return;
 	}
 }
-// Method Definition Index: 2090
+// Method Definition Index: 2104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield_StartBuff_m55CB2A764281E66E3893661F8D03F40828557A08 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10660,7 +10665,7 @@ IL_00af:
 		return;
 	}
 }
-// Method Definition Index: 2091
+// Method Definition Index: 2105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield_Update_m721126110B74194B4F52D4879808DECEC77C408A (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10750,7 +10755,7 @@ IL_0073:
 		return;
 	}
 }
-// Method Definition Index: 2092
+// Method Definition Index: 2106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield_Active_m772EAC4315CBC610EBA5989093279C1FEC05FF80 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10984,7 +10989,7 @@ IL_0180:
 		return;
 	}
 }
-// Method Definition Index: 2093
+// Method Definition Index: 2107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield_Passive_m8A4F2380F8BBF1D62BF7502E620CCF0330C1FAD4 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10994,7 +10999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield_Passive_m8A4F2380F8BBF1D62BF75
 		return;
 	}
 }
-// Method Definition Index: 2094
+// Method Definition Index: 2108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield_Passive_mCDADEE38B6E355DEF49836E0A8D13B58B241D7FF (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, float ___0_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11067,7 +11072,7 @@ IL_007b:
 		return;
 	}
 }
-// Method Definition Index: 2095
+// Method Definition Index: 2109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_SelfBuff_mE5249167115FA006ED33E8CFDBA8A6DDB19A582D (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11091,7 +11096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_SelfBuff_mE5249167115FA006ED3
 		return ((float)il2cpp_codegen_multiply(L_0, ((float)L_3)));
 	}
 }
-// Method Definition Index: 2096
+// Method Definition Index: 2110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_AlliedBuff_m66EF06D20C7E15D3C74F3E49EF1C8A3ED20A5731 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11103,7 +11108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BokShield_AlliedBuff_m66EF06D20C7E15D3C
 		return ((float)il2cpp_codegen_multiply(L_0, L_1));
 	}
 }
-// Method Definition Index: 2097
+// Method Definition Index: 2111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield__ctor_m89918BCB76868B68CFB4CFB69099054E0B8C27B8 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11111,7 +11116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield__ctor_m89918BCB76868B68CFB4CFB
 		return;
 	}
 }
-// Method Definition Index: 2098
+// Method Definition Index: 2112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield___initializeVariables_mFD587ED9A7C6D0A225D5A79B0DA25F3201CDECBB (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -11120,7 +11125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield___initializeVariables_mFD587ED
 		return;
 	}
 }
-// Method Definition Index: 2099
+// Method Definition Index: 2113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield___initializeRpcs_m6F36715476CC8FB55865E2A208325576B0D0BF35 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11128,7 +11133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BokShield___initializeRpcs_m6F36715476CC
 		return;
 	}
 }
-// Method Definition Index: 2100
+// Method Definition Index: 2114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BokShield___getTypeName_m0CB1B3E6BE524F562E89AFA4E5BFCAC94D4BA620 (BokShield_tFB3AC45CE7D2F3D9EA368774DF601D45B4765072* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11149,7 +11154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BokShield___getTypeName_m0CB1B3E6BE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2101
+// Method Definition Index: 2115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_get_movSpdDuration_m6E8DCE351A717646F598974A21FC41B01665E299 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11162,7 +11167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_get_movSpdDuration_m6
 		return L_2;
 	}
 }
-// Method Definition Index: 2102
+// Method Definition Index: 2116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_get_deBuffDuration_m1C2FADB308482D72947B55B9958ADA302850D4BD (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11175,7 +11180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_get_deBuffDuration_m1
 		return L_2;
 	}
 }
-// Method Definition Index: 2103
+// Method Definition Index: 2117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChakraOfSwiftness_get_basicAttackCountMax_m6130B928C2B4FB9B80DACE9AE6FBC9E2AB8493A7 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11188,7 +11193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChakraOfSwiftness_get_basicAttackCoun
 		return L_2;
 	}
 }
-// Method Definition Index: 2104
+// Method Definition Index: 2118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_get_selfBuffAtkSpdPercent_m81C0E45B4E268585E828C87E215A98DA382F6C60 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11201,7 +11206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_get_selfBuffAtkSpdPer
 		return L_2;
 	}
 }
-// Method Definition Index: 2105
+// Method Definition Index: 2119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_get_selfBuffMovSpdPercent_m50BF6D58F5E80F17EEB0B3E9D48F31B17059956B (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11214,7 +11219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_get_selfBuffMovSpdPer
 		return L_2;
 	}
 }
-// Method Definition Index: 2106
+// Method Definition Index: 2120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness_Start_mD238B1DA8A16057FC260665A251CD4DDA849EA35 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11316,7 +11321,7 @@ IL_00d2:
 		return;
 	}
 }
-// Method Definition Index: 2107
+// Method Definition Index: 2121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness_OnNetworkSpawn_m54A1044F6FE24ABDF514ECF295226F7F58F85BBC (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11326,7 +11331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness_OnNetworkSpawn_m54A104
 		return;
 	}
 }
-// Method Definition Index: 2108
+// Method Definition Index: 2122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness_StartBuff_m72D2DD36FF5EB64B041E11D97F04215057D37862 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11411,7 +11416,7 @@ IL_007e:
 		return;
 	}
 }
-// Method Definition Index: 2109
+// Method Definition Index: 2123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness_Active_m2352D6CE010DDC06DFF6A77E94D2E083400A9D87 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11615,7 +11620,7 @@ IL_0177:
 		return;
 	}
 }
-// Method Definition Index: 2110
+// Method Definition Index: 2124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness_RemoveStat_mF85084B44788149234A0B24AC85BE3FBC44F8C10 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11674,7 +11679,7 @@ IL_0065:
 		return;
 	}
 }
-// Method Definition Index: 2111
+// Method Definition Index: 2125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness_Passive_mF74F39F5DA1146BAC2561ACE81EBF97C4598E957 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11684,7 +11689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness_Passive_mF74F39F5DA114
 		return;
 	}
 }
-// Method Definition Index: 2112
+// Method Definition Index: 2126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness_DebuffSlow_m201D9CE14D8980ECDADC63AA4ED5579F511D5C85 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11777,7 +11782,7 @@ IL_00a0:
 		return;
 	}
 }
-// Method Definition Index: 2113
+// Method Definition Index: 2127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_SelfBuffAttackSpeed_mE747A71142CDF057A7D77F5553CE46FC899E63FA (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11801,7 +11806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_SelfBuffAttackSpeed_m
 		return ((float)il2cpp_codegen_multiply(L_0, ((float)L_3)));
 	}
 }
-// Method Definition Index: 2114
+// Method Definition Index: 2128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_SelfBuffMovSpeed_mB7E8A48631807E63E02A2CD8EBE6C63241EC15F8 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11825,7 +11830,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChakraOfSwiftness_SelfBuffMovSpeed_mB7E
 		return ((float)il2cpp_codegen_add(L_0, ((float)L_3)));
 	}
 }
-// Method Definition Index: 2115
+// Method Definition Index: 2129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness__ctor_mB9B9B738511FF59041CB38C874FD6353648CC565 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11833,7 +11838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness__ctor_mB9B9B738511FF59
 		return;
 	}
 }
-// Method Definition Index: 2116
+// Method Definition Index: 2130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness___initializeVariables_mAB5E5CE202C1449078EFA1BE2C048FEA62A8BAFB (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -11842,7 +11847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness___initializeVariables_
 		return;
 	}
 }
-// Method Definition Index: 2117
+// Method Definition Index: 2131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness___initializeRpcs_m886666B33A49267A2CD5874C98EA05C5481A3705 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11850,7 +11855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraOfSwiftness___initializeRpcs_m8866
 		return;
 	}
 }
-// Method Definition Index: 2118
+// Method Definition Index: 2132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChakraOfSwiftness___getTypeName_m234C4DCA9AEB944D5861529C9DDD36690B4B1EC1 (ChakraOfSwiftness_t1A5E9BCCE9A9DCED7BC35C573B0190E71397042B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11871,7 +11876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChakraOfSwiftness___getTypeName_m23
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2119
+// Method Definition Index: 2133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_get_regenRateDuration_m43F3EFE20DB84D59CF625AAF89DE7629A9CC949C (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11884,7 +11889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_get_regenRateDuration_m4
 		return L_2;
 	}
 }
-// Method Definition Index: 2120
+// Method Definition Index: 2134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_get_regenRatePercent_m21173224D80C663D5F7BAFEBCAC3377A075C7678 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11897,7 +11902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_get_regenRatePercent_m21
 		return L_2;
 	}
 }
-// Method Definition Index: 2121
+// Method Definition Index: 2135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KerisOfShadows_get_basicAttackCountMax_m885D771277E0F79CEC36763E36BA82C4FF299F4B (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11910,7 +11915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KerisOfShadows_get_basicAttackCountMa
 		return L_2;
 	}
 }
-// Method Definition Index: 2122
+// Method Definition Index: 2136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_get_buffDmgPenPercent_m8C10A69D39BE69A36005BCA12F2319AB46A86F83 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11923,7 +11928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_get_buffDmgPenPercent_m8
 		return L_2;
 	}
 }
-// Method Definition Index: 2123
+// Method Definition Index: 2137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_Start_mBEEE44FA10526AA21F6C4C68A9FC0632CE2EE6CA (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12193,7 +12198,7 @@ IL_0296:
 		return;
 	}
 }
-// Method Definition Index: 2124
+// Method Definition Index: 2138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_StartBuff_m62AC79E823EB69D4F75C0D62FF6F43C86C8AD27D (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12263,7 +12268,7 @@ IL_0053:
 		return;
 	}
 }
-// Method Definition Index: 2125
+// Method Definition Index: 2139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_Update_m5D4CD083A5FC0D325FB68CC02663217B1AE9E4A7 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12354,7 +12359,7 @@ IL_006d:
 		return;
 	}
 }
-// Method Definition Index: 2126
+// Method Definition Index: 2140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_Active_m459840C7C5F1F2F88C143E5CCAAFB148BDCC38C4 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12607,7 +12612,7 @@ IL_0179:
 		return;
 	}
 }
-// Method Definition Index: 2127
+// Method Definition Index: 2141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_ReduceRegen_m895AF62C5CE0591CB7B59333E1CEFB92FA3AF300 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12689,7 +12694,7 @@ IL_007e:
 		return;
 	}
 }
-// Method Definition Index: 2128
+// Method Definition Index: 2142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_TrueDamage_m083AA32BADD1DA12456F1ADE244491073F36673F (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12777,7 +12782,7 @@ IL_0088:
 		return;
 	}
 }
-// Method Definition Index: 2129
+// Method Definition Index: 2143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_RemoveStat_m9DA08F731F7AF3F0A0F72D11F95EE55F1297F8F6 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12819,7 +12824,7 @@ IL_0039:
 		return;
 	}
 }
-// Method Definition Index: 2130
+// Method Definition Index: 2144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_Passive_m4BA2B9FAA274C17526C91515E0A5D4136A815447 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12829,7 +12834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_Passive_m4BA2B9FAA274C175
 		return;
 	}
 }
-// Method Definition Index: 2131
+// Method Definition Index: 2145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_BuffDmgPen_m058298FDB2EEEB112EFD6AB8D9E989D9102AEB88 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12853,7 +12858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_BuffDmgPen_m058298FDB2EE
 		return ((float)il2cpp_codegen_multiply(L_0, ((float)L_3)));
 	}
 }
-// Method Definition Index: 2132
+// Method Definition Index: 2146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_RegenRate_mDB883F730644381EAFDC5FC6B8024F297F2C945D (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, float ___0_regen, const RuntimeMethod* method) 
 {
 	{
@@ -12864,7 +12869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float KerisOfShadows_RegenRate_mDB883F7306443
 		return ((float)il2cpp_codegen_multiply(L_0, L_1));
 	}
 }
-// Method Definition Index: 2133
+// Method Definition Index: 2147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows__ctor_m7E7439ABD0607E39DBBAEBE1122D4481B37C61A3 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12872,7 +12877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows__ctor_m7E7439ABD0607E39DB
 		return;
 	}
 }
-// Method Definition Index: 2134
+// Method Definition Index: 2148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_0_mAD8797BCD0E44C2E563E071B0EBD5073DC1E2220 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, float ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -12882,7 +12887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_0_mAD879
 		return;
 	}
 }
-// Method Definition Index: 2135
+// Method Definition Index: 2149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_1_m205BB1BA60F3BDB7966434CF91BE87CDFF90788A (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, float ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -12892,7 +12897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_1_m205BB
 		return;
 	}
 }
-// Method Definition Index: 2136
+// Method Definition Index: 2150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_2_m72F5F260FF1B64B50E95C310B71B16BCEF95843F (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_p, float ___1_q, const RuntimeMethod* method) 
 {
 	{
@@ -12902,7 +12907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_2_m72F5F
 		return;
 	}
 }
-// Method Definition Index: 2137
+// Method Definition Index: 2151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_3_mFDFA53796BCEFEFB1BE6D94F3F19CA910BA01455 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_p, float ___1_q, const RuntimeMethod* method) 
 {
 	{
@@ -12912,7 +12917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_3_mFDFA5
 		return;
 	}
 }
-// Method Definition Index: 2138
+// Method Definition Index: 2152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_4_m452DD52E4F3F5F63621B481AA1567CE276F774F5 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_p, float ___1_q, const RuntimeMethod* method) 
 {
 	{
@@ -12922,7 +12927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_4_m452DD
 		return;
 	}
 }
-// Method Definition Index: 2139
+// Method Definition Index: 2153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_5_mA49782A0668058308DE99663E4D74E7D6B4C087B (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_p, float ___1_q, const RuntimeMethod* method) 
 {
 	{
@@ -12932,7 +12937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows_U3CStartU3Eb__12_5_mA4978
 		return;
 	}
 }
-// Method Definition Index: 2140
+// Method Definition Index: 2154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows___initializeVariables_m275BB4A473CF8BEDF562D8C00BC52B404F9D97E1 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -12941,7 +12946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows___initializeVariables_m27
 		return;
 	}
 }
-// Method Definition Index: 2141
+// Method Definition Index: 2155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows___initializeRpcs_mFCD5C086D00D899F393EDD44A0F52510B41A65B9 (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12949,7 +12954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KerisOfShadows___initializeRpcs_mFCD5C08
 		return;
 	}
 }
-// Method Definition Index: 2142
+// Method Definition Index: 2156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KerisOfShadows___getTypeName_m5BDB0A202530A31DF7A9EBBE247817CD5E05514F (KerisOfShadows_t50E227AE21448A3329FD9BAA3CF8D282E916BB8D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12970,7 +12975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KerisOfShadows___getTypeName_m5BDB0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2143
+// Method Definition Index: 2157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NecklaceOfKalabubu_get_maxStack_m48F51236C566E74E7576216D3B321E5B18771194 (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12983,7 +12988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NecklaceOfKalabubu_get_maxStack_m48F5
 		return L_2;
 	}
 }
-// Method Definition Index: 2144
+// Method Definition Index: 2158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NecklaceOfKalabubu_get_damage_m28CBF9219C727AFE802BFC2FFA7B36371B18884F (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12996,7 +13001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NecklaceOfKalabubu_get_damage_m28CBF921
 		return L_2;
 	}
 }
-// Method Definition Index: 2145
+// Method Definition Index: 2159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NecklaceOfKalabubu_get_damageBonus_m0B9A126089CA95FC58401F4B3E1DFD17CD6DFFB8 (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13009,7 +13014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NecklaceOfKalabubu_get_damageBonus_m0B9
 		return L_2;
 	}
 }
-// Method Definition Index: 2146
+// Method Definition Index: 2160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NecklaceOfKalabubu_get_damageExtraAfterReachMaxStack_m66FEA00FE3EDBB9F5BA9AEBBA8AF2E8C657E195F (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13022,7 +13027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NecklaceOfKalabubu_get_damageExtraAfter
 		return L_2;
 	}
 }
-// Method Definition Index: 2147
+// Method Definition Index: 2161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_Start_m606717E862ED50A24ACAA92690F8911325F4B729 (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13187,7 +13192,7 @@ IL_0182:
 		return;
 	}
 }
-// Method Definition Index: 2148
+// Method Definition Index: 2162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_StartBuff_m6A3037AF4BA0D3CE6A57E03F1BC643A5D043B900 (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13272,7 +13277,7 @@ IL_007e:
 		return;
 	}
 }
-// Method Definition Index: 2149
+// Method Definition Index: 2163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_Active_mB3A48DD747A58ED1500F900909875125D547BC00 (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13636,7 +13641,7 @@ IL_02f3:
 		return;
 	}
 }
-// Method Definition Index: 2150
+// Method Definition Index: 2164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_Passive_m5E13F6E51E45199715195534C7673119EF6C7455 (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13646,7 +13651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_Passive_m5E13F6E51E45
 		return;
 	}
 }
-// Method Definition Index: 2151
+// Method Definition Index: 2165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_AddStack_m61254872800975570E6BE2699D1002241E28614A (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13725,7 +13730,7 @@ IL_006d:
 		return;
 	}
 }
-// Method Definition Index: 2152
+// Method Definition Index: 2166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_Buff_m82785BFD67D0D88CA2DF0EE7315D5D6CAE156BBF (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13759,7 +13764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_Buff_m82785BFD67D0D88
 		return;
 	}
 }
-// Method Definition Index: 2153
+// Method Definition Index: 2167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float NecklaceOfKalabubu_GiveDamage_m527510490B104A5478886D37C665E40FBFC861FC (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13808,7 +13813,7 @@ IL_0037:
 		return L_9;
 	}
 }
-// Method Definition Index: 2154
+// Method Definition Index: 2168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_Passive_mDA1F8ECD74484061F46AC61836D9C7A5C9611438 (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13907,7 +13912,7 @@ IL_00ad:
 		return;
 	}
 }
-// Method Definition Index: 2155
+// Method Definition Index: 2169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_PassiveAlt_m624627F8E964B8827163ECDCC8B3A8B89D49584F (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14018,7 +14023,7 @@ IL_00bf:
 		return;
 	}
 }
-// Method Definition Index: 2156
+// Method Definition Index: 2170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu_CheckSteps_m1933CF055B1536B5E0F345E784F16C0B9776D4AE (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14064,7 +14069,7 @@ IL_0031:
 		return;
 	}
 }
-// Method Definition Index: 2157
+// Method Definition Index: 2171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu__ctor_m161A0BB3EFA14936C06A901C3FBB0B08343FBD0F (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14072,7 +14077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu__ctor_m161A0BB3EFA149
 		return;
 	}
 }
-// Method Definition Index: 2158
+// Method Definition Index: 2172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu___initializeVariables_m60DC6925118F9E870BECB97416CB3729451BA03D (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -14081,7 +14086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu___initializeVariables
 		return;
 	}
 }
-// Method Definition Index: 2159
+// Method Definition Index: 2173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu___initializeRpcs_m4489547A27F552C48FADDFE23E3D977433C8C89F (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14089,7 +14094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NecklaceOfKalabubu___initializeRpcs_m448
 		return;
 	}
 }
-// Method Definition Index: 2160
+// Method Definition Index: 2174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NecklaceOfKalabubu___getTypeName_m89B79C66C9CB82DA1F9255853306E950EC6FB688 (NecklaceOfKalabubu_t32C53B0139C0503485D847146F126F396AE336D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14110,7 +14115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NecklaceOfKalabubu___getTypeName_m8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2161
+// Method Definition Index: 2175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OrbOfShakti_get_magDmg_mE92DE265F0D467078F3DF69434384BA9CA558ED6 (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14123,7 +14128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OrbOfShakti_get_magDmg_mE92DE265F0D4670
 		return L_2;
 	}
 }
-// Method Definition Index: 2162
+// Method Definition Index: 2176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OrbOfShakti_get_magDmgPercent_m405BEB8C07F61754E1B1404C371DD26BF52EBF02 (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14136,7 +14141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OrbOfShakti_get_magDmgPercent_m405BEB8C
 		return L_2;
 	}
 }
-// Method Definition Index: 2163
+// Method Definition Index: 2177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti_Start_m954127F579D5193C8F8145E33546E3686A7885CB (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14205,7 +14210,7 @@ IL_006f:
 		return;
 	}
 }
-// Method Definition Index: 2164
+// Method Definition Index: 2178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti_StartBuff_m356A95FD4B8E4313BA1623C9F2193C7B5F4E23AC (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14290,7 +14295,7 @@ IL_007e:
 		return;
 	}
 }
-// Method Definition Index: 2165
+// Method Definition Index: 2179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti_Active_m9FC67CADAD3754E942AAC4E6860F87166343C3AE (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14515,7 +14520,7 @@ IL_01c1:
 		return;
 	}
 }
-// Method Definition Index: 2166
+// Method Definition Index: 2180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti_Update_mCC03552D5E02AD97362DC452A4546E02BF6D3F6A (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14597,7 +14602,7 @@ IL_006b:
 		return;
 	}
 }
-// Method Definition Index: 2167
+// Method Definition Index: 2181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti_Passive_m3CB4778FE00A0978AF781900BACC5E4DE1642D77 (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14607,7 +14612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti_Passive_m3CB4778FE00A0978AF7
 		return;
 	}
 }
-// Method Definition Index: 2168
+// Method Definition Index: 2182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti_Passive_mF0464D4E2768C9DD1085F1B45E9DB3798CFF99E0 (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14915,7 +14920,7 @@ IL_0231:
 		return;
 	}
 }
-// Method Definition Index: 2169
+// Method Definition Index: 2183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OrbOfShakti_GiveDamage_m5D057C83C0A0E3F31D886E7A00CD53728BB2F82E (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14948,7 +14953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OrbOfShakti_GiveDamage_m5D057C83C0A0E3F
 		return ((float)il2cpp_codegen_add(L_5, L_6));
 	}
 }
-// Method Definition Index: 2170
+// Method Definition Index: 2184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti__ctor_m8C830137E3D623C31790BB5FCE18E2ABBC42F0DB (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14956,7 +14961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti__ctor_m8C830137E3D623C31790B
 		return;
 	}
 }
-// Method Definition Index: 2171
+// Method Definition Index: 2185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti___initializeVariables_mD21BC8BD5AE16E33F5ABC29CC24AD3191DB7544B (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -14965,7 +14970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti___initializeVariables_mD21BC
 		return;
 	}
 }
-// Method Definition Index: 2172
+// Method Definition Index: 2186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti___initializeRpcs_mDFE90651ED3287145613948A2D584529461E6820 (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14973,7 +14978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrbOfShakti___initializeRpcs_mDFE90651ED
 		return;
 	}
 }
-// Method Definition Index: 2173
+// Method Definition Index: 2187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OrbOfShakti___getTypeName_mE31A44C99729A92B5035FF283BF9C6BF62D20C4F (OrbOfShakti_t44AAE859174089AC00EEEEEF1600186D5D0263C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14994,7 +14999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OrbOfShakti___getTypeName_mE31A44C9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2174
+// Method Definition Index: 2188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_phyDmg_mBBBD16974E53F0826064D854BC3EC8F8F2ADBD17 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15007,7 +15012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_phyDmg_mBBBD16974E53F
 		return L_2;
 	}
 }
-// Method Definition Index: 2175
+// Method Definition Index: 2189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_phyDmgPercent_m56405D09991D5D2F853665DC664A41844732CA38 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15020,7 +15025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_phyDmgPercent_m56405D
 		return L_2;
 	}
 }
-// Method Definition Index: 2176
+// Method Definition Index: 2190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_armorReduction_mF689AC66BE2DEF11B7E2ABFB34452F0C469E322C (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15033,7 +15038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_armorReduction_mF689A
 		return L_2;
 	}
 }
-// Method Definition Index: 2177
+// Method Definition Index: 2191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_armorPercent_mDA140D60E638924FEFF2CA83B9BDA5C049D59CF6 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15046,7 +15051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_armorPercent_mDA140D6
 		return L_2;
 	}
 }
-// Method Definition Index: 2178
+// Method Definition Index: 2192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_armorReductionDuration_m3DCBF19D8DABE6F6413BB349EBFF45E19335EB46 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15059,7 +15064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_armorReductionDuratio
 		return L_2;
 	}
 }
-// Method Definition Index: 2179
+// Method Definition Index: 2193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_missingHealth_m496518E72336A3CA32794414B2F703065DF8EE5C (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15072,7 +15077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_get_missingHealth_m496518
 		return L_2;
 	}
 }
-// Method Definition Index: 2180
+// Method Definition Index: 2194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman_Start_m28944203E7D66C68E3B6298A3B14F6AF9B5CF002 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15144,7 +15149,7 @@ IL_0074:
 		return;
 	}
 }
-// Method Definition Index: 2181
+// Method Definition Index: 2195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman_StartBuff_mEE7106AE148D1960CBE57E4CE89B6707F42DCF6F (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15221,7 +15226,7 @@ IL_0070:
 		return;
 	}
 }
-// Method Definition Index: 2182
+// Method Definition Index: 2196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman_Active_m8C5427B2DA7DA399A0EC598C128FC5F4D3D28C3D (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15538,7 +15543,7 @@ IL_0246:
 		return;
 	}
 }
-// Method Definition Index: 2183
+// Method Definition Index: 2197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman_Passive_mD439C77832347581D84F68DE1DABDB2AF3ABBD28 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15548,7 +15553,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman_Passive_mD439C77832347581D
 		return;
 	}
 }
-// Method Definition Index: 2184
+// Method Definition Index: 2198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman_Passive_m98BA2A05056EA425E37BFB25D5CC7975E61AC0B6 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_damage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15721,7 +15726,7 @@ IL_0116:
 		return;
 	}
 }
-// Method Definition Index: 2185
+// Method Definition Index: 2199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_GiveDamage_m6D5EC0662EC1DAA998727D09B9FC574D60BC7AB1 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15769,7 +15774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_GiveDamage_m6D5EC0662EC1D
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_9, L_10)), ((float)il2cpp_codegen_multiply(L_13, L_14))));
 	}
 }
-// Method Definition Index: 2186
+// Method Definition Index: 2200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_Debuff_mB2A873DF412A6EB595EE73E92DC8E6BB4ED0E9B6 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15807,7 +15812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RimauTalisman_Debuff_mB2A873DF412A6EB59
 		return ((float)il2cpp_codegen_add(L_9, L_10));
 	}
 }
-// Method Definition Index: 2187
+// Method Definition Index: 2201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman__ctor_m1654D3830790E442EB5DFDBD06F2B6CF8DBD1562 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15817,7 +15822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman__ctor_m1654D3830790E442EB5
 		return;
 	}
 }
-// Method Definition Index: 2188
+// Method Definition Index: 2202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman___initializeVariables_m598152AC7C43C39253300ED746F3AC8F58FBBFE6 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -15826,7 +15831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman___initializeVariables_m598
 		return;
 	}
 }
-// Method Definition Index: 2189
+// Method Definition Index: 2203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman___initializeRpcs_m0D9FF1919E160A3CE090E3C8BD0C40DAE2BA44D6 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15834,7 +15839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RimauTalisman___initializeRpcs_m0D9FF191
 		return;
 	}
 }
-// Method Definition Index: 2190
+// Method Definition Index: 2204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RimauTalisman___getTypeName_m93F623A219C873F0D39162B77F24FEF70405A217 (RimauTalisman_t8A0154430F06BC62D62C888AC1A89C3A1DD104B0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15863,7 +15868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RimauTalisman___getTypeName_m93F623
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2191
+// Method Definition Index: 2205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal_Awake_m3B9329ED67211A467AE3740A4AE16339EA62363E (BaseHeal_tBC11A72E19297B2E5A4CF6830582A19F5D7B4B9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15873,7 +15878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal_Awake_m3B9329ED67211A467AE3740A
 		return;
 	}
 }
-// Method Definition Index: 2192
+// Method Definition Index: 2206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal_OnNetworkSpawn_m1DC2E6FB17B2114422E00B66487665B8DB348B89 (BaseHeal_tBC11A72E19297B2E5A4CF6830582A19F5D7B4B9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15989,7 +15994,7 @@ IL_00c5:
 		return;
 	}
 }
-// Method Definition Index: 2193
+// Method Definition Index: 2207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal_HealTeamHeroesInBase_m5799D2C57737B85F7FFF6753C14DB73FF305D30A (BaseHeal_tBC11A72E19297B2E5A4CF6830582A19F5D7B4B9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16243,7 +16248,7 @@ IL_0160:
 		return;
 	}
 }
-// Method Definition Index: 2194
+// Method Definition Index: 2208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal__ctor_m1BA91B272A1C19BB0CDDEFBF34CC5FA2CD35A390 (BaseHeal_tBC11A72E19297B2E5A4CF6830582A19F5D7B4B9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16262,7 +16267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal__ctor_m1BA91B272A1C19BB0CDDEFBF
 		return;
 	}
 }
-// Method Definition Index: 2195
+// Method Definition Index: 2209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal___initializeVariables_mE075DFAE90E13FF95AD844AB90A97BF775CCBB92 (BaseHeal_tBC11A72E19297B2E5A4CF6830582A19F5D7B4B9C* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -16271,7 +16276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal___initializeVariables_mE075DFAE
 		return;
 	}
 }
-// Method Definition Index: 2196
+// Method Definition Index: 2210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal___initializeRpcs_m47C98E69936DE91A9090A27CCF3901FB5717A4B3 (BaseHeal_tBC11A72E19297B2E5A4CF6830582A19F5D7B4B9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16279,7 +16284,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseHeal___initializeRpcs_m47C98E69936DE
 		return;
 	}
 }
-// Method Definition Index: 2197
+// Method Definition Index: 2211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseHeal___getTypeName_mC25DF58054E13B45AE677DE572E2E3467A0591D7 (BaseHeal_tBC11A72E19297B2E5A4CF6830582A19F5D7B4B9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16300,7 +16305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseHeal___getTypeName_mC25DF58054E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2198
+// Method Definition Index: 2212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Start_m0E5517181678C0EE40838D0B8D881947F7AB50CC (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16308,7 +16313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Start_m0E5517181678C0EE40838D0B8D8
 		return;
 	}
 }
-// Method Definition Index: 2199
+// Method Definition Index: 2213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Advance_mA1443B74B1F1A4DD3DDAFCC4E7BFBC0FC7E7B174 (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16316,7 +16321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Advance_mA1443B74B1F1A4DD3DDAFCC4E
 		return;
 	}
 }
-// Method Definition Index: 2200
+// Method Definition Index: 2214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Retreat_m121CD7C387380F1AEE7ED57338C75482F4FEC6BE (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16324,7 +16329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Retreat_m121CD7C387380F1AEE7ED5733
 		return;
 	}
 }
-// Method Definition Index: 2201
+// Method Definition Index: 2215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Heal_m528DE1B76EBA8F3615A3F65DDAD184AFDBBFFE2A (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16332,7 +16337,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Heal_m528DE1B76EBA8F3615A3F65DDAD1
 		return;
 	}
 }
-// Method Definition Index: 2202
+// Method Definition Index: 2216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_UseArtifact_m2EB7AAE1A98A70CCE460478EC889FC68338F5F82 (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16340,7 +16345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_UseArtifact_m2EB7AAE1A98A70CCE4604
 		return;
 	}
 }
-// Method Definition Index: 2203
+// Method Definition Index: 2217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_BasicAttack_m749870A5E334038509EF1F422A8072368439AFB7 (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16348,7 +16353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_BasicAttack_m749870A5E334038509EF1
 		return;
 	}
 }
-// Method Definition Index: 2204
+// Method Definition Index: 2218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Skill1_mF770DD22164151391C37C94987850AD48C75A24C (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16356,7 +16361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Skill1_mF770DD22164151391C37C94987
 		return;
 	}
 }
-// Method Definition Index: 2205
+// Method Definition Index: 2219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Skill2_m3B23419D00B00B2FF6059A8F86D6828B5F820ADF (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16364,7 +16369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Skill2_m3B23419D00B00B2FF6059A8F86
 		return;
 	}
 }
-// Method Definition Index: 2206
+// Method Definition Index: 2220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Skill3_m0F663A044502DC47DAAF1ED0447AF0720912EFF2 (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16372,7 +16377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI_Skill3_m0F663A044502DC47DAAF1ED044
 		return;
 	}
 }
-// Method Definition Index: 2207
+// Method Definition Index: 2221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI__ctor_m51A7A931A80781FF9AB0A1A91BD33C30F5A296DD (BotAI_t783E194269F9B6E5FC7BFBC633CACBE1A643046A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16404,7 +16409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BotAI__ctor_m51A7A931A80781FF9AB0A1A91BD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2208
+// Method Definition Index: 2222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_Start_m8EAAC188934ECCBD009EC00751280DCFF4D96C71 (CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16414,7 +16419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_Start_m8EAAC188934ECCBD
 		return;
 	}
 }
-// Method Definition Index: 2209
+// Method Definition Index: 2223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_LateUpdate_mC14DB0924E6F67288113AA92B3345A9B0ACEA27F (CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16438,7 +16443,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 2210
+// Method Definition Index: 2224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_AttachCamera_m684B7C0C1052520D23B12C3C9379FAACE04193B4 (CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16499,7 +16504,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 2211
+// Method Definition Index: 2225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_SetMinimapCamera_mC1C6FF9140A4CFA9DC3F854AFD10296F3F82AF01 (CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16618,7 +16623,7 @@ IL_0086:
 		return;
 	}
 }
-// Method Definition Index: 2212
+// Method Definition Index: 2226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController_SetNormalCamera_mDE0592003150F134A4CFA510231C622553BD2945 (CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16667,7 +16672,7 @@ IL_003f:
 		return;
 	}
 }
-// Method Definition Index: 2213
+// Method Definition Index: 2227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController__ctor_mE196A6332BDDED632D6F9DB6260E424594598950 (CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16683,7 +16688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController__ctor_mE196A6332BDDED63
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2214
+// Method Definition Index: 2228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChakraVeinInfo_Equals_m8807E0F8051CC376DB1477ADF22BBDC52E97961F (ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357* __this, ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357 ___0_other, const RuntimeMethod* method) 
 {
 	{
@@ -16736,7 +16741,7 @@ IL2CPP_EXTERN_C  bool ChakraVeinInfo_Equals_m8807E0F8051CC376DB1477ADF22BBDC52E9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2216
+// Method Definition Index: 2230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_Awake_mC8934BDD50A5B223902B37C68728917A5F7D4A4B (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16756,7 +16761,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_Awake_mC8934BDD50A5
 		return;
 	}
 }
-// Method Definition Index: 2217
+// Method Definition Index: 2231
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* ChakraVeinController_GetChakraVeins_mF876FA3D83F35AB508071DF6FAFCDC07F309A445 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:43>
+		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_0 = __this->___playerChakraVein;
+		return L_0;
+	}
+}
+// Method Definition Index: 2232
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_SetChakraVein_m6E8D00B4354956E4240F4827ECD056FC0A3171F6 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* ___0_newChakraVein, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:48>
+		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_0 = ___0_newChakraVein;
+		__this->___playerChakraVein = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___playerChakraVein), (void*)L_0);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 2233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkSpawn_m15EF53DB1EE4D20BCF13EB3D40012B4D40158D26 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16783,7 +16809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkSpawn_m15E
 	ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:43>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:53>
 		PlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551* L_0 = __this->___playerLevel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -16794,7 +16820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkSpawn_m15E
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:45>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:55>
 		PlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551* L_2;
 		L_2 = Component_GetComponent_TisPlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551_m65901A8E0D222C4B1F6F936F0A8ADF8818C394CD(__this, Component_GetComponent_TisPlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551_m65901A8E0D222C4B1F6F936F0A8ADF8818C394CD_RuntimeMethod_var);
 		__this->___playerLevel = L_2;
@@ -16803,7 +16829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkSpawn_m15E
 
 IL_001a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:52>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:62>
 		bool L_3;
 		L_3 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (!L_3)
@@ -16812,50 +16838,50 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:54>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:64>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_4 = __this->___playerChakraVein;
 		NullCheck(L_4);
 		NetworkVariableBase_Initialize_m3CDC76289526BDD5D31AEFC63650A394E4DAB8C7(L_4, __this, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:55>
-		il2cpp_codegen_initobj((&V_0), sizeof(ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:56>
-		(&V_0)->___type = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:57>
-		(&V_0)->___level = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:58>
-		il2cpp_codegen_initobj((&V_1), sizeof(ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:59>
-		(&V_1)->___type = 1;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:60>
-		(&V_1)->___level = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:61>
-		il2cpp_codegen_initobj((&V_2), sizeof(ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:62>
-		(&V_2)->___type = 2;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:63>
-		(&V_2)->___level = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:64>
-		il2cpp_codegen_initobj((&V_3), sizeof(ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357));
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:65>
-		(&V_3)->___type = 3;
+		il2cpp_codegen_initobj((&V_0), sizeof(ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357));
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:66>
-		(&V_3)->___level = 0;
+		(&V_0)->___type = 0;
 		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:67>
+		(&V_0)->___level = 0;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:68>
+		il2cpp_codegen_initobj((&V_1), sizeof(ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357));
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:69>
+		(&V_1)->___type = 1;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:70>
+		(&V_1)->___level = 0;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:71>
+		il2cpp_codegen_initobj((&V_2), sizeof(ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357));
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:72>
+		(&V_2)->___type = 2;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:73>
+		(&V_2)->___level = 0;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:74>
+		il2cpp_codegen_initobj((&V_3), sizeof(ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357));
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:75>
+		(&V_3)->___type = 3;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:76>
+		(&V_3)->___level = 0;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:77>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_5 = __this->___playerChakraVein;
 		ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357 L_6 = V_0;
 		NullCheck(L_5);
 		NetworkList_1_Add_mE574330695A0ECBE253CBF73228C7514504896E8(L_5, L_6, NetworkList_1_Add_mE574330695A0ECBE253CBF73228C7514504896E8_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:68>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:78>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_7 = __this->___playerChakraVein;
 		ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357 L_8 = V_1;
 		NullCheck(L_7);
 		NetworkList_1_Add_mE574330695A0ECBE253CBF73228C7514504896E8(L_7, L_8, NetworkList_1_Add_mE574330695A0ECBE253CBF73228C7514504896E8_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:69>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:79>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_9 = __this->___playerChakraVein;
 		ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357 L_10 = V_2;
 		NullCheck(L_9);
 		NetworkList_1_Add_mE574330695A0ECBE253CBF73228C7514504896E8(L_9, L_10, NetworkList_1_Add_mE574330695A0ECBE253CBF73228C7514504896E8_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:70>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:80>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_11 = __this->___playerChakraVein;
 		ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357 L_12 = V_3;
 		NullCheck(L_11);
@@ -16864,7 +16890,7 @@ IL_001a:
 
 IL_00c1:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:73>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:83>
 		il2cpp_codegen_runtime_class_init_inline(NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468_il2cpp_TypeInfo_var);
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_13;
 		L_13 = NetworkManager_get_Singleton_m0F86FB1D52C8EDB866101D9CAE0CAA1D7DAE2266_inline(NULL);
@@ -16887,7 +16913,7 @@ IL_00c1:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:75>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:85>
 		PlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551* L_17 = __this->___playerLevel;
 		NullCheck(L_17);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_18 = L_17->___LevelPlayer;
@@ -16901,7 +16927,7 @@ IL_00c1:
 		NullCheck(L_19);
 		L_19->___OnValueChanged = ((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_22, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_19->___OnValueChanged), (void*)((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_22, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:76>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:86>
 		PlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551* L_23 = __this->___playerLevel;
 		NullCheck(L_23);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_24 = L_23->___LevelPlayer;
@@ -16915,7 +16941,7 @@ IL_00c1:
 		NullCheck(L_25);
 		L_25->___OnValueChanged = ((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_28, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_25->___OnValueChanged), (void*)((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_28, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var)));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:77>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:87>
 		PlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551* L_29 = __this->___playerLevel;
 		NullCheck(L_29);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_30 = L_29->___LevelPlayer;
@@ -16929,13 +16955,13 @@ IL_00c1:
 		int32_t L_34;
 		L_34 = VirtualFuncInvoker0< int32_t >::Invoke(17, L_33);
 		ChakraVeinController_HandleLevelChanged_mECE9B0C9ED5595FF8FBD39407E81E2AEBECABD5D(__this, L_31, L_34, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:78>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:88>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_35 = __this->___playerChakraVein;
 		OnListChangedDelegate_t62B7286FF7A098878504BDAC25CAD4FB3C2466D3* L_36 = (OnListChangedDelegate_t62B7286FF7A098878504BDAC25CAD4FB3C2466D3*)il2cpp_codegen_object_new(OnListChangedDelegate_t62B7286FF7A098878504BDAC25CAD4FB3C2466D3_il2cpp_TypeInfo_var);
 		OnListChangedDelegate__ctor_mD1EEC4205A00DE1C4BD0D9D82862385FE3996868(L_36, __this, (intptr_t)((void*)ChakraVeinController_HandleListChanged_m925AA56DA8BD4B524908C084B42C9DD54564AD3C_RuntimeMethod_var), NULL);
 		NullCheck(L_35);
 		NetworkList_1_remove_OnListChanged_mD6D86B2FC10851BFF55A04A55C6D1C80D25E01F5(L_35, L_36, NetworkList_1_remove_OnListChanged_mD6D86B2FC10851BFF55A04A55C6D1C80D25E01F5_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:79>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:89>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_37 = __this->___playerChakraVein;
 		OnListChangedDelegate_t62B7286FF7A098878504BDAC25CAD4FB3C2466D3* L_38 = (OnListChangedDelegate_t62B7286FF7A098878504BDAC25CAD4FB3C2466D3*)il2cpp_codegen_object_new(OnListChangedDelegate_t62B7286FF7A098878504BDAC25CAD4FB3C2466D3_il2cpp_TypeInfo_var);
 		OnListChangedDelegate__ctor_mD1EEC4205A00DE1C4BD0D9D82862385FE3996868(L_38, __this, (intptr_t)((void*)ChakraVeinController_HandleListChanged_m925AA56DA8BD4B524908C084B42C9DD54564AD3C_RuntimeMethod_var), NULL);
@@ -16945,11 +16971,11 @@ IL_00c1:
 
 IL_018d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:82>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 2218
+// Method Definition Index: 2234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_HandleListChanged_m925AA56DA8BD4B524908C084B42C9DD54564AD3C (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, NetworkListEvent_1_t989124333B3FAA30FCACE892D6D3154637CFDD61 ___0_changeEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16960,7 +16986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_HandleListChanged_m
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:86>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:96>
 		int32_t L_0;
 		L_0 = ChakraVeinController_GetChakraVeinLevel_m10CFD52BCE4CB9EFE4CFC7E49311318FE710A6F2(__this, 0, NULL);
 		int32_t L_1;
@@ -16970,16 +16996,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_HandleListChanged_m
 		int32_t L_3;
 		L_3 = ChakraVeinController_GetChakraVeinLevel_m10CFD52BCE4CB9EFE4CFC7E49311318FE710A6F2(__this, 3, NULL);
 		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_0, L_1)), L_2)), L_3));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:87>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:97>
 		ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057* L_4 = ((ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057_StaticFields*)il2cpp_codegen_static_fields_for(ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057_il2cpp_TypeInfo_var))->___instance;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		ChakraVeinSystem_UpdateChakraVeinAccmulativePoint_mA8F9C3197019044BE02AF35DBCA4120ED9A06E47_inline(L_4, L_5, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:91>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:101>
 		return;
 	}
 }
-// Method Definition Index: 2219
+// Method Definition Index: 2235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_HandleLevelChanged_mECE9B0C9ED5595FF8FBD39407E81E2AEBECABD5D (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, int32_t ___0_previousValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16990,7 +17016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_HandleLevelChanged_
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:95>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:105>
 		int32_t L_0;
 		L_0 = ChakraVeinController_GetChakraVeinLevel_m10CFD52BCE4CB9EFE4CFC7E49311318FE710A6F2(__this, 0, NULL);
 		int32_t L_1;
@@ -17000,21 +17026,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_HandleLevelChanged_
 		int32_t L_3;
 		L_3 = ChakraVeinController_GetChakraVeinLevel_m10CFD52BCE4CB9EFE4CFC7E49311318FE710A6F2(__this, 3, NULL);
 		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_0, L_1)), L_2)), L_3));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:96>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:106>
 		ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057* L_4 = ((ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057_StaticFields*)il2cpp_codegen_static_fields_for(ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057_il2cpp_TypeInfo_var))->___instance;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		ChakraVeinSystem_UpdateChakraVeinAccmulativePoint_mA8F9C3197019044BE02AF35DBCA4120ED9A06E47_inline(L_4, L_5, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:101>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:111>
 		ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057* L_6 = ((ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057_StaticFields*)il2cpp_codegen_static_fields_for(ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057_il2cpp_TypeInfo_var))->___instance;
 		int32_t L_7 = ___1_newValue;
 		NullCheck(L_6);
 		ChakraVeinSystem_HandlePlayerLevelChanged_m4D95BDA5F11C11AD2C48A7C3171C51A05F896F80(L_6, L_7, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:102>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:112>
 		return;
 	}
 }
-// Method Definition Index: 2220
+// Method Definition Index: 2236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkDespawn_m91DC62F6E93BBF09D394C7130E8AE66F93147994 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17026,7 +17052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkDespawn_m9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:106>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:116>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsClient_m5F2509260F66EBA5217A83CC65F40D5D117F59C8_inline(__this, NULL);
 		if (!L_0)
@@ -17035,7 +17061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkDespawn_m9
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:109>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:119>
 		il2cpp_codegen_runtime_class_init_inline(NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468_il2cpp_TypeInfo_var);
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_1;
 		L_1 = NetworkManager_get_Singleton_m0F86FB1D52C8EDB866101D9CAE0CAA1D7DAE2266_inline(NULL);
@@ -17050,7 +17076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkDespawn_m9
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:111>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:121>
 		PlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551* L_4 = __this->___playerLevel;
 		NullCheck(L_4);
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_5 = L_4->___LevelPlayer;
@@ -17068,11 +17094,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkDespawn_m9
 
 IL_0046:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:114>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:124>
 		return;
 	}
 }
-// Method Definition Index: 2221
+// Method Definition Index: 2237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkPostSpawn_m6D3E36DBC0214B6E72EDA4061117E1698E6AB789 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17082,7 +17108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkPostSpawn_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:118>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:128>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_m2C408A356ACBD9AF0C991BF01B5F20C75891FAB3_inline(__this, NULL);
 		if (!L_0)
@@ -17113,12 +17139,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkPostSpawn_
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:122>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:132>
 		RuntimeObject* L_5;
 		L_5 = ChakraVeinController_SetCurrentLevel_m01CB1CDAEA00FE0B8C3ADAABF30F7483EACAB8A1(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:125>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:135>
 		RuntimeObject* L_7;
 		L_7 = ChakraVeinController_WaitForUiManager_m0DB341B0DA93CAC834F89FB7EAF2435D49FDA065(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8;
@@ -17127,49 +17153,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_OnNetworkPostSpawn_
 
 IL_003c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:127>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:137>
 		return;
 	}
 }
-// Method Definition Index: 2222
+// Method Definition Index: 2238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChakraVeinController_SetCurrentLevel_m01CB1CDAEA00FE0B8C3ADAABF30F7483EACAB8A1 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* L_0 = (U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575*)il2cpp_codegen_object_new(U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575_il2cpp_TypeInfo_var);
-		U3CSetCurrentLevelU3Ed__10__ctor_m731DC57E299884A6C0E05CFD0F8C76A9454EC2F6(L_0, 0, NULL);
-		U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* L_1 = L_0;
+		U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* L_0 = (U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660*)il2cpp_codegen_object_new(U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660_il2cpp_TypeInfo_var);
+		U3CSetCurrentLevelU3Ed__12__ctor_m634A870F45AFAAD7DCB584902AD60479C25E73A4(L_0, 0, NULL);
+		U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
 		return L_1;
 	}
 }
-// Method Definition Index: 2223
+// Method Definition Index: 2239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChakraVeinController_WaitForUiManager_m0DB341B0DA93CAC834F89FB7EAF2435D49FDA065 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A* L_0 = (U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A*)il2cpp_codegen_object_new(U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A_il2cpp_TypeInfo_var);
-		U3CWaitForUiManagerU3Ed__11__ctor_m6ECC5FC86259EEC8C8AE78848E8D4CE28961559F(L_0, 0, NULL);
-		U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A* L_1 = L_0;
+		U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699* L_0 = (U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699*)il2cpp_codegen_object_new(U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699_il2cpp_TypeInfo_var);
+		U3CWaitForUiManagerU3Ed__13__ctor_m43BF451C30517D682554E80A2986C9F620793E71(L_0, 0, NULL);
+		U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
 		return L_1;
 	}
 }
-// Method Definition Index: 2224
+// Method Definition Index: 2240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpgradeChakraVein_m4E4DC3038C6CA6F6BB52AA5620C16A076A3358C4 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17185,7 +17211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpgradeChakraVein_m
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:155>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:165>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_0 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057* L_1 = L_0->___chakraVeinSystem;
@@ -17230,46 +17256,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpgradeChakraVein_m
 
 IL_003c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:161>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:171>
 		ChakraVeinController_UpgradeChakraVeinServerRpc_m3DB2794D8581EEC8BB3CA454E967FFC9F078EEE7(__this, 0, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:162>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:172>
 		return;
 	}
 
 IL_0044:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:164>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:174>
 		ChakraVeinController_UpgradeChakraVeinServerRpc_m3DB2794D8581EEC8BB3CA454E967FFC9F078EEE7(__this, 1, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:165>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:175>
 		return;
 	}
 
 IL_004c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:167>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:177>
 		ChakraVeinController_UpgradeChakraVeinServerRpc_m3DB2794D8581EEC8BB3CA454E967FFC9F078EEE7(__this, 2, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:168>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:178>
 		return;
 	}
 
 IL_0054:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:170>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:180>
 		ChakraVeinController_UpgradeChakraVeinServerRpc_m3DB2794D8581EEC8BB3CA454E967FFC9F078EEE7(__this, 3, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:171>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:181>
 		return;
 	}
 
 IL_005c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:173>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:183>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralD4ACED25F1C5F0C972656DCCACB627959FD492F8, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:174>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:184>
 		return;
 	}
 }
-// Method Definition Index: 2225
+// Method Definition Index: 2241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpgradeChakraVeinServerRpc_m3DB2794D8581EEC8BB3CA454E967FFC9F078EEE7 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, int32_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17437,10 +17463,10 @@ IL_010c:
 IL_010d:
 	{
 		((NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE*)__this)->_____rpc_exec_stage = ((int32_t)0);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:182>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:192>
 		int32_t L_24 = ___0_type;
 		V_0 = ((int32_t)(uint8_t)L_24);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:185>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:195>
 		uint8_t L_25 = V_0;
 		int32_t L_26;
 		L_26 = ChakraVeinController_GetChakraVeinLevel_m10CFD52BCE4CB9EFE4CFC7E49311318FE710A6F2(__this, L_25, NULL);
@@ -17450,7 +17476,7 @@ IL_010d:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:187>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:197>
 		uint8_t L_27 = V_0;
 		uint8_t L_28 = L_27;
 		RuntimeObject* L_29 = Box(E_ChakraVein_t1C8E63DFC61F61F954F378D42B324808F0D0E7D6_il2cpp_TypeInfo_var, &L_28);
@@ -17458,13 +17484,13 @@ IL_010d:
 		L_30 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral6B4F3F54BD38ED7F9F2D5DD5B680A4014E971B1D, L_29, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_30, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:188>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:198>
 		return;
 	}
 
 IL_013f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:190>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:200>
 		uint8_t L_31 = V_0;
 		uint8_t L_32 = L_31;
 		RuntimeObject* L_33 = Box(E_ChakraVein_t1C8E63DFC61F61F954F378D42B324808F0D0E7D6_il2cpp_TypeInfo_var, &L_32);
@@ -17477,11 +17503,11 @@ IL_013f:
 		L_38 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF15376891A34C84955836FE0EC124BF3A716D2FF, L_33, L_37, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_38, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:192>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:202>
 		int32_t L_39;
 		L_39 = ChakraVeinController_GetTotalChakraVeinLevels_m4C6956839EE1FB04AD6E31CC3DD226DADCC33C77(__this, NULL);
 		V_1 = L_39;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:193>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:203>
 		int32_t L_40 = V_1;
 		PlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551* L_41 = __this->___playerLevel;
 		NullCheck(L_41);
@@ -17495,7 +17521,7 @@ IL_013f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:195>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:205>
 		int32_t L_44 = V_1;
 		int32_t L_45 = L_44;
 		RuntimeObject* L_46 = Box(il2cpp_defaults.int32_class, &L_45);
@@ -17511,36 +17537,36 @@ IL_013f:
 		L_52 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral81A798F49D7BE94E41DEDB422AEE0413E1F8C3C0, L_46, L_51, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_52, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:196>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:206>
 		return;
 	}
 
 IL_01a5:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:199>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:209>
 		il2cpp_codegen_initobj((&V_2), sizeof(S_Stats_t8976BA1109823F18D06136E3A6E6E5F2B5F2A86E));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:200>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:210>
 		int32_t L_53 = ___0_type;
 		ChakraVeinController_UpdateChakraVeinLevel_m5DE849140BED21DE5F31238663A6221E1B730C97(__this, ((int32_t)(uint8_t)L_53), NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:201>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:211>
 		int32_t L_54 = ___0_type;
 		int32_t L_55;
 		L_55 = ChakraVeinController_GetChakraVeinLevel_m10CFD52BCE4CB9EFE4CFC7E49311318FE710A6F2(__this, ((int32_t)(uint8_t)L_54), NULL);
 		int32_t L_56;
 		L_56 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(((int32_t)il2cpp_codegen_subtract(L_55, 1)), 0, ((int32_t)10), NULL);
 		V_3 = L_56;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:202>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:212>
 		int32_t L_57 = ___0_type;
 		int32_t L_58;
 		L_58 = ChakraVeinController_GetChakraVeinTier_mC1C9B442A48D7012623AE82968F10C59C28D85A7(__this, ((int32_t)(uint8_t)L_57), NULL);
 		V_4 = L_58;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:203>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:213>
 		DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682* L_59 = ((DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_StaticFields*)il2cpp_codegen_static_fields_for(DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_59);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_60;
 		L_60 = DBManager_GetChakraVein_m14E2EC27862E7565CB0C50CEEC61211F6986AE30_inline(L_59, NULL);
 		V_5 = L_60;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:204>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:214>
 		DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682* L_61 = ((DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_StaticFields*)il2cpp_codegen_static_fields_for(DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_il2cpp_TypeInfo_var))->___instance;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62;
 		L_62 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
@@ -17560,7 +17586,7 @@ IL_01a5:
 		int32_t L_67;
 		L_67 = Character_get_HeroRole_mA7467659F13D8704F5B787F8B657270D67418271_inline(L_66, NULL);
 		V_6 = L_67;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:206>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:216>
 		int32_t L_68 = ___0_type;
 		V_7 = ((int32_t)(uint8_t)L_68);
 		uint8_t L_69 = V_7;
@@ -17590,7 +17616,7 @@ IL_01a5:
 
 IL_0224:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:210>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:220>
 		int32_t L_70 = V_3;
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_71 = V_5;
 		NullCheck(L_71);
@@ -17599,7 +17625,7 @@ IL_0224:
 		int32_t L_73;
 		L_73 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_70, 0, ((int32_t)(((RuntimeArray*)L_72)->max_length)), NULL);
 		V_3 = L_73;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:211>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:221>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_74 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_75 = V_5;
 		NullCheck(L_75);
@@ -17611,7 +17637,7 @@ IL_0224:
 		NullCheck(L_79);
 		float L_80 = L_79->___physicalDamage;
 		L_74->___value = L_80;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:212>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:222>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_81 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___magicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_82 = V_5;
 		NullCheck(L_82);
@@ -17623,7 +17649,7 @@ IL_0224:
 		NullCheck(L_86);
 		float L_87 = L_86->___magicalDamage;
 		L_81->___value = L_87;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:213>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:223>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_88 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalPenetrationFlat);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_89 = V_5;
 		NullCheck(L_89);
@@ -17635,7 +17661,7 @@ IL_0224:
 		NullCheck(L_93);
 		float L_94 = L_93->___physicalPenetrationFlat;
 		L_88->___value = L_94;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:214>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:224>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_95 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___magicalPenetrationFlat);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_96 = V_5;
 		NullCheck(L_96);
@@ -17647,7 +17673,7 @@ IL_0224:
 		NullCheck(L_100);
 		float L_101 = L_100->___magicalPenetrationFlat;
 		L_95->___value = L_101;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:215>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:225>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_102 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___basicAtkDamageBonusPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_103 = V_5;
 		NullCheck(L_103);
@@ -17659,7 +17685,7 @@ IL_0224:
 		NullCheck(L_107);
 		float L_108 = L_107->___basicAtkDamage;
 		L_102->___value = L_108;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:216>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:226>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_109 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___elementalDamageBonus);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_110 = V_5;
 		NullCheck(L_110);
@@ -17671,7 +17697,7 @@ IL_0224:
 		NullCheck(L_114);
 		float L_115 = L_114->___elementalDamage;
 		L_109->___value = L_115;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:217>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:227>
 		int32_t L_116 = V_4;
 		if ((!(((uint32_t)L_116) == ((uint32_t)1))))
 		{
@@ -17679,7 +17705,7 @@ IL_0224:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:219>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:229>
 		int32_t L_117 = V_6;
 		if ((!(((uint32_t)L_117) == ((uint32_t)1))))
 		{
@@ -17687,7 +17713,7 @@ IL_0224:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:221>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:231>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_118 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalPen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_119 = V_5;
 		NullCheck(L_119);
@@ -17704,7 +17730,7 @@ IL_0224:
 
 IL_02fa:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:223>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:233>
 		int32_t L_125 = V_6;
 		if ((!(((uint32_t)L_125) == ((uint32_t)3))))
 		{
@@ -17712,7 +17738,7 @@ IL_02fa:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:225>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:235>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_126 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___attackSpeed);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_127 = V_5;
 		NullCheck(L_127);
@@ -17729,7 +17755,7 @@ IL_02fa:
 
 IL_031e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:227>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:237>
 		int32_t L_133 = V_6;
 		if ((!(((uint32_t)L_133) == ((uint32_t)5))))
 		{
@@ -17737,7 +17763,7 @@ IL_031e:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:229>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:239>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_134 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___moveSpeedPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_135 = V_5;
 		NullCheck(L_135);
@@ -17754,7 +17780,7 @@ IL_031e:
 
 IL_0345:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:232>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:242>
 		int32_t L_141 = V_4;
 		if ((((int32_t)L_141) == ((int32_t)2)))
 		{
@@ -17762,7 +17788,7 @@ IL_0345:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:236>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:246>
 		int32_t L_142 = V_4;
 		if ((!(((uint32_t)L_142) == ((uint32_t)3))))
 		{
@@ -17770,7 +17796,7 @@ IL_0345:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:238>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:248>
 		int32_t L_143 = V_6;
 		if ((!(((uint32_t)L_143) == ((uint32_t)1))))
 		{
@@ -17778,7 +17804,7 @@ IL_0345:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:240>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:250>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_144 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalPen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_145 = V_5;
 		NullCheck(L_145);
@@ -17795,7 +17821,7 @@ IL_0345:
 
 IL_0379:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:242>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:252>
 		int32_t L_151 = V_6;
 		if ((!(((uint32_t)L_151) == ((uint32_t)3))))
 		{
@@ -17803,7 +17829,7 @@ IL_0379:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:244>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:254>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_152 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___basicAtkDamageBonusPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_153 = V_5;
 		NullCheck(L_153);
@@ -17820,7 +17846,7 @@ IL_0379:
 
 IL_039d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:246>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:256>
 		int32_t L_159 = V_6;
 		if ((!(((uint32_t)L_159) == ((uint32_t)5))))
 		{
@@ -17828,7 +17854,7 @@ IL_039d:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:248>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:258>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_160 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalLifesteal);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_161 = V_5;
 		NullCheck(L_161);
@@ -17840,13 +17866,13 @@ IL_039d:
 		NullCheck(L_165);
 		float L_166 = L_165->___lifestealPercentTier3;
 		L_160->___value = L_166;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:251>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:261>
 		goto IL_08a3;
 	}
 
 IL_03c4:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:254>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:264>
 		int32_t L_167 = V_3;
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_168 = V_5;
 		NullCheck(L_168);
@@ -17855,7 +17881,7 @@ IL_03c4:
 		int32_t L_170;
 		L_170 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_167, 0, ((int32_t)(((RuntimeArray*)L_169)->max_length)), NULL);
 		V_3 = L_170;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:255>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:265>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_171 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___HP);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_172 = V_5;
 		NullCheck(L_172);
@@ -17867,7 +17893,7 @@ IL_03c4:
 		NullCheck(L_176);
 		float L_177 = L_176->___hp;
 		L_171->___value = L_177;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:256>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:266>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_178 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___HPRegen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_179 = V_5;
 		NullCheck(L_179);
@@ -17879,7 +17905,7 @@ IL_03c4:
 		NullCheck(L_183);
 		float L_184 = L_183->___hpRegen;
 		L_178->___value = L_184;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:257>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:267>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_185 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___mana);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_186 = V_5;
 		NullCheck(L_186);
@@ -17891,7 +17917,7 @@ IL_03c4:
 		NullCheck(L_190);
 		float L_191 = L_190->___mana;
 		L_185->___value = L_191;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:258>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:268>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_192 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___manaRegen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_193 = V_5;
 		NullCheck(L_193);
@@ -17903,7 +17929,7 @@ IL_03c4:
 		NullCheck(L_197);
 		float L_198 = L_197->___manaRegen;
 		L_192->___value = L_198;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:259>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:269>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_199 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___armor);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_200 = V_5;
 		NullCheck(L_200);
@@ -17915,7 +17941,7 @@ IL_03c4:
 		NullCheck(L_204);
 		float L_205 = L_204->___armor;
 		L_199->___value = L_205;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:260>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:270>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_206 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___magicResist);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_207 = V_5;
 		NullCheck(L_207);
@@ -17927,7 +17953,7 @@ IL_03c4:
 		NullCheck(L_211);
 		float L_212 = L_211->___magicResist;
 		L_206->___value = L_212;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:261>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:271>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_213 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___damageReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_214 = V_5;
 		NullCheck(L_214);
@@ -17939,7 +17965,7 @@ IL_03c4:
 		NullCheck(L_218);
 		float L_219 = L_218->___damageReduction;
 		L_213->___value = L_219;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:263>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:273>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_220;
 		L_220 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
@@ -17956,7 +17982,7 @@ IL_03c4:
 		float L_226 = L_225.___value;
 		NullCheck(L_221);
 		Health_AssignNewMaxHealth_m5613CCFFC0367B0EE188312E31F6A6C9B6C4AF2B(L_221, L_226, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:264>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:274>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_227;
 		L_227 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		Chakra_t2408A51DA435F4DAA567357B523081E65558C2A6* L_228;
@@ -17972,7 +17998,7 @@ IL_03c4:
 		float L_233 = L_232.___value;
 		NullCheck(L_228);
 		Chakra_AssignNewMaxChakra_mC03124C39F8CAD487D8084BA69E56F78CACFAFF1(L_228, L_233, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:265>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:275>
 		int32_t L_234 = V_4;
 		if ((!(((uint32_t)L_234) == ((uint32_t)1))))
 		{
@@ -17980,7 +18006,7 @@ IL_03c4:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:267>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:277>
 		int32_t L_235 = V_6;
 		if ((!(((uint32_t)L_235) == ((uint32_t)1))))
 		{
@@ -17988,7 +18014,7 @@ IL_03c4:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:269>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:279>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_236 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___movementSpeed);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_237 = V_5;
 		NullCheck(L_237);
@@ -18005,7 +18031,7 @@ IL_03c4:
 
 IL_0508:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:271>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:281>
 		int32_t L_243 = V_6;
 		if ((!(((uint32_t)L_243) == ((uint32_t)2))))
 		{
@@ -18013,7 +18039,7 @@ IL_0508:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:273>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:283>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_244 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___cooldownReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_245 = V_5;
 		NullCheck(L_245);
@@ -18030,7 +18056,7 @@ IL_0508:
 
 IL_052f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:276>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:286>
 		int32_t L_251 = V_4;
 		if ((((int32_t)L_251) == ((int32_t)2)))
 		{
@@ -18038,7 +18064,7 @@ IL_052f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:280>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:290>
 		int32_t L_252 = V_4;
 		if ((!(((uint32_t)L_252) == ((uint32_t)3))))
 		{
@@ -18046,7 +18072,7 @@ IL_052f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:282>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:292>
 		int32_t L_253 = V_6;
 		if ((!(((uint32_t)L_253) == ((uint32_t)1))))
 		{
@@ -18054,7 +18080,7 @@ IL_052f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:284>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:294>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_254 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___moveSpeedPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_255 = V_5;
 		NullCheck(L_255);
@@ -18071,7 +18097,7 @@ IL_052f:
 
 IL_0563:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:286>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:296>
 		int32_t L_261 = V_6;
 		if ((!(((uint32_t)L_261) == ((uint32_t)2))))
 		{
@@ -18079,7 +18105,7 @@ IL_0563:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:288>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:298>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_262 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___criticalDamageReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_263 = V_5;
 		NullCheck(L_263);
@@ -18091,13 +18117,13 @@ IL_0563:
 		NullCheck(L_267);
 		float L_268 = L_267->___criticalDamageReductionPercentTier3;
 		L_262->___value = L_268;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:291>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:301>
 		goto IL_08a3;
 	}
 
 IL_058a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:294>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:304>
 		int32_t L_269 = V_3;
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_270 = V_5;
 		NullCheck(L_270);
@@ -18106,7 +18132,7 @@ IL_058a:
 		int32_t L_272;
 		L_272 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_269, 0, ((int32_t)(((RuntimeArray*)L_271)->max_length)), NULL);
 		V_3 = L_272;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:295>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:305>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_273 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___criticalChance);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_274 = V_5;
 		NullCheck(L_274);
@@ -18118,7 +18144,7 @@ IL_058a:
 		NullCheck(L_278);
 		float L_279 = L_278->___criticalChance;
 		L_273->___value = L_279;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:296>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:306>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_280 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___criticalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_281 = V_5;
 		NullCheck(L_281);
@@ -18130,7 +18156,7 @@ IL_058a:
 		NullCheck(L_285);
 		float L_286 = L_285->___criticalDamage;
 		L_280->___value = L_286;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:297>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:307>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_287 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalPen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_288 = V_5;
 		NullCheck(L_288);
@@ -18142,7 +18168,7 @@ IL_058a:
 		NullCheck(L_292);
 		float L_293 = L_292->___physicalPenetration;
 		L_287->___value = L_293;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:298>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:308>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_294 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___magicPen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_295 = V_5;
 		NullCheck(L_295);
@@ -18154,7 +18180,7 @@ IL_058a:
 		NullCheck(L_299);
 		float L_300 = L_299->___magicalPenetration;
 		L_294->___value = L_300;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:299>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:309>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_301 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalLifesteal);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_302 = V_5;
 		NullCheck(L_302);
@@ -18166,7 +18192,7 @@ IL_058a:
 		NullCheck(L_306);
 		float L_307 = L_306->___lifesteal;
 		L_301->___value = L_307;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:300>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:310>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_308 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___magicLifesteal);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_309 = V_5;
 		NullCheck(L_309);
@@ -18178,7 +18204,7 @@ IL_058a:
 		NullCheck(L_313);
 		float L_314 = L_313->___lifesteal;
 		L_308->___value = L_314;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:301>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:311>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_315 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___skillLifesteal);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_316 = V_5;
 		NullCheck(L_316);
@@ -18190,7 +18216,7 @@ IL_058a:
 		NullCheck(L_320);
 		float L_321 = L_320->___skillLifesteal;
 		L_315->___value = L_321;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:302>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:312>
 		int32_t L_322 = V_4;
 		if ((!(((uint32_t)L_322) == ((uint32_t)1))))
 		{
@@ -18198,7 +18224,7 @@ IL_058a:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:304>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:314>
 		int32_t L_323 = V_6;
 		if ((!(((uint32_t)L_323) == ((uint32_t)3))))
 		{
@@ -18206,7 +18232,7 @@ IL_058a:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:306>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:316>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_324 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_325 = V_5;
 		NullCheck(L_325);
@@ -18223,7 +18249,7 @@ IL_058a:
 
 IL_067a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:308>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:318>
 		int32_t L_331 = V_6;
 		if ((!(((uint32_t)L_331) == ((uint32_t)4))))
 		{
@@ -18231,7 +18257,7 @@ IL_067a:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:310>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:320>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_332 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___magicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_333 = V_5;
 		NullCheck(L_333);
@@ -18248,7 +18274,7 @@ IL_067a:
 
 IL_06a1:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:313>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:323>
 		int32_t L_339 = V_4;
 		if ((((int32_t)L_339) == ((int32_t)2)))
 		{
@@ -18256,7 +18282,7 @@ IL_06a1:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:317>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:327>
 		int32_t L_340 = V_4;
 		if ((!(((uint32_t)L_340) == ((uint32_t)3))))
 		{
@@ -18264,7 +18290,7 @@ IL_06a1:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:319>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:329>
 		int32_t L_341 = V_6;
 		if ((!(((uint32_t)L_341) == ((uint32_t)3))))
 		{
@@ -18272,7 +18298,7 @@ IL_06a1:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:321>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:331>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_342 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_343 = V_5;
 		NullCheck(L_343);
@@ -18289,7 +18315,7 @@ IL_06a1:
 
 IL_06d5:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:323>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:333>
 		int32_t L_349 = V_6;
 		if ((!(((uint32_t)L_349) == ((uint32_t)2))))
 		{
@@ -18297,7 +18323,7 @@ IL_06d5:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:325>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:335>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_350 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___magicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_351 = V_5;
 		NullCheck(L_351);
@@ -18309,13 +18335,13 @@ IL_06d5:
 		NullCheck(L_355);
 		float L_356 = L_355->___magicalDamagePercentTier3;
 		L_350->___value = L_356;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:328>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:338>
 		goto IL_08a3;
 	}
 
 IL_06fc:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:331>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:341>
 		int32_t L_357 = V_3;
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_358 = V_5;
 		NullCheck(L_358);
@@ -18324,7 +18350,7 @@ IL_06fc:
 		int32_t L_360;
 		L_360 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_357, 0, ((int32_t)(((RuntimeArray*)L_359)->max_length)), NULL);
 		V_3 = L_360;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:332>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:342>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_361 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___attackSpeed);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_362 = V_5;
 		NullCheck(L_362);
@@ -18336,7 +18362,7 @@ IL_06fc:
 		NullCheck(L_366);
 		float L_367 = L_366->___attackSpeed;
 		L_361->___value = L_367;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:333>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:343>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_368 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___moveSpeedPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_369 = V_5;
 		NullCheck(L_369);
@@ -18348,7 +18374,7 @@ IL_06fc:
 		NullCheck(L_373);
 		float L_374 = L_373->___movementSpeed;
 		L_368->___value = L_374;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:334>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:344>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_375 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___movementSpeed);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_376 = V_5;
 		NullCheck(L_376);
@@ -18360,7 +18386,7 @@ IL_06fc:
 		NullCheck(L_380);
 		float L_381 = L_380->___movementSpeedFlat;
 		L_375->___value = L_381;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:335>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:345>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_382 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___cooldownReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_383 = V_5;
 		NullCheck(L_383);
@@ -18372,7 +18398,7 @@ IL_06fc:
 		NullCheck(L_387);
 		float L_388 = L_387->___cooldownReduction;
 		L_382->___value = L_388;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:336>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:346>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_389 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___manaCostReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_390 = V_5;
 		NullCheck(L_390);
@@ -18384,7 +18410,7 @@ IL_06fc:
 		NullCheck(L_394);
 		float L_395 = L_394->___chakraCostReduction;
 		L_389->___value = L_395;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:337>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:347>
 		int32_t L_396 = V_4;
 		if ((!(((uint32_t)L_396) == ((uint32_t)1))))
 		{
@@ -18392,7 +18418,7 @@ IL_06fc:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:339>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:349>
 		int32_t L_397 = V_6;
 		if ((!(((uint32_t)L_397) == ((uint32_t)4))))
 		{
@@ -18400,7 +18426,7 @@ IL_06fc:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:341>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:351>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_398 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___magicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_399 = V_5;
 		NullCheck(L_399);
@@ -18417,7 +18443,7 @@ IL_06fc:
 
 IL_07bb:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:343>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:353>
 		int32_t L_405 = V_6;
 		if ((!(((uint32_t)L_405) == ((uint32_t)2))))
 		{
@@ -18425,7 +18451,7 @@ IL_07bb:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:345>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:355>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_406 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___armor);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_407 = V_5;
 		NullCheck(L_407);
@@ -18437,7 +18463,7 @@ IL_07bb:
 		NullCheck(L_411);
 		float L_412 = L_411->___armorTier1;
 		L_406->___value = L_412;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:346>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:356>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_413 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___magicResist);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_414 = V_5;
 		NullCheck(L_414);
@@ -18454,7 +18480,7 @@ IL_07bb:
 
 IL_07f9:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:348>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:358>
 		int32_t L_420 = V_6;
 		if ((!(((uint32_t)L_420) == ((uint32_t)5))))
 		{
@@ -18462,7 +18488,7 @@ IL_07f9:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:350>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:360>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_421 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_422 = V_5;
 		NullCheck(L_422);
@@ -18479,7 +18505,7 @@ IL_07f9:
 
 IL_0820:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:353>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:363>
 		int32_t L_428 = V_4;
 		if ((((int32_t)L_428) == ((int32_t)2)))
 		{
@@ -18487,7 +18513,7 @@ IL_0820:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:357>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:367>
 		int32_t L_429 = V_4;
 		if ((!(((uint32_t)L_429) == ((uint32_t)3))))
 		{
@@ -18495,7 +18521,7 @@ IL_0820:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:359>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:369>
 		int32_t L_430 = V_6;
 		if ((!(((uint32_t)L_430) == ((uint32_t)4))))
 		{
@@ -18503,7 +18529,7 @@ IL_0820:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:361>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:371>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_431 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___elementalDamageBonus);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_432 = V_5;
 		NullCheck(L_432);
@@ -18520,7 +18546,7 @@ IL_0820:
 
 IL_084b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:363>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:373>
 		int32_t L_438 = V_6;
 		if ((!(((uint32_t)L_438) == ((uint32_t)2))))
 		{
@@ -18528,7 +18554,7 @@ IL_084b:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:365>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:375>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_439 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___HP);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_440 = V_5;
 		NullCheck(L_440);
@@ -18545,7 +18571,7 @@ IL_084b:
 
 IL_086c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:367>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:377>
 		int32_t L_446 = V_6;
 		if ((!(((uint32_t)L_446) == ((uint32_t)5))))
 		{
@@ -18553,7 +18579,7 @@ IL_086c:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:369>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:379>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_447 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_2)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_448 = V_5;
 		NullCheck(L_448);
@@ -18565,13 +18591,13 @@ IL_086c:
 		NullCheck(L_452);
 		float L_453 = L_452->___physicalDamageTier3;
 		L_447->___value = L_453;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:372>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:382>
 		goto IL_08a3;
 	}
 
 IL_088d:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:375>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:385>
 		int32_t L_454 = ___0_type;
 		int32_t L_455 = L_454;
 		RuntimeObject* L_456 = Box(il2cpp_defaults.int32_class, &L_455);
@@ -18579,23 +18605,23 @@ IL_088d:
 		L_457 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralBE018624E1FE44E76261787B874ED065BB9D1AD3, L_456, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_457, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:376>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:386>
 		return;
 	}
 
 IL_08a3:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:378>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:388>
 		PlayerStat_tCF1C57496F4C9EC0424E901CFF02628AF644115F* L_458 = __this->___playerStat;
 		S_Stats_t8976BA1109823F18D06136E3A6E6E5F2B5F2A86E L_459 = V_2;
 		NullCheck(L_458);
 		S_Stats_t8976BA1109823F18D06136E3A6E6E5F2B5F2A86E L_460;
 		L_460 = PlayerStat_AddModifierStat_m5C3FCEB7F4513F439D93D73493601C43B7A332B1(L_458, L_459, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:380>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:390>
 		return;
 	}
 }
-// Method Definition Index: 2226
+// Method Definition Index: 2242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChakraVeinController_GetTotalChakraVeinLevels_m4C6956839EE1FB04AD6E31CC3DD226DADCC33C77 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18613,9 +18639,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChakraVeinController_GetTotalChakraVe
 	uint8_t V_2 = 0;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:385>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:395>
 		V_0 = 0;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:386>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:396>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (E_ChakraVein_t1C8E63DFC61F61F954F378D42B324808F0D0E7D6_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -18663,13 +18689,13 @@ IL_0049:
 
 IL_0019_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:386>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:396>
 				RuntimeObject* L_7 = V_1;
 				NullCheck(L_7);
 				RuntimeObject* L_8;
 				L_8 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_7);
 				V_2 = ((*(uint8_t*)UnBox(L_8, E_ChakraVein_t1C8E63DFC61F61F954F378D42B324808F0D0E7D6_il2cpp_TypeInfo_var)));
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:388>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:398>
 				int32_t L_9 = V_0;
 				uint8_t L_10 = V_2;
 				int32_t L_11;
@@ -18679,7 +18705,7 @@ IL_0019_1:
 
 IL_002f_1:
 			{
-				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:386>
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:396>
 				RuntimeObject* L_12 = V_1;
 				NullCheck(L_12);
 				bool L_13;
@@ -18701,19 +18727,19 @@ IL_002f_1:
 
 IL_004a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:390>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:400>
 		int32_t L_14 = V_0;
 		int32_t L_15 = L_14;
 		RuntimeObject* L_16 = Box(il2cpp_defaults.int32_class, &L_15);
 		String_t* L_17;
 		L_17 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral949BF177315E70A4B0C5B5789CDB76EFE7C72219, L_16, NULL);
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(L_17, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:391>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:401>
 		int32_t L_18 = V_0;
 		return L_18;
 	}
 }
-// Method Definition Index: 2227
+// Method Definition Index: 2243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpgradeChakraVein_m346602165FE7B1F605DB3B07799CB8C4FF46615A (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, int32_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18731,30 +18757,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpgradeChakraVein_m
 	int32_t V_4 = 0;
 	uint8_t V_5 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:396>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:406>
 		il2cpp_codegen_initobj((&V_0), sizeof(S_Stats_t8976BA1109823F18D06136E3A6E6E5F2B5F2A86E));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:397>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:407>
 		int32_t L_0 = ___0_type;
 		ChakraVeinController_UpdateChakraVeinLevel_m5DE849140BED21DE5F31238663A6221E1B730C97(__this, ((int32_t)(uint8_t)L_0), NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:398>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:408>
 		int32_t L_1 = ___0_type;
 		int32_t L_2;
 		L_2 = ChakraVeinController_GetChakraVeinLevel_m10CFD52BCE4CB9EFE4CFC7E49311318FE710A6F2(__this, ((int32_t)(uint8_t)L_1), NULL);
 		int32_t L_3;
 		L_3 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(((int32_t)il2cpp_codegen_subtract(L_2, 1)), 0, ((int32_t)10), NULL);
 		V_1 = L_3;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:399>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:409>
 		int32_t L_4 = ___0_type;
 		int32_t L_5;
 		L_5 = ChakraVeinController_GetChakraVeinTier_mC1C9B442A48D7012623AE82968F10C59C28D85A7(__this, ((int32_t)(uint8_t)L_4), NULL);
 		V_2 = L_5;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:400>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:410>
 		DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682* L_6 = ((DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_StaticFields*)il2cpp_codegen_static_fields_for(DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_6);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_7;
 		L_7 = DBManager_GetChakraVein_m14E2EC27862E7565CB0C50CEEC61211F6986AE30_inline(L_6, NULL);
 		V_3 = L_7;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:401>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:411>
 		DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682* L_8 = ((DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_StaticFields*)il2cpp_codegen_static_fields_for(DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_il2cpp_TypeInfo_var))->___instance;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
@@ -18774,7 +18800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpgradeChakraVein_m
 		int32_t L_14;
 		L_14 = Character_get_HeroRole_mA7467659F13D8704F5B787F8B657270D67418271_inline(L_13, NULL);
 		V_4 = L_14;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:403>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:413>
 		int32_t L_15 = ___0_type;
 		V_5 = ((int32_t)(uint8_t)L_15);
 		uint8_t L_16 = V_5;
@@ -18804,7 +18830,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpgradeChakraVein_m
 
 IL_0079:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:407>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:417>
 		int32_t L_17 = V_1;
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_18 = V_3;
 		NullCheck(L_18);
@@ -18813,7 +18839,7 @@ IL_0079:
 		int32_t L_20;
 		L_20 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_17, 0, ((int32_t)(((RuntimeArray*)L_19)->max_length)), NULL);
 		V_1 = L_20;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:409>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:419>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_21 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_22 = V_3;
 		NullCheck(L_22);
@@ -18825,7 +18851,7 @@ IL_0079:
 		NullCheck(L_26);
 		float L_27 = L_26->___physicalDamage;
 		L_21->___value = L_27;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:410>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:420>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_28 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___magicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_29 = V_3;
 		NullCheck(L_29);
@@ -18837,7 +18863,7 @@ IL_0079:
 		NullCheck(L_33);
 		float L_34 = L_33->___magicalDamage;
 		L_28->___value = L_34;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:411>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:421>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_35 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalPenetrationFlat);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_36 = V_3;
 		NullCheck(L_36);
@@ -18849,7 +18875,7 @@ IL_0079:
 		NullCheck(L_40);
 		float L_41 = L_40->___physicalPenetrationFlat;
 		L_35->___value = L_41;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:412>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:422>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_42 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___magicalPenetrationFlat);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_43 = V_3;
 		NullCheck(L_43);
@@ -18861,7 +18887,7 @@ IL_0079:
 		NullCheck(L_47);
 		float L_48 = L_47->___magicalPenetrationFlat;
 		L_42->___value = L_48;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:413>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:423>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_49 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___basicAtkDamageBonusPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_50 = V_3;
 		NullCheck(L_50);
@@ -18873,7 +18899,7 @@ IL_0079:
 		NullCheck(L_54);
 		float L_55 = L_54->___basicAtkDamage;
 		L_49->___value = L_55;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:414>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:424>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_56 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___elementalDamageBonus);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_57 = V_3;
 		NullCheck(L_57);
@@ -18885,7 +18911,7 @@ IL_0079:
 		NullCheck(L_61);
 		float L_62 = L_61->___elementalDamage;
 		L_56->___value = L_62;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:417>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:427>
 		int32_t L_63 = V_2;
 		if ((!(((uint32_t)L_63) == ((uint32_t)1))))
 		{
@@ -18893,7 +18919,7 @@ IL_0079:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:419>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:429>
 		int32_t L_64 = V_4;
 		if ((!(((uint32_t)L_64) == ((uint32_t)1))))
 		{
@@ -18901,7 +18927,7 @@ IL_0079:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:421>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:431>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_65 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalPen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_66 = V_3;
 		NullCheck(L_66);
@@ -18918,7 +18944,7 @@ IL_0079:
 
 IL_0146:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:423>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:433>
 		int32_t L_72 = V_4;
 		if ((!(((uint32_t)L_72) == ((uint32_t)3))))
 		{
@@ -18926,7 +18952,7 @@ IL_0146:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:425>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:435>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_73 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___attackSpeed);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_74 = V_3;
 		NullCheck(L_74);
@@ -18943,7 +18969,7 @@ IL_0146:
 
 IL_0169:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:427>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:437>
 		int32_t L_80 = V_4;
 		if ((!(((uint32_t)L_80) == ((uint32_t)5))))
 		{
@@ -18951,7 +18977,7 @@ IL_0169:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:429>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:439>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_81 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___moveSpeedPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_82 = V_3;
 		NullCheck(L_82);
@@ -18968,7 +18994,7 @@ IL_0169:
 
 IL_018f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:432>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:442>
 		int32_t L_88 = V_2;
 		if ((((int32_t)L_88) == ((int32_t)2)))
 		{
@@ -18976,7 +19002,7 @@ IL_018f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:436>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:446>
 		int32_t L_89 = V_2;
 		if ((!(((uint32_t)L_89) == ((uint32_t)3))))
 		{
@@ -18984,7 +19010,7 @@ IL_018f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:438>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:448>
 		int32_t L_90 = V_4;
 		if ((!(((uint32_t)L_90) == ((uint32_t)1))))
 		{
@@ -18992,7 +19018,7 @@ IL_018f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:440>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:450>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_91 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalPen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_92 = V_3;
 		NullCheck(L_92);
@@ -19009,7 +19035,7 @@ IL_018f:
 
 IL_01c0:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:442>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:452>
 		int32_t L_98 = V_4;
 		if ((!(((uint32_t)L_98) == ((uint32_t)3))))
 		{
@@ -19017,7 +19043,7 @@ IL_01c0:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:444>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:454>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_99 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___basicAtkDamageBonusPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_100 = V_3;
 		NullCheck(L_100);
@@ -19034,7 +19060,7 @@ IL_01c0:
 
 IL_01e3:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:446>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:456>
 		int32_t L_106 = V_4;
 		if ((!(((uint32_t)L_106) == ((uint32_t)5))))
 		{
@@ -19042,7 +19068,7 @@ IL_01e3:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:448>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:458>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_107 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalLifesteal);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_108 = V_3;
 		NullCheck(L_108);
@@ -19054,13 +19080,13 @@ IL_01e3:
 		NullCheck(L_112);
 		float L_113 = L_112->___lifestealPercentTier3;
 		L_107->___value = L_113;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:451>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:461>
 		goto IL_0675;
 	}
 
 IL_0209:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:454>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:464>
 		int32_t L_114 = V_1;
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_115 = V_3;
 		NullCheck(L_115);
@@ -19069,7 +19095,7 @@ IL_0209:
 		int32_t L_117;
 		L_117 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_114, 0, ((int32_t)(((RuntimeArray*)L_116)->max_length)), NULL);
 		V_1 = L_117;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:455>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:465>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_118 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___HP);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_119 = V_3;
 		NullCheck(L_119);
@@ -19081,7 +19107,7 @@ IL_0209:
 		NullCheck(L_123);
 		float L_124 = L_123->___hp;
 		L_118->___value = L_124;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:456>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:466>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_125 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___HPRegen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_126 = V_3;
 		NullCheck(L_126);
@@ -19093,7 +19119,7 @@ IL_0209:
 		NullCheck(L_130);
 		float L_131 = L_130->___hpRegen;
 		L_125->___value = L_131;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:457>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:467>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_132 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___mana);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_133 = V_3;
 		NullCheck(L_133);
@@ -19105,7 +19131,7 @@ IL_0209:
 		NullCheck(L_137);
 		float L_138 = L_137->___mana;
 		L_132->___value = L_138;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:458>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:468>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_139 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___manaRegen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_140 = V_3;
 		NullCheck(L_140);
@@ -19117,7 +19143,7 @@ IL_0209:
 		NullCheck(L_144);
 		float L_145 = L_144->___manaRegen;
 		L_139->___value = L_145;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:459>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:469>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_146 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___armor);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_147 = V_3;
 		NullCheck(L_147);
@@ -19129,7 +19155,7 @@ IL_0209:
 		NullCheck(L_151);
 		float L_152 = L_151->___armor;
 		L_146->___value = L_152;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:460>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:470>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_153 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___magicResist);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_154 = V_3;
 		NullCheck(L_154);
@@ -19141,7 +19167,7 @@ IL_0209:
 		NullCheck(L_158);
 		float L_159 = L_158->___magicResist;
 		L_153->___value = L_159;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:461>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:471>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_160 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___damageReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_161 = V_3;
 		NullCheck(L_161);
@@ -19153,7 +19179,7 @@ IL_0209:
 		NullCheck(L_165);
 		float L_166 = L_165->___damageReduction;
 		L_160->___value = L_166;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:463>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:473>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_167;
 		L_167 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DictionaryCache_t866F7A0C544ADBE433FD8C8325DF042BEBDED5DD_il2cpp_TypeInfo_var);
@@ -19170,7 +19196,7 @@ IL_0209:
 		float L_173 = L_172.___value;
 		NullCheck(L_168);
 		Health_AssignNewMaxHealth_m5613CCFFC0367B0EE188312E31F6A6C9B6C4AF2B(L_168, L_173, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:465>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:475>
 		int32_t L_174 = V_2;
 		if ((!(((uint32_t)L_174) == ((uint32_t)1))))
 		{
@@ -19178,7 +19204,7 @@ IL_0209:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:467>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:477>
 		int32_t L_175 = V_4;
 		if ((!(((uint32_t)L_175) == ((uint32_t)1))))
 		{
@@ -19186,7 +19212,7 @@ IL_0209:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:469>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:479>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_176 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___movementSpeed);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_177 = V_3;
 		NullCheck(L_177);
@@ -19203,7 +19229,7 @@ IL_0209:
 
 IL_0319:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:471>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:481>
 		int32_t L_183 = V_4;
 		if ((!(((uint32_t)L_183) == ((uint32_t)2))))
 		{
@@ -19211,7 +19237,7 @@ IL_0319:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:473>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:483>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_184 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___cooldownReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_185 = V_3;
 		NullCheck(L_185);
@@ -19228,7 +19254,7 @@ IL_0319:
 
 IL_033f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:476>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:486>
 		int32_t L_191 = V_2;
 		if ((((int32_t)L_191) == ((int32_t)2)))
 		{
@@ -19236,7 +19262,7 @@ IL_033f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:480>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:490>
 		int32_t L_192 = V_2;
 		if ((!(((uint32_t)L_192) == ((uint32_t)3))))
 		{
@@ -19244,7 +19270,7 @@ IL_033f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:482>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:492>
 		int32_t L_193 = V_4;
 		if ((!(((uint32_t)L_193) == ((uint32_t)1))))
 		{
@@ -19252,7 +19278,7 @@ IL_033f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:484>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:494>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_194 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___moveSpeedPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_195 = V_3;
 		NullCheck(L_195);
@@ -19269,7 +19295,7 @@ IL_033f:
 
 IL_0370:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:486>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:496>
 		int32_t L_201 = V_4;
 		if ((!(((uint32_t)L_201) == ((uint32_t)2))))
 		{
@@ -19277,7 +19303,7 @@ IL_0370:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:488>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:498>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_202 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___criticalDamageReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_203 = V_3;
 		NullCheck(L_203);
@@ -19289,13 +19315,13 @@ IL_0370:
 		NullCheck(L_207);
 		float L_208 = L_207->___criticalDamageReductionPercentTier3;
 		L_202->___value = L_208;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:491>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:501>
 		goto IL_0675;
 	}
 
 IL_0396:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:494>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:504>
 		int32_t L_209 = V_1;
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_210 = V_3;
 		NullCheck(L_210);
@@ -19304,7 +19330,7 @@ IL_0396:
 		int32_t L_212;
 		L_212 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_209, 0, ((int32_t)(((RuntimeArray*)L_211)->max_length)), NULL);
 		V_1 = L_212;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:495>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:505>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_213 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___criticalChance);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_214 = V_3;
 		NullCheck(L_214);
@@ -19316,7 +19342,7 @@ IL_0396:
 		NullCheck(L_218);
 		float L_219 = L_218->___criticalChance;
 		L_213->___value = L_219;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:496>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:506>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_220 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___criticalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_221 = V_3;
 		NullCheck(L_221);
@@ -19328,7 +19354,7 @@ IL_0396:
 		NullCheck(L_225);
 		float L_226 = L_225->___criticalDamage;
 		L_220->___value = L_226;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:497>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:507>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_227 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalPen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_228 = V_3;
 		NullCheck(L_228);
@@ -19340,7 +19366,7 @@ IL_0396:
 		NullCheck(L_232);
 		float L_233 = L_232->___physicalPenetration;
 		L_227->___value = L_233;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:498>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:508>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_234 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___magicPen);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_235 = V_3;
 		NullCheck(L_235);
@@ -19352,7 +19378,7 @@ IL_0396:
 		NullCheck(L_239);
 		float L_240 = L_239->___magicalPenetration;
 		L_234->___value = L_240;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:499>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:509>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_241 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalLifesteal);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_242 = V_3;
 		NullCheck(L_242);
@@ -19364,7 +19390,7 @@ IL_0396:
 		NullCheck(L_246);
 		float L_247 = L_246->___lifesteal;
 		L_241->___value = L_247;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:500>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:510>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_248 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___magicLifesteal);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_249 = V_3;
 		NullCheck(L_249);
@@ -19376,7 +19402,7 @@ IL_0396:
 		NullCheck(L_253);
 		float L_254 = L_253->___lifesteal;
 		L_248->___value = L_254;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:501>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:511>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_255 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___skillLifesteal);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_256 = V_3;
 		NullCheck(L_256);
@@ -19388,7 +19414,7 @@ IL_0396:
 		NullCheck(L_260);
 		float L_261 = L_260->___skillLifesteal;
 		L_255->___value = L_261;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:503>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:513>
 		int32_t L_262 = V_2;
 		if ((!(((uint32_t)L_262) == ((uint32_t)1))))
 		{
@@ -19396,7 +19422,7 @@ IL_0396:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:505>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:515>
 		int32_t L_263 = V_4;
 		if ((!(((uint32_t)L_263) == ((uint32_t)3))))
 		{
@@ -19404,7 +19430,7 @@ IL_0396:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:507>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:517>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_264 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_265 = V_3;
 		NullCheck(L_265);
@@ -19421,7 +19447,7 @@ IL_0396:
 
 IL_047c:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:509>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:519>
 		int32_t L_271 = V_4;
 		if ((!(((uint32_t)L_271) == ((uint32_t)4))))
 		{
@@ -19429,7 +19455,7 @@ IL_047c:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:511>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:521>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_272 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___magicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_273 = V_3;
 		NullCheck(L_273);
@@ -19446,7 +19472,7 @@ IL_047c:
 
 IL_04a2:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:514>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:524>
 		int32_t L_279 = V_2;
 		if ((((int32_t)L_279) == ((int32_t)2)))
 		{
@@ -19454,7 +19480,7 @@ IL_04a2:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:518>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:528>
 		int32_t L_280 = V_2;
 		if ((!(((uint32_t)L_280) == ((uint32_t)3))))
 		{
@@ -19462,7 +19488,7 @@ IL_04a2:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:520>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:530>
 		int32_t L_281 = V_4;
 		if ((!(((uint32_t)L_281) == ((uint32_t)3))))
 		{
@@ -19470,7 +19496,7 @@ IL_04a2:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:522>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:532>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_282 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_283 = V_3;
 		NullCheck(L_283);
@@ -19487,7 +19513,7 @@ IL_04a2:
 
 IL_04d3:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:524>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:534>
 		int32_t L_289 = V_4;
 		if ((!(((uint32_t)L_289) == ((uint32_t)2))))
 		{
@@ -19495,7 +19521,7 @@ IL_04d3:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:526>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:536>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_290 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___magicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_291 = V_3;
 		NullCheck(L_291);
@@ -19507,13 +19533,13 @@ IL_04d3:
 		NullCheck(L_295);
 		float L_296 = L_295->___magicalDamagePercentTier3;
 		L_290->___value = L_296;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:529>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:539>
 		goto IL_0675;
 	}
 
 IL_04f9:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:532>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:542>
 		int32_t L_297 = V_1;
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_298 = V_3;
 		NullCheck(L_298);
@@ -19522,7 +19548,7 @@ IL_04f9:
 		int32_t L_300;
 		L_300 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_297, 0, ((int32_t)(((RuntimeArray*)L_299)->max_length)), NULL);
 		V_1 = L_300;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:533>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:543>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_301 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___attackSpeed);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_302 = V_3;
 		NullCheck(L_302);
@@ -19534,7 +19560,7 @@ IL_04f9:
 		NullCheck(L_306);
 		float L_307 = L_306->___attackSpeed;
 		L_301->___value = L_307;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:534>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:544>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_308 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___moveSpeedPercent);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_309 = V_3;
 		NullCheck(L_309);
@@ -19546,7 +19572,7 @@ IL_04f9:
 		NullCheck(L_313);
 		float L_314 = L_313->___movementSpeed;
 		L_308->___value = L_314;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:535>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:545>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_315 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___movementSpeed);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_316 = V_3;
 		NullCheck(L_316);
@@ -19558,7 +19584,7 @@ IL_04f9:
 		NullCheck(L_320);
 		float L_321 = L_320->___movementSpeedFlat;
 		L_315->___value = L_321;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:536>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:546>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_322 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___cooldownReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_323 = V_3;
 		NullCheck(L_323);
@@ -19570,7 +19596,7 @@ IL_04f9:
 		NullCheck(L_327);
 		float L_328 = L_327->___cooldownReduction;
 		L_322->___value = L_328;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:537>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:547>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_329 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___manaCostReduction);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_330 = V_3;
 		NullCheck(L_330);
@@ -19582,7 +19608,7 @@ IL_04f9:
 		NullCheck(L_334);
 		float L_335 = L_334->___chakraCostReduction;
 		L_329->___value = L_335;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:539>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:549>
 		int32_t L_336 = V_2;
 		if ((!(((uint32_t)L_336) == ((uint32_t)1))))
 		{
@@ -19590,7 +19616,7 @@ IL_04f9:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:541>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:551>
 		int32_t L_337 = V_4;
 		if ((!(((uint32_t)L_337) == ((uint32_t)4))))
 		{
@@ -19598,7 +19624,7 @@ IL_04f9:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:543>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:553>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_338 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___magicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_339 = V_3;
 		NullCheck(L_339);
@@ -19615,7 +19641,7 @@ IL_04f9:
 
 IL_05b0:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:545>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:555>
 		int32_t L_345 = V_4;
 		if ((!(((uint32_t)L_345) == ((uint32_t)2))))
 		{
@@ -19623,7 +19649,7 @@ IL_05b0:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:547>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:557>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_346 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___armor);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_347 = V_3;
 		NullCheck(L_347);
@@ -19635,7 +19661,7 @@ IL_05b0:
 		NullCheck(L_351);
 		float L_352 = L_351->___armorTier1;
 		L_346->___value = L_352;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:548>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:558>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_353 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___magicResist);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_354 = V_3;
 		NullCheck(L_354);
@@ -19652,7 +19678,7 @@ IL_05b0:
 
 IL_05ec:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:550>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:560>
 		int32_t L_360 = V_4;
 		if ((!(((uint32_t)L_360) == ((uint32_t)5))))
 		{
@@ -19660,7 +19686,7 @@ IL_05ec:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:552>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:562>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_361 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_362 = V_3;
 		NullCheck(L_362);
@@ -19677,7 +19703,7 @@ IL_05ec:
 
 IL_060f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:555>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:565>
 		int32_t L_368 = V_2;
 		if ((((int32_t)L_368) == ((int32_t)2)))
 		{
@@ -19685,7 +19711,7 @@ IL_060f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:559>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:569>
 		int32_t L_369 = V_2;
 		if ((!(((uint32_t)L_369) == ((uint32_t)3))))
 		{
@@ -19693,7 +19719,7 @@ IL_060f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:561>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:571>
 		int32_t L_370 = V_4;
 		if ((!(((uint32_t)L_370) == ((uint32_t)4))))
 		{
@@ -19701,7 +19727,7 @@ IL_060f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:563>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:573>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_371 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___elementalDamageBonus);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_372 = V_3;
 		NullCheck(L_372);
@@ -19718,7 +19744,7 @@ IL_060f:
 
 IL_0637:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:565>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:575>
 		int32_t L_378 = V_4;
 		if ((!(((uint32_t)L_378) == ((uint32_t)2))))
 		{
@@ -19726,7 +19752,7 @@ IL_0637:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:567>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:577>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_379 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___HP);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_380 = V_3;
 		NullCheck(L_380);
@@ -19743,7 +19769,7 @@ IL_0637:
 
 IL_0657:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:569>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:579>
 		int32_t L_386 = V_4;
 		if ((!(((uint32_t)L_386) == ((uint32_t)5))))
 		{
@@ -19751,7 +19777,7 @@ IL_0657:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:571>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:581>
 		S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF* L_387 = (S_StatsDetails_tBE9F3D6BDB8F0C7A8467FFA6AC685F724B422DCF*)(&(&V_0)->___physicalDamage);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_388 = V_3;
 		NullCheck(L_388);
@@ -19767,17 +19793,17 @@ IL_0657:
 
 IL_0675:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:580>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:590>
 		PlayerStat_tCF1C57496F4C9EC0424E901CFF02628AF644115F* L_394 = __this->___playerStat;
 		S_Stats_t8976BA1109823F18D06136E3A6E6E5F2B5F2A86E L_395 = V_0;
 		NullCheck(L_394);
 		S_Stats_t8976BA1109823F18D06136E3A6E6E5F2B5F2A86E L_396;
 		L_396 = PlayerStat_AddModifierStat_m5C3FCEB7F4513F439D93D73493601C43B7A332B1(L_394, L_395, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:581>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:591>
 		return;
 	}
 }
-// Method Definition Index: 2228
+// Method Definition Index: 2244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpdateChakraVeinLevel_m5DE849140BED21DE5F31238663A6221E1B730C97 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, uint8_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19793,14 +19819,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController_UpdateChakraVeinLev
 	ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:585>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:595>
 		V_0 = 0;
 		goto IL_005f;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:587>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:597>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_0 = __this->___playerChakraVein;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -19814,25 +19840,25 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:589>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:599>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_5 = __this->___playerChakraVein;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357 L_7;
 		L_7 = NetworkList_1_get_Item_mFD52DF378C337BB726F6DD7C1EA1287CD1288F85(L_5, L_6, NetworkList_1_get_Item_mFD52DF378C337BB726F6DD7C1EA1287CD1288F85_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:590>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:600>
 		int32_t* L_8 = (int32_t*)(&(&V_1)->___level);
 		int32_t* L_9 = L_8;
 		int32_t L_10 = *((int32_t*)L_9);
 		*((int32_t*)L_9) = (int32_t)((int32_t)il2cpp_codegen_add(L_10, 1));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:591>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:601>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_11 = __this->___playerChakraVein;
 		int32_t L_12 = V_0;
 		ChakraVeinInfo_tA9F7FEEA74A8F324BE4D4816F6DC8C8B79991357 L_13 = V_1;
 		NullCheck(L_11);
 		NetworkList_1_set_Item_m5CCA0935EB4C7213F45363955BD342050E5C7771(L_11, L_12, L_13, NetworkList_1_set_Item_m5CCA0935EB4C7213F45363955BD342050E5C7771_RuntimeMethod_var);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:592>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:602>
 		MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909* L_14 = ((MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909_StaticFields*)il2cpp_codegen_static_fields_for(MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909_il2cpp_TypeInfo_var))->___Instance;
 		PlayerLevel_t1C510D49228AFAAD363CEDA2DE3997D4FA954551* L_15 = __this->___playerLevel;
 		NullCheck(L_15);
@@ -19843,20 +19869,20 @@ IL_0004:
 		int32_t L_19 = L_18.___level;
 		NullCheck(L_14);
 		MatchStatServer_AddChakraVeinLevel_m1A8F90979880BE90C22F77498B5EE0450C51D0FB(L_14, L_16, L_17, L_19, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:593>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:603>
 		return;
 	}
 
 IL_005b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:585>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:595>
 		int32_t L_20 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_20, 1));
 	}
 
 IL_005f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:585>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:595>
 		int32_t L_21 = V_0;
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_22 = __this->___playerChakraVein;
 		NullCheck(L_22);
@@ -19868,11 +19894,11 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:596>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:606>
 		return;
 	}
 }
-// Method Definition Index: 2229
+// Method Definition Index: 2245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChakraVeinController_GetChakraVeinLevel_m10CFD52BCE4CB9EFE4CFC7E49311318FE710A6F2 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, uint8_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19886,14 +19912,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChakraVeinController_GetChakraVeinLev
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:600>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:610>
 		V_0 = 0;
 		goto IL_0069;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:602>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:612>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_0 = __this->___playerChakraVein;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -19907,7 +19933,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:604>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:614>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_5 = __this->___playerChakraVein;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
@@ -19927,7 +19953,7 @@ IL_0004:
 		String_t* L_17;
 		L_17 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral2D57AE6079B156955F3F828B092A9362691D8B2E, L_10, L_16, NULL);
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(L_17, NULL);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:605>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:615>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_18 = __this->___playerChakraVein;
 		int32_t L_19 = V_0;
 		NullCheck(L_18);
@@ -19939,14 +19965,14 @@ IL_0004:
 
 IL_0065:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:600>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:610>
 		int32_t L_22 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_0069:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:600>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:610>
 		int32_t L_23 = V_0;
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_24 = __this->___playerChakraVein;
 		NullCheck(L_24);
@@ -19958,11 +19984,11 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:608>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:618>
 		return 0;
 	}
 }
-// Method Definition Index: 2230
+// Method Definition Index: 2246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChakraVeinController_GetChakraVeinTier_mC1C9B442A48D7012623AE82968F10C59C28D85A7 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, uint8_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19974,14 +20000,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChakraVeinController_GetChakraVeinTie
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:613>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:623>
 		V_0 = 0;
 		goto IL_004b;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:615>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:625>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_0 = __this->___playerChakraVein;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -19995,7 +20021,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:617>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:627>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_5 = __this->___playerChakraVein;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
@@ -20008,13 +20034,13 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:619>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:629>
 		return 3;
 	}
 
 IL_002f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:621>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:631>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_9 = __this->___playerChakraVein;
 		int32_t L_10 = V_0;
 		NullCheck(L_9);
@@ -20027,26 +20053,26 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:623>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:633>
 		return 2;
 	}
 
 IL_0045:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:627>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:637>
 		return 1;
 	}
 
 IL_0047:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:613>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:623>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_004b:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:613>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:623>
 		int32_t L_14 = V_0;
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_15 = __this->___playerChakraVein;
 		NullCheck(L_15);
@@ -20058,11 +20084,11 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:631>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:641>
 		return 0;
 	}
 }
-// Method Definition Index: 2231
+// Method Definition Index: 2247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChakraVeinController_IsChakraVeinMax_mD60F3525309800CB0C9899744E57FB172C64382E (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, uint8_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20076,20 +20102,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChakraVeinController_IsChakraVeinMax_mD6
 	SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:636>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:646>
 		DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682* L_0 = ((DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_StaticFields*)il2cpp_codegen_static_fields_for(DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* L_1;
 		L_1 = DBManager_GetChakraVein_m14E2EC27862E7565CB0C50CEEC61211F6986AE30_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:638>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:648>
 		V_1 = 0;
 		goto IL_0046;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:640>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:650>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_2 = __this->___playerChakraVein;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -20103,7 +20129,7 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:642>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:652>
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_7 = __this->___playerChakraVein;
 		int32_t L_8 = V_1;
 		NullCheck(L_7);
@@ -20119,14 +20145,14 @@ IL_000f:
 
 IL_0042:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:638>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:648>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0046:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:638>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:648>
 		int32_t L_14 = V_1;
 		NetworkList_1_t44F025C9088D761531AB79568239D7983EC5ED93* L_15 = __this->___playerChakraVein;
 		NullCheck(L_15);
@@ -20138,11 +20164,11 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:645>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:655>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2232
+// Method Definition Index: 2248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController__ctor_mDA8B5526DA54562A9D5A6D325CA054F150578F8D (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20157,7 +20183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController__ctor_mDA8B5526DA54
 		return;
 	}
 }
-// Method Definition Index: 2233
+// Method Definition Index: 2249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController___initializeVariables_m970CD8468618BA38B9CB0519BBD159520CF56D00 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20198,7 +20224,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 2234
+// Method Definition Index: 2250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController___initializeRpcs_m5035D54AE0F90244C2879FEB8B2A9B81ACD45450 (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20217,7 +20243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController___initializeRpcs_m5
 		return;
 	}
 }
-// Method Definition Index: 2235
+// Method Definition Index: 2251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChakraVeinController___rpc_handler_4126185036_m7C95098F9292D626FB068AC6DFAEF45182CA1757 (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* ___0_target, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___1_reader, __RpcParams_tA4F5B2601A930BA667C4084C62B0FA7CABA5980E ___2_rpcParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20309,7 +20335,7 @@ IL_006f:
 		return;
 	}
 }
-// Method Definition Index: 2236
+// Method Definition Index: 2252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChakraVeinController___getTypeName_mEAF2BFF8BB1A55E2639BD783FE93F36E99783CCB (ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20330,7 +20356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChakraVeinController___getTypeName_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2237
+// Method Definition Index: 2253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mE9333D27BE7CB1DB94F809C7F89EA44EA65E09F0 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20347,7 +20373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mE9333D27BE7CB1DB94F809C7
 		return;
 	}
 }
-// Method Definition Index: 2238
+// Method Definition Index: 2254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m291B97B8B0F104F162F4B45963CD2DB598CF5BC4 (U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20355,8 +20381,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m291B97B8B0F104F162F4B4596
 		return;
 	}
 }
-// Method Definition Index: 2239
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CSetCurrentLevelU3Eb__10_0_mD52F62B4FB52688697C3D46A01EA88202B8A53BC (U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2255
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CSetCurrentLevelU3Eb__12_0_mE21EA723EA537BEB197583C79F9F29FA7BE92019 (U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20366,7 +20392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CSetCurrentLevelU3Eb__10_0_mD5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:131>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:141>
 		MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909* L_0 = ((MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909_StaticFields*)il2cpp_codegen_static_fields_for(MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20382,8 +20408,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CSetCurrentLevelU3Eb__10_0_mD5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2240
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetCurrentLevelU3Ed__10__ctor_m731DC57E299884A6C0E05CFD0F8C76A9454EC2F6 (U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 2256
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetCurrentLevelU3Ed__12__ctor_m634A870F45AFAAD7DCB584902AD60479C25E73A4 (U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -20392,15 +20418,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetCurrentLevelU3Ed__10__ctor_m731DC5
 		return;
 	}
 }
-// Method Definition Index: 2241
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetCurrentLevelU3Ed__10_System_IDisposable_Dispose_m60E2B3B5719883A7BDA3E2FF256A957A3F1186FB (U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2257
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetCurrentLevelU3Ed__12_System_IDisposable_Dispose_mCA117189803CA3C8F38D70EB39B0A1652CE60B7F (U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 2242
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSetCurrentLevelU3Ed__10_MoveNext_mCAE801626063829609FF5D4BEA58395CB56AAD64 (U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2258
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSetCurrentLevelU3Ed__12_MoveNext_m553056973989FE4A0046C560BA5100262F9B6ABB (U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20408,7 +20434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSetCurrentLevelU3Ed__10_MoveNext_mCAE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CSetCurrentLevelU3Eb__10_0_mD52F62B4FB52688697C3D46A01EA88202B8A53BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CSetCurrentLevelU3Eb__12_0_mE21EA723EA537BEB197583C79F9F29FA7BE92019_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
@@ -20416,9 +20442,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSetCurrentLevelU3Ed__10_MoveNext_mCAE
 	int32_t V_0 = 0;
 	ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* V_1 = NULL;
 	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* G_B5_0 = NULL;
-	U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* G_B5_1 = NULL;
+	U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* G_B5_1 = NULL;
 	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* G_B4_0 = NULL;
-	U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* G_B4_1 = NULL;
+	U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* G_B4_1 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state;
 		V_0 = L_0;
@@ -20444,9 +20470,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSetCurrentLevelU3Ed__10_MoveNext_mCAE
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:131>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var);
-		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_4 = ((U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var))->___U3CU3E9__10_0;
+		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_4 = ((U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var))->___U3CU3E9__12_0;
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_5 = L_4;
 		if (L_5)
 		{
@@ -20461,10 +20487,10 @@ IL_0017:
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var);
 		U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6* L_6 = ((U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var))->___U3CU3E9;
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_7 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
-		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_7, L_6, (intptr_t)((void*)U3CU3Ec_U3CSetCurrentLevelU3Eb__10_0_mD52F62B4FB52688697C3D46A01EA88202B8A53BC_RuntimeMethod_var), NULL);
+		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_7, L_6, (intptr_t)((void*)U3CU3Ec_U3CSetCurrentLevelU3Eb__12_0_mE21EA723EA537BEB197583C79F9F29FA7BE92019_RuntimeMethod_var), NULL);
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_8 = L_7;
-		((U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var))->___U3CU3E9__10_0 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var))->___U3CU3E9__10_0), (void*)L_8);
+		((U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var))->___U3CU3E9__12_0 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t929D5443CE4652736EE592409DB6994DD9015CC6_il2cpp_TypeInfo_var))->___U3CU3E9__12_0), (void*)L_8);
 		G_B5_0 = L_8;
 		G_B5_1 = G_B4_1;
 	}
@@ -20483,7 +20509,7 @@ IL_003e:
 IL_0051:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:132>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:142>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_10 = V_1;
 		NullCheck(L_10);
 		int32_t L_11 = L_10->___currentLevel;
@@ -20503,7 +20529,7 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:134>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:144>
 		ChakraVeinController_t0584003528C55362699E3CD80AC0B7DB821C17E7* L_16 = V_1;
 		MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909* L_17 = ((MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909_StaticFields*)il2cpp_codegen_static_fields_for(MatchStatServer_t825E77495CAFD8AA12C2FAEC4BDD69730A0F5909_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468_il2cpp_TypeInfo_var);
@@ -20521,29 +20547,29 @@ IL_0051:
 
 IL_008e:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:137>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:147>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2243
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetCurrentLevelU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m43C9B56C728F08030B896E25E674832C799C3CFC (U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2259
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetCurrentLevelU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF1402DFA5A6247CBBAB491EFB749684578D80E59 (U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 2244
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetCurrentLevelU3Ed__10_System_Collections_IEnumerator_Reset_m89BD4FC466F59A7B932767ED17DE3AACD46D9439 (U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2260
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSetCurrentLevelU3Ed__12_System_Collections_IEnumerator_Reset_m0502BB77613C485C9F17CA64DCC591C84CEB2C18 (U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSetCurrentLevelU3Ed__10_System_Collections_IEnumerator_Reset_m89BD4FC466F59A7B932767ED17DE3AACD46D9439_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSetCurrentLevelU3Ed__12_System_Collections_IEnumerator_Reset_m0502BB77613C485C9F17CA64DCC591C84CEB2C18_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 2245
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetCurrentLevelU3Ed__10_System_Collections_IEnumerator_get_Current_m9F10320CDA0204684C30093DFED19977EAAF7608 (U3CSetCurrentLevelU3Ed__10_tD90335BB42F93EB15B98AC26362AF1F268CF7575* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2261
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetCurrentLevelU3Ed__12_System_Collections_IEnumerator_get_Current_m12A93525F3DCB2B9FA50F8B5147F2181F33AF299 (U3CSetCurrentLevelU3Ed__12_t747B224CAB192BF8974FEED0A08CE680FF4C1660* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -20558,8 +20584,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSetCurrentLevelU3Ed__10_Sys
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2246
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForUiManagerU3Ed__11__ctor_m6ECC5FC86259EEC8C8AE78848E8D4CE28961559F (U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 2262
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForUiManagerU3Ed__13__ctor_m43BF451C30517D682554E80A2986C9F620793E71 (U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -20568,15 +20594,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForUiManagerU3Ed__11__ctor_m6ECC5
 		return;
 	}
 }
-// Method Definition Index: 2247
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForUiManagerU3Ed__11_System_IDisposable_Dispose_mECC85CD54EAFB9771FA6ABD64C6C9407CA4AA2A2 (U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2263
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForUiManagerU3Ed__13_System_IDisposable_Dispose_m2710221448968CA0F5F61C3AB7AA5418EFF887CD (U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 2248
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWaitForUiManagerU3Ed__11_MoveNext_mE05E60B114DE7519B27A8C6427F2FE9D987F0B8D (U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2264
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWaitForUiManagerU3Ed__13_MoveNext_m545132A6E9997C570D580B1EAC45EB792A020BC6 (U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20622,7 +20648,7 @@ IL_0017:
 
 IL_0020:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:143>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:153>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -20636,7 +20662,7 @@ IL_0030:
 
 IL_0037:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:141>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:151>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_4 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -20659,7 +20685,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:146>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:156>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_9 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_9);
 		ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057* L_10 = L_9->___chakraVeinSystem;
@@ -20672,13 +20698,13 @@ IL_0037:
 
 IL_006a:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:146>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:156>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_12 = V_2;
 		int32_t L_13 = V_3;
 		NullCheck(L_12);
 		int32_t L_14 = L_13;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:148>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:158>
 		NullCheck(L_15);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_16;
 		L_16 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_15, NULL);
@@ -20693,7 +20719,7 @@ IL_006a:
 
 IL_0087:
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:146>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:156>
 		int32_t L_20 = V_3;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_21 = V_2;
 		NullCheck(L_21);
@@ -20703,29 +20729,29 @@ IL_0087:
 		}
 	}
 	{
-		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:150>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Scripts/Core/ChakraVeinController.cs:160>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2249
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitForUiManagerU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAA8760E1E7FB91A5B454267BD140AEE7A1078AAD (U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2265
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitForUiManagerU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m22B13514CA7B25DF7A072636EECDFE9D2AD39205 (U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 2250
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForUiManagerU3Ed__11_System_Collections_IEnumerator_Reset_m1AA93C6992D5BD9D6CD6E774AD211385766754F2 (U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2266
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForUiManagerU3Ed__13_System_Collections_IEnumerator_Reset_m0DBFFB23E7EDC0390540C47DFCBFA54EBB0EE35D (U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWaitForUiManagerU3Ed__11_System_Collections_IEnumerator_Reset_m1AA93C6992D5BD9D6CD6E774AD211385766754F2_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWaitForUiManagerU3Ed__13_System_Collections_IEnumerator_Reset_m0DBFFB23E7EDC0390540C47DFCBFA54EBB0EE35D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 2251
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitForUiManagerU3Ed__11_System_Collections_IEnumerator_get_Current_m5B3EE5222EDC88D3AB9E671C92DE3D1967A13D37 (U3CWaitForUiManagerU3Ed__11_t474BC236C21493FF209A83B41C23E1E96470420A* __this, const RuntimeMethod* method) 
+// Method Definition Index: 2267
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitForUiManagerU3Ed__13_System_Collections_IEnumerator_get_Current_m329776B2EABD50B6AD16C88B9F67F3E68E662C5E (U3CWaitForUiManagerU3Ed__13_tE4553A9B10C323B939773E1FBC2CF10C91821699* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -20740,7 +20766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitForUiManagerU3Ed__11_Sy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2252
+// Method Definition Index: 2268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver_add_DamageReceived_mC9C4637CE1D98310AD24B822FBA6C1983C40F0AD (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, Action_2_tC7494B842ED73A2CD69A72590F9C9EC7B6D099E3* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20783,7 +20809,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 2253
+// Method Definition Index: 2269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver_remove_DamageReceived_m4CC137853A9FE41FB3F6B2D94C721381CAECAE9B (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, Action_2_tC7494B842ED73A2CD69A72590F9C9EC7B6D099E3* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20826,7 +20852,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 2254
+// Method Definition Index: 2270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver_add_CollisionEntered_m8458F5AE14692BCE113C3CFC1F1D20675F52D084 (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20869,7 +20895,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 2255
+// Method Definition Index: 2271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver_remove_CollisionEntered_mE685E2A7522108EEF94AFABE9B86F2A2D73A260C (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20912,7 +20938,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 2256
+// Method Definition Index: 2272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver_ReceiveHP_m5E11ED3C74891D071BD70F73009272C49410590C (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* ___0_inflicter, int32_t ___1_HP, const RuntimeMethod* method) 
 {
 	Action_2_tC7494B842ED73A2CD69A72590F9C9EC7B6D099E3* G_B3_0 = NULL;
@@ -20955,7 +20981,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 2257
+// Method Definition Index: 2273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DamageReceiver_GetSpecialDamageFlags_m5E41EE355C9767A053EA23BF182662902430CAF1 (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20963,7 +20989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DamageReceiver_GetSpecialDamageFlags_
 		return (int32_t)(0);
 	}
 }
-// Method Definition Index: 2258
+// Method Definition Index: 2274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DamageReceiver_IsDamageable_mF480532BDCB3A9A86DFA99B63926CBB8B64A9732 (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20978,7 +21004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DamageReceiver_IsDamageable_mF480532BDCB
 		return (bool)((((int32_t)L_2) == ((int32_t)1))? 1 : 0);
 	}
 }
-// Method Definition Index: 2259
+// Method Definition Index: 2275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver_OnCollisionEnter_m155882EDE79643F8197646E991065955C922DDAB (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_other, const RuntimeMethod* method) 
 {
 	Action_1_t828B8B4DD1F7F9D7E01CE4F4F847669A57C106B2* G_B2_0 = NULL;
@@ -21007,7 +21033,7 @@ IL_000b:
 		return;
 	}
 }
-// Method Definition Index: 2260
+// Method Definition Index: 2276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver__ctor_m54E56048824E0A9AC80E79D6F073A00A10773A0E (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21022,7 +21048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver__ctor_m54E56048824E0A9AC8
 		return;
 	}
 }
-// Method Definition Index: 2261
+// Method Definition Index: 2277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t DamageReceiver_IDamageable_get_NetworkObjectId_mC64825EA9912A47D02C3B50BA9791A80833F11EF (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21031,7 +21057,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t DamageReceiver_IDamageable_get_Netwo
 		return L_0;
 	}
 }
-// Method Definition Index: 2262
+// Method Definition Index: 2278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* DamageReceiver_IDamageable_get_transform_mBD31A687B10CD982B76CD044B36CBA08F230CFDA (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21040,7 +21066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		return L_0;
 	}
 }
-// Method Definition Index: 2263
+// Method Definition Index: 2279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver___initializeVariables_mF1A4E862432AFC598E281150AF09D5B63A12BB9C (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -21049,7 +21075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver___initializeVariables_mF1
 		return;
 	}
 }
-// Method Definition Index: 2264
+// Method Definition Index: 2280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver___initializeRpcs_m49B319A6D2C3B4F829E3B3EBCCB6DF267CDA6EB5 (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21057,7 +21083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DamageReceiver___initializeRpcs_m49B319A
 		return;
 	}
 }
-// Method Definition Index: 2265
+// Method Definition Index: 2281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DamageReceiver___getTypeName_m8ACA251670CF80DFF88C0E18DBA53C62E696DAF4 (DamageReceiver_t965AFC0C4568F4F93304ACCCA457B0812BB92B00* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21094,7 +21120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DamageReceiver___getTypeName_m8ACA2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2271
+// Method Definition Index: 2287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterVisualization_Awake_m0B335CAB265D58A38742399B89BF1E543B006E38 (CharacterVisualization_t623BF049975170EFA5D1190C7C58E04EE6381E2A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21164,7 +21190,7 @@ IL_0054:
 		return;
 	}
 }
-// Method Definition Index: 2272
+// Method Definition Index: 2288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterVisualization_OnSkinSpawned_m7D1644934F1A7F1C9894F7365FD3A1B43B7FCBFA (CharacterVisualization_t623BF049975170EFA5D1190C7C58E04EE6381E2A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_spawnedObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21388,7 +21414,7 @@ IL_011e:
 		return;
 	}
 }
-// Method Definition Index: 2273
+// Method Definition Index: 2289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterVisualization_OnSkinSakkaSpawned_m114958C16818E7A6E83A9F76F8138F0C1E5A69DD (CharacterVisualization_t623BF049975170EFA5D1190C7C58E04EE6381E2A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_spawnedObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21530,7 +21556,7 @@ IL_00ac:
 		return;
 	}
 }
-// Method Definition Index: 2274
+// Method Definition Index: 2290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterVisualization__ctor_mCD3D3124B7AB25965C8C3F9719A89E0EE5E5D99E (CharacterVisualization_t623BF049975170EFA5D1190C7C58E04EE6381E2A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21563,7 +21589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterVisualization__ctor_mCD3D3124B7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 2275
+// Method Definition Index: 2291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ClientCharacter_get_CharacterAnimator_mBEE12800F5FE284C2A8917246BE1435F235DEEED (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21572,7 +21598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF395
 		return L_0;
 	}
 }
-// Method Definition Index: 2276
+// Method Definition Index: 2292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimatorScript_t61B09E650522758BBFFBCA72516CC2CDFDE4C56B* ClientCharacter_get_AnimatorScript_m6D692CF3CEB9C35EE967E662A1F46A82EF7A4C15 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21581,7 +21607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimatorScript_t61B09E650522758BBFFBCA72516CC
 		return L_0;
 	}
 }
-// Method Definition Index: 2277
+// Method Definition Index: 2293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ClientCharacter_get_BoosterVfx_m24E2325FEDD3BF19D161132D79C36A929F6DFEC0 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21590,7 +21616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 2278
+// Method Definition Index: 2294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_get_CanPerformActions_m2F954A8359B55CF1CEA8B47B6F6FA415BF140A7C (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21602,7 +21628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_get_CanPerformActions_m2
 		return L_1;
 	}
 }
-// Method Definition Index: 2279
+// Method Definition Index: 2295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* ClientCharacter_get_serverCharacter_mC7D0B2D7E03BA481BF47525DDC53951D33EB72EA (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21611,7 +21637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6
 		return L_0;
 	}
 }
-// Method Definition Index: 2280
+// Method Definition Index: 2296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ClientCharacter_get_CharacterPlayer_m662374056973B56F1A20A2E49D32A215515CEE74 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21620,7 +21646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 2281
+// Method Definition Index: 2297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_set_CharacterPlayer_mC50EF24022A4B3132E8CA06C458FCD696A1AFEE0 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -21631,7 +21657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_set_CharacterPlayer_mC50
 		return;
 	}
 }
-// Method Definition Index: 2282
+// Method Definition Index: 2298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_Awake_m57975CB12FCF5D8649264113A43957CACFEB4BA2 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21666,7 +21692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_Awake_m57975CB12FCF5D864
 		return;
 	}
 }
-// Method Definition Index: 2283
+// Method Definition Index: 2299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_OnNetworkPostSpawn_m18C23F958053B5E105B341BD8C7CB7FCF4E39308 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22288,7 +22314,7 @@ IL_0532:
 		return;
 	}
 }
-// Method Definition Index: 2284
+// Method Definition Index: 2300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_UpdateSkin_mDBCFA58C88BEBE2CEF96E8A92B227CCB3F407828 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22319,7 +22345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_UpdateSkin_mDBCFA58C88BE
 		return;
 	}
 }
-// Method Definition Index: 2285
+// Method Definition Index: 2301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_HandleLifeStateChanged_m559548EB8C3877F5C9E8D60AD727B523E5F725AF (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, uint8_t ___0_previousValue, uint8_t ___1_newValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22411,7 +22437,7 @@ IL_00d0:
 		return;
 	}
 }
-// Method Definition Index: 2286
+// Method Definition Index: 2302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ClientCharacter_SetSkinSettings_mF0616EBC4A825979A1FB87AC92751B7478BF8A28 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22430,7 +22456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ClientCharacter_SetSkinSetting
 		return L_1;
 	}
 }
-// Method Definition Index: 2287
+// Method Definition Index: 2303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_HandleBasicAttackAbilityStateChange_m7DA98CCEE1CB8A4E9B3998814214BBCFE3E380F1 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, uint8_t ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22792,7 +22818,7 @@ IL_0214:
 		return;
 	}
 }
-// Method Definition Index: 2288
+// Method Definition Index: 2304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_HandleSkillAbilityStateChange_m641D036B492BA96F658E251E90F6BD8B77444EA8 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, int16_t ___0_abilityStatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22836,7 +22862,7 @@ IL_001e:
 		return;
 	}
 }
-// Method Definition Index: 2289
+// Method Definition Index: 2305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_HandleClientMovementStateChange_mBDFFDCD3596FCEC1E9233296407715D688865762 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, uint8_t ___0_movementStatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22971,7 +22997,7 @@ IL_0073:
 		return;
 	}
 }
-// Method Definition Index: 2290
+// Method Definition Index: 2306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ClientCharacter_GetOwnerVisualMovementSpeed_mC591DD8CD8DC2C85455EFD0B056D3E7ACDC69A6C (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, uint8_t ___0_movementStatus, const RuntimeMethod* method) 
 {
 	{
@@ -23095,7 +23121,7 @@ IL_006b:
 		return L_20;
 	}
 }
-// Method Definition Index: 2291
+// Method Definition Index: 2307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_GetOwnerVisualAbilityLocal_m8E8CC226998CC33E7396BB5808A3C62D1E244FCD (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, int16_t ___0_abilityStatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23471,7 +23497,7 @@ IL_0243:
 		return;
 	}
 }
-// Method Definition Index: 2292
+// Method Definition Index: 2308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_HandleRecallAbilityStateChange_m10D5E61AFA2FB16B55AA64F308E6B2EC58F5F03D (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, uint8_t ___0_recallAbilityStatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23621,7 +23647,7 @@ IL_00d3:
 		return;
 	}
 }
-// Method Definition Index: 2293
+// Method Definition Index: 2309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_ResetAllTrigger_mCC7A679347CE088B727202CF12AEBF61C596E6E0 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23706,7 +23732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_ResetAllTrigger_mCC7A679
 		return;
 	}
 }
-// Method Definition Index: 2294
+// Method Definition Index: 2310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_OnNetworkDespawn_m8B8B118A6463AE2A481105D52059FDF82B7DCAAC (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23937,7 +23963,7 @@ IL_015a:
 		return;
 	}
 }
-// Method Definition Index: 2295
+// Method Definition Index: 2311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_Update_m1090227F3093AF9E399D0F059BE686E6F50C500B (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24090,7 +24116,7 @@ IL_00fc:
 		return;
 	}
 }
-// Method Definition Index: 2296
+// Method Definition Index: 2312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsAnimating_m786D27890F9406B53C1294702C650D77AF0B62C8 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24147,7 +24173,7 @@ IL_002a:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2297
+// Method Definition Index: 2313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsTeleport_m107C744BA5A3C3080F76B8416E5B3F8C781AECDF (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24187,7 +24213,7 @@ IL_0019:
 		return L_7;
 	}
 }
-// Method Definition Index: 2298
+// Method Definition Index: 2314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsAnimatingAllNode_m441EDABE709F90C223EA69510FAF10D277D95B4E (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24220,7 +24246,7 @@ IL_0012:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2299
+// Method Definition Index: 2315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsMoving_mF3647BE20753B2A942BF35D093045BA662C8DFC8 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24349,7 +24375,7 @@ IL_0089:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 2300
+// Method Definition Index: 2316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsAnimatingRecall_mAACC896957BAD005D9C81348F218C4E49990C902 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24400,7 +24426,7 @@ IL_0030:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2301
+// Method Definition Index: 2317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsAnimatingBasicAtttack_m8E918EB1B25B77753385FB83AFAFC42D79EC45A9 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24451,7 +24477,7 @@ IL_0030:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2302
+// Method Definition Index: 2318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsAnimatingBasicAtttackPassive_m943DCA6814957A412B051E780ED7E8FABE69DA19 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24502,7 +24528,7 @@ IL_0030:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2303
+// Method Definition Index: 2319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsAnimatingSkill_mA7339629EDE89E85ABDEEB65161FB0B1055FFC4C (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24553,7 +24579,7 @@ IL_0030:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2304
+// Method Definition Index: 2320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ClientCharacter_IsAnimatingSkillCharge_mAE6C6EFBE5AC46C60F30C510FFE95BCBF4CEAD69 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24604,7 +24630,7 @@ IL_0030:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 2305
+// Method Definition Index: 2321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ClientCharacter_GetInputSender_m0A18F8198AF844DC3E5D770058E1DFF63E815254 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24662,7 +24688,7 @@ IL_0029:
 		return L_7;
 	}
 }
-// Method Definition Index: 2306
+// Method Definition Index: 2322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_SetAnimator_m46110C521C2333816C02E278AC509D830074BF02 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_animator, const RuntimeMethod* method) 
 {
 	{
@@ -24674,7 +24700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter_SetAnimator_m46110C521C2
 		return;
 	}
 }
-// Method Definition Index: 2307
+// Method Definition Index: 2323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter__ctor_mA875ECD6CFD4F4CD78827E4649BFA38AEEBD2A56 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24715,7 +24741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter__ctor_mA875ECD6CFD4F4CD7
 		return;
 	}
 }
-// Method Definition Index: 2308
+// Method Definition Index: 2324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter___initializeVariables_m0707481E0B8B4D6E45A2BC1278E60E62822CF50B (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24724,7 +24750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter___initializeVariables_m0
 		return;
 	}
 }
-// Method Definition Index: 2309
+// Method Definition Index: 2325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter___initializeRpcs_m76DB1912D8E302A28E77F005CB90E1A0557DB2A1 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24732,7 +24758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientCharacter___initializeRpcs_m76DB19
 		return;
 	}
 }
-// Method Definition Index: 2310
+// Method Definition Index: 2326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ClientCharacter___getTypeName_mD593B2BDFBE6E4417A3C58A98F4B4F16991FC771 (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24748,7 +24774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ClientCharacter___getTypeName_mD593
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 7246
+// Method Definition Index: 7269
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ClientInputSender_GetInputJoystick_m51A08B15FA44F1AB2A9723C3513B763EE24347DF_inline (ClientInputSender_t34335269A00A374666E619EBAF19036AF177B28E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24757,7 +24783,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 60439
+// Method Definition Index: 60462
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24780,7 +24806,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 60455
+// Method Definition Index: 60478
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24799,7 +24825,7 @@ IL_000e:
 		return L_3;
 	}
 }
-// Method Definition Index: 7247
+// Method Definition Index: 7270
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ClientInputSender_GetInputKeyboard_m696980AF5767AF22A208E922EE918B1A538A25F5_inline (ClientInputSender_t34335269A00A374666E619EBAF19036AF177B28E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24808,7 +24834,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 2363
+// Method Definition Index: 2379
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* ServerCharacter_get_clientCharacter_mD602F3FB6971792640CAC01ABBE5ABF972B42FEC_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24817,7 +24843,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClientCharacter_t3048ED68C2390777
 		return L_0;
 	}
 }
-// Method Definition Index: 81708
+// Method Definition Index: 81731
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* NetworkManager_get_Singleton_m0F86FB1D52C8EDB866101D9CAE0CAA1D7DAE2266_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24833,7 +24859,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3C1F76E0C1B39BB36
 		return L_0;
 	}
 }
-// Method Definition Index: 81564
+// Method Definition Index: 81587
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24842,7 +24868,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsServe
 		return L_0;
 	}
 }
-// Method Definition Index: 81828
+// Method Definition Index: 81851
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkObject_get_NetworkObjectId_m40FAD6ADD87B78F51BCE10D716BBEC5C0FED22E6_inline (NetworkObject_t8D6F76C7440A9E6176FC7F9268E5720C346A7366* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24851,7 +24877,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkObject_get_Networ
 		return L_0;
 	}
 }
-// Method Definition Index: 60476
+// Method Definition Index: 60499
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24874,7 +24900,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 60449
+// Method Definition Index: 60472
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -24905,7 +24931,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 60572
+// Method Definition Index: 60595
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24916,7 +24942,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 60434
+// Method Definition Index: 60457
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24946,7 +24972,7 @@ IL_0034:
 		return L_7;
 	}
 }
-// Method Definition Index: 60425
+// Method Definition Index: 60448
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -24965,7 +24991,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 60451
+// Method Definition Index: 60474
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -24993,7 +25019,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 60448
+// Method Definition Index: 60471
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -25024,7 +25050,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 60549
+// Method Definition Index: 60572
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25045,7 +25071,7 @@ IL_0010:
 		return L_5;
 	}
 }
-// Method Definition Index: 60487
+// Method Definition Index: 60510
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -25071,7 +25097,7 @@ IL_001b:
 		return L_6;
 	}
 }
-// Method Definition Index: 81562
+// Method Definition Index: 81585
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsOwner_m2C408A356ACBD9AF0C991BF01B5F20C75891FAB3_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25080,7 +25106,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsOwner
 		return L_0;
 	}
 }
-// Method Definition Index: 60431
+// Method Definition Index: 60454
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25128,7 +25154,7 @@ IL_0040:
 		return L_19;
 	}
 }
-// Method Definition Index: 81589
+// Method Definition Index: 81612
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkBehaviour_get_OwnerClientId_m59ED21DE97867ED0CAE0C553A2BBE369543360BF_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25137,7 +25163,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkBehaviour_get_Own
 		return L_0;
 	}
 }
-// Method Definition Index: 7172
+// Method Definition Index: 7195
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* ClientInputSender_get_UIManager_m4985B0DA5B1FA928C5D2F2D214696379FA6273DC_inline (ClientInputSender_t34335269A00A374666E619EBAF19036AF177B28E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25146,7 +25172,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIManager_t16825A2483574F37D7D47A
 		return L_0;
 	}
 }
-// Method Definition Index: 60452
+// Method Definition Index: 60475
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -25174,7 +25200,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 3954
+// Method Definition Index: 3977
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SO_GlobalEffect_tBE3A4DC8E1EB17F0AA033317F0ECE5D674B66BDB* DBManager_GetGlobalEffect_m27D66BB9402B9910DCC24ACF63A6E4980287D9E6_inline (DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25183,7 +25209,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SO_GlobalEffect_tBE3A4DC8E1EB17F0
 		return L_0;
 	}
 }
-// Method Definition Index: 81584
+// Method Definition Index: 81607
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkBehaviour_get_NetworkObjectId_m5FDE87B0BF440C37E2BF04662EDBAD97FCCD0A9E_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25192,7 +25218,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t NetworkBehaviour_get_Net
 		return L_0;
 	}
 }
-// Method Definition Index: 81560
+// Method Definition Index: 81583
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsLocalPlayer_m7F03351D42B4BA857F9770EE2241A10804025301_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25201,7 +25227,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsLocal
 		return L_0;
 	}
 }
-// Method Definition Index: 60547
+// Method Definition Index: 60570
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25252,7 +25278,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 60527
+// Method Definition Index: 60550
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25289,7 +25315,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 60441
+// Method Definition Index: 60464
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25312,7 +25338,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 60443
+// Method Definition Index: 60466
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25335,7 +25361,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 1924
+// Method Definition Index: 1938
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CinemachineVirtualCamera_t66B27B43B25DC3AB97125030EB63BD3FE74EC991* CameraManager_get_HeroVCamera_mBDC50A2F6BDCB3F128F20B636A3064289B898B40_inline (CameraManager_t27CFDF23ED636E9025EFEA9A5E8B0004355206BB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25344,7 +25370,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CinemachineVirtualCamera_t66B27B4
 		return L_0;
 	}
 }
-// Method Definition Index: 81573
+// Method Definition Index: 81596
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsClient_m5F2509260F66EBA5217A83CC65F40D5D117F59C8_inline (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25353,7 +25379,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsClien
 		return L_0;
 	}
 }
-// Method Definition Index: 9176
+// Method Definition Index: 9199
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChakraVeinSystem_UpdateChakraVeinAccmulativePoint_mA8F9C3197019044BE02AF35DBCA4120ED9A06E47_inline (ChakraVeinSystem_tA77085F06854B4F958FA1B6148FB7DA988540057* __this, int32_t ___0_chakraVeinAccmulativePoint, const RuntimeMethod* method) 
 {
 	{
@@ -25364,7 +25390,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChakraVeinSystem_UpdateChakr
 		return;
 	}
 }
-// Method Definition Index: 104327
+// Method Definition Index: 104350
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* EventSystem_get_currentSelectedGameObject_mD606FFACF3E72755298A523CBB709535CF08C98A_inline (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25373,7 +25399,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 3951
+// Method Definition Index: 3974
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SO_ChakraVein_t8C95D4590FF25B4BA4730EC91C73DE284C085D96* DBManager_GetChakraVein_m14E2EC27862E7565CB0C50CEEC61211F6986AE30_inline (DBManager_t1FF8F657997CF2296972689CE54AEBDFAC84A682* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25382,7 +25408,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SO_ChakraVein_t8C95D4590FF25B4BA4
 		return L_0;
 	}
 }
-// Method Definition Index: 8495
+// Method Definition Index: 8518
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* CharacterNetwork_get_CharacterSharedDatabase_m1EC3CA20827E9DE05A2DE14303781BC2816CB255_inline (CharacterNetwork_t15BBF1636D5D301C793DA31BC2FD43D472788644* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25391,7 +25417,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Character_tAF47BB8D49829E1464C369
 		return L_0;
 	}
 }
-// Method Definition Index: 8427
+// Method Definition Index: 8450
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Character_get_HeroRole_mA7467659F13D8704F5B787F8B657270D67418271_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25400,7 +25426,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Character_get_HeroRole_mA
 		return L_0;
 	}
 }
-// Method Definition Index: 102717
+// Method Definition Index: 102740
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25409,7 +25435,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1
 		return L_0;
 	}
 }
-// Method Definition Index: 14108
+// Method Definition Index: 14131
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkVariable_1_tC46DC1CECD6F80AE0C10531DED238D536E0A8D91* NetworkLifeState_get_LifeState_mDEA37B093A8763BD5211AD1E54F92522DF20C4EE_inline (NetworkLifeState_t44F53667B77C897CF2C092F17340741D511A293B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25418,7 +25444,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkVariable_1_tC46DC1CECD6F80
 		return L_0;
 	}
 }
-// Method Definition Index: 2281
+// Method Definition Index: 2297
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClientCharacter_set_CharacterPlayer_mC50EF24022A4B3132E8CA06C458FCD696A1AFEE0_inline (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -25429,7 +25455,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClientCharacter_set_Characte
 		return;
 	}
 }
-// Method Definition Index: 2279
+// Method Definition Index: 2295
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* ClientCharacter_get_serverCharacter_mC7D0B2D7E03BA481BF47525DDC53951D33EB72EA_inline (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25438,7 +25464,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ServerCharacter_t6F2ABAAA846F268C
 		return L_0;
 	}
 }
-// Method Definition Index: 2365
+// Method Definition Index: 2381
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerMainController_t30CF592C1DCE4F8AAF282FF7339FC5CC7894380E* ServerCharacter_get_PlayerMainController_m2772CDEC8DBF5BB4C2ED9D1D7002A1BF915755E4_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25447,7 +25473,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerMainController_t30CF592C1DC
 		return L_0;
 	}
 }
-// Method Definition Index: 8524
+// Method Definition Index: 8547
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CharacterNetworkSkin_get_SkinMeshServerPrefab_mF1D50693A76F902FE7DF2E760F24093A1FF67A3D_inline (CharacterNetworkSkin_t0C7CF28DA6084A124E3C69C33ABED7EF3E7AD16F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25456,7 +25482,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 8525
+// Method Definition Index: 8548
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CharacterNetworkSkin_get_SkinMeshClientPrefab_mE31A766CA575806C7806E4FD37541C89F6D932DE_inline (CharacterNetworkSkin_t0C7CF28DA6084A124E3C69C33ABED7EF3E7AD16F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25465,7 +25491,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9
 		return L_0;
 	}
 }
-// Method Definition Index: 60414
+// Method Definition Index: 60437
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -25478,7 +25504,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 2373
+// Method Definition Index: 2389
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PhysicsWrapper_tDFE1F563D8A2B75D7ED8F391720E183F90A9810F* ServerCharacter_get_physicsWrapper_mBFDFBCA533CAF2B86A8ED7BA352FEFDD86CB73B1_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25487,7 +25513,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PhysicsWrapper_tDFE1F563D8A2B75D7
 		return L_0;
 	}
 }
-// Method Definition Index: 11161
+// Method Definition Index: 11184
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* PhysicsWrapper_get_Transform_mD2DB938440AD062BA05EDFC533F09E4CD84F6B2C_inline (PhysicsWrapper_tDFE1F563D8A2B75D7ED8F391720E183F90A9810F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25496,7 +25522,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 		return L_0;
 	}
 }
-// Method Definition Index: 2275
+// Method Definition Index: 2291
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ClientCharacter_get_CharacterAnimator_mBEE12800F5FE284C2A8917246BE1435F235DEEED_inline (ClientCharacter_t3048ED68C23907779D985F30847E337E0C9119D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25505,7 +25531,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9
 		return L_0;
 	}
 }
-// Method Definition Index: 2370
+// Method Definition Index: 2386
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CharacterAbility_tDDFDE7EAA78AF2051D5EDB8CF2DE461D7F8C2005* ServerCharacter_get_Ability_mB4AEACCA497C23C3A044BE82B8288801A1B8A52A_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25514,7 +25540,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CharacterAbility_tDDFDE7EAA78AF20
 		return L_0;
 	}
 }
-// Method Definition Index: 2371
+// Method Definition Index: 2387
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BasicAttack_t9DA33F651B0E90A2E521C9B75D8B65A3ED4C7ADA* ServerCharacter_get_BasicAttack_mF0B0DD0456DCDCAFC2FE3F59B9B25E2EE9614CDF_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25523,7 +25549,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BasicAttack_t9DA33F651B0E90A2E521
 		return L_0;
 	}
 }
-// Method Definition Index: 2369
+// Method Definition Index: 2385
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* ServerCharacter_get_Movement_m9F21F4D3AA76E8E6CF427576DC0F856E4BE3382D_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25532,7 +25558,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ServerCharacterMovement_t1BB6C66B
 		return L_0;
 	}
 }
-// Method Definition Index: 2372
+// Method Definition Index: 2388
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CharacterRecallAbility_tF68A859F53CB54DAFEC1BD682E7883698893A329* ServerCharacter_get_RecallAbility_m3413562443EF9A254DD4CDBC2B2986790E84DA13_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25541,7 +25567,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CharacterRecallAbility_tF68A859F5
 		return L_0;
 	}
 }
-// Method Definition Index: 2408
+// Method Definition Index: 2424
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t ServerCharacterMovement_get_MovementState_mAD4EDE256236DFB04D3ADF70A76E1CEAED8378B8_inline (ServerCharacterMovement_t1BB6C66BFAA46BDB9076A515706A536C37485C0B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25550,7 +25576,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t ServerCharacterMovement_g
 		return L_0;
 	}
 }
-// Method Definition Index: 2364
+// Method Definition Index: 2380
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CrowdControlController_t5DD2179FA8945828252F51EA1490EC1558716CB1* ServerCharacter_get_CrowdControlController_mFDAB825A571998615B52E54815C122E7BFF0B6A5_inline (ServerCharacter_t6F2ABAAA846F268C58CEAD9413F6FC955D06C3E7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25559,7 +25585,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CrowdControlController_t5DD2179FA
 		return L_0;
 	}
 }
-// Method Definition Index: 26285
+// Method Definition Index: 26308
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -25597,7 +25623,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 83633
+// Method Definition Index: 83656
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteValueSafe_TisByteEnum_t2A464EF5EC59CBA8ED5E194537D5832168B1A692_mBB0DB5DBE3DA4F978032F98DDD9C5F5BDB85F9BF_gshared_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, uint8_t* ___0_value, ForEnums_tD6A048FB8E80A3A6DC7DE4B6DE48D635362F7511 ___1_unused, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25613,7 +25639,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteValueS
 		return;
 	}
 }
-// Method Definition Index: 83514
+// Method Definition Index: 83537
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSafe_TisByteEnum_t2A464EF5EC59CBA8ED5E194537D5832168B1A692_mC3F94FCC15DECB80EE2A6320936CA1D3DB9B17CA_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, uint8_t* ___0_value, ForEnums_tD6A048FB8E80A3A6DC7DE4B6DE48D635362F7511 ___1_unused, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -25624,19 +25650,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadValueSa
 		return;
 	}
 }
-// Method Definition Index: 15656
+// Method Definition Index: 15679
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m88484A213EB00FF7254FE3DB935BFB06DD3F5753_gshared_inline (Action_2_tAC461AE4F7B507965CE2E6A32853473F8C02CD75* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 15652
+// Method Definition Index: 15675
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 60454
+// Method Definition Index: 60477
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25678,7 +25704,7 @@ IL_0043:
 		return L_19;
 	}
 }
-// Method Definition Index: 60423
+// Method Definition Index: 60446
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25721,7 +25747,7 @@ IL_0026:
 		return L_8;
 	}
 }
-// Method Definition Index: 60548
+// Method Definition Index: 60571
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25769,7 +25795,7 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 83607
+// Method Definition Index: 83630
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteUnmanagedSafe_TisByteEnum_t2A464EF5EC59CBA8ED5E194537D5832168B1A692_mBA377AAC64FED6B2A1BAF8DFA245B0B59055CB1D_gshared_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, uint8_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25798,7 +25824,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteUnmana
 		return;
 	}
 }
-// Method Definition Index: 83490
+// Method Definition Index: 83513
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisByteEnum_t2A464EF5EC59CBA8ED5E194537D5832168B1A692_mEBD3F21281B397E9F0CF522EFEAB78794F0D967C_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, uint8_t* ___0_value, const RuntimeMethod* method) 
 {
 	uint8_t* V_0 = 0;
@@ -25820,7 +25846,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanag
 		return;
 	}
 }
-// Method Definition Index: 60433
+// Method Definition Index: 60456
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25856,7 +25882,7 @@ IL_0034:
 		return L_13;
 	}
 }
-// Method Definition Index: 60453
+// Method Definition Index: 60476
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -25884,7 +25910,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 83593
+// Method Definition Index: 83616
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteBytesSafe_mD6983BBB2B1A249EA173F6CF20B1B2D93B1079F6_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, uint8_t* ___0_value, int32_t ___1_size, int32_t ___2_offset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25949,7 +25975,7 @@ IL_003b:
 		return;
 	}
 }
-// Method Definition Index: 83486
+// Method Definition Index: 83509
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadBytesSafe_m109629AE2B684CFCCFF9111790DE4E1E26445649_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, uint8_t* ___0_value, int32_t ___1_size, int32_t ___2_offset, const RuntimeMethod* method) 
 {
 	{
@@ -25994,7 +26020,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 83576
+// Method Definition Index: 83599
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FastBufferWriter_TryBeginWriteInternal_m9DD6CDBDC49E5AF7A760EA05882BE4F52BEA1883_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26070,7 +26096,7 @@ IL_0059:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 83467
+// Method Definition Index: 83490
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FastBufferReader_TryBeginReadInternal_m5C597FDF5DF8DA7AE28A0A441AF6542DD05B05B1_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{

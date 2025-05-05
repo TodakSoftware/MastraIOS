@@ -67,7 +67,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricObserver__ctor_mD010C3261BC937F926
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134842
+// Method Definition Index: 134865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MetricObserverFactory_Construct_m010B1B7D0A896B713F7D4721CD5E8C52BD66500C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

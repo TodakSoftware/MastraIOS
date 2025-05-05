@@ -149,7 +149,7 @@ IL2CPP_EXTERN_C void NetworkSolutionInterfaceParameters_t0BE8E0168DED742768E4623
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134816
+// Method Definition Index: 134839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkSolutionInterface_SetInterface_m6951E0453FA56CD6F66C3A009BB0499DFE06BD37 (NetworkSolutionInterfaceParameters_t0BE8E0168DED742768E4623AD3E9A35EB0D5F93D ___0_parameters, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -197,7 +197,7 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134817
+// Method Definition Index: 134840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullNetworkObjectProvider__ctor_mF315AE0B009BB80E13E6860F1E4D1E9B2C0C52F2 (NullNetworkObjectProvider_tD3ADC7FA65978DAB3252EB32A12927B6743DC797* __this, const RuntimeMethod* method) 
 {
 	{

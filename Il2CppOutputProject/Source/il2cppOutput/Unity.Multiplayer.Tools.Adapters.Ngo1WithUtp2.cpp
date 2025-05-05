@@ -1002,7 +1002,7 @@ inline void Dictionary_2__ctor_m589C94E97696C099BE38138F8958B53D37E0187F (Dictio
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134758
+// Method Definition Index: 134781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ngo1WithUtp2AdapterInitializer_InitializeAdapter_m4B60A4320F9BC257F98480406B58D8B167184EF6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1029,7 +1029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ngo1WithUtp2AdapterInitializer_Initializ
 		return;
 	}
 }
-// Method Definition Index: 134759
+// Method Definition Index: 134782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ngo1WithUtp2AdapterInitializer_AddAdapter_m849F2BBC8F9F51DCD4F024740DC481F0D6D21451 (int32_t ___0_instanceId, NetworkDriver_t3E4A5DD4686388B9F25135C01E4DB57E79449036 ___1_networkDriver, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1082,7 +1082,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 134760
+// Method Definition Index: 134783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ngo1WithUtp2AdapterInitializer_RemoveAdapter_m6FFBD3CFAB90BC16AED1C77EEB79EB13998C5A99 (int32_t ___0_instanceId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1127,7 +1127,7 @@ IL_0021:
 		return;
 	}
 }
-// Method Definition Index: 134761
+// Method Definition Index: 134784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ngo1WithUtp2AdapterInitializer__cctor_m6A17980B8B43AB8D97292B2A0425BCD956EE3C56 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1155,7 +1155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ngo1WithUtp2AdapterInitializer__cctor_m6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134762
+// Method Definition Index: 134785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariableSerializationHelper_InitializeSerialization_mE85497859622E01EF6B7CD79D1E18ABBEE218864 (const RuntimeMethod* method) 
 {
 	{

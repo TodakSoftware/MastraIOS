@@ -253,7 +253,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IContextU5BU5D_t30E49896A3808DE7D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134765
+// Method Definition Index: 134788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IContextU5BU5D_t30E49896A3808DE7DACDCDB1F4039D0085E68343* ContextsDefinition_get_Contexts_mF450DA5D67AD6F491AD086EE5ED8FA138F133C11 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -269,7 +269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IContextU5BU5D_t30E49896A3808DE7DACDCDB1F4039
 		return L_0;
 	}
 }
-// Method Definition Index: 134766
+// Method Definition Index: 134789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextsDefinition__cctor_m7604EE718951A69521AF579D32E98D71911E6A8C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -305,7 +305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextsDefinition__cctor_m7604EE718951A
 		return;
 	}
 }
-// Method Definition Index: 134767
+// Method Definition Index: 134790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextsDefinition_InitializeNetVisContexts_m50604EC7CC64F5B9B401486E7C02AB1A0C6067AB (RuntimeObject* ___0_runtimeUpdater, List_1_tA808473BFCDF119C60D65DAAE2190C66214412CA* ___1_contexts, const RuntimeMethod* method) 
 {
 	{
@@ -321,7 +321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextsDefinition_InitializeNetVisConte
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134768
+// Method Definition Index: 134791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextsInitializer__cctor_mE74764BE541A446B919854A4DE1EE0CE1FDB58FB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -350,7 +350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextsInitializer__cctor_mE74764BE541A
 		return;
 	}
 }
-// Method Definition Index: 134769
+// Method Definition Index: 134792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextsInitializer_EnableRuntimeContexts_m73426613931500F441DCC7C3948F4980D0D2E3FF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -417,7 +417,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 134770
+// Method Definition Index: 134793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextsInitializer_DisableRuntimeContexts_mD007C46B7C34B2311167F70AAE6A3FA436AF5ABD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -487,7 +487,7 @@ IL_0020:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 134765
+// Method Definition Index: 134788
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IContextU5BU5D_t30E49896A3808DE7DACDCDB1F4039D0085E68343* ContextsDefinition_get_Contexts_mF450DA5D67AD6F491AD086EE5ED8FA138F133C11_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

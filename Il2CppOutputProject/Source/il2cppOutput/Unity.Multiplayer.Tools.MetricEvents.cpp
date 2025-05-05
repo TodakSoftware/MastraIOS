@@ -175,7 +175,7 @@ inline void Action_1_Invoke_m4036EB3B05642DFF32D8DBE1F4AEB7A33205CD2E_inline (Ac
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134771
+// Method Definition Index: 134794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricObserver_Observe_mB28F8E3DDD32221B1A610630AEF42500EFD322A5 (MetricObserver_t69990AE7E36765C6F5F9108572F3D1588AD9DE3B* __this, MetricCollection_tC854AC2B17132ADE592D32683C1EF00AB6B2B8AA* ___0_collection, const RuntimeMethod* method) 
 {
 	{
@@ -186,7 +186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricObserver_Observe_mB28F8E3DDD32221B
 		return;
 	}
 }
-// Method Definition Index: 134772
+// Method Definition Index: 134795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricObserver__ctor_mD010C3261BC937F926D5CF0BDC1C1410F22BEB1C (MetricObserver_t69990AE7E36765C6F5F9108572F3D1588AD9DE3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -202,7 +202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricObserver__ctor_mD010C3261BC937F926
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134773
+// Method Definition Index: 134796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricEventPublisher_add_OnMetricsReceived_m2307BDA3A26A1EE1D7C51E0C5772499048E2FAEB (Action_1_t76E00A62308B4884D5FBE7973531637E07E7B079* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -245,7 +245,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 134774
+// Method Definition Index: 134797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricEventPublisher_remove_OnMetricsReceived_m020640DD0D777A4C7C81E9F331B3421CDB90D976 (Action_1_t76E00A62308B4884D5FBE7973531637E07E7B079* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -288,7 +288,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 134775
+// Method Definition Index: 134798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricEventPublisher_RaiseOnMetricsReceived_mFBC4AFBAC22CE751930790E53E29ADF7648BBB79 (MetricCollection_tC854AC2B17132ADE592D32683C1EF00AB6B2B8AA* ___0_metricCollection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -326,7 +326,7 @@ IL_000a:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 15652
+// Method Definition Index: 15675
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);

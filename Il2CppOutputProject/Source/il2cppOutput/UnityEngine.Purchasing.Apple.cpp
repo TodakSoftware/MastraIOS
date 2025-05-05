@@ -172,7 +172,7 @@ IL2CPP_EXTERN_C void DEFAULT_CALL unityPurchasingInterceptPromotionalPurchases()
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 134797
+// Method Definition Index: 134820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingRetrieveProducts_m42525F0667E3A76B7E5C5B6DA5E5EB599BFDE3DE (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -186,7 +186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingRetrieve
 	____0_json_marshaled = NULL;
 
 }
-// Method Definition Index: 134798
+// Method Definition Index: 134821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingPurchase_mA2C0009A6B4DEF4CBCE1731D6460A6BCB1485DD6 (String_t* ___0_json, String_t* ___1_developerPayload, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*);
@@ -206,7 +206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingPurchase
 	____1_developerPayload_marshaled = NULL;
 
 }
-// Method Definition Index: 134799
+// Method Definition Index: 134822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingFinishTransaction_m8AC4AED5DD0D03966512020380D4EB8C3BD89BB6 (String_t* ___0_productJSON, String_t* ___1_transactionId, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*);
@@ -226,7 +226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingFinishTr
 	____1_transactionId_marshaled = NULL;
 
 }
-// Method Definition Index: 134800
+// Method Definition Index: 134823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingRestoreTransactions_mABD58E5CFAEF13D3EEE8EBBD2393C86D3B0B1099 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -234,7 +234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingRestoreT
 	reinterpret_cast<PInvokeFunc>(unityPurchasingRestoreTransactions)();
 
 }
-// Method Definition Index: 134801
+// Method Definition Index: 134824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingAddTransactionObserver_mDAE9E8FF1BFDDA43A9BED7156F154C238638C420 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -242,7 +242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingAddTrans
 	reinterpret_cast<PInvokeFunc>(unityPurchasingAddTransactionObserver)();
 
 }
-// Method Definition Index: 134802
+// Method Definition Index: 134825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_setUnityPurchasingCallback_mC81D3CFFC1A696A7B544AC3E78F404D51CA493C1 (UnityPurchasingCallback_tFC58410D7A50DD05CC7430C76C7E0277A213757D* ___0_AsyncCallback, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer);
@@ -253,7 +253,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_setUnityPurchasingCallb
 	reinterpret_cast<PInvokeFunc>(setUnityPurchasingCallback)(____0_AsyncCallback_marshaled);
 
 }
-// Method Definition Index: 134803
+// Method Definition Index: 134826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* iOSStoreBindings_getUnityPurchasingAppReceipt_m433D81E20669CD44CB5433D7898D677C64DB5909 (const RuntimeMethod* method) 
 {
 	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
@@ -268,7 +268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* iOSStoreBindings_getUnityPurchasing
 
 	return _returnValue_unmarshaled;
 }
-// Method Definition Index: 134804
+// Method Definition Index: 134827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double iOSStoreBindings_getUnityPurchasingAppReceiptModificationDate_m2FC5CA9222966AB9871B34F8FF16C21531323937 (const RuntimeMethod* method) 
 {
 	typedef double (DEFAULT_CALL *PInvokeFunc) ();
@@ -277,7 +277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double iOSStoreBindings_getUnityPurchasingApp
 
 	return returnValue;
 }
-// Method Definition Index: 134805
+// Method Definition Index: 134828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingInterceptPromotionalPurchases_mC95655465276823D57CABBE7DE98095F7FF34D26 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -285,7 +285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_unityPurchasingIntercep
 	reinterpret_cast<PInvokeFunc>(unityPurchasingInterceptPromotionalPurchases)();
 
 }
-// Method Definition Index: 134806
+// Method Definition Index: 134829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetUnityPurchasingCallback_m81C53A0B93AA28C42A99F4B8F7F9839AA6ACC2BC (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, UnityPurchasingCallback_tFC58410D7A50DD05CC7430C76C7E0277A213757D* ___0_AsyncCallback, const RuntimeMethod* method) 
 {
 	{
@@ -296,7 +296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_SetUnityPurchasingCallb
 		return;
 	}
 }
-// Method Definition Index: 134807
+// Method Definition Index: 134830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* iOSStoreBindings_get_appReceipt_m5601637B09453E936F4EAAEBB1538C919BC27B24 (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -306,7 +306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* iOSStoreBindings_get_appReceipt_m56
 		return L_0;
 	}
 }
-// Method Definition Index: 134808
+// Method Definition Index: 134831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double iOSStoreBindings_get_appReceiptModificationDate_mC7AC0A0F94BF888309429DCDBB319CCDCD0330A2 (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -316,7 +316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double iOSStoreBindings_get_appReceiptModific
 		return L_0;
 	}
 }
-// Method Definition Index: 134809
+// Method Definition Index: 134832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RetrieveProducts_m523D9AFA65C09DBDB8963047E72DEC16B667E824 (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, String_t* ___0_json, const RuntimeMethod* method) 
 {
 	{
@@ -327,7 +327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RetrieveProducts_m523D9
 		return;
 	}
 }
-// Method Definition Index: 134810
+// Method Definition Index: 134833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_Purchase_m7AEA75645B7492A678C63FF7CDE56F8E75AB64F7 (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, String_t* ___0_productJSON, String_t* ___1_developerPayload, const RuntimeMethod* method) 
 {
 	{
@@ -339,7 +339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_Purchase_m7AEA75645B749
 		return;
 	}
 }
-// Method Definition Index: 134811
+// Method Definition Index: 134834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_FinishTransaction_m566E3AFFFEADEE7F71D9934A0DBA2AB1BF76B49E (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, String_t* ___0_productJSON, String_t* ___1_transactionId, const RuntimeMethod* method) 
 {
 	{
@@ -351,7 +351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_FinishTransaction_m566E
 		return;
 	}
 }
-// Method Definition Index: 134812
+// Method Definition Index: 134835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RestoreTransactions_m2177F40DC549B229C8660387DD433AE8FD2A8652 (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -361,7 +361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_RestoreTransactions_m21
 		return;
 	}
 }
-// Method Definition Index: 134813
+// Method Definition Index: 134836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_AddTransactionObserver_m7FB956E6DB7B00AC684CDC5567EE3B77F4544F79 (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -371,7 +371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_AddTransactionObserver_
 		return;
 	}
 }
-// Method Definition Index: 134814
+// Method Definition Index: 134837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_InterceptPromotionalPurchases_m626C7254EB165FC41BBFF57092C6638BEC054C41 (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -381,7 +381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings_InterceptPromotionalPur
 		return;
 	}
 }
-// Method Definition Index: 134815
+// Method Definition Index: 134838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSStoreBindings__ctor_m5021264195041D2BDE67FC23F449D81C7DFCFC1A (iOSStoreBindings_t90DCEE577BA3FB8D54AC584DC9FA27EC9203DE9E* __this, const RuntimeMethod* method) 
 {
 	{
