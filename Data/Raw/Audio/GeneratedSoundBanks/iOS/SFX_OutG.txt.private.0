@@ -1,0 +1,52 @@
+Event	ID	Name			Wwise Object Path	Notes
+	985389228	UI_OutG_Champ_Unlock_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_Champ_Unlock_SFX	
+	1074699544	UI_OutG_Equip_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_Equip_SFX	
+	1163428481	UI_OutG_LoseRankXP_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_LoseRankXP_SFX	
+	1345615641	UI_OutG_Champ_Lock_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_Champ_Lock_SFX	
+	1356065493	UI_OutG_Rank_Down_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_Rank_Down_SFX	
+	1448898146	UI_OutG_Rank_Up_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_Rank_Up_SFX	
+	1488551103	UI_OutG_Timer_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_Timer_SFX	
+	1520582815	UI_OutG_ChangeSkin_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_ChangeSkin_SFX	
+	1821844896	UI_OutG_ViewSklDesc_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_ViewSklDesc_SFX	
+	2068365322	C007_Loadout_SFX			\Default Work Unit\OutGame\SFX_OutG\Champions_OutG\C007_Loadout_SFX	
+	2129636210	UI_OutG_TimerEnd_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_TimerEnd_SFX	
+	2149724205	UI_OutG_GetAchieve_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_GetAchieve_SFX	
+	2226062843	UI_OutG_Unequip_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_Unequip_SFX	
+	2359146190	UI_OutG_GetRankXP_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_GetRankXP_SFX	
+	2432464633	UI_OutG_GetReward_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_GetReward_SFX	
+	2797162092	C001_Loadout_SFX			\Default Work Unit\OutGame\SFX_OutG\Champions_OutG\C001_Loadout_SFX	
+	2891621465	UI_OutG_ViewItemDesc_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_ViewItemDesc_SFX	
+	2893849536	C005_Loadout_SFX			\Default Work Unit\OutGame\SFX_OutG\Champions_OutG\C005_Loadout_SFX	
+	3159586812	UI_OutG_MatchmakingStart_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_MatchmakingStart_SFX	
+	3341686453	UI_OutG_ViewMsgs_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_ViewMsgs_SFX	
+	3402638525	UI_OutG_BuyComplete_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_BuyComplete_SFX	
+	3688426586	UI_OutG_ViewBundles_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_ViewBundles_SFX	
+	3857400074	UI_OutG_BP_LvlUp_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_BP_LvlUp_SFX	
+	4253103420	UI_OutG_Buy_SFX			\Default Work Unit\OutGame\SFX_OutG\UI_OutG\UI_OutG_Buy_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11126752	UI_OutG_ViewBundles_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_ViewBundles_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_ViewBundles_SFX		10856
+	171303586	UI_OutG_BP_LvlUp_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_BP_LvlUp_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_BP_LvlUp_SFX		27173
+	177569134	UI_OutG_Champ_Unlock_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_Champ_Unlock_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_Champ_Unlock_SFX		5023
+	224987055	UI_OutG_Equip_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_Equip_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_Equip_SFX		7536
+	246725862	UI_OutG_Unequip_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_Unequip_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_Unequip_SFX		7526
+	254706053	C001_Loadout_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_Loadout_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\Loadout\C001_Loadout_SFX		85042
+	266000728	C007_Loadout_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Loadout_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Loadout\C007_Loadout_SFX		108517
+	362184441	UI_OutG_TimerEnd_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_TimerEnd_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_TimerEnd_SFX		40829
+	397142457	UI_OutG_ChangeSkin_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_ChangeSkin_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_ChangeSkin_SFX		8641
+	405724439	UI_OutG_Timer_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_Timer_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_Timer_SFX		11843
+	416204180	UI_OutG_Rank_Up_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_Rank_Up_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_Rank_Up_SFX		21056
+	458253700	UI_OutG_ViewSklDesc_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_ViewSklDesc_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_ViewSklDesc_SFX		4970
+	489490901	UI_OutG_LoseRankXP_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_LoseRankXP_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_LoseRankXP_SFX		17139
+	688677517	UI_OutG_ViewItemDesc_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_ViewItemDesc_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_ViewItemDesc_SFX		6905
+	710963886	UI_OutG_ViewMsgs_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_ViewMsgs_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_ViewMsgs_SFX		5965
+	711503666	UI_OutG_MatchmakingStart_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_MatchmakingStart_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_MatchmakingStart_SFX		14849
+	800364021	C005_Loadout_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Loadout_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Loadout\C005_Loadout_SFX		90896
+	803443388	UI_OutG_BuyComplete_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_BuyComplete_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_BuyComplete_SFX		18156
+	857168750	UI_OutG_GetRankXP_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_GetRankXP_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_GetRankXP_SFX		15113
+	870142774	UI_OutG_Buy_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_Buy_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_Buy_SFX		13598
+	870190712	UI_OutG_GetAchieve_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_GetAchieve_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_GetAchieve_SFX		19253
+	983396584	UI_OutG_GetReward_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_GetReward_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_GetReward_SFX		13752
+	1029835182	UI_OutG_Champ_Lock_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_Champ_Lock_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_Champ_Lock_SFX		11408
+	1035904357	UI_OutG_Rank_Down_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_OutG_Rank_Down_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OutGame\UI_OutG_Rank_Down_SFX		20738
+

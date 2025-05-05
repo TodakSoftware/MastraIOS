@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3832016031	Battle_Music			\Default Work Unit\InGame\Music_InG\Battle_Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3060835	Parametric EQ (Custom)	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	366040852	Combat Layer	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Combat Layer v2_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Battle_Music\Battle_Music\Combat Layer		7130256
+	411206274	Base Layer	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Base Layer v2_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Battle_Music\Battle_Music\Base Layer		7130256
+

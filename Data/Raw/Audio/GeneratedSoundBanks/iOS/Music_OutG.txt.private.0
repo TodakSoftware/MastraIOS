@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1929327811	MainMenu_Music			\Default Work Unit\OutGame\Music_OutG\MainMenu_Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	754155363	MainMenu_Music	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\MainMenu_Music_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenu_Music\MainMenu_Music\MainMenu_Music		14010936
+

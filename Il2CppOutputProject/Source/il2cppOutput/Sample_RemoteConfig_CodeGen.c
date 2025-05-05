@@ -1,0 +1,121 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void RemoteConfigDisplay_Awake_m4DA337BD0CC5824D758233390B30562F7852AE16 (void);
+extern void RemoteConfigDisplay_GetConfig_m05601EACC945F9BC3F51F995B25B056FBE0B22FB (void);
+extern void RemoteConfigDisplay_DisplayRemoteConfig_m2B24C6E1B8537014B54ECB7D83916CBF8DF3BE34 (void);
+extern void RemoteConfigDisplay__ctor_mAFC244639283DACA619629E3069AF4D804C2AE59 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m7CB4040947DFC144CE19EDB40292609D996B0011 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mDDE6D437490E96DFC81FE47881F03FBEFAC947F1 (void);
+extern void RemoteConfig_get_CashedConfig_m417D5B36CF322F3AAD53026BCB81246D8827A37B (void);
+extern void RemoteConfig_set_CashedConfig_mE54BC01826386CE9ED511893965967F667D53DB1 (void);
+extern void RemoteConfig_Awake_m83A6484F84EDA38078EC9F59171E03CA85863CED (void);
+extern void RemoteConfig_FetchConfigsAsync_mD0AA4303163C020BD50550E5341AAD5A9AFD3091 (void);
+extern void RemoteConfig_ApplyRemoteConfig_m49B39B277D304497023B2370B2B4D78EB5810987 (void);
+extern void RemoteConfig_InitializeServices_m3DA3ECA195090DAE1162D302319058F961711238 (void);
+extern void RemoteConfig_SignInAnonymously_m5B9F513B1ECA8C4EB6D4CFB90E6AEF48AE5C812B (void);
+extern void RemoteConfig__ctor_m04F37F0ACAB30A093BBD3ADFE27127B820FD3EA3 (void);
+extern void U3CAwakeU3Ed__8_MoveNext_m43F03F7DDDE724F61A57BF268C03C6BE4979F9A8 (void);
+extern void U3CAwakeU3Ed__8_SetStateMachine_m239C60032658614D9DA8599934579799D992087E (void);
+extern void U3CFetchConfigsAsyncU3Ed__9_MoveNext_mB31A597C173077572CBDEE9DFC5F96940DE34F39 (void);
+extern void U3CFetchConfigsAsyncU3Ed__9_SetStateMachine_m79BCD2E4B9FEA9BC57FF30FADF82B9181A6EBE98 (void);
+extern void U3CInitializeServicesU3Ed__11_MoveNext_m77B116033825EE7CFBE5A5ED05C64E605D670E05 (void);
+extern void U3CInitializeServicesU3Ed__11_SetStateMachine_m1AC540710B3C23CDB69C11CBAC3BAF32F970607F (void);
+extern void U3CSignInAnonymouslyU3Ed__12_MoveNext_m319EE36E4A140AF9F86DF93F63CF51988A3C869E (void);
+extern void U3CSignInAnonymouslyU3Ed__12_SetStateMachine_m8CBCEDCEF4FEA522AF295259333D41D831B377D3 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	RemoteConfigDisplay_Awake_m4DA337BD0CC5824D758233390B30562F7852AE16,
+	RemoteConfigDisplay_GetConfig_m05601EACC945F9BC3F51F995B25B056FBE0B22FB,
+	RemoteConfigDisplay_DisplayRemoteConfig_m2B24C6E1B8537014B54ECB7D83916CBF8DF3BE34,
+	RemoteConfigDisplay__ctor_mAFC244639283DACA619629E3069AF4D804C2AE59,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m7CB4040947DFC144CE19EDB40292609D996B0011,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mDDE6D437490E96DFC81FE47881F03FBEFAC947F1,
+	RemoteConfig_get_CashedConfig_m417D5B36CF322F3AAD53026BCB81246D8827A37B,
+	RemoteConfig_set_CashedConfig_mE54BC01826386CE9ED511893965967F667D53DB1,
+	RemoteConfig_Awake_m83A6484F84EDA38078EC9F59171E03CA85863CED,
+	RemoteConfig_FetchConfigsAsync_mD0AA4303163C020BD50550E5341AAD5A9AFD3091,
+	RemoteConfig_ApplyRemoteConfig_m49B39B277D304497023B2370B2B4D78EB5810987,
+	RemoteConfig_InitializeServices_m3DA3ECA195090DAE1162D302319058F961711238,
+	RemoteConfig_SignInAnonymously_m5B9F513B1ECA8C4EB6D4CFB90E6AEF48AE5C812B,
+	RemoteConfig__ctor_m04F37F0ACAB30A093BBD3ADFE27127B820FD3EA3,
+	U3CAwakeU3Ed__8_MoveNext_m43F03F7DDDE724F61A57BF268C03C6BE4979F9A8,
+	U3CAwakeU3Ed__8_SetStateMachine_m239C60032658614D9DA8599934579799D992087E,
+	U3CFetchConfigsAsyncU3Ed__9_MoveNext_mB31A597C173077572CBDEE9DFC5F96940DE34F39,
+	U3CFetchConfigsAsyncU3Ed__9_SetStateMachine_m79BCD2E4B9FEA9BC57FF30FADF82B9181A6EBE98,
+	U3CInitializeServicesU3Ed__11_MoveNext_m77B116033825EE7CFBE5A5ED05C64E605D670E05,
+	U3CInitializeServicesU3Ed__11_SetStateMachine_m1AC540710B3C23CDB69C11CBAC3BAF32F970607F,
+	U3CSignInAnonymouslyU3Ed__12_MoveNext_m319EE36E4A140AF9F86DF93F63CF51988A3C869E,
+	U3CSignInAnonymouslyU3Ed__12_SetStateMachine_m8CBCEDCEF4FEA522AF295259333D41D831B377D3,
+};
+extern void U3CAwakeU3Ed__8_MoveNext_m43F03F7DDDE724F61A57BF268C03C6BE4979F9A8_AdjustorThunk (void);
+extern void U3CAwakeU3Ed__8_SetStateMachine_m239C60032658614D9DA8599934579799D992087E_AdjustorThunk (void);
+extern void U3CFetchConfigsAsyncU3Ed__9_MoveNext_mB31A597C173077572CBDEE9DFC5F96940DE34F39_AdjustorThunk (void);
+extern void U3CFetchConfigsAsyncU3Ed__9_SetStateMachine_m79BCD2E4B9FEA9BC57FF30FADF82B9181A6EBE98_AdjustorThunk (void);
+extern void U3CInitializeServicesU3Ed__11_MoveNext_m77B116033825EE7CFBE5A5ED05C64E605D670E05_AdjustorThunk (void);
+extern void U3CInitializeServicesU3Ed__11_SetStateMachine_m1AC540710B3C23CDB69C11CBAC3BAF32F970607F_AdjustorThunk (void);
+extern void U3CSignInAnonymouslyU3Ed__12_MoveNext_m319EE36E4A140AF9F86DF93F63CF51988A3C869E_AdjustorThunk (void);
+extern void U3CSignInAnonymouslyU3Ed__12_SetStateMachine_m8CBCEDCEF4FEA522AF295259333D41D831B377D3_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[8] = 
+{
+	{ 0x0600000F, U3CAwakeU3Ed__8_MoveNext_m43F03F7DDDE724F61A57BF268C03C6BE4979F9A8_AdjustorThunk },
+	{ 0x06000010, U3CAwakeU3Ed__8_SetStateMachine_m239C60032658614D9DA8599934579799D992087E_AdjustorThunk },
+	{ 0x06000011, U3CFetchConfigsAsyncU3Ed__9_MoveNext_mB31A597C173077572CBDEE9DFC5F96940DE34F39_AdjustorThunk },
+	{ 0x06000012, U3CFetchConfigsAsyncU3Ed__9_SetStateMachine_m79BCD2E4B9FEA9BC57FF30FADF82B9181A6EBE98_AdjustorThunk },
+	{ 0x06000013, U3CInitializeServicesU3Ed__11_MoveNext_m77B116033825EE7CFBE5A5ED05C64E605D670E05_AdjustorThunk },
+	{ 0x06000014, U3CInitializeServicesU3Ed__11_SetStateMachine_m1AC540710B3C23CDB69C11CBAC3BAF32F970607F_AdjustorThunk },
+	{ 0x06000015, U3CSignInAnonymouslyU3Ed__12_MoveNext_m319EE36E4A140AF9F86DF93F63CF51988A3C869E_AdjustorThunk },
+	{ 0x06000016, U3CSignInAnonymouslyU3Ed__12_SetStateMachine_m8CBCEDCEF4FEA522AF295259333D41D831B377D3_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	20749,
+	20749,
+	16265,
+	20749,
+	31657,
+	20749,
+	20467,
+	16265,
+	20749,
+	20467,
+	16030,
+	31490,
+	31490,
+	20749,
+	20749,
+	16265,
+	20749,
+	16265,
+	20749,
+	16265,
+	20749,
+	16265,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Sample_RemoteConfig_CodeGenModule;
+const Il2CppCodeGenModule g_Sample_RemoteConfig_CodeGenModule = 
+{
+	"Sample_RemoteConfig.dll",
+	22,
+	s_methodPointers,
+	8,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

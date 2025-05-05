@@ -1,0 +1,505 @@
+<linker>
+  <assembly fullname="AK.Wwise.Unity.API.WwiseTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="WwiseEventReference" preserve="all" />
+    <type fullname="AK.Wwise.Event" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="AK.Wwise.Unity.MonoBehaviour, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AkAudioListener" preserve="all" />
+    <type fullname="AkGameObj" preserve="all" />
+    <type fullname=".AkGameObjListenerList" preserve="nothing" serialized="true" />
+    <type fullname=".AkGameObjPositionOffsetData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AIBrainDefault" preserve="all" />
+    <type fullname="AirAnimatorBehaviour" preserve="all" />
+    <type fullname="AiStateDisplay" preserve="all" />
+    <type fullname="AnimatorScript" preserve="all" />
+    <type fullname="ArtifakController" preserve="all" />
+    <type fullname="AspectRatioController" preserve="all" />
+    <type fullname="AutoDisable" preserve="all" />
+    <type fullname="Bar" preserve="all" />
+    <type fullname="BushDetectionComponent" preserve="all" />
+    <type fullname="CameraSwitch" preserve="all" />
+    <type fullname="CameraTriggerZoom" preserve="all" />
+    <type fullname="Chakra" preserve="all" />
+    <type fullname="ChakraDisplay" preserve="all" />
+    <type fullname="ChakraVeinController" preserve="all" />
+    <type fullname="ChampionSkin" preserve="all" />
+    <type fullname="Character" preserve="all" />
+    <type fullname="CharacterAbility" preserve="all" />
+    <type fullname="CharacterCCImmunity" preserve="all" />
+    <type fullname="CharacterMovementSpeedBooster" preserve="all" />
+    <type fullname="CharacterNetwork" preserve="all" />
+    <type fullname="CharacterNetworkDatabase" preserve="all" />
+    <type fullname="CharacterNetworkSkin" preserve="all" />
+    <type fullname="CharacterRandomEvent" preserve="all" />
+    <type fullname="CharacterRecallAbility" preserve="all" />
+    <type fullname="CharacterRecoveryAbility" preserve="all" />
+    <type fullname="CharacterRotationLoadout" preserve="all" />
+    <type fullname="CharacterSakkaAbility" preserve="all" />
+    <type fullname="CharacterTargetHandler" preserve="all" />
+    <type fullname="CharacterVisualization" preserve="all" />
+    <type fullname="ClientCharacter" preserve="all" />
+    <type fullname="ClientHealingFountain" preserve="all" />
+    <type fullname="ClientInputSender" preserve="all" />
+    <type fullname="ClientInputSenderGana" preserve="all" />
+    <type fullname="ClientInputSenderJaka" preserve="all" />
+    <type fullname="ClientInputSenderMenjaya" preserve="all" />
+    <type fullname="ClientInputSenderWana" preserve="all" />
+    <type fullname="CombustionRelay" preserve="all" />
+    <type fullname="CrowdControlController" preserve="all" />
+    <type fullname="CrowdControlDisplay" preserve="all" />
+    <type fullname="CustomAxisRotation" preserve="all" />
+    <type fullname="CustomZTestUI" preserve="all" />
+    <type fullname="DamageReceiver" preserve="all" />
+    <type fullname="DebuffController" preserve="all" />
+    <type fullname="DelayedActivation" preserve="all" />
+    <type fullname="DeletionTracker" preserve="all" />
+    <type fullname="DisableCamera" preserve="all" />
+    <type fullname="EarthAnimatorBehaviour" preserve="all" />
+    <type fullname="ElementalController" preserve="all" />
+    <type fullname="ElementControlDisplay" preserve="all" />
+    <type fullname="EmoteAnimationController" preserve="all" />
+    <type fullname="EmoteController" preserve="all" />
+    <type fullname="EmoteDatabase" preserve="all" />
+    <type fullname="EmoteDisplay" preserve="all" />
+    <type fullname="EntityUIReference" preserve="all" />
+    <type fullname="FadeSpriteColor" preserve="all" />
+    <type fullname="FireAnimatorBehaviour" preserve="all" />
+    <type fullname="FogOfWarLocal" preserve="all" />
+    <type fullname="FrostbiteRelay" preserve="all" />
+    <type fullname="GameplayObjects.NetworkLifeState" preserve="all" />
+    <type fullname="GanaBasicMeleeAttack" preserve="all" />
+    <type fullname="GanaCrowdControlController" preserve="all" />
+    <type fullname="GanaSkill1" preserve="all" />
+    <type fullname="GanaSkill1Relay" preserve="all" />
+    <type fullname="GanaSkill2" preserve="all" />
+    <type fullname="GanaSkill3" preserve="all" />
+    <type fullname="GanaSkill3Relay" preserve="all" />
+    <type fullname="GanaStack" preserve="all" />
+    <type fullname="GanaStackHandler" preserve="all" />
+    <type fullname="GlobalOpacityManager" preserve="all" />
+    <type fullname="Health" preserve="all" />
+    <type fullname="HealthDisplay" preserve="all" />
+    <type fullname="IndicatorUI" preserve="all" />
+    <type fullname="InputProcessor" preserve="all" />
+    <type fullname="JakaBasicMeleeAttack" preserve="all" />
+    <type fullname="JakaPassiveExplosionRelay" preserve="all" />
+    <type fullname="JakaPassiveRelay" preserve="all" />
+    <type fullname="JakaSkill1" preserve="all" />
+    <type fullname="JakaSkill2" preserve="all" />
+    <type fullname="JakaSkill2Relay" preserve="all" />
+    <type fullname="JakaSkill3" preserve="all" />
+    <type fullname="KhanBasicMeleeAttack" preserve="all" />
+    <type fullname="KhanSkill1" preserve="all" />
+    <type fullname="KhanSkill1Relay1" preserve="all" />
+    <type fullname="KhanSkill2" preserve="all" />
+    <type fullname="KhanSkill3" preserve="all" />
+    <type fullname="KhanSkill3Relay" preserve="all" />
+    <type fullname="KhanStack" preserve="all" />
+    <type fullname="KhanStackHandler" preserve="all" />
+    <type fullname="LevelDisplay" preserve="all" />
+    <type fullname="LoadOutAudio" preserve="all" />
+    <type fullname="MenjayaPassive" preserve="all" />
+    <type fullname="MenjayaPassiveRelay" preserve="all" />
+    <type fullname="MenjayaSkill1" preserve="all" />
+    <type fullname="MenjayaSkill1Relay" preserve="all" />
+    <type fullname="MenjayaSkill2" preserve="all" />
+    <type fullname="MenjayaSkill2Relay" preserve="all" />
+    <type fullname="MenjayaSkill3" preserve="all" />
+    <type fullname="MenjayaSkill3Relay" preserve="all" />
+    <type fullname="MenuCharacter" preserve="all" />
+    <type fullname="MinimapDisplay" preserve="all" />
+    <type fullname="MuBasicAtkRelay" preserve="all" />
+    <type fullname="MuBasicAttack" preserve="all" />
+    <type fullname="MuSkill1" preserve="all" />
+    <type fullname="MuSkill1Relay" preserve="all" />
+    <type fullname="MuSkill2" preserve="all" />
+    <type fullname="MuSkill2Relay" preserve="all" />
+    <type fullname="MuSkill2Relay_Hex" preserve="all" />
+    <type fullname="MuSkill3" preserve="all" />
+    <type fullname="MuStack" preserve="all" />
+    <type fullname="MuStackHandler" preserve="all" />
+    <type fullname="NetworkCharacterStateConsistencyChecker" preserve="all" />
+    <type fullname="NetworkEnemyHandling" preserve="all" />
+    <type fullname="NydiaBasicAtkRelay" preserve="all" />
+    <type fullname="NydiaBasicAttack" preserve="all" />
+    <type fullname="NydiaSkill1" preserve="all" />
+    <type fullname="NydiaSkill1Relay" preserve="all" />
+    <type fullname="NydiaSkill2" preserve="all" />
+    <type fullname="NydiaSkill3" preserve="all" />
+    <type fullname="NydiaStack" preserve="all" />
+    <type fullname="NydiaStackHandler" preserve="all" />
+    <type fullname="PhysicsWrapper" preserve="all" />
+    <type fullname="PlayerBuff" preserve="all" />
+    <type fullname="PlayerLevel" preserve="all" />
+    <type fullname="PlayerMainController" preserve="all" />
+    <type fullname="PlayerNameDisplay" preserve="all" />
+    <type fullname="PlayerSkillUI" preserve="all" />
+    <type fullname="PlayerSound" preserve="all" />
+    <type fullname="PlayerStat" preserve="all" />
+    <type fullname="PlayerVisibilityComponent" preserve="all" />
+    <type fullname="PlayerVisibilityDisplay" preserve="all" />
+    <type fullname="PlayWwiseEventOnEnable" preserve="all" />
+    <type fullname="ProjectileRelay" preserve="all" />
+    <type fullname="ProjectileRelayColorHandler" preserve="all" />
+    <type fullname="PulsingDisplay" preserve="all" />
+    <type fullname="PunggaBasicAttack" preserve="all" />
+    <type fullname="PunggaSkill1" preserve="all" />
+    <type fullname="PunggaSkill1Relay" preserve="all" />
+    <type fullname="PunggaSkill2" preserve="all" />
+    <type fullname="PunggaSkill2Relay" preserve="all" />
+    <type fullname="PunggaSkill3" preserve="all" />
+    <type fullname="PunggaSkill3Relay" preserve="all" />
+    <type fullname="PunggaStack" preserve="all" />
+    <type fullname="PunggaStackHandler" preserve="all" />
+    <type fullname="RakaiBasicAttack" preserve="all" />
+    <type fullname="RakaiSkill1" preserve="all" />
+    <type fullname="RakaiSkill1Relay" preserve="all" />
+    <type fullname="RakaiSkill2" preserve="all" />
+    <type fullname="RakaiSkill2Relay" preserve="all" />
+    <type fullname="RakaiSkill3" preserve="all" />
+    <type fullname="RakaiSkill3Relay" preserve="all" />
+    <type fullname="RakaiStack" preserve="all" />
+    <type fullname="RakaiStackHandler" preserve="all" />
+    <type fullname="RangeAttack" preserve="all" />
+    <type fullname="RatnaBasicAttack" preserve="all" />
+    <type fullname="RatnaBasicAttackRelay" preserve="all" />
+    <type fullname="RatnaSkill1" preserve="all" />
+    <type fullname="RatnaSkill1Relay" preserve="all" />
+    <type fullname="RatnaSkill2" preserve="all" />
+    <type fullname="RatnaSkill2Relay" preserve="all" />
+    <type fullname="RatnaSkill3" preserve="all" />
+    <type fullname="RatnaSkill3BloomRelay" preserve="all" />
+    <type fullname="RatnaSkill3ExplodeRelay" preserve="all" />
+    <type fullname="RatnaStack" preserve="all" />
+    <type fullname="RatnaStackHandler" preserve="all" />
+    <type fullname="RemaungBasicAttack" preserve="all" />
+    <type fullname="RemaungSkill1" preserve="all" />
+    <type fullname="RemaungSkill2" preserve="all" />
+    <type fullname="RemaungSkill3" preserve="all" />
+    <type fullname="RemaungStack" preserve="all" />
+    <type fullname="RemaungStackHandler" preserve="all" />
+    <type fullname="RespawnHandler" preserve="all" />
+    <type fullname="RingIndicator" preserve="all" />
+    <type fullname="ServerAnimationHandler" preserve="all" />
+    <type fullname="ServerCharacter" preserve="all" />
+    <type fullname="ServerCharacterMovement" preserve="all" />
+    <type fullname="ShaderDissolveController" preserve="all" />
+    <type fullname="Shield" preserve="all" />
+    <type fullname="ShieldDisplay" preserve="all" />
+    <type fullname="ShimaBasicAttack" preserve="all" />
+    <type fullname="ShimaSkill1" preserve="all" />
+    <type fullname="ShimaSkill2" preserve="all" />
+    <type fullname="ShimaSkill2Relay" preserve="all" />
+    <type fullname="ShimaSkill3" preserve="all" />
+    <type fullname="ShimaSkill3Relay" preserve="all" />
+    <type fullname="SiongBasicAttack" preserve="all" />
+    <type fullname="SiongPassive" preserve="all" />
+    <type fullname="SiongSkill1" preserve="all" />
+    <type fullname="SiongSkill1Relay" preserve="all" />
+    <type fullname="SiongSkill2" preserve="all" />
+    <type fullname="SiongSkill3" preserve="all" />
+    <type fullname="SkinDatabase" preserve="all" />
+    <type fullname="SO_Abilities" preserve="all" />
+    <type fullname="SO_AbilitiesDatabase" preserve="all" />
+    <type fullname="SO_Audios" preserve="all" />
+    <type fullname="SO_BasicAttackDatabase" preserve="all" />
+    <type fullname="SO_ChampLore" preserve="all" />
+    <type fullname="SO_HeroBasicAttack" preserve="all" />
+    <type fullname="SO_Vfx" preserve="all" />
+    <type fullname="TopHeadTeamUI" preserve="all" />
+    <type fullname="UI_LookAtCamera" preserve="all" />
+    <type fullname="VfxAddressableIntializer" preserve="all" />
+    <type fullname="VFXHandler" preserve="all" />
+    <type fullname="VisualizationConfiguration" preserve="all" />
+    <type fullname="WanaBasicAtkRelay" preserve="all" />
+    <type fullname="WanaBasicRangeAttack" preserve="all" />
+    <type fullname="WanaCharacterAbility" preserve="all" />
+    <type fullname="WanaSkill1" preserve="all" />
+    <type fullname="WanaSkill2" preserve="all" />
+    <type fullname="WanaSkill3" preserve="all" />
+    <type fullname="WanaSkill3Relay" preserve="all" />
+    <type fullname="WanaStack" preserve="all" />
+    <type fullname="WanaStackHandler" preserve="all" />
+    <type fullname="WaterAnimatorBehaviour" preserve="all" />
+    <type fullname="WildfireRelay" preserve="all" />
+    <type fullname="WorldSpaceOverlayUI" preserve="all" />
+    <type fullname="WwiseAdded" preserve="all" />
+    <type fullname="WwiseVoiceOverOnEnable" preserve="all" />
+    <type fullname=".CharacterEventData" preserve="nothing" serialized="true" />
+    <type fullname=".SO_Audios/AudioPreference" preserve="nothing" serialized="true" />
+    <type fullname=".SO_Audios/SoundPreference" preserve="nothing" serialized="true" />
+    <type fullname=".VFXHandler/VFXDetail" preserve="nothing" serialized="true" />
+    <type fullname=".E_HeroType" preserve="nothing" serialized="true" />
+    <type fullname=".SO_ChampLore/LoreEntry" preserve="nothing" serialized="true" />
+    <type fullname=".S_SkillStats" preserve="nothing" serialized="true" />
+    <type fullname=".AIBrainDefault/AIState" preserve="nothing" serialized="true" />
+    <type fullname=".E_ArtifakState" preserve="nothing" serialized="true" />
+    <type fullname=".E_ArtifakType" preserve="nothing" serialized="true" />
+    <type fullname=".E_CrowdControlType" preserve="nothing" serialized="true" />
+    <type fullname=".E_DebuffType" preserve="nothing" serialized="true" />
+    <type fullname=".E_Elemental" preserve="nothing" serialized="true" />
+    <type fullname=".E_Team" preserve="nothing" serialized="true" />
+    <type fullname=".ElementControlDisplay/ElementalUI" preserve="nothing" serialized="true" />
+    <type fullname=".Emote" preserve="nothing" serialized="true" />
+    <type fullname=".ImmunityType" preserve="nothing" serialized="true" />
+    <type fullname=".NetworkPlayerInput" preserve="nothing" serialized="true" />
+    <type fullname=".RecoveryState" preserve="nothing" serialized="true" />
+    <type fullname=".S_BasicAttackStats" preserve="nothing" serialized="true" />
+    <type fullname=".S_Stats" preserve="nothing" serialized="true" />
+    <type fullname=".S_StatsDetails" preserve="nothing" serialized="true" />
+    <type fullname=".TopHeadTeamUI/TeamUI" preserve="nothing" serialized="true" />
+    <type fullname=".UserPlayerData" preserve="nothing" serialized="true" />
+    <type fullname="GameplayObjects.LifeState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AnyPortrait.apMesh" preserve="all" />
+    <type fullname="AnyPortrait.apMeshGroup" preserve="all" />
+    <type fullname="AnyPortrait.apModifier_AnimatedColorOnly" preserve="all" />
+    <type fullname="AnyPortrait.apModifier_AnimatedTF" preserve="all" />
+    <type fullname="AnyPortrait.apModifier_Physic" preserve="all" />
+    <type fullname="AnyPortrait.apModifier_Rigging" preserve="all" />
+    <type fullname="AnyPortrait.apModifier_TF" preserve="all" />
+    <type fullname="AnyPortrait.apOptBone" preserve="all" />
+    <type fullname="AnyPortrait.apOptMesh" preserve="all" />
+    <type fullname="AnyPortrait.apOptNode" preserve="all" />
+    <type fullname="AnyPortrait.apOptRootUnit" preserve="all" />
+    <type fullname="AnyPortrait.apOptTransform" preserve="all" />
+    <type fullname="AnyPortrait.apPortrait" preserve="all" />
+    <type fullname="AnyPortrait.apAnimClip" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apAnimCurve" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apAnimKeyframe" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apAnimPlayData" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apAnimPlayManager" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apAnimTimeline" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apAnimTimelineLayer" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apBone" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apBoneIKController" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apControlParamValueSnapShot" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apController" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apGuideLines" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apMaterialSet" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apMaterialSet/PropertySet" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apMaterialSet/PropertySet/ImageTexturePair" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apMeshEdge" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apMeshPinGroup" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apMeshPolygon" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apMeshPolygon/IDPair" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apMeshTri" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apModifiedBone" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apModifiedMesh" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apModifiedMesh/ExtraValue" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apModifiedVertexRig" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apModifiedVertexRig/WeightPair" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apModifierParamSet" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apModifierParamSetGroup" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apModifierStack" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apObjectOrders" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apObjectOrders/OrderSet" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptBatchedMaterial" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptBatchedMaterial/MaterialUnit" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptBoneIKChainSet" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptBoneIKController" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptMaterialInfo" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedBone" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedMeshSet" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedMesh_Color" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedMesh_VertexRig" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedMesh_VertexRig/VertexRig" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedMesh_VertexRig/VertexRig/WeightPair" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifierSubStack" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifierUnitBase" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptParamSet" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptParamSetGroup" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptRenderVertex" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptSortedRenderBuffer" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptSortedRenderBuffer/OptBufferData" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptTextureData" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apPhysicsMeshParam" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apRootUnit" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apTextureData" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apTransform_Mesh" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apTransform_MeshGroup" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apUnityEventWrapper" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apVertex" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apVisibilityPresets" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apModifiedVertexWeight" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedMesh_Physics" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedMesh_Transform" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedPhysicsVertex" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptModifiedPhysicsVertex/LinkedVertex" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apOptPhysicsMeshParam" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apPSDSet" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apPSDSet/BAKE_SIZE" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apPSDSet/TextureDataSet" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apPSDSetLayer" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apPhysicsVertParam" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apPhysicsVertParam/LinkedVertex" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
+  </assembly>
+  <assembly fullname="DTT.AreaOfEffectRegions.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DTT.AreaOfEffectRegions.ArcRegion" preserve="all" />
+    <type fullname="DTT.AreaOfEffectRegions.CircleRegion" preserve="all" />
+    <type fullname="DTT.AreaOfEffectRegions.LineRegion" preserve="all" />
+    <type fullname="DTT.AreaOfEffectRegions.ScatterLineRegion" preserve="all" />
+  </assembly>
+  <assembly fullname="EZhex1991.EZSoftBone, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="EZhex1991.EZSoftBone.EZSoftBone" preserve="all" />
+  </assembly>
+  <assembly fullname="Micosmo.SensorToolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Micosmo.SensorToolkit.RangeSensor" preserve="all" />
+    <type fullname="Micosmo.SensorToolkit.BoxShape" preserve="nothing" serialized="true" />
+    <type fullname="Micosmo.SensorToolkit.CapsuleShape" preserve="nothing" serialized="true" />
+    <type fullname="Micosmo.SensorToolkit.ObservableFloat" preserve="nothing" serialized="true" />
+    <type fullname="Micosmo.SensorToolkit.PulseRoutine" preserve="nothing" serialized="true" />
+    <type fullname="Micosmo.SensorToolkit.PulseRoutine/ObservableMode" preserve="nothing" serialized="true" />
+    <type fullname="Micosmo.SensorToolkit.SensorDetectionEventHandler" preserve="nothing" serialized="true" />
+    <type fullname="Micosmo.SensorToolkit.SignalFilter" preserve="nothing" serialized="true" />
+    <type fullname="Micosmo.SensorToolkit.SphereShape" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="OmniShade, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="OmniShadeAnimateTexture" preserve="all" />
+    <type fullname=".OmniShadeAnimateTexture/AnimatedTexture" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.AI.Navigation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.AI.Navigation.NavMeshModifier" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Localization.Locale" preserve="all" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData" preserve="all" />
+    <type fullname="UnityEngine.Localization.Tables.StringTable" preserve="all" />
+    <type fullname="UnityEngine.Localization.LocaleIdentifier" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.MetadataCollection" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.LocalizedString" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Netcode.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.Netcode.Components.NetworkAnimator" preserve="all" />
+    <type fullname="Unity.Netcode.NetworkObject" preserve="all" />
+    <type fullname="Unity.Netcode.NetworkVariable`1" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.TimelineClip" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
+    <type fullname="UnityEngine.AI.NavMeshObstacle" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animations.ParentConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LODGroup" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="AnyPortrait_FULL_Editor">
+    <type fullname="AnyPortrait.apMatrix" preserve="nothing" serialized="true" />
+    <type fullname="AnyPortrait.apMatrix3x3" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>

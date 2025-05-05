@@ -1,0 +1,114 @@
+Event	ID	Name			Wwise Object Path	Notes
+	27928882	UI_InG_Champ_LvlUp_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Champ_LvlUp_SFX	
+	47644061	UI_InG_MatchEnd_Lose_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_MatchEnd_Lose_SFX	
+	212325466	Struc_Tower_Atk_Warning_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Struc_Tower_Atk_Warning_SFX	
+	262341531	J003_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J003_Komodo Dragon\J003_BAtk_SFX	
+	365644249	B001_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_BAtk_SFX	
+	385894880	UI_InG_MatchStart_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_MatchStart_SFX	
+	395710309	B003_Pas_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B003_Pas_Cast_SFX	
+	486080884	UI_InG_MatchEnd_Win_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_MatchEnd_Win_SFX	
+	693000342	B001_Resurrect_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_Resurrect_SFX	
+	713459325	UI_InG_Champ_Pas_Full_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Champ_Pas_Full_SFX	
+	728647509	J005_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J005_Rooster\J005_BAtk_SFX	
+	734722276	J002_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J002_Water Buffalo\J002_BAtk_SFX	
+	817069433	Struc_Base_Destroy_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Base\Struc_Base_Destroy_SFX	
+	880641952	UI_InG_Regen_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Regen_SFX	
+	974231822	J001_Resurrect_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Resurrect_SFX	
+	1026486647	J001_BAtk_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_BAtk_Hit_SFX	
+	1125943100	J005_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J005_Rooster\J005_Engage_SFX	
+	1217385438	J003_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J003_Komodo Dragon\J003_Engage_SFX	
+	1226046492	J004_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J004_Sumatran Rhinoceros\J004_Death_SFX	
+	1256879267	J004_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J004_Sumatran Rhinoceros\J004_Engage_SFX	
+	1313125249	J001_Skl02_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Skl02_Hit_SFX	
+	1345189799	Struc_Gate_Destroy_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Base\Struc_Gate_Destroy_SFX	
+	1363590511	J001_Skl02_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Skl02_Cast_SFX	
+	1407364007	Struc_Tower_Atk_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Struc_Tower_Atk_SFX	
+	1597214749	J001_Exit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Exit_SFX	
+	1657275056	UI_InG_UseArtifact_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_UseArtifact_SFX	
+	2086891729	B001_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_Death_SFX	
+	2113864197	J005_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J005_Rooster\J005_Death_SFX	
+	2135933254	J002_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J002_Water Buffalo\J002_Death_SFX	
+	2247112826	B002_Pas_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B002_Pas_Cast_SFX	
+	2255142765	Amb_Forest_SFX			\Default Work Unit\InGame\SFX_InG\Ambience\Amb_Forest_SFX	
+	2361586137	UI_InG_MapIntro_Angkaramurka_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_MapIntro_Angkaramurka_SFX	
+	2417347781	J002_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J002_Water Buffalo\J002_Engage_SFX	
+	2561113311	J003_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J003_Komodo Dragon\J003_Death_SFX	
+	2561238061	UI_InG_Skl_LvlUp_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Skl_LvlUp_SFX	
+	2780293594	UI_InG_TeamSignal_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_TeamSignal_SFX	
+	2805857617	UI_InG_Champ_Skl_Ready_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Champ_Skl_Ready_SFX	
+	2814888593	J001_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_BAtk_SFX	
+	2823521716	Struc_Tower_GetHit_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Struc_Tower_GetHit_SFX	
+	2848378581	UI_InG_Champ_Res_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Champ_Res_SFX	
+	2991425351	UI_InG_EnemyKill_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_EnemyKill_SFX	
+	3075905906	J001_Skl01_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Skl01_Cast_SFX	
+	3342287200	B001_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_Engage_SFX	
+	3359574895	B001_BAtk_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_BAtk_Hit_SFX	
+	3378882731	B001_Pas_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_Pas_Cast_SFX	
+	3412692521	UI_InG_ChakraVein_LvlUp_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_ChakraVein_LvlUp_SFX	
+	3537472526	J004_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J004_Sumatran Rhinoceros\J004_BAtk_SFX	
+	3548150582	J001_Skl01_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Skl01_Hit_SFX	
+	3747682221	UI_InG_Struc_Tower_GetHit_Warning_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Struc_Tower_GetHit_Warning_SFX	
+	3754304891	Amb_Sea_SFX			\Default Work Unit\InGame\SFX_InG\Ambience\Amb_Sea_SFX	
+	3901511633	J001_Enter_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Enter_SFX	
+	4014116572	Amb_River_SFX			\Default Work Unit\InGame\SFX_InG\Ambience\Amb_River_SFX	
+	4087993371	Struc_Tower_Destroy_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Struc_Tower_Destroy_SFX	
+	4265975494	UI_InG_Recall_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Recall_SFX	
+	4272132875	UI_InG_AllyKill_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_AllyKill_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23542591	UI_InG_UseArtifact_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_UseArtifact_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_UseArtifact_SFX		26638
+	34414723	UI_InG_Champ_Skl_Ready_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Champ_Skl_Ready_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Champ_Skl_Ready_SFX		21771
+	65339970	Struc_Tower_Destroy_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Tower_Destroy_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Tower\Struc_Tower_Destroy_SFX		57023
+	115861517	B001_Pas_Cast_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_Pas_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_Pas_Cast_SFX		8836
+	150983826	J001_Skl01_Cast_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Skl01_Cast_SFX		39968
+	180486629	Amb_River_Base_01_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Amb_River_Base_01_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_River_SFX\Amb_River_Base_01_SFX		676282
+	193118408	UI_InG_ChakraVein_LvlUp_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_ChakraVein_LvlUp_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_ChakraVein_LvlUp_SFX		42965
+	196586072	UI_InG_MapIntro_Angkaramurka_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_MapIntro_Angkaramurka_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_MapIntro_Angkaramurka_SFX		81798
+	217103394	B001_BAtk_Hit_01_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_Hit_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_Hit_SFX\B001_BAtk_Hit_01_SFX		4854
+	242092755	J001_Skl01_Hit_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Skl01_Hit_SFX		18914
+	250705171	J004_Death_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J004_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J004_Sumatran Rhinoceros\J004_Death_SFX		16784
+	258542214	J001_BAtk_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_BAtk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_BAtk_SFX		21073
+	275371702	J001_Skl02_Hit_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Skl02_Hit_SFX		6348
+	288788521	UI_InG_Champ_LvlUp_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Champ_LvlUp_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Champ_LvlUp_SFX		26820
+	301023994	UI_InG_Struc_Tower_GetHit_Warning_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Struc_Tower_GetHit_Warning_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Struc_Tower_GetHit_Warning_SFX		7108
+	401878677	Struc_Tower_Atk_Warning_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Tower_Atk_Warning_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Tower\Struc_Tower_Atk_Warning_SFX		23398
+	433589184	J003_Engage_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J003_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J003_Komodo Dragon\J003_Engage_SFX		15371
+	454738577	Struc_Tower_GetHit_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Tower_GetHit_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Tower\Struc_Tower_GetHit_SFX		23704
+	464648455	J003_BAtk_01_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J003_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J003_Komodo Dragon\J003_BAtk_SFX\J003_BAtk_01_SFX		11264
+	485341001	Amb_Forest_Base_01_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Amb_Forest_Base_01_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Forest_SFX\Amb_Forest_Base_01_SFX		781750
+	503829732	J002_Death_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J002_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J002_Water Buffalo\J002_Death_SFX		15060
+	521259185	UI_InG_Recall_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Recall_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Recall_SFX		114496
+	553497490	B001_BAtk_02_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_SFX\B001_BAtk_02_SFX		8801
+	570178979	UI_InG_Skl_LvlUp_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Skl_LvlUp_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Skl_LvlUp_SFX		21506
+	600545046	J005_Death_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J005_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J005_Rooster\J005_Death_SFX		12998
+	605943518	B001_Resurrect_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_Resurrect_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_Resurrect_SFX		24813
+	616272149	J003_Death_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J003_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J003_Komodo Dragon\J003_Death_SFX		13946
+	652107929	UI_InG_Regen_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Regen_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Regen_SFX		40512
+	700609169	J001_Skl02_Cast_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Skl02_Cast_SFX		24257
+	701079812	J004_Engage_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J004_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J004_Sumatran Rhinoceros\J004_Engage_SFX		15932
+	737471061	J002_BAtk_01_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J002_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J002_Water Buffalo\J002_BAtk_SFX\J002_BAtk_01_SFX		9545
+	759604337	Struc_Tower_Atk_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Tower_Atk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Tower\Struc_Tower_Atk_SFX		27761
+	760485346	UI_InG_MatchEnd_Win_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_MatchEnd_Win_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_MatchEnd_Win_SFX		57559
+	764313894	J001_Enter_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Enter_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Enter_SFX		19866
+	784688990	B002_Pas_Cast_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B002_Pas_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B002_Pas_Cast_SFX		18436
+	785672262	UI_InG_EnemyKill_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_EnemyKill_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_EnemyKill_SFX		50831
+	790021228	B001_Death_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_Death_SFX		24932
+	798202251	UI_InG_MatchStart_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_MatchStart_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_MatchStart_SFX		138704
+	810265224	J002_Engage_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J002_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J002_Water Buffalo\J002_Engage_SFX		14189
+	818353448	Struc_Gate_Destroy_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Gate_Destroy_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Gate\Struc_Gate_Destroy_SFX		54242
+	859731631	B003_Pas_Cast_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B003_Pas_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B003_Pas_Cast_SFX		8310
+	902120283	UI_InG_TeamSignal_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_TeamSignal_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_TeamSignal_SFX		17014
+	924981079	B001_Engage_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_Engage_SFX		19378
+	932223774	UI_InG_AllyKill_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_AllyKill_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_AllyKill_SFX		39269
+	938283322	UI_InG_Champ_Res_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Champ_Res_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Champ_Res_SFX		31142
+	996116230	J005_BAtk_01_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J005_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J005_Rooster\J005_BAtk_SFX\J005_BAtk_01_SFX		2622
+	1003548275	J004_BAtk_01_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J004_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J004_Sumatran Rhinoceros\J004_BAtk_SFX\J004_BAtk_01_SFX		11270
+	1006404539	J005_Engage_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J005_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J005_Rooster\J005_Engage_SFX		11365
+	1007623345	Amb_Sea_Base_01_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Amb_Sea_Base_01_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Sea_SFX\Amb_Sea_Base_01_SFX		1160269
+	1020870943	UI_InG_Champ_Pas_Full_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Champ_Pas_Full_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Champ_Pas_Full_SFX		39163
+	1028261752	Struc_Base_Destroy_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Base_Destroy_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Base\Struc_Base_Destroy_SFX		75965
+	1036314761	B001_BAtk_01_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_SFX\B001_BAtk_01_SFX		8668
+	1040909586	B001_BAtk_03_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_SFX\B001_BAtk_03_SFX		9007
+	1049993462	J001_BAtk_Hit_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_BAtk_Hit_SFX		9069
+	1056759482	UI_InG_MatchEnd_Lose_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_MatchEnd_Lose_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_MatchEnd_Lose_SFX		61478
+

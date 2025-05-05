@@ -1,0 +1,62 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3069844381	Menu_StG			\Default Work Unit\Menu_StG	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Menu_StG			
+	3494343696	PauseMenu	Menu_StG			
+	3604647259	MainMenu	Menu_StG			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	55129083	PauseMenu	Menu_StG	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+	452196472	PauseMenu	Menu_StG	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+	985724351	PauseMenu	Menu_StG	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	42448320	SFX_Vol			\Default Work Unit\Bus_Vol\SFX_Vol	
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1093937226	VO_Vol			\Default Work Unit\Bus_Vol\VO_Vol	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2246609544	Music_Vol			\Default Work Unit\Bus_Vol\Music_Vol	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3578718921	Master_Vol			\Default Work Unit\Bus_Vol\Master_Vol	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	3680188857	UI_Vol			\Default Work Unit\Bus_Vol\UI_Vol	
+	3752125433	Amb_Vol			\Default Work Unit\Bus_Vol\Amb_Vol	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	224413387	Structures_SFX			\Default Work Unit\Master Audio Bus\SFX\Structures_SFX	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	453761320	Champions_Gen_SFX			\Default Work Unit\Master Audio Bus\SFX\Champions_Gen_SFX	
+	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	1866887872	Announcer_VO			\Default Work Unit\Master Audio Bus\VO\Announcer_VO	
+	2290796287	Champions_VO			\Default Work Unit\Master Audio Bus\VO\Champions_VO	
+	3369621855	Enemies_SFX			\Default Work Unit\Master Audio Bus\SFX\Enemies_SFX	
+	3665975379	Champions_SFX			\Default Work Unit\Master Audio Bus\SFX\Champions_SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1203127451	SFX_Rev_Aux			\Default Work Unit\Master Audio Bus\SFX\SFX_Rev_Aux	
+	2048819434	UI_Rev_Aux			\Default Work Unit\Master Audio Bus\UI\UI_Rev_Aux	
+	2219410019	Music_Rev_Aux			\Default Work Unit\Master Audio Bus\Music\Music_Rev_Aux	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+	1990128658	Room_Medium	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

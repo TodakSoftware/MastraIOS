@@ -1,0 +1,272 @@
+Event	ID	Name			Wwise Object Path	Notes
+	27928882	UI_InG_Champ_LvlUp_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Champ_LvlUp_SFX	
+	47644061	UI_InG_MatchEnd_Lose_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_MatchEnd_Lose_SFX	
+	99168662	Stop_J003_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J003_Komodo Dragon\Stop_J003_Death_SFX	
+	137231830	Mastra_Announcer_VO___Mastra			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Mastra	
+	212325466	Struc_Tower_Atk_Warning_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Struc_Tower_Atk_Warning_SFX	
+	227024339	Artifact_KerisOfShadow_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_KerisOfShadow_Cast_SFX	
+	234591839	Stop_Artifact_OrbOfShakti_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_OrbOfShakti_Cast_SFX	
+	262341531	J003_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J003_Komodo Dragon\J003_BAtk_SFX	
+	311607025	Stop_J001_Skl01_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_Skl01_Cast_SFX	
+	365644249	B001_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_BAtk_SFX	
+	369879186	Stop_J001_Exit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_Exit_SFX	
+	385894880	UI_InG_MatchStart_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_MatchStart_SFX	
+	387324007	Stop_J001_StrucAtk_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_StrucAtk_Cast_SFX	
+	395710309	B003_Pas_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B003_Pas_Cast_SFX	
+	417761001	Mastra_Announcer_VO___Pirates_Ally_Slain__2			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Pirates_Ally_Slain__2	
+	486080884	UI_InG_MatchEnd_Win_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_MatchEnd_Win_SFX	
+	516150988	Stop_J004_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J004_Sumatran Rhinoceros\Stop_J004_Engage_SFX	
+	523415109	Artifact_RimauTalisman_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_RimauTalisman_Cast_SFX	
+	637581871	Stop_J002_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J002_Water Buffalo\Stop_J002_Death_SFX	
+	642401548	Stop_Struc_Base_Destroy_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Base\Stop_Struc_Base_Destroy_SFX	
+	693000342	B001_Resurrect_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_Resurrect_SFX	
+	710061930	J001_StrucAtk_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_StrucAtk_Cast_SFX	
+	713459325	UI_InG_Champ_Pas_Full_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Champ_Pas_Full_SFX	
+	728647509	J005_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J005_Rooster\J005_BAtk_SFX	
+	734722276	J002_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J002_Water Buffalo\J002_BAtk_SFX	
+	765521520	Stop_B001_Pas_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\Stop_B001_Pas_Cast_SFX	
+	765861962	Mastra_Announcer_VO___Victory__4			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Victory__4	
+	795972230	Artifact_NecklaceOfKalabubu_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_NecklaceOfKalabubu_Hit_SFX	
+	813705015	Mastra_Announcer_VO___Outer_gate_destroyed			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Outer_gate_destroyed	
+	817069433	Struc_Base_Destroy_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Base\Struc_Base_Destroy_SFX	
+	844084286	Mastra_Announcer_VO___Antaboga_Ally_Slain__2			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Antaboga_Ally_Slain__2	
+	880641952	UI_InG_Regen_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Regen_SFX	
+	933517160	Stop_B001_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\Stop_B001_Death_SFX	
+	937934322	Stop_Artifact_RimauTalisman_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_RimauTalisman_Hit_SFX	
+	960835571	Mastra_Announcer_VO___Enemy_Quadra_Kill__3			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Enemy_Quadra_Kill__3	
+	974231822	J001_Resurrect_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Resurrect_SFX	
+	997234851	Mastra_Announcer_VO___Pirates_Enemy_Slain			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Pirates_Enemy_Slain	
+	998304318	J001_StrucAtk_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_StrucAtk_Hit_SFX	
+	1026486647	J001_BAtk_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_BAtk_Hit_SFX	
+	1059616746	Stop_B003_Pas_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\Stop_B003_Pas_Cast_SFX	
+	1071478805	Stop_J003_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J003_Komodo Dragon\Stop_J003_Engage_SFX	
+	1110772681	Stop_J001_StrucAtk_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_StrucAtk_Hit_SFX	
+	1125943100	J005_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J005_Rooster\J005_Engage_SFX	
+	1141789320	Stop_J001_Skl02_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_Skl02_Hit_SFX	
+	1176204583	Artifact_BokShield_Int_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_BokShield_Int_SFX	
+	1180164183	Mastra_Announcer_VO___Initiate_Retreat__4			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Initiate_Retreat__4	
+	1194749700	Artifact_OrbOfShakti_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_OrbOfShakti_Cast_SFX	
+	1217385438	J003_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J003_Komodo Dragon\J003_Engage_SFX	
+	1220144534	Mastra_Announcer_VO___Launch_Attack__2			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Launch_Attack__2	
+	1221054849	Mastra_Announcer_VO___Minions__2			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Minions__2	
+	1226046492	J004_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J004_Sumatran Rhinoceros\J004_Death_SFX	
+	1256879267	J004_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J004_Sumatran Rhinoceros\J004_Engage_SFX	
+	1270096176	Stop_B001_BAtk_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\Stop_B001_BAtk_Hit_SFX	
+	1313125249	J001_Skl02_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Skl02_Hit_SFX	
+	1328677576	Mastra_Announcer_VO___Rampage__3			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Rampage__3	
+	1345189799	Struc_Gate_Destroy_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Gate\Struc_Gate_Destroy_SFX	
+	1363590511	J001_Skl02_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Skl02_Cast_SFX	
+	1407364007	Struc_Tower_Atk_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Struc_Tower_Atk_SFX	
+	1425485933	Artifact_BokShield_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_BokShield_Cast_SFX	
+	1542186575	Stop_J001_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_Engage_SFX	
+	1561937271	Stop_B001_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\Stop_B001_Engage_SFX	
+	1597214749	J001_Exit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Exit_SFX	
+	1654539474	Stop_Artifact_ChakraOfSwiftness_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_ChakraOfSwiftness_Cast_SFX	
+	1657275056	UI_InG_UseArtifact_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_UseArtifact_SFX	
+	1670641330	Stop_Artifact_ChakraOfSwiftness_Int_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_ChakraOfSwiftness_Int_SFX	
+	1683978925	Stop_Artifact_NecklaceOfKalabubu_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_NecklaceOfKalabubu_Hit_SFX	
+	1694665466	J001_StrucAtk_Int_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_StrucAtk_Int_SFX	
+	1860131564	Stop_J005_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J005_Rooster\Stop_J005_Death_SFX	
+	1896736091	Mastra_Announcer_VO___Brace			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Brace	
+	1899350332	Stop_Artifact_BokShield_AbsorbDmg_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_BokShield_AbsorbDmg_SFX	
+	1902570801	Stop_Artifact_OrbOfShakti_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_OrbOfShakti_Hit_SFX	
+	1980287776	Mastra_Announcer_VO___Shutdown			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Shutdown	
+	1985371284	Stop_J003_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J003_Komodo Dragon\Stop_J003_BAtk_SFX	
+	1994783554	Artifact_NecklaceOfKalabubu_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_NecklaceOfKalabubu_Cast_SFX	
+	2021466227	Stop_J005_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J005_Rooster\Stop_J005_Engage_SFX	
+	2086891729	B001_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_Death_SFX	
+	2089233583	Artifact_ChakraOfSwiftness_Int_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_ChakraOfSwiftness_Int_SFX	
+	2113864197	J005_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J005_Rooster\J005_Death_SFX	
+	2135933254	J002_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J002_Water Buffalo\J002_Death_SFX	
+	2197328533	Stop_Struc_Tower_Atk_Warning_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Stop_Struc_Tower_Atk_Warning_SFX	
+	2247112826	B002_Pas_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B002_Pas_Cast_SFX	
+	2255142765	Amb_Forest_SFX			\Default Work Unit\InGame\SFX_InG\Ambience\Amb_Forest_SFX	
+	2269486193	Stop_Struc_Tower_GetHit_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Stop_Struc_Tower_GetHit_SFX	
+	2274835211	Stop_J002_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J002_Water Buffalo\Stop_J002_BAtk_SFX	
+	2290711136	Mastra_Announcer_VO___Gather_Here			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Gather_Here	
+	2291375864	Stop_J001_BAtk_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_BAtk_Hit_SFX	
+	2305887041	Stop_J001_StrucAtk_Int_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_StrucAtk_Int_SFX	
+	2309351171	Mastra_Announcer_VO___Outer_gate_attacked__6__4			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Outer_gate_attacked__6__4	
+	2361586137	UI_InG_MapIntro_Angkaramurka_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_MapIntro_Angkaramurka_SFX	
+	2417347781	J002_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J002_Water Buffalo\J002_Engage_SFX	
+	2430404734	Stop_Artifact_BokShield_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_BokShield_Cast_SFX	
+	2508183937	Mastra_Announcer_VO___Defeat__2			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Defeat__2	
+	2561113311	J003_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J003_Komodo Dragon\J003_Death_SFX	
+	2561238061	UI_InG_Skl_LvlUp_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Skl_LvlUp_SFX	
+	2710107308	Stop_Artifact_KerisOfShadow_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_KerisOfShadow_Cast_SFX	
+	2733817391	Stop_J001_Skl01_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_Skl01_Hit_SFX	
+	2780293594	UI_InG_TeamSignal_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_TeamSignal_SFX	
+	2796292373	Stop_J004_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J004_Sumatran Rhinoceros\Stop_J004_Death_SFX	
+	2800064941	Mastra_Announcer_VO___Wiped_Out__3			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Wiped_Out__3	
+	2805857617	UI_InG_Champ_Skl_Ready_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Champ_Skl_Ready_SFX	
+	2814888593	J001_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_BAtk_SFX	
+	2822766661	Stop_J004_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J004_Sumatran Rhinoceros\Stop_J004_BAtk_SFX	
+	2823521716	Struc_Tower_GetHit_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Struc_Tower_GetHit_SFX	
+	2848378581	UI_InG_Champ_Res_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Champ_Res_SFX	
+	2876845922	Stop_B001_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\Stop_B001_BAtk_SFX	
+	2887393332	Stop_Struc_Tower_Destroy_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Stop_Struc_Tower_Destroy_SFX	
+	2933400020	Stop_J001_Enter_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_Enter_SFX	
+	2991425351	UI_InG_EnemyKill_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_EnemyKill_SFX	
+	3040658967	Stop_J001_Resurrect_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_Resurrect_SFX	
+	3062573598	Mastra_Announcer_VO___Triple_Kill__3			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Triple_Kill__3	
+	3075232180	Artifact_OrbOfShakti_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_OrbOfShakti_Hit_SFX	
+	3075905906	J001_Skl01_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Skl01_Cast_SFX	
+	3139963262	Stop_J005_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J005_Rooster\Stop_J005_BAtk_SFX	
+	3160198560	Stop_J001_Skl02_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_Skl02_Cast_SFX	
+	3259034732	Mastra_Announcer_VO___Base_attacked__3			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Base_attacked__3	
+	3342287200	B001_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_Engage_SFX	
+	3359574895	B001_BAtk_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_BAtk_Hit_SFX	
+	3378882731	B001_Pas_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\B001_Pas_Cast_SFX	
+	3384786467	Stop_Artifact_NecklaceOfKalabubu_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_NecklaceOfKalabubu_Cast_SFX	
+	3409207462	Mastra_Announcer_VO___Inside_gate_destroyed__4			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Inside_gate_destroyed__4	
+	3412692521	UI_InG_ChakraVein_LvlUp_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_ChakraVein_LvlUp_SFX	
+	3417844493	Mastra_Announcer_VO___Antaboga_Enemy_Slain__3			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Antaboga_Enemy_Slain__3	
+	3425532949	Stop_B002_Pas_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\Stop_B002_Pas_Cast_SFX	
+	3444268150	Stop_Artifact_RimauTalisman_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_RimauTalisman_Cast_SFX	
+	3482386862	Stop_J002_Engage_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J002_Water Buffalo\Stop_J002_Engage_SFX	
+	3488947871	Stop_B001_Resurrect_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\B001_Bota\Stop_B001_Resurrect_SFX	
+	3523018518	Mastra_Announcer_VO___Bota_Enemy_Slain__3			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Bota_Enemy_Slain__3	
+	3537472526	J004_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J004_Sumatran Rhinoceros\J004_BAtk_SFX	
+	3548150582	J001_Skl01_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Skl01_Hit_SFX	
+	3702603129	Mastra_Announcer_VO___Bota_Ally_Slain			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Bota_Ally_Slain	
+	3732068744	Mastra_Announcer_VO___Double_Kill__2			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Double_Kill__2	
+	3747682221	UI_InG_Struc_Tower_GetHit_Warning_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Struc_Tower_GetHit_Warning_SFX	
+	3754304891	Amb_Sea_SFX			\Default Work Unit\InGame\SFX_InG\Ambience\Amb_Sea_SFX	
+	3784921459	Mastra_Announcer_VO___First_Blood__2			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___First_Blood__2	
+	3901511633	J001_Enter_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\J001_Enter_SFX	
+	3912160890	Stop_J001_BAtk_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_BAtk_SFX	
+	3921121191	Mastra_Announcer_VO___Ally_Slain__3			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Ally_Slain__3	
+	3930278996	Stop_Struc_Tower_Atk_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Stop_Struc_Tower_Atk_SFX	
+	3968380678	Stop_Struc_Gate_Destroy_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Gate\Stop_Struc_Gate_Destroy_SFX	
+	4000266433	Mastra_Announcer_VO___Your_team_destroyed_the_gate			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Your_team_destroyed_the_gate	
+	4004661262	Stop_Artifact_BokShield_Int_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Stop_Artifact_BokShield_Int_SFX	
+	4009786219	Artifact_RimauTalisman_Hit_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_RimauTalisman_Hit_SFX	
+	4014116572	Amb_River_SFX			\Default Work Unit\InGame\SFX_InG\Ambience\Amb_River_SFX	
+	4050855843	Mastra_Announcer_VO___Welcome__3			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Welcome__3	
+	4087993371	Struc_Tower_Destroy_SFX			\Default Work Unit\InGame\SFX_InG\Structures\Struc_Tower\Struc_Tower_Destroy_SFX	
+	4097875204	Mastra_Announcer_VO___Enemy_Slain__2			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___Enemy_Slain__2	
+	4165574797	Artifact_BokShield_AbsorbDmg_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_BokShield_AbsorbDmg_SFX	
+	4173050544	Stop_J001_Death_SFX			\Default Work Unit\InGame\SFX_InG\Enemies\J001_Antaboga\Stop_J001_Death_SFX	
+	4191653521	Mastra_Announcer_VO___In_Position__2			\Default Work Unit\InGame\VO\Announcer\Mastra_Announcer_VO___In_Position__2	
+	4221163301	Artifact_ChakraOfSwiftness_Cast_SFX			\Default Work Unit\InGame\SFX_InG\Artifacts\Artifact_ChakraOfSwiftness_Cast_SFX	
+	4265975494	UI_InG_Recall_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_Recall_SFX	
+	4272132875	UI_InG_AllyKill_SFX			\Default Work Unit\InGame\SFX_InG\UI_InGame\UI_InG_AllyKill_SFX	
+
+Effect plug-ins	ID	Name	Type				Notes
+	773844014	Parametric EQ (Custom)	Wwise Parametric EQ			
+	1182561210	Cut_3dB_10KHz	Wwise Parametric EQ			
+	1866712635	High_Freq_Cut_1	Wwise Parametric EQ			
+	2547645744	Boost_3dB_100Hz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23542591	UI_InG_UseArtifact_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_UseArtifact_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_UseArtifact_SFX		26638
+	34414723	UI_InG_Champ_Skl_Ready_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Champ_Skl_Ready_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Champ_Skl_Ready_SFX		21771
+	45558492	J002_BAtk_03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J002_BAtk_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J002_Water Buffalo\J002_BAtk_SFX\J002_BAtk_03_SFX		9526
+	65339970	Struc_Tower_Destroy_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Tower_Destroy_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Tower\Struc_Tower_Destroy_SFX		57023
+	82016349	Artifact_ChakraOfSwiftness_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_ChakraOfSwiftness_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_ChakraOfSwiftness_Cast_SFX		10596
+	84754542	J005_BAtk_03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J005_BAtk_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J005_Rooster\J005_BAtk_SFX\J005_BAtk_03_SFX		4216
+	87540252	Mastra Announcer VO - Antaboga Ally Slain #2	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Antaboga Ally Slain #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Antaboga Ally Slain #2		35981
+	110343103	B001_BAtk_Hit_02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_Hit_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_Hit_SFX\B001_BAtk_Hit_02_SFX		5412
+	111726691	Mastra Announcer VO - Bota Ally Slain	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Bota Ally Slain_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Bota Ally Slain		32782
+	115861517	B001_Pas_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_Pas_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_Pas_Cast_SFX		8836
+	124550282	Mastra Announcer VO - Brace	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Brace_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Brace		67465
+	136090092	Mastra Announcer VO - Rampage #3	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Rampage #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Rampage #3		21226
+	150983826	J001_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Skl01_Cast_SFX		39968
+	155567380	J003_BAtk_02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J003_BAtk_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J003_Komodo Dragon\J003_BAtk_SFX\J003_BAtk_02_SFX		10956
+	159196207	Artifact_RimauTalisman_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_RimauTalisman_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_RimauTalisman_Hit_SFX		7153
+	180486629	Amb_River_Base_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Amb_River_Base_01_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_River_SFX\Amb_River_Base_01_SFX		676282
+	193118408	UI_InG_ChakraVein_LvlUp_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_ChakraVein_LvlUp_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_ChakraVein_LvlUp_SFX		42965
+	196586072	UI_InG_MapIntro_Angkaramurka_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_MapIntro_Angkaramurka_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_MapIntro_Angkaramurka_SFX		81798
+	212954708	B001_BAtk_Hit_03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_Hit_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_Hit_SFX\B001_BAtk_Hit_03_SFX		8484
+	217103394	B001_BAtk_Hit_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_Hit_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_Hit_SFX\B001_BAtk_Hit_01_SFX		4854
+	221026722	Artifact_BokShield_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_BokShield_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_BokShield_Cast_SFX		9639
+	242053666	Mastra Announcer VO - Enemy Quadra Kill #3	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Enemy Quadra Kill #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Enemy Quadra Kill #3		23009
+	242092755	J001_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Skl01_Hit_SFX		18914
+	243300794	J003_BAtk_03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J003_BAtk_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J003_Komodo Dragon\J003_BAtk_SFX\J003_BAtk_03_SFX		11828
+	250705171	J004_Death_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J004_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J004_Sumatran Rhinoceros\J004_Death_SFX		16784
+	250777055	Mastra Announcer VO - Pirates Enemy Slain	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Pirates Enemy Slain_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Pirates Enemy Slain		34387
+	258542214	J001_BAtk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_BAtk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_BAtk_SFX		21073
+	264555014	Mastra Announcer VO - Minions #2	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Minions #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Minions #2		35739
+	275371702	J001_Skl02_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Skl02_Hit_SFX		6348
+	288788521	UI_InG_Champ_LvlUp_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Champ_LvlUp_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Champ_LvlUp_SFX		26820
+	300789205	J002_BAtk_02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J002_BAtk_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J002_Water Buffalo\J002_BAtk_SFX\J002_BAtk_02_SFX		7324
+	353658781	Mastra Announcer VO - Your team destroyed the gate	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Your team destroyed the gate_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Your team destroyed the gate		31993
+	358474599	Mastra Announcer VO - In Position #2	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - In Position #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - In Position #2		53469
+	401878677	Struc_Tower_Atk_Warning_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Tower_Atk_Warning_01_SFX_EAE1E14B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Tower\Struc_Tower_Atk_Warning_SFX		6152
+	413816992	Artifact_BokShield_AbsorbDmg_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_BokShield_AbsorbDmg_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_BokShield_AbsorbDmg_SFX		10095
+	416064778	Artifact_OrbOfShakti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_OrbOfShakti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_OrbOfShakti_Hit_SFX		11501
+	420256909	Mastra Announcer VO - Welcome #3	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Welcome #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Welcome #3		27798
+	427966650	Mastra Announcer VO - Antaboga Enemy Slain #3	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Antaboga Enemy Slain #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Antaboga Enemy Slain #3		38842
+	433589184	J003_Engage_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J003_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J003_Komodo Dragon\J003_Engage_SFX		15371
+	438359316	Mastra Announcer VO - Bota Enemy Slain #3	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Bota Enemy Slain #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Bota Enemy Slain #3		30277
+	441516820	Mastra Announcer VO - Launch Attack #2	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Launch Attack #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Launch Attack #2		22480
+	454738577	Struc_Tower_GetHit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Tower_GetHit_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Tower\Struc_Tower_GetHit_SFX		23704
+	459607002	Mastra Announcer VO - Ally Slain #3	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Ally Slain #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Ally Slain #3		31384
+	464648455	J003_BAtk_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J003_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J003_Komodo Dragon\J003_BAtk_SFX\J003_BAtk_01_SFX		11264
+	472891295	Mastra Announcer VO - Triple Kill #3	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Triple Kill #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Triple Kill #3		19679
+	485341001	Amb_Forest_Base_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Amb_Forest_Base_01_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Forest_SFX\Amb_Forest_Base_01_SFX		781750
+	503829732	J002_Death_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J002_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J002_Water Buffalo\J002_Death_SFX		15060
+	521259185	UI_InG_Recall_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Recall_01_SFX_6F259460.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Recall_SFX		99736
+	526735897	J001_StrucAtk_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_StrucAtk_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_StrucAtk_Int_SFX		12545
+	530365220	Mastra Announcer VO - First Blood #2	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - First Blood #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - First Blood #2		18963
+	548439449	Artifact_KerisOfShadow_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_KerisOfShadow_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_KerisOfShadow_Cast_SFX		8403
+	552740806	Mastra Announcer VO - Double Kill #2	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Double Kill #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Double Kill #2		17844
+	553497490	B001_BAtk_02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_SFX\B001_BAtk_02_SFX		8801
+	560653614	Mastra Announcer VO - Pirates Ally Slain #2	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Pirates Ally Slain #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Pirates Ally Slain #2		37874
+	570178979	UI_InG_Skl_LvlUp_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Skl_LvlUp_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Skl_LvlUp_SFX		21506
+	575391412	Artifact_NecklaceOfKalabubu_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_NecklaceOfKalabubu_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_NecklaceOfKalabubu_Cast_SFX		16038
+	600545046	J005_Death_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J005_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J005_Rooster\J005_Death_SFX		12998
+	605943518	B001_Resurrect_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_Resurrect_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_Resurrect_SFX		24813
+	616272149	J003_Death_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J003_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J003_Komodo Dragon\J003_Death_SFX		13946
+	620378319	Artifact_ChakraOfSwiftness_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_ChakraOfSwiftness_Int_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_ChakraOfSwiftness_Int_SFX		31973
+	641030678	J004_BAtk_02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J004_BAtk_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J004_Sumatran Rhinoceros\J004_BAtk_SFX\J004_BAtk_02_SFX		11011
+	652107929	UI_InG_Regen_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Regen_01_SFX_B9E00D2B.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Regen_SFX		35057
+	659695044	Mastra Announcer VO - Inside gate destroyed #4	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Inside gate destroyed #4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Inside gate destroyed #4		41043
+	689047492	Mastra Announcer VO - Base attacked #3	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Base attacked #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Base attacked #3		31218
+	700609169	J001_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Skl02_Cast_SFX		24257
+	701079812	J004_Engage_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J004_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J004_Sumatran Rhinoceros\J004_Engage_SFX		15932
+	716133237	Mastra Announcer VO - Enemy Slain #2	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Enemy Slain #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Enemy Slain #2		29762
+	737471061	J002_BAtk_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J002_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J002_Water Buffalo\J002_BAtk_SFX\J002_BAtk_01_SFX		9545
+	759604337	Struc_Tower_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Tower_Atk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Tower\Struc_Tower_Atk_SFX		27761
+	760485346	UI_InG_MatchEnd_Win_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_MatchEnd_Win_01_SFX_7913A350.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_MatchEnd_Win_SFX		38618
+	764313894	J001_Enter_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_Enter_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_Enter_SFX		19866
+	784688990	B002_Pas_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B002_Pas_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B002_Pas_Cast_SFX		18436
+	785672262	UI_InG_EnemyKill_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_EnemyKill_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_EnemyKill_SFX		50831
+	787749996	Mastra Announcer VO - Defeat #2	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Defeat #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Defeat #2		19912
+	790021228	B001_Death_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_Death_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_Death_SFX		24932
+	798202251	UI_InG_MatchStart_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_MatchStart_01_SFX_B94FD729.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_MatchStart_SFX		138878
+	807901647	Artifact_RimauTalisman_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_RimauTalisman_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_RimauTalisman_Cast_SFX		10707
+	808807254	Artifact_NecklaceOfKalabubu_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_NecklaceOfKalabubu_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_NecklaceOfKalabubu_Hit_SFX		8726
+	810265224	J002_Engage_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J002_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J002_Water Buffalo\J002_Engage_SFX		14189
+	818353448	Struc_Gate_Destroy_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Gate_Destroy_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Gate\Struc_Gate_Destroy_SFX		54242
+	825935849	Mastra Announcer VO - Outer gate destroyed	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Outer gate destroyed_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Outer gate destroyed		36613
+	832455348	J001_StrucAtk_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_StrucAtk_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_StrucAtk_Cast_SFX		39663
+	833383810	Mastra Announcer VO - Initiate Retreat #4	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Initiate Retreat #4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Initiate Retreat #4		27051
+	851565049	UI_InG_MatchEnd_Lose_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_MatchEnd_Lose_01_SFX_V2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_MatchEnd_Lose_SFX		63239
+	859731631	B003_Pas_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B003_Pas_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B003_Pas_Cast_SFX		8310
+	871004793	Mastra Announcer VO - Mastra	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Mastra_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Mastra		20230
+	875528628	Artifact_OrbOfShakti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_OrbOfShakti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_OrbOfShakti_Cast_SFX		15502
+	885180689	Artifact_BokShield_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Artifact_BokShield_Int_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Artifacts\Artifact_BokShield_Int_SFX		39749
+	902120283	UI_InG_TeamSignal_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_TeamSignal_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_TeamSignal_SFX		17014
+	924981079	B001_Engage_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_Engage_SFX		19378
+	931569528	Mastra Announcer VO - Wiped Out #3	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Wiped Out #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Wiped Out #3		15304
+	938283322	UI_InG_Champ_Res_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Champ_Res_01_SFX_10DDC9BB.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Champ_Res_SFX		18478
+	940856718	Mastra Announcer VO - Gather Here	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Gather Here_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Gather Here		16606
+	963480773	UI_InG_AllyKill_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_AllyKill_01_SFX_V2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_AllyKill_SFX		40215
+	980437011	J004_BAtk_03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J004_BAtk_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J004_Sumatran Rhinoceros\J004_BAtk_SFX\J004_BAtk_03_SFX		12858
+	980858070	J005_BAtk_02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J005_BAtk_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J005_Rooster\J005_BAtk_SFX\J005_BAtk_02_SFX		5063
+	996116230	J005_BAtk_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J005_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J005_Rooster\J005_BAtk_SFX\J005_BAtk_01_SFX		2622
+	1003548275	J004_BAtk_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J004_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J004_Sumatran Rhinoceros\J004_BAtk_SFX\J004_BAtk_01_SFX		11270
+	1006404539	J005_Engage_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J005_Engage_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J005_Rooster\J005_Engage_SFX		11365
+	1007623345	Amb_Sea_Base_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Amb_Sea_Base_01_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Sea_SFX\Amb_Sea_Base_01_SFX		1160269
+	1016981703	Mastra Announcer VO - Shutdown	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Shutdown_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Shutdown		16846
+	1020870943	UI_InG_Champ_Pas_Full_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Champ_Pas_Full_01_SFX_512A1796.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Champ_Pas_Full_SFX		16296
+	1025954806	Mastra Announcer VO - Victory #4	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Victory #4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Victory #4		18151
+	1028261752	Struc_Base_Destroy_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Struc_Base_Destroy_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Structures\Struc_Base\Struc_Base_Destroy_SFX		75965
+	1036314761	B001_BAtk_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_SFX\B001_BAtk_01_SFX		8668
+	1040909586	B001_BAtk_03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\B001_BAtk_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\B001_Bota\B001_BAtk_SFX\B001_BAtk_03_SFX		9007
+	1041602991	UI_InG_Struc_Tower_GetHit_Warning_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_InG_Struc_Tower_GetHit_Warning_01_SFX_V2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_InGame\UI_InG_Struc_Tower_GetHit_Warning_SFX		14845
+	1049993462	J001_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_BAtk_Hit_SFX		9069
+	1068286430	Mastra Announcer VO - Outer gate attacked #6 #4	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Mastra Announcer VO - Outer gate attacked #6 #4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Announcer\Mastra Announcer VO - Outer gate attacked #6 #4		34244
+	1068320930	J001_StrucAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\J001_StrucAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Enemies\J001_Antaboga\J001_StrucAtk_Hit_SFX		23850
+

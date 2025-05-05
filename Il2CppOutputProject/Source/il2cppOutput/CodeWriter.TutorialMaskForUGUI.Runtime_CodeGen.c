@@ -1,0 +1,84 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m63ACB17201397D4F46DAFE8B7E19731F1B45FDFB (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2E8D1FFF51F65D73F207ABA218309BCC605D6F11 (void);
+extern void MaskFixForTutorial_get_Graphic_m79D2147D3FE5EB80366DF741FC5E65EC11B89AEF (void);
+extern void MaskFixForTutorial_get_Mask_m8FF7EB581D450F104C67885AD6EF7456D3BBF888 (void);
+extern void MaskFixForTutorial_GetModifiedMaterial_m20D1A52DE49381E2D7947BB9D04DFACFA9BC10AE (void);
+extern void MaskFixForTutorial__ctor_m034D46E609ED2659F1631C1EADDE99E3E4F6CBB6 (void);
+extern void TutorialMask_get_Graphic_m1AE6E93DB483DE9F5230317F268BA4BA313152B8 (void);
+extern void TutorialMask_OnEnable_mACA4738A4FB03F3F4755625BEFA7069368FD8EF3 (void);
+extern void TutorialMask_OnDisable_m32C3DE79D49C7B6B27BCC2E03F2AA5EBA06B5D49 (void);
+extern void TutorialMask_GetModifiedMaterial_m2208A7ED7886BD8E40B574CEF9ADE0DCE76BC121 (void);
+extern void TutorialMask__ctor_mC3312EE598BE3704C9903134A56101694057BEA1 (void);
+extern void TutorialObject_get_Graphic_mA94F005E4CD0EFBC012F1855C968CFB908DA08EB (void);
+extern void TutorialObject_OnEnable_mA09893492213CA58E7CC02E0B3567F8A38E781A6 (void);
+extern void TutorialObject_OnDisable_mD2A3BEBB6DE3C6332C4A7ACA507E7D3C55F89D46 (void);
+extern void TutorialObject_GetModifiedMaterial_m612ADCB3C9D267ED60271F6540F539EF293ED450 (void);
+extern void TutorialObject__ctor_mD7DCB7E57636C00778660DADB79EA241B3C2894E (void);
+static Il2CppMethodPointer s_methodPointers[16] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m63ACB17201397D4F46DAFE8B7E19731F1B45FDFB,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2E8D1FFF51F65D73F207ABA218309BCC605D6F11,
+	MaskFixForTutorial_get_Graphic_m79D2147D3FE5EB80366DF741FC5E65EC11B89AEF,
+	MaskFixForTutorial_get_Mask_m8FF7EB581D450F104C67885AD6EF7456D3BBF888,
+	MaskFixForTutorial_GetModifiedMaterial_m20D1A52DE49381E2D7947BB9D04DFACFA9BC10AE,
+	MaskFixForTutorial__ctor_m034D46E609ED2659F1631C1EADDE99E3E4F6CBB6,
+	TutorialMask_get_Graphic_m1AE6E93DB483DE9F5230317F268BA4BA313152B8,
+	TutorialMask_OnEnable_mACA4738A4FB03F3F4755625BEFA7069368FD8EF3,
+	TutorialMask_OnDisable_m32C3DE79D49C7B6B27BCC2E03F2AA5EBA06B5D49,
+	TutorialMask_GetModifiedMaterial_m2208A7ED7886BD8E40B574CEF9ADE0DCE76BC121,
+	TutorialMask__ctor_mC3312EE598BE3704C9903134A56101694057BEA1,
+	TutorialObject_get_Graphic_mA94F005E4CD0EFBC012F1855C968CFB908DA08EB,
+	TutorialObject_OnEnable_mA09893492213CA58E7CC02E0B3567F8A38E781A6,
+	TutorialObject_OnDisable_mD2A3BEBB6DE3C6332C4A7ACA507E7D3C55F89D46,
+	TutorialObject_GetModifiedMaterial_m612ADCB3C9D267ED60271F6540F539EF293ED450,
+	TutorialObject__ctor_mD7DCB7E57636C00778660DADB79EA241B3C2894E,
+};
+static const int32_t s_InvokerIndices[16] = 
+{
+	31641,
+	20749,
+	20467,
+	20467,
+	14084,
+	20749,
+	20467,
+	20749,
+	20749,
+	14084,
+	20749,
+	20467,
+	20749,
+	20749,
+	14084,
+	20749,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_CodeWriter_TutorialMaskForUGUI_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_CodeWriter_TutorialMaskForUGUI_Runtime_CodeGenModule = 
+{
+	"CodeWriter.TutorialMaskForUGUI.Runtime.dll",
+	16,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

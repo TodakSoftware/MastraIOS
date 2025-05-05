@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/iOS</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="27789219" Type="User" Language="SFX" Hash="{6BDF6484-8D60-4675-AA6A-94E415198F66}">
+			<ShortName>SFX_InG</ShortName>
+			<Path>SFX_InG.bnk</Path>
+			<Media>
+				<File Id="23542591" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_UseArtifact_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_UseArtifact_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="34414723" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_Champ_Skl_Ready_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_Champ_Skl_Ready_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="65339970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Struc_Tower_Destroy_01_SFX.wav</ShortName>
+					<CachePath>SFX/Struc_Tower_Destroy_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="115861517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B001_Pas_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/B001_Pas_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="150983826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J001_Skl01_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/J001_Skl01_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="180486629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_River_Base_01_SFX.wav</ShortName>
+					<CachePath>SFX/Amb_River_Base_01_SFX_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="193118408" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_ChakraVein_LvlUp_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_ChakraVein_LvlUp_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="196586072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_MapIntro_Angkaramurka_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_MapIntro_Angkaramurka_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="217103394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B001_BAtk_Hit_01_SFX.wav</ShortName>
+					<CachePath>SFX/B001_BAtk_Hit_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="242092755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J001_Skl01_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/J001_Skl01_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="250705171" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J004_Death_01_SFX.wav</ShortName>
+					<CachePath>SFX/J004_Death_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="258542214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J001_BAtk_SFX.wav</ShortName>
+					<CachePath>SFX/J001_BAtk_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="275371702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J001_Skl02_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/J001_Skl02_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="288788521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_Champ_LvlUp_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_Champ_LvlUp_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="301023994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_Struc_Tower_GetHit_Warning_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_Struc_Tower_GetHit_Warning_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="401878677" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Struc_Tower_Atk_Warning_01_SFX.wav</ShortName>
+					<CachePath>SFX/Struc_Tower_Atk_Warning_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="433589184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J003_Engage_01_SFX.wav</ShortName>
+					<CachePath>SFX/J003_Engage_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="454738577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Struc_Tower_GetHit_01_SFX.wav</ShortName>
+					<CachePath>SFX/Struc_Tower_GetHit_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="464648455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J003_BAtk_01_SFX.wav</ShortName>
+					<CachePath>SFX/J003_BAtk_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="485341001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_Forest_Base_01_SFX.wav</ShortName>
+					<CachePath>SFX/Amb_Forest_Base_01_SFX_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="503829732" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J002_Death_01_SFX.wav</ShortName>
+					<CachePath>SFX/J002_Death_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="521259185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_Recall_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_Recall_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="553497490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B001_BAtk_02_SFX.wav</ShortName>
+					<CachePath>SFX/B001_BAtk_02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="570178979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_Skl_LvlUp_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_Skl_LvlUp_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="600545046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J005_Death_01_SFX.wav</ShortName>
+					<CachePath>SFX/J005_Death_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="605943518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B001_Resurrect_01_SFX.wav</ShortName>
+					<CachePath>SFX/B001_Resurrect_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="616272149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J003_Death_01_SFX.wav</ShortName>
+					<CachePath>SFX/J003_Death_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="652107929" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_Regen_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_Regen_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="700609169" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J001_Skl02_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/J001_Skl02_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="701079812" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J004_Engage_01_SFX.wav</ShortName>
+					<CachePath>SFX/J004_Engage_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="737471061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J002_BAtk_01_SFX.wav</ShortName>
+					<CachePath>SFX/J002_BAtk_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="759604337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Struc_Tower_Atk_01_SFX.wav</ShortName>
+					<CachePath>SFX/Struc_Tower_Atk_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="760485346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_MatchEnd_Win_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_MatchEnd_Win_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="764313894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J001_Enter_SFX.wav</ShortName>
+					<CachePath>SFX/J001_Enter_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="784688990" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B002_Pas_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/B002_Pas_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="785672262" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_EnemyKill_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_EnemyKill_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="790021228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B001_Death_01_SFX.wav</ShortName>
+					<CachePath>SFX/B001_Death_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="798202251" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_MatchStart_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_MatchStart_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="810265224" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J002_Engage_01_SFX.wav</ShortName>
+					<CachePath>SFX/J002_Engage_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="818353448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Struc_Gate_Destroy_01_SFX.wav</ShortName>
+					<CachePath>SFX/Struc_Gate_Destroy_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="859731631" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B003_Pas_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/B003_Pas_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="902120283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_TeamSignal_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_TeamSignal_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="924981079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B001_Engage_01_SFX.wav</ShortName>
+					<CachePath>SFX/B001_Engage_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="932223774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_AllyKill_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_AllyKill_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="938283322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_Champ_Res_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_Champ_Res_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="996116230" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J005_BAtk_01_SFX.wav</ShortName>
+					<CachePath>SFX/J005_BAtk_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1003548275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J004_BAtk_01_SFX.wav</ShortName>
+					<CachePath>SFX/J004_BAtk_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1006404539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J005_Engage_01_SFX.wav</ShortName>
+					<CachePath>SFX/J005_Engage_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1007623345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_Sea_Base_01_SFX.wav</ShortName>
+					<CachePath>SFX/Amb_Sea_Base_01_SFX_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="1020870943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_Champ_Pas_Full_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_Champ_Pas_Full_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1028261752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Struc_Base_Destroy_01_SFX.wav</ShortName>
+					<CachePath>SFX/Struc_Base_Destroy_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1036314761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B001_BAtk_01_SFX.wav</ShortName>
+					<CachePath>SFX/B001_BAtk_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1040909586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B001_BAtk_03_SFX.wav</ShortName>
+					<CachePath>SFX/B001_BAtk_03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1049993462" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>J001_BAtk_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/J001_BAtk_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1056759482" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_InG_MatchEnd_Lose_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_InG_MatchEnd_Lose_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2255142765" Name="Amb_Forest_SFX" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="485341001"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4014116572" Name="Amb_River_SFX" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="180486629"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3754304891" Name="Amb_Sea_SFX" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1007623345"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3359574895" Name="B001_BAtk_Hit_SFX" DurationType="OneShot" DurationMin="0.68266666" DurationMax="0.68266666">
+					<MediaRefs>
+						<MediaRef Id="217103394"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="365644249" Name="B001_BAtk_SFX" DurationType="OneShot" DurationMin="1.3653333" DurationMax="2.048">
+					<MediaRefs>
+						<MediaRef Id="553497490"/>
+						<MediaRef Id="1036314761"/>
+						<MediaRef Id="1040909586"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2086891729" Name="B001_Death_SFX" DurationType="OneShot" DurationMin="3.4133334" DurationMax="3.4133334">
+					<MediaRefs>
+						<MediaRef Id="790021228"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3342287200" Name="B001_Engage_SFX" DurationType="OneShot" DurationMin="2.7306666" DurationMax="2.7306666">
+					<MediaRefs>
+						<MediaRef Id="924981079"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3378882731" Name="B001_Pas_Cast_SFX" DurationType="OneShot" DurationMin="1.3653333" DurationMax="1.3653333">
+					<MediaRefs>
+						<MediaRef Id="115861517"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="693000342" Name="B001_Resurrect_SFX" DurationType="OneShot" DurationMin="3.4133334" DurationMax="3.4133334">
+					<MediaRefs>
+						<MediaRef Id="605943518"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2247112826" Name="B002_Pas_Cast_SFX" DurationType="OneShot" DurationMin="2.7306666" DurationMax="2.7306666">
+					<MediaRefs>
+						<MediaRef Id="784688990"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="395710309" Name="B003_Pas_Cast_SFX" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<MediaRefs>
+						<MediaRef Id="859731631"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1026486647" Name="J001_BAtk_Hit_SFX" DurationType="OneShot" DurationMin="1.3653333" DurationMax="1.3653333">
+					<MediaRefs>
+						<MediaRef Id="1049993462"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2814888593" Name="J001_BAtk_SFX" DurationType="OneShot" DurationMin="1.6395833" DurationMax="1.6395833">
+					<MediaRefs>
+						<MediaRef Id="258542214"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3901511633" Name="J001_Enter_SFX" DurationType="OneShot" DurationMin="1.55175" DurationMax="1.55175">
+					<MediaRefs>
+						<MediaRef Id="764313894"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1597214749" Name="J001_Exit_SFX" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="974231822" Name="J001_Resurrect_SFX" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3075905906" Name="J001_Skl01_Cast_SFX" DurationType="OneShot" DurationMin="4.125" DurationMax="4.125">
+					<MediaRefs>
+						<MediaRef Id="150983826"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3548150582" Name="J001_Skl01_Hit_SFX" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="242092755"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1363590511" Name="J001_Skl02_Cast_SFX" DurationType="OneShot" DurationMin="2.576521" DurationMax="2.576521">
+					<MediaRefs>
+						<MediaRef Id="700609169"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1313125249" Name="J001_Skl02_Hit_SFX" DurationType="OneShot" DurationMin="0.68266666" DurationMax="0.68266666">
+					<MediaRefs>
+						<MediaRef Id="275371702"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="734722276" Name="J002_BAtk_SFX" DurationType="OneShot" DurationMin="1.3653333" DurationMax="1.3653333">
+					<MediaRefs>
+						<MediaRef Id="737471061"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2135933254" Name="J002_Death_SFX" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<MediaRefs>
+						<MediaRef Id="503829732"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2417347781" Name="J002_Engage_SFX" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<MediaRefs>
+						<MediaRef Id="810265224"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="262341531" Name="J003_BAtk_SFX" DurationType="OneShot" DurationMin="1.3653333" DurationMax="1.3653333">
+					<MediaRefs>
+						<MediaRef Id="464648455"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2561113311" Name="J003_Death_SFX" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<MediaRefs>
+						<MediaRef Id="616272149"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1217385438" Name="J003_Engage_SFX" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<MediaRefs>
+						<MediaRef Id="433589184"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3537472526" Name="J004_BAtk_SFX" DurationType="OneShot" DurationMin="1.3653333" DurationMax="1.3653333">
+					<MediaRefs>
+						<MediaRef Id="1003548275"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1226046492" Name="J004_Death_SFX" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<MediaRefs>
+						<MediaRef Id="250705171"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1256879267" Name="J004_Engage_SFX" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<MediaRefs>
+						<MediaRef Id="701079812"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="728647509" Name="J005_BAtk_SFX" DurationType="OneShot" DurationMin="0.68266666" DurationMax="0.68266666">
+					<MediaRefs>
+						<MediaRef Id="996116230"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2113864197" Name="J005_Death_SFX" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<MediaRefs>
+						<MediaRef Id="600545046"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1125943100" Name="J005_Engage_SFX" DurationType="OneShot" DurationMin="1.3653333" DurationMax="1.3653333">
+					<MediaRefs>
+						<MediaRef Id="1006404539"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="817069433" Name="Struc_Base_Destroy_SFX" DurationType="OneShot" DurationMin="5.000146" DurationMax="5.000146">
+					<MediaRefs>
+						<MediaRef Id="1028261752"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1345189799" Name="Struc_Gate_Destroy_SFX" DurationType="OneShot" DurationMin="3.5842707" DurationMax="3.5842707">
+					<MediaRefs>
+						<MediaRef Id="818353448"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1407364007" Name="Struc_Tower_Atk_SFX" DurationType="OneShot" DurationMin="1.7778958" DurationMax="1.7778958">
+					<MediaRefs>
+						<MediaRef Id="759604337"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="212325466" Name="Struc_Tower_Atk_Warning_SFX" DurationType="OneShot" DurationMin="1.3666667" DurationMax="1.3666667">
+					<MediaRefs>
+						<MediaRef Id="401878677"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4087993371" Name="Struc_Tower_Destroy_SFX" DurationType="OneShot" DurationMin="4.09425" DurationMax="4.09425">
+					<MediaRefs>
+						<MediaRef Id="65339970"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2823521716" Name="Struc_Tower_GetHit_SFX" DurationType="OneShot" DurationMin="1.7811875" DurationMax="1.7811875">
+					<MediaRefs>
+						<MediaRef Id="454738577"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4272132875" Name="UI_InG_AllyKill_SFX" DurationType="OneShot" DurationMin="2.091771" DurationMax="2.091771">
+					<MediaRefs>
+						<MediaRef Id="932223774"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3412692521" Name="UI_InG_ChakraVein_LvlUp_SFX" DurationType="OneShot" DurationMin="2.7169166" DurationMax="2.7169166">
+					<MediaRefs>
+						<MediaRef Id="193118408"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="27928882" Name="UI_InG_Champ_LvlUp_SFX" DurationType="OneShot" DurationMin="2.0921667" DurationMax="2.0921667">
+					<MediaRefs>
+						<MediaRef Id="288788521"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="713459325" Name="UI_InG_Champ_Pas_Full_SFX" DurationType="OneShot" DurationMin="2.0297291" DurationMax="2.0297291">
+					<MediaRefs>
+						<MediaRef Id="1020870943"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2848378581" Name="UI_InG_Champ_Res_SFX" DurationType="OneShot" DurationMin="1.9281459" DurationMax="1.9281459">
+					<MediaRefs>
+						<MediaRef Id="938283322"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2805857617" Name="UI_InG_Champ_Skl_Ready_SFX" DurationType="OneShot" DurationMin="1.2598125" DurationMax="1.2598125">
+					<MediaRefs>
+						<MediaRef Id="34414723"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2991425351" Name="UI_InG_EnemyKill_SFX" DurationType="OneShot" DurationMin="2.1100626" DurationMax="2.1100626">
+					<MediaRefs>
+						<MediaRef Id="785672262"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2361586137" Name="UI_InG_MapIntro_Angkaramurka_SFX" DurationType="OneShot" DurationMin="5.0816875" DurationMax="5.0816875">
+					<MediaRefs>
+						<MediaRef Id="196586072"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="47644061" Name="UI_InG_MatchEnd_Lose_SFX" DurationType="OneShot" DurationMin="4.200979" DurationMax="4.200979">
+					<MediaRefs>
+						<MediaRef Id="1056759482"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="486080884" Name="UI_InG_MatchEnd_Win_SFX" DurationType="OneShot" DurationMin="3.6428125" DurationMax="3.6428125">
+					<MediaRefs>
+						<MediaRef Id="760485346"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="385894880" Name="UI_InG_MatchStart_SFX" DurationType="OneShot" DurationMin="16" DurationMax="16">
+					<MediaRefs>
+						<MediaRef Id="798202251"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="4265975494" Name="UI_InG_Recall_SFX" DurationType="OneShot" DurationMin="7.3591666" DurationMax="7.3591666">
+					<MediaRefs>
+						<MediaRef Id="521259185"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="880641952" Name="UI_InG_Regen_SFX" DurationType="OneShot" DurationMin="2.269646" DurationMax="2.269646">
+					<MediaRefs>
+						<MediaRef Id="652107929"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2561238061" Name="UI_InG_Skl_LvlUp_SFX" DurationType="OneShot" DurationMin="1.3358333" DurationMax="1.3358333">
+					<MediaRefs>
+						<MediaRef Id="570178979"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3747682221" Name="UI_InG_Struc_Tower_GetHit_Warning_SFX" DurationType="OneShot" DurationMin="0.3596875" DurationMax="0.3596875">
+					<MediaRefs>
+						<MediaRef Id="301023994"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2780293594" Name="UI_InG_TeamSignal_SFX" DurationType="OneShot" DurationMin="1.124125" DurationMax="1.124125">
+					<MediaRefs>
+						<MediaRef Id="902120283"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1657275056" Name="UI_InG_UseArtifact_SFX" DurationType="OneShot" DurationMin="1.727" DurationMax="1.727">
+					<MediaRefs>
+						<MediaRef Id="23542591"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="145526681" Type="User" Language="SFX" Hash="{8AEEAC39-8164-4E03-80C4-0FC7C6109C7D}">
+			<ShortName>SFX_Gen</ShortName>
+			<Path>SFX_Gen.bnk</Path>
+			<Media>
+				<File Id="124451032" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Gen_Cancel_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_Gen_Cancel_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="180056814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Gen_Select_01_SFX.wav</ShortName>
+					<CachePath>SFX/UI_Gen_Select_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="240399524" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Gen_Locked_SFX.wav</ShortName>
+					<CachePath>SFX/UI_Gen_Locked_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="743108990" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Gen_Back_SFX.wav</ShortName>
+					<CachePath>SFX/UI_Gen_Back_SFX_3F75BDB9.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3052749650" Name="UI_Gen_Back_SFX" DurationType="OneShot" DurationMin="0.45052084" DurationMax="0.45052084">
+					<MediaRefs>
+						<MediaRef Id="743108990"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3582421101" Name="UI_Gen_Cancel_SFX" DurationType="OneShot" DurationMin="0.12464584" DurationMax="0.12464584">
+					<MediaRefs>
+						<MediaRef Id="124451032"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2641035085" Name="UI_Gen_Locked_SFX" DurationType="OneShot" DurationMin="0.1921875" DurationMax="0.1921875">
+					<MediaRefs>
+						<MediaRef Id="240399524"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="863376559" Name="UI_Gen_Select_SFX" DurationType="OneShot" DurationMin="0.37083334" DurationMax="0.37083334">
+					<MediaRefs>
+						<MediaRef Id="180056814"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3B7C585C-7990-7F9D-CD8D-995DFB508E3F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="85412153" Name="Ambience"/>
+				<Bus Id="224413387" Name="Structures_SFX"/>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="453761320" Name="Champions_Gen_SFX"/>
+				<Bus Id="1534528548" Name="VO"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="1866887872" Name="Announcer_VO"/>
+				<Bus Id="2290796287" Name="Champions_VO"/>
+				<Bus Id="3369621855" Name="Enemies_SFX"/>
+				<Bus Id="3665975379" Name="Champions_SFX"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="2048819434" Name="UI_Rev_Aux"/>
+				<AuxBus Id="2219410019" Name="Music_Rev_Aux"/>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="42448320" Name="SFX_Vol"/>
+				<GameParameter Id="1093937226" Name="VO_Vol"/>
+				<GameParameter Id="2246609544" Name="Music_Vol"/>
+				<GameParameter Id="3578718921" Name="Master_Vol"/>
+				<GameParameter Id="3680188857" Name="UI_Vol"/>
+				<GameParameter Id="3752125433" Name="Amb_Vol"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3069844381" Name="Menu_StG">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="3494343696" Name="PauseMenu"/>
+						<State Id="3604647259" Name="MainMenu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2366409488" Name="FS_Material_SwG">
+					<Switches>
+						<Switch Id="2528658256" Name="Ground"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="1856987119" Type="User" Language="SFX" Hash="{B30148D0-87C0-9A6D-F593-7E27DCD12C25}">
+			<ShortName>Champions</ShortName>
+			<Path>Champions.bnk</Path>
+			<Media>
+				<File Id="12731282" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_Skl02_Buff_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C001_Skl02_Buff_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="25990261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Skl01_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Skl01_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="28979930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Pas_Int_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Pas_Int_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="31619061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_BAtk01_SFX.wav</ShortName>
+					<CachePath>SFX/C007_BAtk01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="67912688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Ulti_Int_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Ulti_Int_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="77153401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Grass_02_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Grass_02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="88415245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_BAtk01_SFX.wav</ShortName>
+					<CachePath>SFX/C004_BAtk01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="91118429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Ulti_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Ulti_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="95992809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_BAtk03_SFX.wav</ShortName>
+					<CachePath>SFX/C002_BAtk03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="96067309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_BAtk03_SFX.wav</ShortName>
+					<CachePath>SFX/C001_BAtk03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="97933326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_BAtk_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C007_BAtk_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="100980655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_BAtk_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C005_BAtk_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="115306185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_BAtk03_SFX.wav</ShortName>
+					<CachePath>SFX/C003_BAtk03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="116156800" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_Skl02_Move_SFX.wav</ShortName>
+					<CachePath>SFX/C006_Skl02_Move_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="121659962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Skl01_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Skl01_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="139073502" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_BAtk01_SFX.wav</ShortName>
+					<CachePath>SFX/C006_BAtk01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="143865301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Ulti_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Ulti_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="143937999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_Skl01_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C001_Skl01_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="147619720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Ulti_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Ulti_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="156411825" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_Ulti_Atk_SFX.wav</ShortName>
+					<CachePath>SFX/C006_Ulti_Atk_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="158447406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_Skl02_Evade_SFX.wav</ShortName>
+					<CachePath>SFX/C003_Skl02_Evade_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="159220494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Skl02_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Skl02_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="164262492" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_Skl02_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C006_Skl02_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="176676865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Grass_03_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Grass_03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="200012378" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Ulti_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Ulti_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="205325712" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Skl02_Move_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Skl02_Move_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="246413887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_BAtk01_Buff_SFX.wav</ShortName>
+					<CachePath>SFX/C004_BAtk01_Buff_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="277425201" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Ulti_Hazard_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Ulti_Hazard_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="278600818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Skl02_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Skl02_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="286926419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_Skl01_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C006_Skl01_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="305039537" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Skl01_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Skl01_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="315168380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Ground_01_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Ground_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="317733970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Skl02_GetHit_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Skl02_GetHit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="318677280" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Grass_01_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Grass_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="325144327" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_BAtk_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C004_BAtk_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="344322081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_BAtk03_SFX.wav</ShortName>
+					<CachePath>SFX/C005_BAtk03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="366133653" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Water_02_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Water_02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="374607228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Pas_Assist_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Pas_Assist_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="378896242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_BAtk_Buff_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C001_BAtk_Buff_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="384319319" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_BAtk_Buff_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C004_BAtk_Buff_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="388147609" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Skl01_Int_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Skl01_Int_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="388268804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_Ulti_Atk_SFX.wav</ShortName>
+					<CachePath>SFX/C003_Ulti_Atk_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="398229317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Skl01_Atk_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Skl01_Atk_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="413165442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Water_01_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Water_01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="413860871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Ulti_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Ulti_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="420708801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_BAtk01_SFX.wav</ShortName>
+					<CachePath>SFX/C002_BAtk01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="433759877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Ulti_Hazard_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Ulti_Hazard_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="449129442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Skl01_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Skl01_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="450517102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Skl02_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Skl02_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="453352065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_BAtk_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C003_BAtk_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="455098592" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Pas_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Pas_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="472712517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_Skl01_Buff_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C001_Skl01_Buff_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="475327517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_BAtk02_SFX.wav</ShortName>
+					<CachePath>SFX/C006_BAtk02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="484913018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_BAtk_Hit_Pas_SFX.wav</ShortName>
+					<CachePath>SFX/C006_BAtk_Hit_Pas_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="517565968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_BAtk01_Buff_SFX.wav</ShortName>
+					<CachePath>SFX/C001_BAtk01_Buff_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="519978082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Ground_03_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Ground_03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="523497579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_BAtk02_Buff_SFX.wav</ShortName>
+					<CachePath>SFX/C004_BAtk02_Buff_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="525327653" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_Ulti_Int_SFX.wav</ShortName>
+					<CachePath>SFX/C001_Ulti_Int_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="527233670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_Skl01_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C003_Skl01_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="538742405" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_BAtk02_SFX.wav</ShortName>
+					<CachePath>SFX/C004_BAtk02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="570138539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_BAtk02_SFX.wav</ShortName>
+					<CachePath>SFX/C002_BAtk02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="583642327" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Skl02_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Skl02_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="586486346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_Skl01_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C006_Skl01_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="603347951" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_Skl01_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C001_Skl01_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="624379668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Pas_Buff_Atk_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Pas_Buff_Atk_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="634402186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Water_03_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Water_03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="635784092" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Ulti_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Ulti_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="653439227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Skl02_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Skl02_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="654798534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_Skl02_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C003_Skl02_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="674914467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_BAtk03_SFX.wav</ShortName>
+					<CachePath>SFX/C006_BAtk03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="679760931" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_BAtk_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C002_BAtk_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="685424993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Skl02_Int_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Skl02_Int_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="695279939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_Ulti_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C006_Ulti_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="702747909" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_BAtk01_SFX.wav</ShortName>
+					<CachePath>SFX/C001_BAtk01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="722646989" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Ground_02_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Ground_02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="733664263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_BAtk02_Buff_SFX.wav</ShortName>
+					<CachePath>SFX/C001_BAtk02_Buff_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="736501862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_BAtk_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C006_BAtk_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="737487555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_BAtk01_SFX.wav</ShortName>
+					<CachePath>SFX/C003_BAtk01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="739318989" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Pas_Atk_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Pas_Atk_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="761466365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Skl02_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Skl02_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="765320741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Skl01_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Skl01_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="772119763" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Water_04_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Water_04_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="780456384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Skl01_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Skl01_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="786454671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_Ulti_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C003_Ulti_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="791092848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Skl01_Int_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Skl01_Int_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="815706744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Skl02_Int_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Skl02_Int_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="817272758" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_BAtk02_SFX.wav</ShortName>
+					<CachePath>SFX/C007_BAtk02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="817919894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_Skl02_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C001_Skl02_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="821131916" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Skl02_Atk_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Skl02_Atk_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="824242519" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Skl02_Expire_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Skl02_Expire_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="850884066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Skl01_Int_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Skl01_Int_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="859040837" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_Skl01_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C003_Skl01_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="860314987" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_BAtk03_Buff_SFX.wav</ShortName>
+					<CachePath>SFX/C001_BAtk03_Buff_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="867281253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Grass_04_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Grass_04_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="892037409" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Skl02_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Skl02_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="895116615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_BAtk_Hit_Pas_SFX.wav</ShortName>
+					<CachePath>SFX/C003_BAtk_Hit_Pas_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="905958731" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Skl01_Atk_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Skl01_Atk_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="909122127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_BAtk03_SFX.wav</ShortName>
+					<CachePath>SFX/C007_BAtk03_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="921077399" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_BAtk02_SFX.wav</ShortName>
+					<CachePath>SFX/C003_BAtk02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="922047787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_BAtk02_SFX.wav</ShortName>
+					<CachePath>SFX/C005_BAtk02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="945917934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_BAtk01_SFX.wav</ShortName>
+					<CachePath>SFX/C005_BAtk01_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="950453906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_BAtk02_SFX.wav</ShortName>
+					<CachePath>SFX/C001_BAtk02_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="979657199" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_BAtk_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C001_BAtk_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="997047385" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C002_Ulti_Atk_SFX.wav</ShortName>
+					<CachePath>SFX/C002_Ulti_Atk_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="998845414" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_Ulti_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C006_Ulti_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1000098797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C004_Ulti_Int_SFX.wav</ShortName>
+					<CachePath>SFX/C004_Ulti_Int_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1008417209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_Ulti_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C001_Ulti_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1024130587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C003_Ulti_Hit_SFX.wav</ShortName>
+					<CachePath>SFX/C003_Ulti_Hit_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1028209932" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_Ulti_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C001_Ulti_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1035140824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Ulti_Assist_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Ulti_Assist_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1037546221" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Champ_Gen_FS_Ground_04_SFX.wav</ShortName>
+					<CachePath>SFX/Champ_Gen_FS_Ground_04_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1049158985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Skl01_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Skl01_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1054940555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C006_Skl02_Cast_SFX.wav</ShortName>
+					<CachePath>SFX/C006_Skl02_Cast_SFX_3F75BDB9.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3133247851" Name="C001_BAtk01_Buff_SFX" DurationType="OneShot" DurationMin="0.73670834" DurationMax="0.73670834">
+					<MediaRefs>
+						<MediaRef Id="517565968"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="768115417" Name="C001_BAtk01_SFX" DurationType="OneShot" DurationMin="0.85039586" DurationMax="0.85039586">
+					<MediaRefs>
+						<MediaRef Id="702747909"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2105310410" Name="C001_BAtk02_Buff_SFX" DurationType="OneShot" DurationMin="0.89770836" DurationMax="0.89770836">
+					<MediaRefs>
+						<MediaRef Id="733664263"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2374155466" Name="C001_BAtk02_SFX" DurationType="OneShot" DurationMin="0.69764584" DurationMax="0.69764584">
+					<MediaRefs>
+						<MediaRef Id="950453906"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2209653317" Name="C001_BAtk03_Buff_SFX" DurationType="OneShot" DurationMin="0.93333334" DurationMax="0.93333334">
+					<MediaRefs>
+						<MediaRef Id="860314987"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2274703871" Name="C001_BAtk03_SFX" DurationType="OneShot" DurationMin="0.7602292" DurationMax="0.7602292">
+					<MediaRefs>
+						<MediaRef Id="96067309"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1686599002" Name="C001_BAtk_Buff_Hit_SFX" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="378896242"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="891696750" Name="C001_BAtk_Hit_SFX" DurationType="OneShot" DurationMin="0.8261667" DurationMax="0.8261667">
+					<MediaRefs>
+						<MediaRef Id="979657199"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3247329221" Name="C001_Skl01_Buff_Cast_SFX" DurationType="OneShot" DurationMin="3.0260625" DurationMax="3.0260625">
+					<MediaRefs>
+						<MediaRef Id="472712517"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2344994183" Name="C001_Skl01_Cast_SFX" DurationType="OneShot" DurationMin="1.7343959" DurationMax="1.7343959">
+					<MediaRefs>
+						<MediaRef Id="603347951"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2201140585" Name="C001_Skl01_Hit_SFX" DurationType="OneShot" DurationMin="1.4401667" DurationMax="1.4401667">
+					<MediaRefs>
+						<MediaRef Id="143937999"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="309611102" Name="C001_Skl02_Buff_Cast_SFX" DurationType="OneShot" DurationMin="5.3500624" DurationMax="5.3500624">
+					<MediaRefs>
+						<MediaRef Id="12731282"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1132387050" Name="C001_Skl02_Cast_SFX" DurationType="OneShot" DurationMin="5.3500624" DurationMax="5.3500624">
+					<MediaRefs>
+						<MediaRef Id="817919894"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="640259436" Name="C001_Ulti_Cast_SFX" DurationType="OneShot" DurationMin="1.1793542" DurationMax="1.1793542">
+					<MediaRefs>
+						<MediaRef Id="1028209932"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="461911916" Name="C001_Ulti_Hit_SFX" DurationType="OneShot" DurationMin="1.5004166" DurationMax="1.5004166">
+					<MediaRefs>
+						<MediaRef Id="1008417209"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="626917500" Name="C001_Ulti_Int_SFX" DurationType="OneShot" DurationMin="2.0045416" DurationMax="2.0045416">
+					<MediaRefs>
+						<MediaRef Id="525327653"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4284887812" Name="C002_BAtk01_SFX" DurationType="OneShot" DurationMin="1.081125" DurationMax="1.081125">
+					<MediaRefs>
+						<MediaRef Id="420708801"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2724681871" Name="C002_BAtk02_SFX" DurationType="OneShot" DurationMin="1.081125" DurationMax="1.081125">
+					<MediaRefs>
+						<MediaRef Id="570138539"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1496612122" Name="C002_BAtk03_SFX" DurationType="OneShot" DurationMin="1.0178125" DurationMax="1.0178125">
+					<MediaRefs>
+						<MediaRef Id="95992809"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="957858759" Name="C002_BAtk_Hit_SFX" DurationType="OneShot" DurationMin="0.7495833" DurationMax="0.7495833">
+					<MediaRefs>
+						<MediaRef Id="679760931"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2569436130" Name="C002_Skl01_Cast_SFX" DurationType="OneShot" DurationMin="1.4157709" DurationMax="1.4157709">
+					<MediaRefs>
+						<MediaRef Id="305039537"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2856629030" Name="C002_Skl01_Hit_SFX" DurationType="OneShot" DurationMin="0.9491042" DurationMax="0.9491042">
+					<MediaRefs>
+						<MediaRef Id="780456384"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2490494904" Name="C002_Skl02_Atk_SFX" DurationType="OneShot" DurationMin="1.2166667" DurationMax="1.2166667">
+					<MediaRefs>
+						<MediaRef Id="821131916"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3272398367" Name="C002_Skl02_Cast_SFX" DurationType="OneShot" DurationMin="0.9480208" DurationMax="0.9480208">
+					<MediaRefs>
+						<MediaRef Id="653439227"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3439687153" Name="C002_Skl02_Hit_SFX" DurationType="OneShot" DurationMin="1.2166667" DurationMax="1.2166667">
+					<MediaRefs>
+						<MediaRef Id="278600818"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2568826761" Name="C002_Skl02_Int_SFX" DurationType="OneShot" DurationMin="1.4421042" DurationMax="1.4421042">
+					<MediaRefs>
+						<MediaRef Id="685424993"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1339791804" Name="C002_Ulti_Atk_SFX" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="997047385"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1804275851" Name="C002_Ulti_Cast_SFX" DurationType="OneShot" DurationMin="2.2856667" DurationMax="2.2856667">
+					<MediaRefs>
+						<MediaRef Id="413860871"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3409300234" Name="C002_Ulti_Hazard_SFX" DurationType="OneShot" DurationMin="3.4666667" DurationMax="3.4666667">
+					<MediaRefs>
+						<MediaRef Id="277425201"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1268344741" Name="C002_Ulti_Hit_SFX" DurationType="OneShot" DurationMin="2.0008543" DurationMax="2.0008543">
+					<MediaRefs>
+						<MediaRef Id="200012378"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="68875679" Name="C003_BAtk01_SFX" DurationType="OneShot" DurationMin="0.925375" DurationMax="0.925375">
+					<MediaRefs>
+						<MediaRef Id="737487555"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1021348308" Name="C003_BAtk02_SFX" DurationType="OneShot" DurationMin="0.925375" DurationMax="0.925375">
+					<MediaRefs>
+						<MediaRef Id="921077399"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="921896697" Name="C003_BAtk03_SFX" DurationType="OneShot" DurationMin="0.925375" DurationMax="0.925375">
+					<MediaRefs>
+						<MediaRef Id="115306185"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3592383717" Name="C003_BAtk_Hit_Pas_SFX" DurationType="OneShot" DurationMin="0.65760416" DurationMax="0.65760416">
+					<MediaRefs>
+						<MediaRef Id="895116615"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1933004952" Name="C003_BAtk_Hit_SFX" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="453352065"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1292218897" Name="C003_Skl01_Cast_SFX" DurationType="OneShot" DurationMin="2.001604" DurationMax="2.001604">
+					<MediaRefs>
+						<MediaRef Id="527233670"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="901864655" Name="C003_Skl01_Hit_SFX" DurationType="OneShot" DurationMin="0.62375" DurationMax="0.62375">
+					<MediaRefs>
+						<MediaRef Id="859040837"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="717189696" Name="C003_Skl02_Cast_SFX" DurationType="OneShot" DurationMin="5.801729" DurationMax="5.801729">
+					<MediaRefs>
+						<MediaRef Id="654798534"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3624717784" Name="C003_Skl02_Evade_SFX" DurationType="OneShot" DurationMin="0.61052084" DurationMax="0.61052084">
+					<MediaRefs>
+						<MediaRef Id="158447406"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3985365823" Name="C003_Ulti_Atk_SFX" DurationType="OneShot" DurationMin="1.4204375" DurationMax="1.4204375">
+					<MediaRefs>
+						<MediaRef Id="388268804"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3140719234" Name="C003_Ulti_Cast_SFX" DurationType="OneShot" DurationMin="6.1403956" DurationMax="6.1403956">
+					<MediaRefs>
+						<MediaRef Id="786454671"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="435421126" Name="C003_Ulti_Hit_SFX" DurationType="OneShot" DurationMin="1.3207291" DurationMax="1.3207291">
+					<MediaRefs>
+						<MediaRef Id="1024130587"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3057876514" Name="C004_BAtk01_Buff_SFX" DurationType="OneShot" DurationMin="0.8140625" DurationMax="0.8140625">
+					<MediaRefs>
+						<MediaRef Id="246413887"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1754345890" Name="C004_BAtk01_SFX" DurationType="OneShot" DurationMin="0.8140625" DurationMax="0.8140625">
+					<MediaRefs>
+						<MediaRef Id="88415245"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2991959299" Name="C004_BAtk02_Buff_SFX" DurationType="OneShot" DurationMin="0.73333335" DurationMax="0.73333335">
+					<MediaRefs>
+						<MediaRef Id="523497579"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2458968593" Name="C004_BAtk02_SFX" DurationType="OneShot" DurationMin="0.73333335" DurationMax="0.73333335">
+					<MediaRefs>
+						<MediaRef Id="538742405"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1907845979" Name="C004_BAtk_Buff_Hit_SFX" DurationType="OneShot" DurationMin="0.8333542" DurationMax="0.8333542">
+					<MediaRefs>
+						<MediaRef Id="384319319"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2794684217" Name="C004_BAtk_Hit_SFX" DurationType="OneShot" DurationMin="0.81408334" DurationMax="0.81408334">
+					<MediaRefs>
+						<MediaRef Id="325144327"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4271014394" Name="C004_Pas_Atk_SFX" DurationType="OneShot" DurationMin="1.6333333" DurationMax="1.6333333">
+					<MediaRefs>
+						<MediaRef Id="739318989"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1348768452" Name="C004_Pas_Buff_Atk_SFX" DurationType="OneShot" DurationMin="1.0333542" DurationMax="1.0333542">
+					<MediaRefs>
+						<MediaRef Id="624379668"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1729075028" Name="C004_Skl01_Cast_SFX" DurationType="OneShot" DurationMin="1.1292708" DurationMax="1.1292708">
+					<MediaRefs>
+						<MediaRef Id="25990261"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1733038468" Name="C004_Skl01_Hit_SFX" DurationType="OneShot" DurationMin="1.4380417" DurationMax="1.4380417">
+					<MediaRefs>
+						<MediaRef Id="449129442"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="355561940" Name="C004_Skl01_Int_SFX" DurationType="OneShot" DurationMin="2.1740208" DurationMax="2.1740208">
+					<MediaRefs>
+						<MediaRef Id="791092848"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2196114933" Name="C004_Skl02_Cast_SFX" DurationType="OneShot" DurationMin="1.9329792" DurationMax="1.9329792">
+					<MediaRefs>
+						<MediaRef Id="761466365"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3977627845" Name="C004_Skl02_Expire_SFX" DurationType="OneShot" DurationMin="0.97658336" DurationMax="0.97658336">
+					<MediaRefs>
+						<MediaRef Id="824242519"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2152275567" Name="C004_Skl02_GetHit_SFX" DurationType="OneShot" DurationMin="0.6211875" DurationMax="0.6211875">
+					<MediaRefs>
+						<MediaRef Id="317733970"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1662427849" Name="C004_Ulti_Cast_SFX" DurationType="OneShot" DurationMin="2.563" DurationMax="2.563">
+					<MediaRefs>
+						<MediaRef Id="635784092"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="984734739" Name="C004_Ulti_Int_SFX" DurationType="OneShot" DurationMin="4.0076666" DurationMax="4.0076666">
+					<MediaRefs>
+						<MediaRef Id="1000098797"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1306032237" Name="C005_BAtk01_SFX" DurationType="OneShot" DurationMin="0.99647915" DurationMax="0.99647915">
+					<MediaRefs>
+						<MediaRef Id="945917934"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2309695918" Name="C005_BAtk02_SFX" DurationType="OneShot" DurationMin="1.2535208" DurationMax="1.2535208">
+					<MediaRefs>
+						<MediaRef Id="922047787"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="184569395" Name="C005_BAtk03_SFX" DurationType="OneShot" DurationMin="1.1698959" DurationMax="1.1698959">
+					<MediaRefs>
+						<MediaRef Id="344322081"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="646292690" Name="C005_BAtk_Hit_SFX" DurationType="OneShot" DurationMin="1.9861459" DurationMax="1.9861459">
+					<MediaRefs>
+						<MediaRef Id="100980655"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1873802318" Name="C005_Pas_Assist_SFX" DurationType="OneShot" DurationMin="3.5" DurationMax="3.5">
+					<MediaRefs>
+						<MediaRef Id="374607228"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2595587646" Name="C005_Pas_Cast_SFX" DurationType="OneShot" DurationMin="1.4" DurationMax="1.4">
+					<MediaRefs>
+						<MediaRef Id="455098592"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3568938446" Name="C005_Pas_Int_SFX" DurationType="OneShot" DurationMin="4.8000207" DurationMax="4.8000207">
+					<MediaRefs>
+						<MediaRef Id="28979930"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2162481100" Name="C005_Skl01_Atk_SFX" DurationType="OneShot" DurationMin="1.6757083" DurationMax="1.6757083">
+					<MediaRefs>
+						<MediaRef Id="398229317"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="514848987" Name="C005_Skl01_Cast_SFX" DurationType="OneShot" DurationMin="1.6015" DurationMax="1.6015">
+					<MediaRefs>
+						<MediaRef Id="1049158985"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="940820517" Name="C005_Skl01_Int_SFX" DurationType="OneShot" DurationMin="2.56175" DurationMax="2.56175">
+					<MediaRefs>
+						<MediaRef Id="388147609"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1514756270" Name="C005_Skl02_Cast_SFX" DurationType="OneShot" DurationMin="2.45" DurationMax="2.45">
+					<MediaRefs>
+						<MediaRef Id="583642327"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="997305114" Name="C005_Skl02_Hit_SFX" DurationType="OneShot" DurationMin="0.79454166" DurationMax="0.79454166">
+					<MediaRefs>
+						<MediaRef Id="450517102"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1568846220" Name="C005_Ulti_Assist_SFX" DurationType="OneShot" DurationMin="6.003479" DurationMax="6.003479">
+					<MediaRefs>
+						<MediaRef Id="1035140824"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3666239000" Name="C005_Ulti_Cast_SFX" DurationType="OneShot" DurationMin="2.1241043" DurationMax="2.1241043">
+					<MediaRefs>
+						<MediaRef Id="143865301"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2255320024" Name="C005_Ulti_Int_SFX" DurationType="OneShot" DurationMin="5.888729" DurationMax="5.888729">
+					<MediaRefs>
+						<MediaRef Id="67912688"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="481272392" Name="C006_BAtk01_SFX" DurationType="OneShot" DurationMin="0.48839584" DurationMax="0.48839584">
+					<MediaRefs>
+						<MediaRef Id="139073502"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4162924307" Name="C006_BAtk02_SFX" DurationType="OneShot" DurationMin="0.6239167" DurationMax="0.6239167">
+					<MediaRefs>
+						<MediaRef Id="475327517"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1951609998" Name="C006_BAtk03_SFX" DurationType="OneShot" DurationMin="0.7453333" DurationMax="0.7453333">
+					<MediaRefs>
+						<MediaRef Id="674914467"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4198434370" Name="C006_BAtk_Hit_Pas_SFX" DurationType="OneShot" DurationMin="0.98933333" DurationMax="0.98933333">
+					<MediaRefs>
+						<MediaRef Id="484913018"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="955829659" Name="C006_BAtk_Hit_SFX" DurationType="OneShot" DurationMin="0.673375" DurationMax="0.673375">
+					<MediaRefs>
+						<MediaRef Id="736501862"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1405775158" Name="C006_Skl01_Cast_SFX" DurationType="OneShot" DurationMin="2.2516458" DurationMax="2.2516458">
+					<MediaRefs>
+						<MediaRef Id="286926419"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3798438834" Name="C006_Skl01_Hit_SFX" DurationType="OneShot" DurationMin="2.0557292" DurationMax="2.0557292">
+					<MediaRefs>
+						<MediaRef Id="586486346"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1160682275" Name="C006_Skl02_Cast_SFX" DurationType="OneShot" DurationMin="1.2669166" DurationMax="1.2669166">
+					<MediaRefs>
+						<MediaRef Id="1054940555"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1060325805" Name="C006_Skl02_Hit_SFX" DurationType="OneShot" DurationMin="1.8219792" DurationMax="1.8219792">
+					<MediaRefs>
+						<MediaRef Id="164262492"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3198760977" Name="C006_Skl02_Move_SFX" DurationType="OneShot" DurationMin="1.0173541" DurationMax="1.0173541">
+					<MediaRefs>
+						<MediaRef Id="116156800"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2948382080" Name="C006_Ulti_Atk_SFX" DurationType="OneShot" DurationMin="1.3714583" DurationMax="1.3714583">
+					<MediaRefs>
+						<MediaRef Id="156411825"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2766348071" Name="C006_Ulti_Cast_SFX" DurationType="OneShot" DurationMin="2.5267084" DurationMax="2.5267084">
+					<MediaRefs>
+						<MediaRef Id="998845414"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1086314633" Name="C006_Ulti_Hit_SFX" DurationType="OneShot" DurationMin="0.93585414" DurationMax="0.93585414">
+					<MediaRefs>
+						<MediaRef Id="695279939"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2731613491" Name="C007_BAtk01_SFX" DurationType="OneShot" DurationMin="0.76975" DurationMax="0.76975">
+					<MediaRefs>
+						<MediaRef Id="31619061"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1409673960" Name="C007_BAtk02_SFX" DurationType="OneShot" DurationMin="0.8666875" DurationMax="0.8666875">
+					<MediaRefs>
+						<MediaRef Id="817272758"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3853076333" Name="C007_BAtk03_SFX" DurationType="OneShot" DurationMin="0.7666875" DurationMax="0.7666875">
+					<MediaRefs>
+						<MediaRef Id="909122127"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2306277996" Name="C007_BAtk_Hit_SFX" DurationType="OneShot" DurationMin="0.68660414" DurationMax="0.68660414">
+					<MediaRefs>
+						<MediaRef Id="97933326"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2589075310" Name="C007_Skl01_Atk_SFX" DurationType="OneShot" DurationMin="0.74997914" DurationMax="0.74997914">
+					<MediaRefs>
+						<MediaRef Id="905958731"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1066811573" Name="C007_Skl01_Cast_SFX" DurationType="OneShot" DurationMin="0.415125" DurationMax="0.415125">
+					<MediaRefs>
+						<MediaRef Id="121659962"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2411055195" Name="C007_Skl01_Hit_SFX" DurationType="OneShot" DurationMin="0.73335415" DurationMax="0.73335415">
+					<MediaRefs>
+						<MediaRef Id="765320741"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2394111487" Name="C007_Skl01_Int_SFX" DurationType="OneShot" DurationMin="0.48033333" DurationMax="0.48033333">
+					<MediaRefs>
+						<MediaRef Id="850884066"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3945760532" Name="C007_Skl02_Cast_SFX" DurationType="OneShot" DurationMin="0.4454375" DurationMax="0.4454375">
+					<MediaRefs>
+						<MediaRef Id="892037409"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2306153284" Name="C007_Skl02_Hit_SFX" DurationType="OneShot" DurationMin="0.68658334" DurationMax="0.68658334">
+					<MediaRefs>
+						<MediaRef Id="159220494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1951111572" Name="C007_Skl02_Int_SFX" DurationType="OneShot" DurationMin="0.36866668" DurationMax="0.36866668">
+					<MediaRefs>
+						<MediaRef Id="815706744"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3971866266" Name="C007_Skl02_Move_SFX" DurationType="OneShot" DurationMin="0.6830625" DurationMax="0.6830625">
+					<MediaRefs>
+						<MediaRef Id="205325712"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4148552494" Name="C007_Ulti_Cast_SFX" DurationType="OneShot" DurationMin="1.8160625" DurationMax="1.8160625">
+					<MediaRefs>
+						<MediaRef Id="147619720"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2043607335" Name="C007_Ulti_Hazard_SFX" DurationType="OneShot" DurationMin="4.633333" DurationMax="4.633333">
+					<MediaRefs>
+						<MediaRef Id="433759877"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1126401690" Name="C007_Ulti_Hit_SFX" DurationType="OneShot" DurationMin="0.8066458" DurationMax="0.8066458">
+					<MediaRefs>
+						<MediaRef Id="91118429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3172985637" Name="Champ_Gen_FS_SFX" DurationType="OneShot" DurationMin="0.3649647" DurationMax="0.61762285">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2366409488" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="366133653"/>
+								<MediaRef Id="413165442"/>
+								<MediaRef Id="634402186"/>
+								<MediaRef Id="772119763"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2366409488" Id="2528658256"/>
+							<MediaRefs>
+								<MediaRef Id="315168380"/>
+								<MediaRef Id="519978082"/>
+								<MediaRef Id="722646989"/>
+								<MediaRef Id="1037546221"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2366409488" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="77153401"/>
+								<MediaRef Id="176676865"/>
+								<MediaRef Id="318677280"/>
+								<MediaRef Id="867281253"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2366409488" Name="FS_Material_SwG">
+					<Switches>
+						<Switch Id="2528658256" Name="Ground"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2229390827" Type="User" Language="SFX" Hash="{6A11414D-82C2-A9B7-D979-A1048C3BF71E}">
+			<ShortName>Music_InG</ShortName>
+			<Path>Music_InG.bnk</Path>
+			<Media>
+				<File Id="263901844" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base Layer.wav</ShortName>
+					<CachePath>SFX/Base Layer_4811579D.wem</CachePath>
+				</File>
+				<File Id="377552735" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat Layer.wav</ShortName>
+					<CachePath>SFX/Combat Layer_4811579D.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3832016031" Name="Battle_Music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="263901844"/>
+						<MediaRef Id="377552735"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2416053790" Type="User" Language="SFX" Hash="{859262E8-9DAA-4653-5DD8-8C6278FCCD93}">
+			<ShortName>Music_OutG</ShortName>
+			<Path>Music_OutG.bnk</Path>
+			<Media>
+				<File Id="754155363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MainMenu_Music.wav</ShortName>
+					<CachePath>SFX/MainMenu_Music_4811579D.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1929327811" Name="MainMenu_Music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="754155363"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3555200630" Type="User" Language="SFX" Hash="{2CE3EC59-51FD-B4DE-CFE9-E7584292F95D}">
+			<ShortName>SFX_OutG</ShortName>
+			<Path>SFX_OutG.bnk</Path>
+			<Media>
+				<File Id="11126752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_ViewBundles_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_ViewBundles_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="171303586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_BP_LvlUp_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_BP_LvlUp_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="177569134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_Champ_Unlock_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_Champ_Unlock_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="224987055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_Equip_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_Equip_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="246725862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_Unequip_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_Unequip_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="254706053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C001_Loadout_SFX.wav</ShortName>
+					<CachePath>SFX/C001_Loadout_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="266000728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C007_Loadout_SFX.wav</ShortName>
+					<CachePath>SFX/C007_Loadout_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="362184441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_TimerEnd_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_TimerEnd_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="397142457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_ChangeSkin_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_ChangeSkin_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="405724439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_Timer_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_Timer_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="416204180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_Rank_Up_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_Rank_Up_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="458253700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_ViewSklDesc_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_ViewSklDesc_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="489490901" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_LoseRankXP_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_LoseRankXP_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="688677517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_ViewItemDesc_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_ViewItemDesc_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="710963886" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_ViewMsgs_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_ViewMsgs_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="711503666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_MatchmakingStart_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_MatchmakingStart_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="800364021" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C005_Loadout_SFX.wav</ShortName>
+					<CachePath>SFX/C005_Loadout_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="803443388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_BuyComplete_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_BuyComplete_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="857168750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_GetRankXP_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_GetRankXP_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="870142774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_Buy_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_Buy_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="870190712" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_GetAchieve_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_GetAchieve_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="983396584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_GetReward_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_GetReward_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1029835182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_Champ_Lock_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_Champ_Lock_SFX_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1035904357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_OutG_Rank_Down_SFX.wav</ShortName>
+					<CachePath>SFX/UI_OutG_Rank_Down_SFX_3F75BDB9.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2797162092" Name="C001_Loadout_SFX" DurationType="OneShot" DurationMin="6.907854" DurationMax="6.907854">
+					<MediaRefs>
+						<MediaRef Id="254706053"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2893849536" Name="C005_Loadout_SFX" DurationType="OneShot" DurationMin="7.8103333" DurationMax="7.8103333">
+					<MediaRefs>
+						<MediaRef Id="800364021"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2068365322" Name="C007_Loadout_SFX" DurationType="OneShot" DurationMin="7.7869167" DurationMax="7.7869167">
+					<MediaRefs>
+						<MediaRef Id="266000728"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3857400074" Name="UI_OutG_BP_LvlUp_SFX" DurationType="OneShot" DurationMin="2.1739376" DurationMax="2.1739376">
+					<MediaRefs>
+						<MediaRef Id="171303586"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="4253103420" Name="UI_OutG_Buy_SFX" DurationType="OneShot" DurationMin="0.6875" DurationMax="0.6875">
+					<MediaRefs>
+						<MediaRef Id="870142774"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3402638525" Name="UI_OutG_BuyComplete_SFX" DurationType="OneShot" DurationMin="1.2916666" DurationMax="1.2916666">
+					<MediaRefs>
+						<MediaRef Id="803443388"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1345615641" Name="UI_OutG_Champ_Lock_SFX" DurationType="OneShot" DurationMin="0.9417292" DurationMax="0.9417292">
+					<MediaRefs>
+						<MediaRef Id="1029835182"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="985389228" Name="UI_OutG_Champ_Unlock_SFX" DurationType="OneShot" DurationMin="0.33227083" DurationMax="0.33227083">
+					<MediaRefs>
+						<MediaRef Id="177569134"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1520582815" Name="UI_OutG_ChangeSkin_SFX" DurationType="OneShot" DurationMin="0.58047915" DurationMax="0.58047915">
+					<MediaRefs>
+						<MediaRef Id="397142457"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1074699544" Name="UI_OutG_Equip_SFX" DurationType="OneShot" DurationMin="0.7125" DurationMax="0.7125">
+					<MediaRefs>
+						<MediaRef Id="224987055"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2149724205" Name="UI_OutG_GetAchieve_SFX" DurationType="OneShot" DurationMin="1.65375" DurationMax="1.65375">
+					<MediaRefs>
+						<MediaRef Id="870190712"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2359146190" Name="UI_OutG_GetRankXP_SFX" DurationType="OneShot" DurationMin="1.5151042" DurationMax="1.5151042">
+					<MediaRefs>
+						<MediaRef Id="857168750"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2432464633" Name="UI_OutG_GetReward_SFX" DurationType="OneShot" DurationMin="1.25" DurationMax="1.25">
+					<MediaRefs>
+						<MediaRef Id="983396584"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1163428481" Name="UI_OutG_LoseRankXP_SFX" DurationType="OneShot" DurationMin="1.9363542" DurationMax="1.9363542">
+					<MediaRefs>
+						<MediaRef Id="489490901"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3159586812" Name="UI_OutG_MatchmakingStart_SFX" DurationType="OneShot" DurationMin="1.500375" DurationMax="1.500375">
+					<MediaRefs>
+						<MediaRef Id="711503666"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1356065493" Name="UI_OutG_Rank_Down_SFX" DurationType="OneShot" DurationMin="2.001" DurationMax="2.001">
+					<MediaRefs>
+						<MediaRef Id="1035904357"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1448898146" Name="UI_OutG_Rank_Up_SFX" DurationType="OneShot" DurationMin="1.8818542" DurationMax="1.8818542">
+					<MediaRefs>
+						<MediaRef Id="416204180"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1488551103" Name="UI_OutG_Timer_SFX" DurationType="OneShot" DurationMin="1.125" DurationMax="1.125">
+					<MediaRefs>
+						<MediaRef Id="405724439"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2129636210" Name="UI_OutG_TimerEnd_SFX" DurationType="OneShot" DurationMin="3.5" DurationMax="3.5">
+					<MediaRefs>
+						<MediaRef Id="362184441"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2226062843" Name="UI_OutG_Unequip_SFX" DurationType="OneShot" DurationMin="0.7125" DurationMax="0.7125">
+					<MediaRefs>
+						<MediaRef Id="246725862"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3688426586" Name="UI_OutG_ViewBundles_SFX" DurationType="OneShot" DurationMin="0.875" DurationMax="0.875">
+					<MediaRefs>
+						<MediaRef Id="11126752"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2891621465" Name="UI_OutG_ViewItemDesc_SFX" DurationType="OneShot" DurationMin="0.5158333" DurationMax="0.5158333">
+					<MediaRefs>
+						<MediaRef Id="688677517"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3341686453" Name="UI_OutG_ViewMsgs_SFX" DurationType="OneShot" DurationMin="0.41672915" DurationMax="0.41672915">
+					<MediaRefs>
+						<MediaRef Id="710963886"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1821844896" Name="UI_OutG_ViewSklDesc_SFX" DurationType="OneShot" DurationMin="0.47275" DurationMax="0.47275">
+					<MediaRefs>
+						<MediaRef Id="458253700"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2048819434" Name="UI_Rev_Aux"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{03D73E6A-695C-C27C-9164-A40171B6654E}</FileHash>
+</SoundBanksInfo>

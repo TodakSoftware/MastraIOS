@@ -1,0 +1,555 @@
+Event	ID	Name			Wwise Object Path	Notes
+	700297	Stop_C009_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_Ulti_Cast_SFX	
+	5554504	C010_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_BAtk_Hit_SFX	
+	11744342	Stop_C002_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Ulti_Cast_SFX	
+	52788901	Stop_C012_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_BAtk_Hit_SFX	
+	61696803	Stop_C001_BAtk_Buff_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_BAtk_Buff_Hit_SFX	
+	68875679	C003_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_BAtk01_SFX	
+	96234480	Stop_C011_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Skl02_Cast_SFX	
+	111554517	Stop_C010_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_Ulti_Hit_SFX	
+	151811687	Stop_C008_BAtk_Hit_Pas_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_BAtk_Hit_Pas_SFX	
+	161295633	Stop_C004_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_BAtk01_SFX	
+	184569395	C005_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_BAtk03_SFX	
+	193417243	C011_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Ulti_Cast_SFX	
+	202360705	Stop_C012_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_Skl02_Cast_SFX	
+	220372212	C011_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_BAtk01_SFX	
+	225313514	Stop_C010_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_BAtk03_SFX	
+	233867969	Stop_C001_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_BAtk_Hit_SFX	
+	275519281	Stop_C007_Skl02_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Skl02_Int_SFX	
+	308551123	Stop_C012_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_Ulti_Hit_SFX	
+	309611102	C001_Skl02_Buff_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_Skl02_Buff_Cast_SFX	
+	326145267	Stop_C008_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_BAtk03_SFX	
+	355286998	Stop_C005_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_BAtk01_SFX	
+	355561940	C004_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Skl01_Int_SFX	
+	363931368	Stop_C011_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_BAtk_Hit_SFX	
+	375345704	Stop_C012_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_BAtk03_SFX	
+	394473047	Stop_C006_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_Skl01_Hit_SFX	
+	421005561	Stop_C009_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_BAtk_Hit_SFX	
+	423625176	Stop_C011_Pas_Expire_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Pas_Expire_SFX	
+	435421126	C003_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_Ulti_Hit_SFX	
+	441419542	C009_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_BAtk_Hit_SFX	
+	441686141	C011_Pas_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Pas_Int_SFX	
+	449381399	Stop_C005_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Skl02_Hit_SFX	
+	460502746	Stop_C008_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_Skl02_Hit_SFX	
+	461911916	C001_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_Ulti_Hit_SFX	
+	477571708	C012_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_Ulti_Cast_SFX	
+	481272392	C006_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_BAtk01_SFX	
+	484588250	C012_BAtk02_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_BAtk02_Buff_SFX	
+	514848987	C005_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Skl01_Cast_SFX	
+	525836164	C008_BAtk_Hit_Pas_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_BAtk_Hit_Pas_SFX	
+	535537653	Stop_C005_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Ulti_Cast_SFX	
+	547481168	C011_Skl01_Move_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Skl01_Move_SFX	
+	553071479	Stop_C006_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_BAtk01_SFX	
+	562789207	Stop_C007_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Skl02_Cast_SFX	
+	564440575	C009_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_Skl01_Cast_SFX	
+	593649405	Stop_C007_Skl02_Move_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Skl02_Move_SFX	
+	614094520	C008_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_Skl01_Int_SFX	
+	615416815	C011_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Skl02_Cast_SFX	
+	626917500	C001_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_Ulti_Int_SFX	
+	640259436	C001_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_Ulti_Cast_SFX	
+	642205058	Stop_C004_BAtk_Buff_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_BAtk_Buff_Hit_SFX	
+	646292690	C005_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_BAtk_Hit_SFX	
+	677179161	Stop_C004_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Ulti_Atk_SFX	
+	701490357	Stop_C009_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_Skl02_Cast_SFX	
+	704518601	C012_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_BAtk01_SFX	
+	710050876	C012_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_Ulti_Hit_SFX	
+	717189696	C003_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_Skl02_Cast_SFX	
+	719719020	Stop_C002_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Skl02_Hit_SFX	
+	728247185	Stop_C004_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Skl01_Hit_SFX	
+	752192464	C008_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_Skl01_Hit_SFX	
+	768115417	C001_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_BAtk01_SFX	
+	774140213	Stop_C008_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_Skl01_Hit_SFX	
+	831497875	Stop_C004_Pas_Buff_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Pas_Buff_Atk_SFX	
+	833108987	Stop_C002_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Ulti_Atk_SFX	
+	833656513	Stop_C011_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Skl01_Cast_SFX	
+	839176624	Stop_C012_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_Skl01_Cast_SFX	
+	884724604	Stop_C002_Skl02_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Skl02_Int_SFX	
+	891696750	C001_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_BAtk_Hit_SFX	
+	892592616	Stop_C003_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_Ulti_Atk_SFX	
+	901864655	C003_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_Skl01_Hit_SFX	
+	921287729	Stop_C001_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_Ulti_Cast_SFX	
+	921896697	C003_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_BAtk03_SFX	
+	940820517	C005_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Skl01_Int_SFX	
+	954441557	C012_BAtk03_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_BAtk03_Buff_SFX	
+	955829659	C006_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_BAtk_Hit_SFX	
+	957858759	C002_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_BAtk_Hit_SFX	
+	979602125	C011_Pas_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Pas_Hit_SFX	
+	984734739	C004_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Ulti_Int_SFX	
+	997305114	C005_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Skl02_Hit_SFX	
+	1010151776	Stop_C003_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_BAtk01_SFX	
+	1021348308	C003_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_BAtk02_SFX	
+	1023253549	Stop_C008_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_BAtk01_SFX	
+	1055972416	Stop_C006_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_BAtk_Hit_SFX	
+	1056875403	Stop_C002_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_BAtk01_SFX	
+	1060325805	C006_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_Skl02_Hit_SFX	
+	1061370577	C009_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_Skl01_Hit_SFX	
+	1064048986	Stop_C001_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_BAtk01_SFX	
+	1066811573	C007_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Skl01_Cast_SFX	
+	1080478757	Stop_C011_Pas_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Pas_Atk_SFX	
+	1086314633	C006_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_Ulti_Hit_SFX	
+	1100548087	Stop_C009_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_Ulti_Hit_SFX	
+	1114093175	C009_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_BAtk03_SFX	
+	1126401690	C007_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Ulti_Hit_SFX	
+	1132387050	C001_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_Skl02_Cast_SFX	
+	1160682275	C006_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_Skl02_Cast_SFX	
+	1171712716	Stop_C006_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_BAtk02_SFX	
+	1184751205	Stop_C002_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_BAtk03_SFX	
+	1214874352	Stop_C001_BAtk03_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_BAtk03_Buff_SFX	
+	1237977711	Stop_C001_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_Ulti_Hit_SFX	
+	1264319407	C012_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_BAtk03_SFX	
+	1268344741	C002_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Ulti_Hit_SFX	
+	1292218897	C003_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_Skl01_Cast_SFX	
+	1306032237	C005_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_BAtk01_SFX	
+	1328229240	C008_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_Skl01_Cast_SFX	
+	1330660302	I_Lead_Hundred			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\I_Lead_Hundred	
+	1339791804	C002_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Ulti_Atk_SFX	
+	1342953231	Stop_C002_Ulti_Hazard_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Ulti_Hazard_SFX	
+	1347361893	C011_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Ulti_Int_SFX	
+	1348768452	C004_Pas_Buff_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Pas_Buff_Atk_SFX	
+	1358801528	Stop_C005_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Skl01_Int_SFX	
+	1365122479	Stop_C011_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_BAtk01_SFX	
+	1372866815	Stop_C011_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Skl01_Hit_SFX	
+	1372902138	C012_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_Skl02_Cast_SFX	
+	1388125495	C004_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Ulti_Hit_SFX	
+	1391341995	Stop_C001_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_Ulti_Int_SFX	
+	1405775158	C006_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_Skl01_Cast_SFX	
+	1409673960	C007_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_BAtk02_SFX	
+	1415580468	Stop_C004_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Ulti_Int_SFX	
+	1423172353	C011_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Skl02_Hit_SFX	
+	1432899903	Stop_C005_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Ulti_Int_SFX	
+	1443810828	C011_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Ulti_Atk_SFX	
+	1457307244	Stop_C002_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Skl02_Cast_SFX	
+	1458775085	While_Honor			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\While_Honor	
+	1467091647	Stop_C012_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_Skl02_Hit_SFX	
+	1482021622	Stop_C006_Skl02_Move_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_Skl02_Move_SFX	
+	1490787029	C008_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_BAtk02_SFX	
+	1492566325	C008_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_Ulti_Cast_SFX	
+	1496612122	C002_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_BAtk03_SFX	
+	1508018642	C010_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_Ulti_Cast_SFX	
+	1508704366	Stop_C008_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_Skl02_Cast_SFX	
+	1514756270	C005_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Skl02_Cast_SFX	
+	1547897727	C008_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_Ulti_Int_SFX	
+	1564841435	C008_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_Ulti_Hit_SFX	
+	1568846220	C005_Ulti_Assist_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Ulti_Assist_SFX	
+	1600240948	Stop_C004_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Ulti_Cast_SFX	
+	1659715442	Stop_C007_Ulti_Hazard_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Ulti_Hazard_SFX	
+	1661178663	Stop_C007_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_BAtk02_SFX	
+	1662427849	C004_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Ulti_Cast_SFX	
+	1684519894	Stop_C004_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_BAtk_Hit_SFX	
+	1686599002	C001_BAtk_Buff_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_BAtk_Buff_Hit_SFX	
+	1716028513	Stop_C003_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_Ulti_Hit_SFX	
+	1729075028	C004_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Skl01_Cast_SFX	
+	1732421097	Stop_C001_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_BAtk02_SFX	
+	1733038468	C004_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Skl01_Hit_SFX	
+	1748617851	Stop_C011_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Skl01_Int_SFX	
+	1753986318	Stop_C003_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_Skl01_Cast_SFX	
+	1754345890	C004_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_BAtk01_SFX	
+	1778196335	Stop_C005_Pas_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Pas_Int_SFX	
+	1781740601	Stop_C007_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Skl02_Hit_SFX	
+	1804275851	C002_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Ulti_Cast_SFX	
+	1821490252	Stop_C009_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_BAtk03_SFX	
+	1840949912	Stop_C008_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_Ulti_Int_SFX	
+	1852022295	Stop_C011_Skl01_Move_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Skl01_Move_SFX	
+	1873802318	C005_Pas_Assist_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Pas_Assist_SFX	
+	1888753887	C010_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_Skl01_Hit_SFX	
+	1891926717	Stop_C007_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Ulti_Hit_SFX	
+	1900304761	C012_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_Skl01_Hit_SFX	
+	1907549822	Stop_C006_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_Ulti_Hit_SFX	
+	1907845979	C004_BAtk_Buff_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_BAtk_Buff_Hit_SFX	
+	1929348676	C010_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_BAtk02_SFX	
+	1933004952	C003_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_BAtk_Hit_SFX	
+	1951111572	C007_Skl02_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Skl02_Int_SFX	
+	1951609998	C006_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_BAtk03_SFX	
+	1977948657	Stop_C002_Skl02_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Skl02_Atk_SFX	
+	1980274367	Stop_C004_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Skl01_Cast_SFX	
+	2032748916	C009_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_Ulti_Cast_SFX	
+	2043607335	C007_Ulti_Hazard_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Ulti_Hazard_SFX	
+	2102693279	Stop_C010_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_BAtk02_SFX	
+	2105310410	C001_BAtk02_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_BAtk02_Buff_SFX	
+	2115626872	Stop_C006_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_Skl02_Cast_SFX	
+	2147250944	C010_Skl02_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_Skl02_Int_SFX	
+	2152275567	C004_Skl02_GetHit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Skl02_GetHit_SFX	
+	2162481100	C005_Skl01_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Skl01_Atk_SFX	
+	2171220694	Stop_C010_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_Skl01_Hit_SFX	
+	2175072335	Stop_C003_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_Ulti_Cast_SFX	
+	2189722071	Stop_C007_Skl01_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Skl01_Atk_SFX	
+	2196114933	C004_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Skl02_Cast_SFX	
+	2201140585	C001_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_Skl01_Hit_SFX	
+	2205415828	Stop_C002_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_BAtk_Hit_SFX	
+	2209653317	C001_BAtk03_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_BAtk03_Buff_SFX	
+	2218270703	Stop_C011_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Ulti_Atk_SFX	
+	2255320024	C005_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Ulti_Int_SFX	
+	2260302441	C008_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_Skl02_Cast_SFX	
+	2262074621	Stop_C005_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_BAtk_Hit_SFX	
+	2274703871	C001_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_BAtk03_SFX	
+	2275154290	Stop_C011_Skl01_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Skl01_Atk_SFX	
+	2275377444	C009_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_Ulti_Hit_SFX	
+	2306153284	C007_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Skl02_Hit_SFX	
+	2306277996	C007_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_BAtk_Hit_SFX	
+	2306720627	Stop_C007_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Ulti_Cast_SFX	
+	2309695918	C005_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_BAtk02_SFX	
+	2325030083	Stop_C002_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Skl01_Hit_SFX	
+	2327732210	C011_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Skl01_Cast_SFX	
+	2344994183	C001_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_Skl01_Cast_SFX	
+	2359107376	C008_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_BAtk03_SFX	
+	2374155466	C001_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_BAtk02_SFX	
+	2394111487	C007_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Skl01_Int_SFX	
+	2395962042	C012_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_BAtk02_SFX	
+	2411055195	C007_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Skl01_Hit_SFX	
+	2422994159	Stop_C007_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_BAtk_Hit_SFX	
+	2435851727	C010_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_Ulti_Atk_SFX	
+	2438029264	Stop_C006_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_Skl02_Hit_SFX	
+	2438488643	A_Raging_Sea			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\A_Raging_Sea	
+	2451374958	Stop_C008_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_BAtk02_SFX	
+	2452874006	C008_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_BAtk01_SFX	
+	2458968593	C004_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_BAtk02_SFX	
+	2463749382	Stop_C012_BAtk01_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_BAtk01_Buff_SFX	
+	2484477299	C009_Ulti_Hazard_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_Ulti_Hazard_Hit_SFX	
+	2490494904	C002_Skl02_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Skl02_Atk_SFX	
+	2490774245	Stop_C008_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_Skl01_Int_SFX	
+	2503573471	Stop_C001_Skl02_Buff_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_Skl02_Buff_Cast_SFX	
+	2504609917	Stop_C005_Ulti_Assist_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Ulti_Assist_SFX	
+	2508262802	Stop_C010_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_Skl01_Cast_SFX	
+	2516843142	Stop_C003_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_BAtk03_SFX	
+	2568826761	C002_Skl02_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Skl02_Int_SFX	
+	2569436130	C002_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Skl01_Cast_SFX	
+	2582341444	Stop_C009_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_Skl01_Hit_SFX	
+	2589075310	C007_Skl01_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Skl01_Atk_SFX	
+	2595587646	C005_Pas_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Pas_Cast_SFX	
+	2611806546	Stop_C011_Ulti_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Ulti_Int_SFX	
+	2625391404	Stop_C010_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_Ulti_Atk_SFX	
+	2639165829	Stop_C010_Skl02_GetHit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_Skl02_GetHit_SFX	
+	2661730970	C004_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Ulti_Atk_SFX	
+	2664591926	Stop_C011_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Ulti_Hit_SFX	
+	2668764201	Stop_C005_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Skl02_Cast_SFX	
+	2679801776	Stop_C008_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_Ulti_Hit_SFX	
+	2687243355	Stop_C009_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_Skl02_Hit_SFX	
+	2694500186	Stop_C003_BAtk_Hit_Pas_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_BAtk_Hit_Pas_SFX	
+	2699850051	Stop_C003_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_BAtk_Hit_SFX	
+	2699874157	Stop_C005_Pas_Assist_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Pas_Assist_SFX	
+	2724681871	C002_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_BAtk02_SFX	
+	2731613491	C007_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_BAtk01_SFX	
+	2740016443	C012_BAtk01_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_BAtk01_Buff_SFX	
+	2752259429	Stop_C005_Skl01_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Skl01_Atk_SFX	
+	2754537642	Stop_C006_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_Ulti_Cast_SFX	
+	2766348071	C006_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_Ulti_Cast_SFX	
+	2794684217	C004_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_BAtk_Hit_SFX	
+	2798044242	Stop_C007_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_BAtk03_SFX	
+	2818748077	Stop_C012_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_BAtk02_SFX	
+	2856629030	C002_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Skl01_Hit_SFX	
+	2925328420	Stop_C011_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_BAtk02_SFX	
+	2948382080	C006_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_Ulti_Atk_SFX	
+	2948513979	Stop_C003_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_Skl02_Cast_SFX	
+	2961093623	C011_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_BAtk_Hit_SFX	
+	2991959299	C004_BAtk02_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_BAtk02_Buff_SFX	
+	3003603543	C008_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_Skl02_Hit_SFX	
+	3041538816	Stop_C002_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_BAtk02_SFX	
+	3045693917	Stop_C006_BAtk_Hit_Pas_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_BAtk_Hit_Pas_SFX	
+	3047700073	Stop_C006_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_Skl01_Cast_SFX	
+	3055165908	Stop_C010_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_BAtk01_SFX	
+	3057876514	C004_BAtk01_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_BAtk01_Buff_SFX	
+	3061829123	Stop_C004_BAtk01_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_BAtk01_Buff_SFX	
+	3085750756	Stop_C001_Skl01_Buff_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_Skl01_Buff_Cast_SFX	
+	3097188631	Stop_C004_Pas_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Pas_Atk_SFX	
+	3114992728	Stop_C012_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_Skl01_Hit_SFX	
+	3127746338	Stop_C004_BAtk02_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_BAtk02_Buff_SFX	
+	3133247851	C001_BAtk01_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_BAtk01_Buff_SFX	
+	3140719234	C003_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_Ulti_Cast_SFX	
+	3172985637	Champ_Gen_FS_SFX			\Default Work Unit\InGame\Champions\Champions_Gen\Champ_Gen_FS_SFX	
+	3194272824	Stop_C011_Pas_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Pas_Int_SFX	
+	3198760977	C006_Skl02_Move_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_Skl02_Move_SFX	
+	3202409218	Stop_C004_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Skl02_Cast_SFX	
+	3211876463	C011_Skl01_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Skl01_Atk_SFX	
+	3220358167	Stop_C010_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_BAtk_Hit_SFX	
+	3222132885	Stop_C005_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_BAtk02_SFX	
+	3226607548	Stop_C007_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_BAtk01_SFX	
+	3239322850	C009_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_BAtk02_SFX	
+	3247329221	C001_Skl01_Buff_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\C001_Skl01_Buff_Cast_SFX	
+	3248604940	Stop_C001_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_Skl01_Hit_SFX	
+	3259194596	Stop_C004_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Ulti_Hit_SFX	
+	3272398367	C002_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Skl02_Cast_SFX	
+	3272529464	Stop_C005_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Skl01_Cast_SFX	
+	3278732439	C012_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_Skl01_Cast_SFX	
+	3293048542	Stop_C004_Skl02_Expire_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Skl02_Expire_SFX	
+	3298177550	C012_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_Skl02_Hit_SFX	
+	3320455659	Stop_C003_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_BAtk02_SFX	
+	3328078690	Stop_C009_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_BAtk01_SFX	
+	3332370768	Stop_C011_Pas_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Pas_Hit_SFX	
+	3337870744	Stop_C011_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Skl02_Hit_SFX	
+	3341450321	Stop_C006_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_BAtk03_SFX	
+	3380766969	Stop_C010_Skl02_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_Skl02_Int_SFX	
+	3409300234	C002_Ulti_Hazard_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Ulti_Hazard_SFX	
+	3430357314	C009_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_Skl02_Cast_SFX	
+	3439687153	C002_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_Skl02_Hit_SFX	
+	3484053106	Stop_C011_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\Stop_C011_Ulti_Cast_SFX	
+	3517072094	C012_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_BAtk_Hit_SFX	
+	3527851142	C009_Skl02_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_Skl02_Hit_SFX	
+	3529627352	Stop_C008_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_Ulti_Cast_SFX	
+	3568938446	C005_Pas_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Pas_Int_SFX	
+	3574578075	Stop_C008_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_Skl01_Cast_SFX	
+	3580439316	Stop_C009_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_Skl01_Cast_SFX	
+	3585205452	Stop_C004_Skl02_GetHit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Skl02_GetHit_SFX	
+	3592383717	C003_BAtk_Hit_Pas_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_BAtk_Hit_Pas_SFX	
+	3597348413	C008_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_BAtk_Hit_SFX	
+	3604443583	C011_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_BAtk02_SFX	
+	3605412306	C011_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Skl01_Int_SFX	
+	3624503574	C010_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_Ulti_Hit_SFX	
+	3624717784	C003_Skl02_Evade_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_Skl02_Evade_SFX	
+	3638937228	Stop_C001_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_Skl01_Cast_SFX	
+	3643175034	Stop_C003_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_Skl01_Hit_SFX	
+	3645497327	Stop_C012_BAtk_Buff_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_BAtk_Buff_Hit_SFX	
+	3658197686	C011_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Skl01_Hit_SFX	
+	3659100834	Stop_C009_Ulti_Hazard_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_Ulti_Hazard_Hit_SFX	
+	3660000850	Stop_C002_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Ulti_Hit_SFX	
+	3666239000	C005_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\C005_Ulti_Cast_SFX	
+	3684735645	Stop_C003_Skl02_Evade_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\Stop_C003_Skl02_Evade_SFX	
+	3751640226	Stop_C004_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_BAtk02_SFX	
+	3754096869	Stop_C005_Pas_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_Pas_Cast_SFX	
+	3798438834	C006_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_Skl01_Hit_SFX	
+	3830844833	C010_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_Skl01_Cast_SFX	
+	3844150262	C010_Skl02_GetHit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_Skl02_GetHit_SFX	
+	3852427844	Stop_C001_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_BAtk03_SFX	
+	3853076333	C007_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_BAtk03_SFX	
+	3853302674	Stop_C008_BAtk_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_BAtk_Hit_SFX	
+	3853675210	Stop_C007_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Skl01_Int_SFX	
+	3868392272	C010_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_Skl02_Cast_SFX	
+	3899531962	Stop_C007_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Skl01_Cast_SFX	
+	3902472017	C009_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\C009_BAtk01_SFX	
+	3911683534	Stop_C007_Skl01_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\Stop_C007_Skl01_Hit_SFX	
+	3914845953	Stop_C008_Ulti_Hazard_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\Stop_C008_Ulti_Hazard_SFX	
+	3916893645	Stop_C002_Skl01_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\Stop_C002_Skl01_Cast_SFX	
+	3920659031	C011_Pas_Expire_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Pas_Expire_SFX	
+	3925695157	C011_Ulti_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Ulti_Hit_SFX	
+	3945760532	C007_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Skl02_Cast_SFX	
+	3956733455	Stop_C010_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_Skl02_Cast_SFX	
+	3971866266	C007_Skl02_Move_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Skl02_Move_SFX	
+	3977627845	C004_Skl02_Expire_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Skl02_Expire_SFX	
+	3985365823	C003_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C003_Wana\C003_Ulti_Atk_SFX	
+	3990974493	Stop_C012_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_Ulti_Cast_SFX	
+	3991227857	Stop_C009_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C009_Siong\Stop_C009_BAtk02_SFX	
+	4009213882	Stop_C001_BAtk01_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_BAtk01_Buff_SFX	
+	4053587058	Stop_C010_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_Skl01_Int_SFX	
+	4072377655	Stop_C012_BAtk02_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_BAtk02_Buff_SFX	
+	4090453488	Stop_C005_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C005_Menjaya\Stop_C005_BAtk03_SFX	
+	4090644615	Stop_C006_Ulti_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\Stop_C006_Ulti_Atk_SFX	
+	4104309225	C010_BAtk03_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_BAtk03_SFX	
+	4117750843	Stop_C010_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\Stop_C010_Ulti_Cast_SFX	
+	4121692269	Stop_C001_Skl02_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_Skl02_Cast_SFX	
+	4136468532	Atas_Kapal			\Default Work Unit\InGame\VO\Champions\C007_Rakai\Atas_Kapal	
+	4148552494	C007_Ulti_Cast_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C007_Rakai\C007_Ulti_Cast_SFX	
+	4152354345	Stop_C004_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\Stop_C004_Skl01_Int_SFX	
+	4158183131	C010_Skl01_Int_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_Skl01_Int_SFX	
+	4162924307	C006_BAtk02_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_BAtk02_SFX	
+	4183748172	Stop_C012_BAtk03_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_BAtk03_Buff_SFX	
+	4198075855	C010_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C010_Nydia\C010_BAtk01_SFX	
+	4198434370	C006_BAtk_Hit_Pas_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C006_Shima\C006_BAtk_Hit_Pas_SFX	
+	4246869486	Stop_C012_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\Stop_C012_BAtk01_SFX	
+	4251645802	C012_BAtk_Buff_Hit_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C012_Khan\C012_BAtk_Buff_Hit_SFX	
+	4259320859	Stop_C001_BAtk02_Buff_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C001_Remaung\Stop_C001_BAtk02_Buff_SFX	
+	4271014394	C004_Pas_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C004_Gana\C004_Pas_Atk_SFX	
+	4277079188	C011_Pas_Atk_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C011_Jaka\C011_Pas_Atk_SFX	
+	4284595444	C008_Ulti_Hazard_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C008_Pungga\C008_Ulti_Hazard_SFX	
+	4284887812	C002_BAtk01_SFX			\Default Work Unit\InGame\Champions\Champions_SFX\C002_Ratna\C002_BAtk01_SFX	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2366409488	FS_Material_SwG			\Default Work Unit\FS_Material_SwG	
+
+Switch	ID	Name	Switch Group			Notes
+	2528658256	Ground	FS_Material_SwG			
+	2654748154	Water	FS_Material_SwG			
+	4248645337	Grass	FS_Material_SwG			
+
+Effect plug-ins	ID	Name	Type				Notes
+	2998002419	Boost_3dB_10KHz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4357522	C012_BAtk_Buff_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_BAtk_Buff_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\BAtk\C012_BAtk_Buff_Hit_SFX		9545
+	12731282	C001_Skl02_Buff_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_Skl02_Buff_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\Skl\C001_Skl02_Buff_Cast_SFX		42064
+	12905885	C010_Skl02_GetHit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_Skl02_GetHit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\Skl\C010_Skl02_GetHit_SFX		11040
+	17506993	C012_Skl02_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\Skl\C012_Skl02_Hit_SFX		9700
+	24410837	I_Lead_Hundred	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Rakai VO - Movement 4 _3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\VO\I_Lead_Hundred		86659
+	25990261	C004_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Skl\C004_Skl01_Cast_SFX		9232
+	28979930	C005_Pas_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Pas_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Pas\C005_Pas_Int_SFX		35538
+	31619061	C007_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\BAtk\C007_BAtk01_SFX		6679
+	44445232	C008_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\BAtk\C008_BAtk_Hit_SFX		16809
+	67912688	C005_Ulti_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Ulti_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Ulti\C005_Ulti_Int_SFX		48355
+	68266340	C004_Ulti_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Ulti_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Ulti\C004_Ulti_Atk_SFX		19549
+	70486030	C010_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\Skl\C010_Skl01_Hit_SFX		10092
+	77153401	Champ_Gen_FS_Grass_02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Grass_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Grass_SFX\Champ_Gen_FS_Grass_02_SFX		6588
+	88415245	C004_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\BAtk\C004_BAtk01_SFX		6461
+	89170515	C012_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\BAtk\C012_BAtk02_SFX		6696
+	91118429	C007_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Ulti\C007_Ulti_Hit_SFX		7498
+	95992809	C002_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\BAtk\C002_BAtk03_SFX		11184
+	96067309	C001_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\BAtk\C001_BAtk03_SFX		6071
+	97933326	C007_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\BAtk\C007_BAtk_Hit_SFX		6616
+	100980655	C005_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\BAtk\C005_BAtk_Hit_SFX		15290
+	109131188	Atas_Kapal	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Rakai VO - Atas Kapal        _3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Champions\C007_Rakai\Atas_Kapal		53950
+	115306185	C003_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\BAtk\C003_BAtk03_SFX		10415
+	116156800	C006_Skl02_Move_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_Skl02_Move_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\Skl\C006_Skl02_Move_SFX		8449
+	116749334	C012_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\BAtk\C012_BAtk_Hit_SFX		8675
+	121659962	C007_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Skl\C007_Skl01_Cast_SFX		4692
+	130947890	C012_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\Skl\C012_Skl01_Hit_SFX		25113
+	139073502	C006_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\BAtk\C006_BAtk01_SFX		3854
+	143865301	C005_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Ulti\C005_Ulti_Cast_SFX		17622
+	143937999	C001_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\Skl\C001_Skl01_Hit_SFX		11768
+	147619720	C007_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Ulti\C007_Ulti_Cast_SFX		15756
+	156411825	C006_Ulti_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_Ulti_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\Ulti\C006_Ulti_Atk_SFX		11813
+	158447406	C003_Skl02_Evade_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_Skl02_Evade_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\Skl\C003_Skl02_Evade_SFX		4687
+	159220494	C007_Skl02_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Skl\C007_Skl02_Hit_SFX		6124
+	164262492	C006_Skl02_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\Skl\C006_Skl02_Hit_SFX		13088
+	176676865	Champ_Gen_FS_Grass_03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Grass_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Grass_SFX\Champ_Gen_FS_Grass_03_SFX		6334
+	183166995	C010_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\Skl\C010_Skl02_Cast_SFX		16614
+	184141129	A_Raging_Sea	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Rakai VO - Movement 2  #2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\VO\A_Raging_Sea		38536
+	187268495	C008_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\BAtk\C008_BAtk03_SFX		8936
+	198580990	C011_Ulti_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Ulti_Int_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Ulti\C011_Ulti_Int_SFX		26888
+	200012378	C002_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Ulti\C002_Ulti_Hit_SFX		12724
+	205325712	C007_Skl02_Move_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Skl02_Move_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Skl\C007_Skl02_Move_SFX		5910
+	219436314	C008_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\Ulti\C008_Ulti_Hit_SFX		20152
+	234506753	C012_BAtk01_Buff_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_BAtk01_Buff_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\BAtk\C012_BAtk01_Buff_SFX		6966
+	242378884	C011_Ulti_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Ulti_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Ulti\C011_Ulti_Atk_SFX		32203
+	246413887	C004_BAtk01_Buff_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_BAtk01_Buff_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\BAtk\C004_BAtk01_Buff_SFX		6994
+	255244857	C009_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\BAtk\C009_BAtk_Hit_SFX		7459
+	263862336	C010_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\Skl\C010_Skl01_Cast_SFX		17247
+	264740622	C011_Skl01_Move_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Skl01_Move_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Skl\C011_Skl01_Move_SFX		14063
+	265684253	C010_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\BAtk\C010_BAtk01_SFX		10877
+	277425201	C002_Ulti_Hazard_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Ulti_Hazard_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Ulti\C002_Ulti_Hazard_SFX		29016
+	278600818	C002_Skl02_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Skl\C002_Skl02_Hit_SFX		10485
+	279640678	C009_Ulti_Hazard_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_Ulti_Hazard_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\Ulti\C009_Ulti_Hazard_Hit_SFX		9807
+	286926419	C006_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\Skl\C006_Skl01_Cast_SFX		18951
+	304676468	C012_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\Ulti\C012_Ulti_Hit_SFX		18274
+	305039537	C002_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Skl\C002_Skl01_Cast_SFX		14091
+	315168380	Champ_Gen_FS_Ground_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Ground_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Ground_SFX\Champ_Gen_FS_Ground_01_SFX		5256
+	315764960	C004_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Ulti\C004_Ulti_Hit_SFX		9768
+	317733970	C004_Skl02_GetHit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Skl02_GetHit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Skl\C004_Skl02_GetHit_SFX		5987
+	317827036	C011_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\BAtk\C011_BAtk_Hit_SFX		21160
+	318677280	Champ_Gen_FS_Grass_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Grass_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Grass_SFX\Champ_Gen_FS_Grass_01_SFX		5053
+	325144327	C004_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\BAtk\C004_BAtk_Hit_SFX		7428
+	344322081	C005_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\BAtk\C005_BAtk03_SFX		9269
+	366133653	Champ_Gen_FS_Water_02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Water_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Water_SFX\Champ_Gen_FS_Water_02_SFX		8950
+	374607228	C005_Pas_Assist_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Pas_Assist_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Pas\C005_Pas_Assist_SFX		32015
+	378775552	C011_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\BAtk\C011_BAtk01_SFX		7805
+	378896242	C001_BAtk_Buff_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_BAtk_Buff_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\BAtk\C001_BAtk_Buff_Hit_SFX		9982
+	379719731	C010_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\BAtk\C010_BAtk03_SFX		9485
+	384319319	C004_BAtk_Buff_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_BAtk_Buff_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\BAtk\C004_BAtk_Buff_Hit_SFX		8993
+	387793871	C012_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\BAtk\C012_BAtk01_SFX		6789
+	388147609	C005_Skl01_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Skl01_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Skl\C005_Skl01_Int_SFX		20022
+	388268804	C003_Ulti_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_Ulti_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\Ulti\C003_Ulti_Atk_SFX		12519
+	391072582	C012_BAtk03_Buff_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_BAtk03_Buff_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\BAtk\C012_BAtk03_Buff_SFX		6660
+	398229317	C005_Skl01_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Skl01_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Skl\C005_Skl01_Atk_SFX		13587
+	400126561	C008_Ulti_Hazard_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_Ulti_Hazard_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\Ulti\C008_Ulti_Hazard_SFX		58489
+	413165442	Champ_Gen_FS_Water_01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Water_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Water_SFX\Champ_Gen_FS_Water_01_SFX		10193
+	413860871	C002_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Ulti\C002_Ulti_Cast_SFX		23319
+	420708801	C002_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\BAtk\C002_BAtk01_SFX		11318
+	433759877	C007_Ulti_Hazard_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Ulti_Hazard_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Ulti\C007_Ulti_Hazard_SFX		39333
+	449129442	C004_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Skl\C004_Skl01_Hit_SFX		13518
+	450517102	C005_Skl02_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Skl\C005_Skl02_Hit_SFX		6893
+	453352065	C003_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\BAtk\C003_BAtk_Hit_SFX		6382
+	455098592	C005_Pas_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Pas_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Pas\C005_Pas_Cast_SFX		14353
+	466433234	C008_Skl01_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_Skl01_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\Skl\C008_Skl01_Int_SFX		23751
+	472712517	C001_Skl01_Buff_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_Skl01_Buff_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\Skl\C001_Skl01_Buff_Cast_SFX		24776
+	475327517	C006_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\BAtk\C006_BAtk02_SFX		5049
+	484913018	C006_BAtk_Hit_Pas_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_BAtk_Hit_Pas_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\BAtk\C006_BAtk_Hit_Pas_SFX		8109
+	492869707	C008_Ulti_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_Ulti_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\Ulti\C008_Ulti_Int_SFX		16298
+	494558593	C009_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\Skl\C009_Skl01_Hit_SFX		5637
+	517565968	C001_BAtk01_Buff_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_BAtk01_Buff_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\BAtk\C001_BAtk01_Buff_SFX		7563
+	519978082	Champ_Gen_FS_Ground_03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Ground_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Ground_SFX\Champ_Gen_FS_Ground_03_SFX		5482
+	523497579	C004_BAtk02_Buff_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_BAtk02_Buff_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\BAtk\C004_BAtk02_Buff_SFX		6160
+	525327653	C001_Ulti_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_Ulti_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\Ulti\C001_Ulti_Int_SFX		18519
+	527233670	C003_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\Skl\C003_Skl01_Cast_SFX		17525
+	538742405	C004_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\BAtk\C004_BAtk02_SFX		5961
+	556201148	C012_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\Ulti\C012_Ulti_Cast_SFX		45720
+	561596531	C010_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\BAtk\C010_BAtk_Hit_SFX		7893
+	570138539	C002_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\BAtk\C002_BAtk02_SFX		11679
+	577862811	C011_Pas_Expire_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Pas_Expire_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Pas\C011_Pas_Expire_SFX		8595
+	583642327	C005_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Skl\C005_Skl02_Cast_SFX		17966
+	584761357	C009_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\Ulti\C009_Ulti_Hit_SFX		8929
+	586486346	C006_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\Skl\C006_Skl01_Hit_SFX		13957
+	588094072	C008_BAtk_Hit_Pas_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_BAtk_Hit_Pas_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\BAtk\C008_BAtk_Hit_Pas_SFX		29525
+	595072751	C009_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\BAtk\C009_BAtk03_SFX		12787
+	603347951	C001_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\Skl\C001_Skl01_Cast_SFX		17455
+	603686804	C012_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\Skl\C012_Skl01_Cast_SFX		17251
+	617063000	C012_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\BAtk\C012_BAtk03_SFX		7687
+	624379668	C004_Pas_Buff_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Pas_Buff_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Pas\C004_Pas_Buff_Atk_SFX		10108
+	627754051	C008_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\Skl\C008_Skl02_Cast_SFX		17874
+	634402186	Champ_Gen_FS_Water_03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Water_03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Water_SFX\Champ_Gen_FS_Water_03_SFX		8474
+	635784092	C004_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Ulti\C004_Ulti_Cast_SFX		10097
+	638935649	C008_Skl02_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\Skl\C008_Skl02_Hit_SFX		19887
+	643645403	C009_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\BAtk\C009_BAtk02_SFX		3611
+	653439227	C002_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Skl\C002_Skl02_Cast_SFX		9563
+	654798534	C003_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\Skl\C003_Skl02_Cast_SFX		45225
+	660088167	C010_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\Ulti\C010_Ulti_Hit_SFX		12202
+	674914467	C006_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\BAtk\C006_BAtk03_SFX		6345
+	679760931	C002_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\BAtk\C002_BAtk_Hit_SFX		7246
+	685424993	C002_Skl02_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Skl02_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Skl\C002_Skl02_Int_SFX		15033
+	693089615	C011_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Skl\C011_Skl01_Hit_SFX		17323
+	695279939	C006_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\Ulti\C006_Ulti_Hit_SFX		8102
+	702747909	C001_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\BAtk\C001_BAtk01_SFX		6733
+	718523651	C009_Skl02_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\Skl\C009_Skl02_Hit_SFX		10514
+	722646989	Champ_Gen_FS_Ground_02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Ground_02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Ground_SFX\Champ_Gen_FS_Ground_02_SFX		6213
+	732689507	C011_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Ulti\C011_Ulti_Hit_SFX		26259
+	733664263	C001_BAtk02_Buff_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_BAtk02_Buff_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\BAtk\C001_BAtk02_Buff_SFX		8510
+	736501862	C006_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\BAtk\C006_BAtk_Hit_SFX		6470
+	737487555	C003_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\BAtk\C003_BAtk01_SFX		9531
+	739318989	C004_Pas_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Pas_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Pas\C004_Pas_Atk_SFX		13439
+	743459833	C011_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\BAtk\C011_BAtk02_SFX		6527
+	744417165	C008_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\Ulti\C008_Ulti_Cast_SFX		26512
+	759141579	C009_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\BAtk\C009_BAtk01_SFX		4271
+	761466365	C004_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Skl\C004_Skl02_Cast_SFX		16569
+	765320741	C007_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Skl\C007_Skl01_Hit_SFX		7054
+	772119763	Champ_Gen_FS_Water_04_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Water_04_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Water_SFX\Champ_Gen_FS_Water_04_SFX		8189
+	780456384	C002_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Skl\C002_Skl01_Hit_SFX		7716
+	783498788	C012_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\Skl\C012_Skl02_Cast_SFX		12512
+	786454671	C003_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\Ulti\C003_Ulti_Cast_SFX		47558
+	790666415	C009_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\Ulti\C009_Ulti_Cast_SFX		23410
+	790760279	C011_Skl02_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Skl02_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Skl\C011_Skl02_Hit_SFX		25036
+	791092848	C004_Skl01_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Skl01_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Skl\C004_Skl01_Int_SFX		21310
+	798180639	C011_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Ulti\C011_Ulti_Cast_SFX		19646
+	798561236	C008_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\BAtk\C008_BAtk01_SFX		8979
+	815706744	C007_Skl02_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Skl02_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Skl\C007_Skl02_Int_SFX		3309
+	817272758	C007_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\BAtk\C007_BAtk02_SFX		7499
+	817919894	C001_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\Skl\C001_Skl02_Cast_SFX		43101
+	821131916	C002_Skl02_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Skl02_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Skl\C002_Skl02_Atk_SFX		11894
+	822277070	C011_Skl01_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Skl01_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Skl\C011_Skl01_Atk_SFX		11941
+	824242519	C004_Skl02_Expire_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Skl02_Expire_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Skl\C004_Skl02_Expire_SFX		8041
+	844425907	C009_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\Skl\C009_Skl01_Cast_SFX		12377
+	846879318	C012_BAtk02_Buff_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C012_BAtk02_Buff_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C012_Khan\BAtk\C012_BAtk02_Buff_SFX		6827
+	850884066	C007_Skl01_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Skl01_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Skl\C007_Skl01_Int_SFX		4545
+	858306034	C010_Ulti_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_Ulti_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\Ulti\C010_Ulti_Atk_SFX		60233
+	859040837	C003_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\Skl\C003_Skl01_Hit_SFX		7538
+	860314987	C001_BAtk03_Buff_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_BAtk03_Buff_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\BAtk\C001_BAtk03_Buff_SFX		8840
+	867281253	Champ_Gen_FS_Grass_04_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Grass_04_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Grass_SFX\Champ_Gen_FS_Grass_04_SFX		5792
+	871562833	C011_Pas_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Pas_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Pas\C011_Pas_Int_SFX		17628
+	877123393	C008_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\Skl\C008_Skl01_Cast_SFX		18333
+	884178148	C010_Skl02_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_Skl02_Int_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\Skl\C010_Skl02_Int_SFX		44877
+	892037409	C007_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Skl\C007_Skl02_Cast_SFX		4262
+	895116615	C003_BAtk_Hit_Pas_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_BAtk_Hit_Pas_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\BAtk\C003_BAtk_Hit_Pas_SFX		6466
+	905958731	C007_Skl01_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_Skl01_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\Skl\C007_Skl01_Atk_SFX		6627
+	909122127	C007_BAtk03_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C007_BAtk03_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\BAtk\C007_BAtk03_SFX		6750
+	910712929	C010_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\BAtk\C010_BAtk02_SFX		9687
+	912013616	C011_Pas_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Pas_Hit_SFX_559E5B7B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Pas\C011_Pas_Hit_SFX		7862
+	921077399	C003_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\BAtk\C003_BAtk02_SFX		10599
+	922047787	C005_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\BAtk\C005_BAtk02_SFX		9942
+	934115309	C010_Skl01_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_Skl01_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\Skl\C010_Skl01_Int_SFX		51153
+	945917934	C005_BAtk01_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_BAtk01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\BAtk\C005_BAtk01_SFX		8185
+	947421766	C008_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\BAtk\C008_BAtk02_SFX		8761
+	950453906	C001_BAtk02_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_BAtk02_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\BAtk\C001_BAtk02_SFX		4456
+	953306571	C010_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C010_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C010_Nydia\Ulti\C010_Ulti_Cast_SFX		35442
+	971126397	C009_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C009_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C009_Siong\Skl\C009_Skl02_Cast_SFX		30073
+	979657199	C001_BAtk_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_BAtk_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\BAtk\C001_BAtk_Hit_SFX		7976
+	994121433	C011_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Skl\C011_Skl01_Cast_SFX		6190
+	997047385	C002_Ulti_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C002_Ulti_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C002_Ratna\Ulti\C002_Ulti_Atk_SFX		17457
+	998845414	C006_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\Ulti\C006_Ulti_Cast_SFX		21779
+	1000098797	C004_Ulti_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C004_Ulti_Int_SFX_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C004_Gana\Ulti\C004_Ulti_Int_SFX		30764
+	1008417209	C001_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\Ulti\C001_Ulti_Hit_SFX		15373
+	1024130587	C003_Ulti_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C003_Ulti_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C003_Wana\Ulti\C003_Ulti_Hit_SFX		10641
+	1028209932	C001_Ulti_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C001_Ulti_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C001_Remaung\Ulti\C001_Ulti_Cast_SFX		10861
+	1028677903	C008_Skl01_Hit_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C008_Skl01_Hit_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C008_Pungga\Skl\C008_Skl01_Hit_SFX		16198
+	1033044944	While_Honor	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Rakai VO - Movement 1  #3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C007_Rakai\VO\While_Honor		48389
+	1035140824	C005_Ulti_Assist_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Ulti_Assist_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Ulti\C005_Ulti_Assist_SFX		58835
+	1037546221	Champ_Gen_FS_Ground_04_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\Champ_Gen_FS_Ground_04_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions_Gen\Champ_Gen_FS_SFX\Champ_Gen_FS_Ground_SFX\Champ_Gen_FS_Ground_04_SFX		5053
+	1044824122	C011_Skl01_Int_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Skl01_Int_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Skl\C011_Skl01_Int_SFX		9008
+	1049158985	C005_Skl01_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C005_Skl01_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C005_Menjaya\Skl\C005_Skl01_Cast_SFX		12712
+	1054940555	C006_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C006_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C006_Shima\Skl\C006_Skl02_Cast_SFX		11843
+	1056696325	C011_Pas_Atk_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Pas_Atk_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Pas\C011_Pas_Atk_SFX		14419
+	1070540155	C011_Skl02_Cast_SFX	E:\MediBeats\Audio Implementation Folder\Unity Cloud\wkspaces\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\C011_Skl02_Cast_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Champions\C011_Jaka\Skl\C011_Skl02_Cast_SFX		11586
+

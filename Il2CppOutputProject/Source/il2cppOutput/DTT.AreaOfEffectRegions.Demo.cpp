@@ -1,0 +1,5148 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC;
+struct Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A;
+struct IEnumerable_1_t133C4F6184F4EFFAE7084D293093D6B6CF884215;
+struct List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F;
+struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
+struct List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3;
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t8292C421BBB00D7661DC07462822936152BAB446;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90;
+struct UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct LineRegionProjectorU5BU5D_t06EB8A81ADB758B190CEB4100223A2DAA634145B;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7;
+struct SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
+struct ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5;
+struct ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421;
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
+struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1;
+struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15;
+struct CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707;
+struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB;
+struct Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC;
+struct ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7;
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
+struct SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6;
+struct SettingsHandler_tB636B5A74BCFB7A3A01608E4CCD0FDFFF4F8CF47;
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct TerrainHandler_tA199E733870712DC57B522813E1A32FCACA97D4D;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tCD9DDBD130B92DBD93A4C478F0D778955A413639;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct lineSettings_t643AAC879365116F3D0C91FAACF037093A063632;
+struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+struct U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2;
+struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
+struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555;
+
+IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t8292C421BBB00D7661DC07462822936152BAB446_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ProjectorType_t696F3657C2D1DF101BE745F6FE7A6F00BBF44382_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tB7999EF5BA3B7AA1E28FBCCD67BC58876821BFD8____405A09256F83A9AAED285EE92E676902FED49B63D64EBDB29B5B8C457D9D2AA5_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tB7999EF5BA3B7AA1E28FBCCD67BC58876821BFD8____D7BA1B44AD707CBD78FC8B0EE13CD2F43F2A7C2025B8ACCE63456A9D5F4B7D95_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F;
+IL2CPP_EXTERN_C String_t* _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
+IL2CPP_EXTERN_C String_t* _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcSettings_UpdateAngle_m74A1DFC09035B962A74F12A1689BFC8D308E209C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcSettings_UpdateArc_mCD1354D807930D1F6582DEB8F93771E4CB0D92C4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcSettings_UpdateFill_mA630CE0D917DC8A62ECB0A3A20F3714893424B93_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ArcSettings_UpdateRadius_mA76272BC2CB5513D6048FDCDE205EF3DC6500ED5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CircleSettings_UpdateFill_m4EA368A0C7491B251E484734CED7F85AEC7A17DC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CircleSettings_UpdateRadius_m40A4A0397A133A99CE3D0A1C47FA02E277F44C74_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationHidingButton_ChangeConfigState_m4991C1646D6C06B1E860646EA04AF4772F7C56D3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Any_TisRaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_m72DE92C05387759173F7E5F871E6B95A0B531D75_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5_mEDE8705D63483A4CAAC934FA9BFB0E494A19BDC3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisCircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15_mD48734997407D8FE3765CAFBC47210E4EB4B81E4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisLineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F_mB54F69C3AEB28A70919086078C9D6E8BCA4BB92C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC_m4330D64899951209694626A43798C696B966079D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScatterLineSettings_AddLine_m38676800395DC8A962D4163A1A75393BC089FF7E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScatterLineSettings_RemoveLine_mAC32415240F9D7AE8B69C7DA864018E34D090CC2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScatterLineSettings_UpdateArc_m342F1F6B6DD43214C475CFAFB94839A0DBFB78E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScatterLineSettings_UpdateFade_m92D2D1D555D21E591DB6C5C1ABE28F8969F2522B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScatterLineSettings_UpdateFill_m070C84EFBCDEFF513C752E5779DE8FD23C3E51C2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScatterLineSettings_UpdateLength_m0624654AB3F3C0D9C62030EE403D181FE3B9981E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScatterLineSettings_UpdateWidth_m79E3CBEDF310BB41604ACEE53C5DC82DBE76D24A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SettingsHandler_UpdateSettings_m307E91A276357AE6502087E4CC6769500D7F6C7C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureSelectionUI_U3CAddListenerU3Eb__5_0_mC84934AF22EF9880ACAF713077CCBD18DF6C9D11_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureSelectionUI_U3CAddListenerU3Eb__5_1_m67FCADA9B4DBA5153CF61ADA55653C65F4E0FC70_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureSelectionUI_U3CAddListenerU3Eb__5_2_m28A8C5C564A0DDBF6900DB55A83B78E835B64950_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureSelectionUI_U3CRemoveListenerU3Eb__6_0_mE8BCEA0C85BAE50BFDA813FC8BA09F62D97F47B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureSelectionUI_U3CRemoveListenerU3Eb__6_1_m62DB8874468082198EA3A0405EC8E072AA49F65B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureSelectionUI_U3CRemoveListenerU3Eb__6_2_m5847248F292405D615A2C2966FB2DC2BEC423DA7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypeSelectionUI_U3CAddListenerU3Eb__6_0_m5B29B5CEB1971300089D4F07E90FCF2961699DF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypeSelectionUI_U3CAddListenerU3Eb__6_1_m297A550DEA6E804D50D796C757F14A43E9050B95_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypeSelectionUI_U3CAddListenerU3Eb__6_2_m4F16849DE52A62A65DC79BC818E463D3403AFB22_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypeSelectionUI_U3CAddListenerU3Eb__6_3_m576C6E83789DC0C1215D3B0A5B7A698FB29529E1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypeSelectionUI_U3CRemoveListenerU3Eb__7_0_mFF968D03F77EAE8D1BAFB105232BAF6589DD192F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypeSelectionUI_U3CRemoveListenerU3Eb__7_1_m9A74513ACC2AAFD956855B79C3E99CDBA219274E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypeSelectionUI_U3CRemoveListenerU3Eb__7_2_m543096FBF55C1E62BDB81A8DA8ECEAE0D17A6545_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypeSelectionUI_U3CRemoveListenerU3Eb__7_3_mC83EC2DD9ABBB555179EE8A29B22F48018FEEC0C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CHideConfigAnimationU3Ed__9_System_Collections_IEnumerator_Reset_m0B21BC3F4D81470358562C5F5689DE73B8D781A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CIsPointerOverUIElementU3Eb__11_0_m05033E077EECBE9A61EBD4FC97D4CFCBC7638177_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* lineSettings_UpdateAngle_mD1739C22A1BB1CBF4C523475F45B8C41BB337B74_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* lineSettings_UpdateFade_mA830B84B5F98E9460EDE5F3833609D704EA62E88_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* lineSettings_UpdateFill_m6D5B543DCFB3232E57949C8287202F6B0D10F4DF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* lineSettings_UpdateLength_m403EE6B94BD7CD751E8610FC828D80D07FEB9EF5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* lineSettings_UpdateWidth_m42DCEAAB5AB8FAEE8DD33D7A0E56DBC55A256A68_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t96125EF1123745DCAFADE3E164B9C342BDCA4EB7 
+{
+};
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B  : public RuntimeObject
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t8292C421BBB00D7661DC07462822936152BAB446  : public RuntimeObject
+{
+	RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_tB7999EF5BA3B7AA1E28FBCCD67BC58876821BFD8  : public RuntimeObject
+{
+};
+struct AbstractEventData_tAE1A127ED657117548181D29FFE4B1B14D8E67F7  : public RuntimeObject
+{
+	bool ___m_Used;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tCD9DDBD130B92DBD93A4C478F0D778955A413639  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* ___U3CU3E4__this;
+};
+struct U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2  : public RuntimeObject
+{
+};
+struct Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 
+{
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____current;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F  : public AbstractEventData_tAE1A127ED657117548181D29FFE4B1B14D8E67F7
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___m_EventSystem;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1__padding[1];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB 
+{
+	int32_t ___m_Mask;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD 
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_pinvoke
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_com
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D1188_t682612CB24AF4E6EFD9A41BBCAEE1F7B87A9B232 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D1188_t682612CB24AF4E6EFD9A41BBCAEE1F7B87A9B232__padding[1188];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D547_t9E9497AF8A1A0D86C90FB80C441A00FD73F4FA42 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D547_t9E9497AF8A1A0D86C90FB80C441A00FD73F4FA42__padding[547];
+	};
+};
+#pragma pack(pop, tp)
+struct UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182 
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	bool ___sendEvents;
+	bool ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_pinvoke
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_com
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_NormalColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_HighlightedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_PressedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_SelectedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_DisabledColor;
+	float ___m_ColorMultiplier;
+	float ___m_FadeDuration;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Origin_t476238DF6E6DC102FE869345DBC9F721AB7F7FAC 
+{
+	int32_t ___value__;
+};
+struct PenStatus_tCAD6543115EF443E17410B52D37EC67BCC88ABB8 
+{
+	int32_t ___value__;
+};
+struct ProjectorType_t696F3657C2D1DF101BE745F6FE7A6F00BBF44382 
+{
+	int32_t ___value__;
+};
+struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction;
+};
+struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
+	uint32_t ___m_FaceID;
+	float ___m_Distance;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UV;
+	int32_t ___m_Collider;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C  : public UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977
+{
+};
+struct Mode_t2D49D0E10E2FDA0026278C2400C16033888D0542 
+{
+	int32_t ___value__;
+};
+struct InputButton_t7F40241CC7C406EBD574D426F736CB744DE86CDA 
+{
+	int32_t ___value__;
+};
+struct Transition_tF856A77C9FAC6D26EA3CA158CF68B739D35397B3 
+{
+	int32_t ___value__;
+};
+struct Direction_t4C81D17BB6C089A0EC1C4934525B86E75E693EFA 
+{
+	int32_t ___value__;
+};
+struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555  : public UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4
+{
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C 
+{
+	int32_t ___m_Mode;
+	bool ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_pinvoke
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB  : public BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerEnterU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PointerPress;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3ClastPressU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CrawPointerPressU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerDragU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerClickU3Ek__BackingField;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___U3CpointerCurrentRaycastU3Ek__BackingField;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___U3CpointerPressRaycastU3Ek__BackingField;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___hovered;
+	bool ___U3CeligibleForClickU3Ek__BackingField;
+	int32_t ___U3CdisplayIndexU3Ek__BackingField;
+	int32_t ___U3CpointerIdU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpositionU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CdeltaU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpressPositionU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CworldPositionU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CworldNormalU3Ek__BackingField;
+	float ___U3CclickTimeU3Ek__BackingField;
+	int32_t ___U3CclickCountU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CscrollDeltaU3Ek__BackingField;
+	bool ___U3CuseDragThresholdU3Ek__BackingField;
+	bool ___U3CdraggingU3Ek__BackingField;
+	int32_t ___U3CbuttonU3Ek__BackingField;
+	float ___U3CpressureU3Ek__BackingField;
+	float ___U3CtangentialPressureU3Ek__BackingField;
+	float ___U3CaltitudeAngleU3Ek__BackingField;
+	float ___U3CazimuthAngleU3Ek__BackingField;
+	float ___U3CtwistU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CtiltU3Ek__BackingField;
+	int32_t ___U3CpenStatusU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CradiusU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CradiusVarianceU3Ek__BackingField;
+	bool ___U3CfullyExitedU3Ek__BackingField;
+	bool ___U3CreenteredU3Ek__BackingField;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A  : public MulticastDelegate_t
+{
+};
+struct UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90  : public MulticastDelegate_t
+{
+};
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ____paramName;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7  : public MulticastDelegate_t
+{
+};
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+	RuntimeObject* ____actualValue;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	uint32_t ___m_NonSerializedVersion;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5  : public Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1
+{
+};
+struct ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3* ____circleProjector;
+	Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3* ____circleDecorationProjector;
+	Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3* ____centerDotProjector;
+	Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3* ____leftBorderProjector;
+	Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3* ____rightBorderProjector;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____leftBorderPivot;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____rightBorderPivot;
+	float ____radius;
+	float ____angle;
+	float ____arc;
+	float ____fillProgress;
+	int32_t ____fillOrigin;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____circleBaseColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____circleFillColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____circleDecoratorBaseColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____circleDecoratorFillColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____leftBorderColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____rightBorderColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____centerDotColor;
+};
+struct ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____radius;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____angle;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____arc;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____fillProgress;
+	ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* ____projector;
+};
+struct CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3* ____circleProjector;
+	Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3* ____centerDotProjector;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____regionTransform;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____offset;
+	float ____radius;
+	float ____fillProgress;
+	int32_t ____fillOrigin;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____circleBaseColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____circleFillColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____centerDotColor;
+};
+struct CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____radius;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____fillProgress;
+	CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* ____projector;
+};
+struct ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____settingsTab;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____configurationTab;
+	float ____topAnchorValue;
+	bool ____goingUp;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____arrowButton;
+};
+struct LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3* ____headProjector;
+	Projector_t18530C57B97A1017348D5B69C9E65ABFCEC2B5F3* ____bodyProjector;
+	float ____fillProgress;
+	int32_t ____fillOrigin;
+	float ____fadeAmount;
+	float ____angle;
+	float ____length;
+	float ____width;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____color;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____fillColor;
+};
+struct MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ____terrainLayer;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____projector;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____anchorPoint;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____currentPosition;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ____camera;
+};
+struct ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* ____linePrefab;
+	LineRegionProjectorU5BU5D_t06EB8A81ADB758B190CEB4100223A2DAA634145B* ____regions;
+	float ____fillProgress;
+	int32_t ____fillOrigin;
+	bool ____individual;
+	float ____fadeAmount;
+	float ____length;
+	float ____width;
+	float ____arc;
+	int32_t ____prevCount;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____lineBaseColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____lineFillColor;
+};
+struct ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____fillProgress;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____fadeAmount;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____arc;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____length;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____width;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____plusButton;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____minusButton;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____countInfo;
+	int32_t ____count;
+	ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* ____projector;
+};
+struct SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* ____indicator;
+	SettingsHandler_tB636B5A74BCFB7A3A01608E4CCD0FDFFF4F8CF47* ____settingsHandler;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____projectors;
+	int32_t ____currentType;
+	int32_t ____currentTexture;
+};
+struct SettingsHandler_tB636B5A74BCFB7A3A01608E4CCD0FDFFF4F8CF47  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* ____arcSettings;
+	CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* ____circleSettings;
+	lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* ____lineSettings;
+	ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* ____scatterSettings;
+};
+struct TerrainHandler_tA199E733870712DC57B522813E1A32FCACA97D4D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____color1;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____color2;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____color3;
+	SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* ____selectionMenu;
+};
+struct TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____arcButton;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____circleButton;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____lineButton;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____scatterLineButton;
+	SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* ____selectionMenu;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct lineSettings_t643AAC879365116F3D0C91FAACF037093A063632  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____fillProgress;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____fadeAmount;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____angle;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____length;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____width;
+	LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* ____projector;
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F* ___m_SystemInputModules;
+	BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* ___m_CurrentInputModule;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FirstSelected;
+	bool ___m_sendNavigationEvents;
+	int32_t ___m_DragThreshold;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CurrentSelected;
+	bool ___m_HasFocus;
+	bool ___m_SelectionGuard;
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_DummyData;
+	bool ___m_Started;
+	bool ___m_IsTrackingUIToolkitPanels;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	bool ___m_EnableCalled;
+	Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___m_Navigation;
+	int32_t ___m_Transition;
+	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___m_Colors;
+	SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___m_SpriteState;
+	AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074* ___m_AnimationTriggers;
+	bool ___m_Interactable;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_TargetGraphic;
+	bool ___m_GroupsAllowInteraction;
+	int32_t ___m_CurrentIndex;
+	bool ___U3CisPointerInsideU3Ek__BackingField;
+	bool ___U3CisPointerDownU3Ek__BackingField;
+	bool ___U3ChasSelectionU3Ek__BackingField;
+	List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* ___m_CanvasGroupCache;
+};
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* ___m_OnClick;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillRect;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleRect;
+	int32_t ___m_Direction;
+	float ___m_MinValue;
+	float ___m_MaxValue;
+	bool ___m_WholeNumbers;
+	float ___m_Value;
+	SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* ___m_OnValueChanged;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_FillImage;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_FillTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillContainerRect;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_HandleTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleContainerRect;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Offset;
+	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 ___m_Tracker;
+	bool ___m_DelayedUpdateVisuals;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData;
+	String_t* ___m_Text;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout;
+	bool ___m_DisableFontTextureRebuiltCallback;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts;
+};
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_StaticFields
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t8292C421BBB00D7661DC07462822936152BAB446_StaticFields
+{
+	RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_tB7999EF5BA3B7AA1E28FBCCD67BC58876821BFD8_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D1188_t682612CB24AF4E6EFD9A41BBCAEE1F7B87A9B232 ___405A09256F83A9AAED285EE92E676902FED49B63D64EBDB29B5B8C457D9D2AA5;
+	__StaticArrayInitTypeSizeU3D547_t9E9497AF8A1A0D86C90FB80C441A00FD73F4FA42 ___D7BA1B44AD707CBD78FC8B0EE13CD2F43F2A7C2025B8ACCE63456A9D5F4B7D95;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_StaticFields
+{
+	U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2* ___U3CU3E9;
+	Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* ___U3CU3E9__11_0;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
+{
+	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties;
+};
+struct ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5_StaticFields
+{
+	int32_t ___ColorShaderID;
+	int32_t ___FillColorShaderID;
+	int32_t ___FillProgressShaderID;
+	int32_t ___ArcShaderID;
+	int32_t ___AngleShaderID;
+	int32_t ___FillDirection;
+};
+struct CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15_StaticFields
+{
+	int32_t ___ColorShaderID;
+	int32_t ___FillColorShaderID;
+	int32_t ___FillProgressShaderID;
+	int32_t ___FillDirection;
+};
+struct LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F_StaticFields
+{
+	int32_t ___ColorShaderID;
+	int32_t ___FillColorShaderID;
+	int32_t ___FillProgressShaderID;
+	int32_t ___FadeAmountShaderID;
+	int32_t ___FillDirection;
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_StaticFields
+{
+	List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3* ___m_EventSystems;
+	Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC* ___s_RaycastComparer;
+	UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182 ___s_UIToolkitOverride;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mB85E020AD21C2930C06CC933CED0D8514AAE6506_gshared (Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerable_Any_TisRaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_m72DE92C05387759173F7E5F871E6B95A0B531D75_gshared (RuntimeObject* ___0_source, Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* ___1_predicate, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B_gshared (List_1_t8292C421BBB00D7661DC07462822936152BAB446* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5_gshared (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+inline Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RectTransform_get_anchorMax_mEF870BE2A134CEB9C2326930A71D3961271297DB (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationHidingButton_AddListener_m6ACAB8B90516E0B760E75AC5549E9582B09F062E (ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ConfigurationHidingButton_HideConfigAnimation_m3EA8CD931731BD77A421A684D1BB7CEA11D96069 (ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideConfigAnimationU3Ed__9__ctor_m83243A53E1EB9BE35AA224027FB4D187EB123959 (U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m35B44707FE16FF8015D519D8C162C0B4A85D6D1F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_axis, float ___1_angle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EventSystem_IsPointerOverGameObject_mC89BFEA46B0DA67F914B9B90356E63BFBE11EB38 (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MoveObject_get__isMouseOverGameWindow_m6BB2F5A8C6130DBEE80966759C3F512F8E4633B1 (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8292C421BBB00D7661DC07462822936152BAB446* MoveObject_GetEventSystemRaycastResults_m50629E76704733ACB0526C8DD25AB0C0F821E75B (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MoveObject_IsPointerOverUIElement_m1173F89E0D60D1700C84EF8562CEFC85986B8FEB (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, List_1_t8292C421BBB00D7661DC07462822936152BAB446* ___0_eventSystemRaycastResults, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D (LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___0_mask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_Raycast_m34AC1210E893A9EF969BD2C7104B10BE5B580025 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___1_hitInfo, float ___2_maxDistance, int32_t ___3_layerMask, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MoveObject_GetPosition_m6B3DB887981FC67BFE42C613B2D34EA2C7E9587A (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+inline void Func_2__ctor_mB85E020AD21C2930C06CC933CED0D8514AAE6506 (Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_mB85E020AD21C2930C06CC933CED0D8514AAE6506_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline bool Enumerable_Any_TisRaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_m72DE92C05387759173F7E5F871E6B95A0B531D75 (RuntimeObject* ___0_source, Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* ___1_predicate, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RuntimeObject*, Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A*, const RuntimeMethod*))Enumerable_Any_TisRaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_m72DE92C05387759173F7E5F871E6B95A0B531D75_gshared)(___0_source, ___1_predicate, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerEventData__ctor_m63837790B68893F0022CCEFEF26ADD55A975F71C (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___0_eventSystem, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
+inline void List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B (List_1_t8292C421BBB00D7661DC07462822936152BAB446* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t8292C421BBB00D7661DC07462822936152BAB446*, const RuntimeMethod*))List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystem_RaycastAll_mE93CC75909438D20D17A0EF98348A064FBFEA528 (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, List_1_t8292C421BBB00D7661DC07462822936152BAB446* ___1_raycastResults, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mAE47A15C4C5EF0C14E1EFBA953EBD088F5B4BEC0 (U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* RaycastResult_get_gameObject_m77014B442B9E2D10F2CC3AEEDC07AA95CDE1E2F1_inline (RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameObject_get_layer_m108902B9C89E9F837CE06B9942AA42307450FEAF (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_NameToLayer_m2764C530EDA9EC3226A36E3FD43E020B413AF139 (String_t* ___0_layerName, const RuntimeMethod* method) ;
+inline void List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Transform_GetEnumerator_mA7E1C882ACA0C33E284711CD09971DEA3FFEF404 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+inline void List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectionMenuHandler_UpdateIndicator_mF1E5BC74041BFCDDDBCF94EC2A755307FB806CD2 (SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+inline Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8 (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60* __this, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27 (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979 (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MoveObject_ChangeIndicator_mBFEA9AB87D9FFCBE3C1A38EB5A4E75A08D9476E4_inline (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_projector, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsHandler_UpdateSettings_m307E91A276357AE6502087E4CC6769500D7F6C7C (SettingsHandler_tB636B5A74BCFB7A3A01608E4CCD0FDFFF4F8CF47* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_newindicator, int32_t ___1_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_AddListener_m6F53DD5D2A07E33003A7325B377696FFD6A779D0 (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectionMenuHandler_UpdateProjectorTexture_m396BD74EBEF78EA9D8077D70DCA1CA21880FCC26 (SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* __this, int32_t ___0_texture, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_AddListener_m975D41D8E38B41C219B0D720A876ED748C0C51F4 (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363 (SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* __this, int32_t ___0_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ArcRegionProjector_get_Angle_m2CD99483F16C796C3A3E6C3F6A43FA1E8956FBAE_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ArcRegionProjector_get_Radius_m9FAC34360F4517ECA76473A7A4A6F74F7225A9EE_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ArcRegionProjector_get_Arc_mFC74E7300A7D39918A55E964E680421911A208B9_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ArcRegionProjector_get_FillProgress_m583AEFF29C0890507524E17A7B0447B3FFCA6AE7_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5 (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*, const RuntimeMethod*))UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_gshared)(__this, ___0_call, method);
+}
+inline void UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9 (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcRegionProjector_set_Arc_m3F4CAC8C70FFCB4680C5E5A603DC6586D164E02E (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcRegionProjector_UpdateProjectors_mCF43036B1B46447D6F634BA05E0809362FC7BFB3 (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcRegionProjector_set_Radius_m042E060194F37C0C4DDB5230529BE7AAE2EE40F8 (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcRegionProjector_set_FillProgress_m53BF379AB28BF08995BA571FADE8B4CB7BB73ED3 (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ArcRegionProjector_set_Angle_m140F62FD9F9E707BED1383824F5AC11D84682176_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_RemoveListerner_m68397E386B1681B863446E7C403243B54784DD0E (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_InitializeSlider_m8625DE1E2A959A5800E6F55058644C2E209CBEE2 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_InitializeIndicator_mE31B16EAFE4ED52C076EEECD065DE29500D5DEB3 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_InitializeValues_m984511D6E5CEB987A66C7174D4246917312C2783 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_AddListener_m2DF75A4CDC2BA78C1D60836E6AB1939DC3D47C6F (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CircleRegionProjector_get_Radius_mBD8FD056D9EE9260C1FECBD41906DE5031F10B66_inline (CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CircleRegionProjector_get_FillProgress_m093C884D82AEDD4B68596366CCBBA5ECAE52FDD7_inline (CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleRegionProjector_set_Radius_m4EA56897FBEB9AA1524244FF790DA664C91AE98C (CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleRegionProjector_UpdateProjectors_mBDFFA03A52EB1D4A8355467ABA33FBAA69E328E0 (CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleRegionProjector_set_FillProgress_m67F8593DEA4BC1E786FF7930AF9B9F95CBFC1DD6 (CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_RemoveListerner_m22A7E9828C90417D4E2739CA920077A8D7B37011 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_InitializeSettings_mFCCDF496A37B93B2E1A5F3D91CF8A9489C8DAF04 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_InitializeIndicator_m63875FF1FF1A467C83212B3D4B7AB62E476ABA17 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_InitializeValues_mB46228191FEF944BFB78DDF40A0DDCAA305340B5 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_AddListener_m2365E8743E11390E39DC10BAD835E93779EEDE00 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_FillProgress_m435C08178C41DF92FE78B6EE73DEAC5A2C788CD8_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_FadeAmount_mB5FB1748C81DCC914C6386DD42F6B3381D0F8BF1_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_Angle_mE80DEDF785AC370BBD5B1D2664927A4DFA7BEDE3_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_Length_mE7F932F4FBEBCE3F5287C391E1E05AFAD94BE410_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_Width_m85F88522328A432F1752BFE92F724E7233855354_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRegionProjector_set_FadeAmount_m992F8F8E99BB93D73A0CBC5C5DC96CFCCF515C61 (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRegionProjector_UpdateProjectors_m7F245182643DEAFA73C6BA8DA1A9A4E13FC9185D (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRegionProjector_set_Angle_m2E42FC6275301C6029B76237CAF604C7477A70CB (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRegionProjector_set_Length_mBBDFF7E648BB811A5A5FE9602D73C30323BABD70 (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRegionProjector_set_Width_m77EADEEA025DB54714E881D377774C38613C5CA3 (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRegionProjector_set_FillProgress_mE7A0D789DFC86E55576EF6FC81F46D74B496212B (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_RemoveListerner_m772AA2F5963B682F38CA317FB13DE03430C82D2E (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_InitializeSlider_m178F104DB954B01C4283D7E6E1ECABE1516B9D97 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_InitializeIndicator_m7BEFED027C32162117DB88BA1647263B9D01C58C (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_InitializeValues_m61699CD07CF44D8767A87BC132C2DB8442086D47 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_AddListener_m36B9876A1B5F602B2C719E92B945E7A076B693F5 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_FillProgress_m9ED31825EA0F76D03EB7F5C5DDFD23F6021ED5BA_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_FadeAmount_m6F2064CCAD15E2426A1DDB60FA2E599D09C191E8_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_Arc_m06338451DF8D9E57CAB4B912D69E910A1F65951B_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_Length_m7F1B50250A03005B346673E85805F9E32543629F_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_Width_mC52DF0BD65096DF3330821263014E754232BAF35_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineRegionProjector_Add_mBD7C3C0C9AEE99218EE233F526ACD49CA3084965 (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ScatterLineRegionProjector_get_NumberOfLines_mE88EF4754F06C997D708B9DD67545F1844275E10 (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineRegionProjector_Remove_m8193A44CDDF614BC3D6896656C0DA52217B94608 (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineRegionProjector_set_FadeAmount_m7CDDE5A905A2F32EF13B074A8B1B3D9F00F24BC8 (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineRegionProjector_UpdateLines_m5B3ADAD7A5EF7882090DE64820EEB4ACF2BC4589 (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineRegionProjector_set_Arc_mCA2E1BAB9EAD918105188AC8C5D3355317893DA5 (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineRegionProjector_set_Length_m16E58943276E51BE03B7CFC3C15AA05A7ACD13EB (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineRegionProjector_set_Width_m175CDE7B391FCD31E1A0B9975D81A6BAC55324A5 (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineRegionProjector_set_FillProgress_mC06E1AEE777A99E88B38F5981057BDCCD1B3BAE7 (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_RemoveListerner_m3D77326829D9DE79E0B8E10EC3DC0D2D284F31B1 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_InitializeSlider_m81101441ABDFD08AFC0824A24F4CB114C9E158C1 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_InitializeIndicator_mC21DE4936FD42605C622759DC9818815A6E0401E (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_InitializeValues_m9767E7BA3E6CC0B8AAC2E2CB859FFD9ED98EEE6C (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_AddListener_mD4B487A238CF653C91D1A33FF881653277EDB38D (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) ;
+inline ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* GameObject_GetComponent_TisArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5_mEDE8705D63483A4CAAC934FA9BFB0E494A19BDC3 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_ChangeIndicator_m1C21B6F4377513A3B37821C2E6FCA6AAE447FC47 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* ___0_indic, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsHandler_ShowSettings_m285DA3677A18BE9A0D2188615D1721DC6B5646F7 (SettingsHandler_tB636B5A74BCFB7A3A01608E4CCD0FDFFF4F8CF47* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_settings, const RuntimeMethod* method) ;
+inline CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* GameObject_GetComponent_TisCircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15_mD48734997407D8FE3765CAFBC47210E4EB4B81E4 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_ChangeIndicator_m253B257E8A4FC744B93769B3B6D6A85749D2B68C (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* ___0_indic, const RuntimeMethod* method) ;
+inline LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* GameObject_GetComponent_TisLineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F_mB54F69C3AEB28A70919086078C9D6E8BCA4BB92C (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_ChangeIndicator_m78E5D39E6E10E04D3F5F1C8266A80B7C2566E961 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* ___0_indic, const RuntimeMethod* method) ;
+inline ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* GameObject_GetComponent_TisScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC_m4330D64899951209694626A43798C696B966079D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_ChangeIndicator_mB47DE421C0556DB5C89E3567F59658710C0530E9 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* ___0_indic, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85 (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___0_paramName, RuntimeObject* ___1_actualValue, String_t* ___2_message, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133309
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mEE69AC6AABA1DD4483D86A4DE421EECB956142B8 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tB7999EF5BA3B7AA1E28FBCCD67BC58876821BFD8____405A09256F83A9AAED285EE92E676902FED49B63D64EBDB29B5B8C457D9D2AA5_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tB7999EF5BA3B7AA1E28FBCCD67BC58876821BFD8____D7BA1B44AD707CBD78FC8B0EE13CD2F43F2A7C2025B8ACCE63456A9D5F4B7D95_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1188));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tB7999EF5BA3B7AA1E28FBCCD67BC58876821BFD8____405A09256F83A9AAED285EE92E676902FED49B63D64EBDB29B5B8C457D9D2AA5_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)547));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tB7999EF5BA3B7AA1E28FBCCD67BC58876821BFD8____D7BA1B44AD707CBD78FC8B0EE13CD2F43F2A7C2025B8ACCE63456A9D5F4B7D95_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)11);
+		(&V_0)->___TotalTypes = ((int32_t)11);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 133310
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mFBB65445019951DA80009E7A0FB13D36461B89AC (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tCD9DDBD130B92DBD93A4C478F0D778955A413639* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshal_pinvoke(const MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5& unmarshaled, MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshal_pinvoke_back(const MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshaled_pinvoke& marshaled, MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshal_pinvoke_cleanup(MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshal_com(const MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5& unmarshaled, MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshal_com_back(const MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshaled_com& marshaled, MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshal_com_cleanup(MonoScriptData_t6252276AB3E5A22311FF928F8DC8089CD92A2CB5_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133311
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationHidingButton_Awake_m99155BA1F5E1F97362EE9EB2464D1DA132E82327 (ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:49>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0;
+		L_0 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(__this, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
+		__this->____arrowButton = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____arrowButton), (void*)L_0);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:50>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->____configurationTab;
+		NullCheck(L_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
+		L_2 = RectTransform_get_anchorMax_mEF870BE2A134CEB9C2326930A71D3961271297DB(L_1, NULL);
+		float L_3 = L_2.___y;
+		__this->____topAnchorValue = L_3;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:51>
+		__this->____goingUp = (bool)0;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:52>
+		ConfigurationHidingButton_AddListener_m6ACAB8B90516E0B760E75AC5549E9582B09F062E(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:53>
+		return;
+	}
+}
+// Method Definition Index: 133312
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationHidingButton_AddListener_m6ACAB8B90516E0B760E75AC5549E9582B09F062E (ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfigurationHidingButton_ChangeConfigState_m4991C1646D6C06B1E860646EA04AF4772F7C56D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:58>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____arrowButton;
+		NullCheck(L_0);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
+		L_1 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_0, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_2 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)ConfigurationHidingButton_ChangeConfigState_m4991C1646D6C06B1E860646EA04AF4772F7C56D3_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_1, L_2, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133313
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationHidingButton_RemoveListener_mA3C983909CBB276D0E7E712D44B1B7784CF86945 (ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfigurationHidingButton_ChangeConfigState_m4991C1646D6C06B1E860646EA04AF4772F7C56D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:63>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____arrowButton;
+		NullCheck(L_0);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
+		L_1 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_0, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_2 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)ConfigurationHidingButton_ChangeConfigState_m4991C1646D6C06B1E860646EA04AF4772F7C56D3_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133314
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationHidingButton_ChangeConfigState_m4991C1646D6C06B1E860646EA04AF4772F7C56D3 (ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:68>
+		RuntimeObject* L_0;
+		L_0 = ConfigurationHidingButton_HideConfigAnimation_m3EA8CD931731BD77A421A684D1BB7CEA11D96069(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
+		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133315
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ConfigurationHidingButton_HideConfigAnimation_m3EA8CD931731BD77A421A684D1BB7CEA11D96069 (ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF* L_0 = (U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF*)il2cpp_codegen_object_new(U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF_il2cpp_TypeInfo_var);
+		U3CHideConfigAnimationU3Ed__9__ctor_m83243A53E1EB9BE35AA224027FB4D187EB123959(L_0, 0, NULL);
+		U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 133316
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationHidingButton__ctor_m5C4BFACA50F251E21A2C97F82EFCAEFA97399521 (ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133317
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideConfigAnimationU3Ed__9__ctor_m83243A53E1EB9BE35AA224027FB4D187EB123959 (U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 133318
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideConfigAnimationU3Ed__9_System_IDisposable_Dispose_m409496112C4BEC00893D2637D9452D240AC763E7 (U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 133319
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHideConfigAnimationU3Ed__9_MoveNext_m01F657CAC044C0A58AC9BA5C0DF926E3E20E6B20 (U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* V_1 = NULL;
+	float G_B6_0 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B6_1;
+	memset((&G_B6_1), 0, sizeof(G_B6_1));
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B6_2 = NULL;
+	float G_B5_0 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B5_1;
+	memset((&G_B5_1), 0, sizeof(G_B5_1));
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B5_2 = NULL;
+	float G_B7_0 = 0.0f;
+	float G_B7_1 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B7_2;
+	memset((&G_B7_2), 0, sizeof(G_B7_2));
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B7_3 = NULL;
+	float G_B12_0 = 0.0f;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B12_1 = NULL;
+	float G_B11_0 = 0.0f;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B11_1 = NULL;
+	float G_B13_0 = 0.0f;
+	float G_B13_1 = 0.0f;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B13_2 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		goto IL_0074;
+	}
+
+IL_0020:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:78>
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_4 = V_1;
+		NullCheck(L_4);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = L_4->____configurationTab;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = L_5;
+		NullCheck(L_6);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		L_7 = RectTransform_get_anchorMax_mEF870BE2A134CEB9C2326930A71D3961271297DB(L_6, NULL);
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_8 = V_1;
+		NullCheck(L_8);
+		bool L_9 = L_8->____goingUp;
+		if (L_9)
+		{
+			G_B6_0 = (0.0f);
+			G_B6_1 = L_7;
+			G_B6_2 = L_6;
+			goto IL_0040;
+		}
+		G_B5_0 = (0.0f);
+		G_B5_1 = L_7;
+		G_B5_2 = L_6;
+	}
+	{
+		G_B7_0 = (-0.100000001f);
+		G_B7_1 = G_B5_0;
+		G_B7_2 = G_B5_1;
+		G_B7_3 = G_B5_2;
+		goto IL_0045;
+	}
+
+IL_0040:
+	{
+		G_B7_0 = (0.100000001f);
+		G_B7_1 = G_B6_0;
+		G_B7_2 = G_B6_1;
+		G_B7_3 = G_B6_2;
+	}
+
+IL_0045:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
+		memset((&L_10), 0, sizeof(L_10));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_10), G_B7_1, G_B7_0, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
+		L_11 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(G_B7_2, L_10, NULL);
+		NullCheck(G_B7_3);
+		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(G_B7_3, L_11, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:79>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_12 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_12, (0.00999999978f), NULL);
+		__this->___U3CU3E2__current = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_12);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_006d:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0074:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:76>
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_13 = V_1;
+		NullCheck(L_13);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->____configurationTab;
+		NullCheck(L_14);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
+		L_15 = RectTransform_get_anchorMax_mEF870BE2A134CEB9C2326930A71D3961271297DB(L_14, NULL);
+		float L_16 = L_15.___y;
+		if ((((float)L_16) > ((float)(0.0f))))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:81>
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_17 = V_1;
+		NullCheck(L_17);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_18 = L_17->____configurationTab;
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_19 = V_1;
+		NullCheck(L_19);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_20 = L_19->____configurationTab;
+		NullCheck(L_20);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21;
+		L_21 = RectTransform_get_anchorMax_mEF870BE2A134CEB9C2326930A71D3961271297DB(L_20, NULL);
+		float L_22 = L_21.___x;
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_23 = V_1;
+		NullCheck(L_23);
+		bool L_24 = L_23->____goingUp;
+		if (L_24)
+		{
+			G_B12_0 = L_22;
+			G_B12_1 = L_18;
+			goto IL_00b0;
+		}
+		G_B11_0 = L_22;
+		G_B11_1 = L_18;
+	}
+	{
+		G_B13_0 = (0.0f);
+		G_B13_1 = G_B11_0;
+		G_B13_2 = G_B11_1;
+		goto IL_00b6;
+	}
+
+IL_00b0:
+	{
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_25 = V_1;
+		NullCheck(L_25);
+		float L_26 = L_25->____topAnchorValue;
+		G_B13_0 = L_26;
+		G_B13_1 = G_B12_0;
+		G_B13_2 = G_B12_1;
+	}
+
+IL_00b6:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_27), G_B13_1, G_B13_0, NULL);
+		NullCheck(G_B13_2);
+		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(G_B13_2, L_27, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:82>
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_28 = V_1;
+		NullCheck(L_28);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29;
+		L_29 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_28, NULL);
+		NullCheck(L_29);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
+		L_30 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_29, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:83>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		NullCheck(((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)CastclassSealed((RuntimeObject*)L_30, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)));
+		Transform_Rotate_m35B44707FE16FF8015D519D8C162C0B4A85D6D1F(((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)CastclassSealed((RuntimeObject*)L_30, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)), L_31, (180.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:84>
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_32 = V_1;
+		NullCheck(L_32);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = L_32->____settingsTab;
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_34 = V_1;
+		NullCheck(L_34);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = L_34->____settingsTab;
+		NullCheck(L_35);
+		bool L_36;
+		L_36 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_35, NULL);
+		NullCheck(L_33);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)((((int32_t)L_36) == ((int32_t)0))? 1 : 0), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:85>
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_37 = V_1;
+		ConfigurationHidingButton_tA942794A707F3331CD60C5F71C040F1F733DE697* L_38 = V_1;
+		NullCheck(L_38);
+		bool L_39 = L_38->____goingUp;
+		NullCheck(L_37);
+		L_37->____goingUp = (bool)((((int32_t)L_39) == ((int32_t)0))? 1 : 0);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/ConfigurationHidingButton.cs:86>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 133320
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHideConfigAnimationU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB66F74513C64490360A95E594875A0A558BF782B (U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 133321
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHideConfigAnimationU3Ed__9_System_Collections_IEnumerator_Reset_m0B21BC3F4D81470358562C5F5689DE73B8D781A9 (U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CHideConfigAnimationU3Ed__9_System_Collections_IEnumerator_Reset_m0B21BC3F4D81470358562C5F5689DE73B8D781A9_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 133322
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHideConfigAnimationU3Ed__9_System_Collections_IEnumerator_get_Current_m824C74C97E7BC1E25063C89CEC5628CA821700DD (U3CHideConfigAnimationU3Ed__9_t8AA44A08E7AA6098FBCC886F275800A4C31AD4FF* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133323
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MoveObject_get__isMouseOverGameWindow_m6BB2F5A8C6130DBEE80966759C3F512F8E4633B1 (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:38>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:39>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:40>
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:41>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		float L_1 = L_0.___x;
+		if ((((float)(0.0f)) > ((float)L_1)))
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		float L_3 = L_2.___y;
+		if ((((float)(0.0f)) > ((float)L_3)))
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		int32_t L_4;
+		L_4 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		float L_6 = L_5.___x;
+		if ((((float)((float)L_4)) < ((float)L_6)))
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		int32_t L_7;
+		L_7 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		float L_9 = L_8.___y;
+		return (bool)((((int32_t)((((float)((float)L_7)) < ((float)L_9))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_004a:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 133324
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveObject_Awake_m20BB58F8415470B1AF23D2B4C1BAEBC7BEB56FB8 (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:56>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
+		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		__this->____camera = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____camera), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 133325
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MoveObject_GetPosition_m6B3DB887981FC67BFE42C613B2D34EA2C7E9587A (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* G_B6_0 = NULL;
+	MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* G_B5_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B7_0;
+	memset((&G_B7_0), 0, sizeof(G_B7_0));
+	MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* G_B7_1 = NULL;
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:64>
+		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
+		L_0 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = EventSystem_IsPointerOverGameObject_mC89BFEA46B0DA67F914B9B90356E63BFBE11EB38(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		bool L_2;
+		L_2 = MoveObject_get__isMouseOverGameWindow_m6BB2F5A8C6130DBEE80966759C3F512F8E4633B1(__this, NULL);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_3;
+		L_3 = MoveObject_GetEventSystemRaycastResults_m50629E76704733ACB0526C8DD25AB0C0F821E75B(__this, NULL);
+		bool L_4;
+		L_4 = MoveObject_IsPointerOverUIElement_m1173F89E0D60D1700C84EF8562CEFC85986B8FEB(__this, L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0033;
+		}
+	}
+
+IL_0022:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:65>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->____anchorPoint;
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		return L_7;
+	}
+
+IL_0033:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:67>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8 = __this->____camera;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_8);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_10;
+		L_10 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_8, L_9, NULL);
+		V_1 = L_10;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:68>
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_11 = V_1;
+		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_12 = __this->____terrainLayer;
+		int32_t L_13;
+		L_13 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_12, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Physics_Raycast_m34AC1210E893A9EF969BD2C7104B10BE5B580025(L_11, (&V_0), (std::numeric_limits<float>::infinity()), L_13, NULL);
+		if (L_14)
+		{
+			G_B6_0 = __this;
+			goto IL_0075;
+		}
+		G_B5_0 = __this;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_15), (0.0f), (50.0f), (0.0f), NULL);
+		G_B7_0 = L_15;
+		G_B7_1 = G_B5_0;
+		goto IL_0095;
+	}
+
+IL_0075:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_0), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_17), (0.0f), (50.0f), (0.0f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_16, L_17, NULL);
+		G_B7_0 = L_18;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_0095:
+	{
+		NullCheck(G_B7_1);
+		G_B7_1->____currentPosition = G_B7_0;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:69>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = __this->____currentPosition;
+		return L_19;
+	}
+}
+// Method Definition Index: 133326
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveObject_Update_mA982CFE866A4F06581F59372C1B1FB03D6F15ABC (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:77>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____projector;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:78>
+		return;
+	}
+
+IL_000e:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:79>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____projector;
+		NullCheck(L_2);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = MoveObject_GetPosition_m6B3DB887981FC67BFE42C613B2D34EA2C7E9587A(__this, NULL);
+		NullCheck(L_3);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_3, L_4, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:80>
+		return;
+	}
+}
+// Method Definition Index: 133327
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveObject_ChangeIndicator_mBFEA9AB87D9FFCBE3C1A38EB5A4E75A08D9476E4 (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_projector, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:86>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_projector;
+		__this->____projector = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____projector), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 133328
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MoveObject_IsPointerOverUIElement_m1173F89E0D60D1700C84EF8562CEFC85986B8FEB (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, List_1_t8292C421BBB00D7661DC07462822936152BAB446* ___0_eventSystemRaycastResults, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Any_TisRaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_m72DE92C05387759173F7E5F871E6B95A0B531D75_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CIsPointerOverUIElementU3Eb__11_0_m05033E077EECBE9A61EBD4FC97D4CFCBC7638177_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* G_B2_0 = NULL;
+	List_1_t8292C421BBB00D7661DC07462822936152BAB446* G_B2_1 = NULL;
+	Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* G_B1_0 = NULL;
+	List_1_t8292C421BBB00D7661DC07462822936152BAB446* G_B1_1 = NULL;
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:93>
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_0 = ___0_eventSystemRaycastResults;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var);
+		Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* L_1 = ((U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var))->___U3CU3E9__11_0;
+		Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* L_2 = L_1;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = L_0;
+			goto IL_0020;
+		}
+		G_B1_0 = L_2;
+		G_B1_1 = L_0;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var);
+		U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2* L_3 = ((U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* L_4 = (Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A*)il2cpp_codegen_object_new(Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A_il2cpp_TypeInfo_var);
+		Func_2__ctor_mB85E020AD21C2930C06CC933CED0D8514AAE6506(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3CIsPointerOverUIElementU3Eb__11_0_m05033E077EECBE9A61EBD4FC97D4CFCBC7638177_RuntimeMethod_var), NULL);
+		Func_2_t32966CE1031855FFBBCA1651A2D84FCC2914C30A* L_5 = L_4;
+		((U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var))->___U3CU3E9__11_0 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var))->___U3CU3E9__11_0), (void*)L_5);
+		G_B2_0 = L_5;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		bool L_6;
+		L_6 = Enumerable_Any_TisRaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_m72DE92C05387759173F7E5F871E6B95A0B531D75(G_B2_1, G_B2_0, Enumerable_Any_TisRaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_m72DE92C05387759173F7E5F871E6B95A0B531D75_RuntimeMethod_var);
+		return L_6;
+	}
+}
+// Method Definition Index: 133329
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8292C421BBB00D7661DC07462822936152BAB446* MoveObject_GetEventSystemRaycastResults_m50629E76704733ACB0526C8DD25AB0C0F821E75B (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t8292C421BBB00D7661DC07462822936152BAB446_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* V_0 = NULL;
+	List_1_t8292C421BBB00D7661DC07462822936152BAB446* V_1 = NULL;
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:101>
+		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
+		L_0 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_1 = (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB*)il2cpp_codegen_object_new(PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB_il2cpp_TypeInfo_var);
+		PointerEventData__ctor_m63837790B68893F0022CCEFEF26ADD55A975F71C(L_1, L_0, NULL);
+		V_0 = L_1;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:102>
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		L_4 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_3, NULL);
+		NullCheck(L_2);
+		PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline(L_2, L_4, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:103>
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_5 = (List_1_t8292C421BBB00D7661DC07462822936152BAB446*)il2cpp_codegen_object_new(List_1_t8292C421BBB00D7661DC07462822936152BAB446_il2cpp_TypeInfo_var);
+		List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B(L_5, List_1__ctor_m95532062701811F50E0B0270E05E27297B2B3A7B_RuntimeMethod_var);
+		V_1 = L_5;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:104>
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_6;
+		L_6 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_7 = V_0;
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_8 = V_1;
+		NullCheck(L_6);
+		EventSystem_RaycastAll_mE93CC75909438D20D17A0EF98348A064FBFEA528(L_6, L_7, L_8, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:105>
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_9 = V_1;
+		return L_9;
+	}
+}
+// Method Definition Index: 133330
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveObject__ctor_m868B883399ADFAEEBA8ECB6B61398B59BC212ED4 (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:46>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (0.0f), (0.0f), NULL);
+		__this->____currentPosition = L_0;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133331
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mA7AAA25ED6DD2986467DF88012A36236FE3DF199 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2* L_0 = (U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2*)il2cpp_codegen_object_new(U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_mAE47A15C4C5EF0C14E1EFBA953EBD088F5B4BEC0(L_0, NULL);
+		((U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var))->___U3CU3E9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2_il2cpp_TypeInfo_var))->___U3CU3E9), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 133332
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mAE47A15C4C5EF0C14E1EFBA953EBD088F5B4BEC0 (U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133333
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CIsPointerOverUIElementU3Eb__11_0_m05033E077EECBE9A61EBD4FC97D4CFCBC7638177 (U3CU3Ec_t9F19172EFD5247B66F6D9C412440FAD6D0565EB2* __this, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___0_curRaycastResult, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:93>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = RaycastResult_get_gameObject_m77014B442B9E2D10F2CC3AEEDC07AA95CDE1E2F1_inline((&___0_curRaycastResult), NULL);
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = GameObject_get_layer_m108902B9C89E9F837CE06B9942AA42307450FEAF(L_0, NULL);
+		int32_t L_2;
+		L_2 = LayerMask_NameToLayer_m2764C530EDA9EC3226A36E3FD43E020B413AF139(_stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F, NULL);
+		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133334
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectionMenuHandler_Awake_mDDB9694319B2AEA5AFBA0CF0A130EFE99AEAF33D (SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:63>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		__this->____projectors = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____projectors), (void*)L_0);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:64>
+		MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* L_1 = __this->____indicator;
+		NullCheck(L_1);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_1, NULL);
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = Transform_GetEnumerator_mA7E1C882ACA0C33E284711CD09971DEA3FFEF404(L_2, NULL);
+		V_0 = L_3;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0045:
+			{
+				{
+					RuntimeObject* L_4 = V_0;
+					V_2 = ((RuntimeObject*)IsInst((RuntimeObject*)L_4, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var));
+					RuntimeObject* L_5 = V_2;
+					if (!L_5)
+					{
+						goto IL_0055;
+					}
+				}
+				{
+					RuntimeObject* L_6 = V_2;
+					NullCheck(L_6);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_6);
+				}
+
+IL_0055:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				goto IL_003b_1;
+			}
+
+IL_001e_1:
+			{
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:64>
+				RuntimeObject* L_7 = V_0;
+				NullCheck(L_7);
+				RuntimeObject* L_8;
+				L_8 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_7);
+				V_1 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_8, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:65>
+				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_9 = __this->____projectors;
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = V_1;
+				NullCheck(L_10);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
+				L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
+				NullCheck(L_9);
+				List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_9, L_11, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+			}
+
+IL_003b_1:
+			{
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:64>
+				RuntimeObject* L_12 = V_0;
+				NullCheck(L_12);
+				bool L_13;
+				L_13 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_12);
+				if (L_13)
+				{
+					goto IL_001e_1;
+				}
+			}
+			{
+				goto IL_0056;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0056:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:66>
+		SelectionMenuHandler_UpdateIndicator_mF1E5BC74041BFCDDDBCF94EC2A755307FB806CD2(__this, 0, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:67>
+		return;
+	}
+}
+// Method Definition Index: 133335
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectionMenuHandler_UpdateIndicator_mF1E5BC74041BFCDDDBCF94EC2A755307FB806CD2 (SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* __this, int32_t ___0_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:75>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->____projectors;
+		NullCheck(L_0);
+		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_1;
+		L_1 = List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8(L_0, List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0026:
+			{
+				Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D((&V_0), Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_001b_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:75>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+				L_2 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:76>
+				NullCheck(L_2);
+				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+			}
+
+IL_001b_1:
+			{
+				//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:75>
+				bool L_3;
+				L_3 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+				if (L_3)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0034;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0034:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:77>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_4 = __this->____projectors;
+		int32_t L_5 = ___0_index;
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_4, L_5, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:78>
+		MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* L_7 = __this->____indicator;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_8 = __this->____projectors;
+		int32_t L_9 = ___0_index;
+		NullCheck(L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+		L_10 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_8, L_9, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_7);
+		MoveObject_ChangeIndicator_mBFEA9AB87D9FFCBE3C1A38EB5A4E75A08D9476E4_inline(L_7, L_10, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:79>
+		SettingsHandler_tB636B5A74BCFB7A3A01608E4CCD0FDFFF4F8CF47* L_11 = __this->____settingsHandler;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_12 = __this->____projectors;
+		int32_t L_13 = ___0_index;
+		NullCheck(L_12);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_12, L_13, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		int32_t L_15 = __this->____currentType;
+		NullCheck(L_11);
+		SettingsHandler_UpdateSettings_m307E91A276357AE6502087E4CC6769500D7F6C7C(L_11, L_14, L_15, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:80>
+		return;
+	}
+}
+// Method Definition Index: 133336
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363 (SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* __this, int32_t ___0_type, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:88>
+		int32_t L_0 = ___0_type;
+		__this->____currentType = L_0;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:89>
+		int32_t L_1 = __this->____currentType;
+		int32_t L_2 = __this->____currentTexture;
+		SelectionMenuHandler_UpdateIndicator_mF1E5BC74041BFCDDDBCF94EC2A755307FB806CD2(__this, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply((int32_t)L_1, 3)), L_2)), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:90>
+		return;
+	}
+}
+// Method Definition Index: 133337
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectionMenuHandler_UpdateProjectorTexture_m396BD74EBEF78EA9D8077D70DCA1CA21880FCC26 (SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* __this, int32_t ___0_texture, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:98>
+		int32_t L_0 = ___0_texture;
+		__this->____currentTexture = L_0;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:99>
+		int32_t L_1 = __this->____currentType;
+		int32_t L_2 = __this->____currentTexture;
+		SelectionMenuHandler_UpdateIndicator_mF1E5BC74041BFCDDDBCF94EC2A755307FB806CD2(__this, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply((int32_t)L_1, 3)), L_2)), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/SelectionMenuHandler.cs:100>
+		return;
+	}
+}
+// Method Definition Index: 133338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SelectionMenuHandler__ctor_mCB57637A8BCB0B92E4CBD79C155D610000B037C4 (SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133339
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_Awake_m296DD46A98196E0CEE69414451EB324CD485F70D (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:42>
+		TextureSelectionUI_AddListener_m6F53DD5D2A07E33003A7325B377696FFD6A779D0(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133340
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_AddListener_m6F53DD5D2A07E33003A7325B377696FFD6A779D0 (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureSelectionUI_U3CAddListenerU3Eb__5_0_mC84934AF22EF9880ACAF713077CCBD18DF6C9D11_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureSelectionUI_U3CAddListenerU3Eb__5_1_m67FCADA9B4DBA5153CF61ADA55653C65F4E0FC70_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureSelectionUI_U3CAddListenerU3Eb__5_2_m28A8C5C564A0DDBF6900DB55A83B78E835B64950_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:49>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____color1;
+		NullCheck(L_0);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
+		L_1 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_0, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_2 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)TextureSelectionUI_U3CAddListenerU3Eb__5_0_mC84934AF22EF9880ACAF713077CCBD18DF6C9D11_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_1, L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:50>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->____color2;
+		NullCheck(L_3);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
+		L_4 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_3, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_5 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)TextureSelectionUI_U3CAddListenerU3Eb__5_1_m67FCADA9B4DBA5153CF61ADA55653C65F4E0FC70_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_4, L_5, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:51>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->____color3;
+		NullCheck(L_6);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
+		L_7 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_6, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_8 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_8, __this, (intptr_t)((void*)TextureSelectionUI_U3CAddListenerU3Eb__5_2_m28A8C5C564A0DDBF6900DB55A83B78E835B64950_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_7, L_8, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 133341
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_RemoveListener_m1AE25F9F7A05715B749D9012F11A8CA02083A44C (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureSelectionUI_U3CRemoveListenerU3Eb__6_0_mE8BCEA0C85BAE50BFDA813FC8BA09F62D97F47B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureSelectionUI_U3CRemoveListenerU3Eb__6_1_m62DB8874468082198EA3A0405EC8E072AA49F65B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureSelectionUI_U3CRemoveListenerU3Eb__6_2_m5847248F292405D615A2C2966FB2DC2BEC423DA7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:59>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____color1;
+		NullCheck(L_0);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
+		L_1 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_0, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_2 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)TextureSelectionUI_U3CRemoveListenerU3Eb__6_0_mE8BCEA0C85BAE50BFDA813FC8BA09F62D97F47B3_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:60>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->____color2;
+		NullCheck(L_3);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
+		L_4 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_3, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_5 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)TextureSelectionUI_U3CRemoveListenerU3Eb__6_1_m62DB8874468082198EA3A0405EC8E072AA49F65B_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_4, L_5, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:61>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->____color3;
+		NullCheck(L_6);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
+		L_7 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_6, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_8 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_8, __this, (intptr_t)((void*)TextureSelectionUI_U3CRemoveListenerU3Eb__6_2_m5847248F292405D615A2C2966FB2DC2BEC423DA7_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_7, L_8, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:62>
+		return;
+	}
+}
+// Method Definition Index: 133342
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI__ctor_m07219EAF31F2CC3D04B2411AA7305AFC516382F1 (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133343
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_U3CAddListenerU3Eb__5_0_mC84934AF22EF9880ACAF713077CCBD18DF6C9D11 (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:49>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorTexture_m396BD74EBEF78EA9D8077D70DCA1CA21880FCC26(L_0, 0, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_U3CAddListenerU3Eb__5_1_m67FCADA9B4DBA5153CF61ADA55653C65F4E0FC70 (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:50>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorTexture_m396BD74EBEF78EA9D8077D70DCA1CA21880FCC26(L_0, 1, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_U3CAddListenerU3Eb__5_2_m28A8C5C564A0DDBF6900DB55A83B78E835B64950 (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:51>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorTexture_m396BD74EBEF78EA9D8077D70DCA1CA21880FCC26(L_0, 2, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_U3CRemoveListenerU3Eb__6_0_mE8BCEA0C85BAE50BFDA813FC8BA09F62D97F47B3 (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:59>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorTexture_m396BD74EBEF78EA9D8077D70DCA1CA21880FCC26(L_0, 0, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_U3CRemoveListenerU3Eb__6_1_m62DB8874468082198EA3A0405EC8E072AA49F65B (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:60>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorTexture_m396BD74EBEF78EA9D8077D70DCA1CA21880FCC26(L_0, 1, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureSelectionUI_U3CRemoveListenerU3Eb__6_2_m5847248F292405D615A2C2966FB2DC2BEC423DA7 (TextureSelectionUI_t66A687E26FBF9BE0B61CEDD9E5BA64C1977F718D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TextureSelectionUI.cs:61>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorTexture_m396BD74EBEF78EA9D8077D70DCA1CA21880FCC26(L_0, 2, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_Awake_mB37CBC66802AAB7722C1CD685D136890CBD207D4 (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:47>
+		TypeSelectionUI_AddListener_m975D41D8E38B41C219B0D720A876ED748C0C51F4(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133350
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_AddListener_m975D41D8E38B41C219B0D720A876ED748C0C51F4 (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeSelectionUI_U3CAddListenerU3Eb__6_0_m5B29B5CEB1971300089D4F07E90FCF2961699DF9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeSelectionUI_U3CAddListenerU3Eb__6_1_m297A550DEA6E804D50D796C757F14A43E9050B95_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeSelectionUI_U3CAddListenerU3Eb__6_2_m4F16849DE52A62A65DC79BC818E463D3403AFB22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeSelectionUI_U3CAddListenerU3Eb__6_3_m576C6E83789DC0C1215D3B0A5B7A698FB29529E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:54>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____arcButton;
+		NullCheck(L_0);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
+		L_1 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_0, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_2 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)TypeSelectionUI_U3CAddListenerU3Eb__6_0_m5B29B5CEB1971300089D4F07E90FCF2961699DF9_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_1, L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:55>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->____circleButton;
+		NullCheck(L_3);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
+		L_4 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_3, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_5 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)TypeSelectionUI_U3CAddListenerU3Eb__6_1_m297A550DEA6E804D50D796C757F14A43E9050B95_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_4, L_5, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:56>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->____lineButton;
+		NullCheck(L_6);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
+		L_7 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_6, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_8 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_8, __this, (intptr_t)((void*)TypeSelectionUI_U3CAddListenerU3Eb__6_2_m4F16849DE52A62A65DC79BC818E463D3403AFB22_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_7, L_8, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:57>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->____scatterLineButton;
+		NullCheck(L_9);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_10;
+		L_10 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_9, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_11 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_11, __this, (intptr_t)((void*)TypeSelectionUI_U3CAddListenerU3Eb__6_3_m576C6E83789DC0C1215D3B0A5B7A698FB29529E1_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_10, L_11, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 133351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_RemoveListener_m66D4DA8586F7C8B8DE586F5A39F2F91D61ADE2F5 (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeSelectionUI_U3CRemoveListenerU3Eb__7_0_mFF968D03F77EAE8D1BAFB105232BAF6589DD192F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeSelectionUI_U3CRemoveListenerU3Eb__7_1_m9A74513ACC2AAFD956855B79C3E99CDBA219274E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeSelectionUI_U3CRemoveListenerU3Eb__7_2_m543096FBF55C1E62BDB81A8DA8ECEAE0D17A6545_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeSelectionUI_U3CRemoveListenerU3Eb__7_3_mC83EC2DD9ABBB555179EE8A29B22F48018FEEC0C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:65>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->____arcButton;
+		NullCheck(L_0);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
+		L_1 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_0, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_2 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)TypeSelectionUI_U3CRemoveListenerU3Eb__7_0_mFF968D03F77EAE8D1BAFB105232BAF6589DD192F_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_1, L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:66>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->____circleButton;
+		NullCheck(L_3);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_4;
+		L_4 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_3, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_5 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)TypeSelectionUI_U3CRemoveListenerU3Eb__7_1_m9A74513ACC2AAFD956855B79C3E99CDBA219274E_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_4, L_5, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:67>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->____lineButton;
+		NullCheck(L_6);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
+		L_7 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_6, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_8 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_8, __this, (intptr_t)((void*)TypeSelectionUI_U3CRemoveListenerU3Eb__7_2_m543096FBF55C1E62BDB81A8DA8ECEAE0D17A6545_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_7, L_8, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:68>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->____scatterLineButton;
+		NullCheck(L_9);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_10;
+		L_10 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_9, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_11 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_11, __this, (intptr_t)((void*)TypeSelectionUI_U3CRemoveListenerU3Eb__7_3_mC83EC2DD9ABBB555179EE8A29B22F48018FEEC0C_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_10, L_11, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:69>
+		return;
+	}
+}
+// Method Definition Index: 133352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI__ctor_mA9A2428896B7A88A5632A70B954B7CC3EF9771FB (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_U3CAddListenerU3Eb__6_0_m5B29B5CEB1971300089D4F07E90FCF2961699DF9 (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:54>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363(L_0, 0, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_U3CAddListenerU3Eb__6_1_m297A550DEA6E804D50D796C757F14A43E9050B95 (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:55>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363(L_0, 1, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133355
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_U3CAddListenerU3Eb__6_2_m4F16849DE52A62A65DC79BC818E463D3403AFB22 (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:56>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363(L_0, 2, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133356
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_U3CAddListenerU3Eb__6_3_m576C6E83789DC0C1215D3B0A5B7A698FB29529E1 (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:57>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363(L_0, 3, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133357
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_U3CRemoveListenerU3Eb__7_0_mFF968D03F77EAE8D1BAFB105232BAF6589DD192F (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:65>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363(L_0, 0, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133358
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_U3CRemoveListenerU3Eb__7_1_m9A74513ACC2AAFD956855B79C3E99CDBA219274E (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:66>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363(L_0, 1, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133359
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_U3CRemoveListenerU3Eb__7_2_m543096FBF55C1E62BDB81A8DA8ECEAE0D17A6545 (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:67>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363(L_0, 2, NULL);
+		return;
+	}
+}
+// Method Definition Index: 133360
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeSelectionUI_U3CRemoveListenerU3Eb__7_3_mC83EC2DD9ABBB555179EE8A29B22F48018FEEC0C (TypeSelectionUI_t5D98D5D6804B4340BD6269E48732A97453B86772* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SelectionUI/TypeSelectionUI.cs:68>
+		SelectionMenuHandler_t19B59E861F8781E4D153FF7722F864D40D7F38A6* L_0 = __this->____selectionMenu;
+		NullCheck(L_0);
+		SelectionMenuHandler_UpdateProjectorType_mB84B2C86D1BFC05DB38C98279B40A9D3E8805363(L_0, 3, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133361
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_InitializeSlider_m8625DE1E2A959A5800E6F55058644C2E209CBEE2 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:46>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____radius;
+		NullCheck(L_0);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_0, (200.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:47>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = __this->____radius;
+		NullCheck(L_1);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_1, (50.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:49>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_2 = __this->____angle;
+		NullCheck(L_2);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_2, (360.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:50>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____angle;
+		NullCheck(L_3);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_3, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:52>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_4 = __this->____arc;
+		NullCheck(L_4);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_4, (360.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:53>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_5 = __this->____arc;
+		NullCheck(L_5);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_5, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:55>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____fillProgress;
+		NullCheck(L_6);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_6, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:56>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_7 = __this->____fillProgress;
+		NullCheck(L_7);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_7, (1.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 133362
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_InitializeValues_m984511D6E5CEB987A66C7174D4246917312C2783 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:64>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____angle;
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_1 = __this->____projector;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ArcRegionProjector_get_Angle_m2CD99483F16C796C3A3E6C3F6A43FA1E8956FBAE_inline(L_1, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< float >::Invoke(47, L_0, L_2);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:65>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____radius;
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_4 = __this->____projector;
+		NullCheck(L_4);
+		float L_5;
+		L_5 = ArcRegionProjector_get_Radius_m9FAC34360F4517ECA76473A7A4A6F74F7225A9EE_inline(L_4, NULL);
+		NullCheck(L_3);
+		VirtualActionInvoker1< float >::Invoke(47, L_3, L_5);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:66>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____arc;
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_7 = __this->____projector;
+		NullCheck(L_7);
+		float L_8;
+		L_8 = ArcRegionProjector_get_Arc_mFC74E7300A7D39918A55E964E680421911A208B9_inline(L_7, NULL);
+		NullCheck(L_6);
+		VirtualActionInvoker1< float >::Invoke(47, L_6, L_8);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:67>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->____fillProgress;
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_10 = __this->____projector;
+		NullCheck(L_10);
+		float L_11;
+		L_11 = ArcRegionProjector_get_FillProgress_m583AEFF29C0890507524E17A7B0447B3FFCA6AE7_inline(L_10, NULL);
+		NullCheck(L_9);
+		VirtualActionInvoker1< float >::Invoke(47, L_9, L_11);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:68>
+		return;
+	}
+}
+// Method Definition Index: 133363
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_AddListener_m2DF75A4CDC2BA78C1D60836E6AB1939DC3D47C6F (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcSettings_UpdateAngle_m74A1DFC09035B962A74F12A1689BFC8D308E209C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcSettings_UpdateArc_mCD1354D807930D1F6582DEB8F93771E4CB0D92C4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcSettings_UpdateFill_mA630CE0D917DC8A62ECB0A3A20F3714893424B93_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcSettings_UpdateRadius_mA76272BC2CB5513D6048FDCDE205EF3DC6500ED5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:75>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____arc;
+		NullCheck(L_0);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_1;
+		L_1 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_0, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_2 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_2, __this, (intptr_t)((void*)ArcSettings_UpdateArc_mCD1354D807930D1F6582DEB8F93771E4CB0D92C4_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_1, L_2, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:76>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fillProgress;
+		NullCheck(L_3);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_4;
+		L_4 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_3, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_5 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_5, __this, (intptr_t)((void*)ArcSettings_UpdateFill_mA630CE0D917DC8A62ECB0A3A20F3714893424B93_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_4, L_5, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:77>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____angle;
+		NullCheck(L_6);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_7;
+		L_7 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_6, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_8 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_8, __this, (intptr_t)((void*)ArcSettings_UpdateAngle_m74A1DFC09035B962A74F12A1689BFC8D308E209C_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_7, L_8, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:78>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->____radius;
+		NullCheck(L_9);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_10;
+		L_10 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_9, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_11 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_11, __this, (intptr_t)((void*)ArcSettings_UpdateRadius_mA76272BC2CB5513D6048FDCDE205EF3DC6500ED5_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_10, L_11, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:79>
+		return;
+	}
+}
+// Method Definition Index: 133364
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_RemoveListerner_m68397E386B1681B863446E7C403243B54784DD0E (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcSettings_UpdateAngle_m74A1DFC09035B962A74F12A1689BFC8D308E209C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcSettings_UpdateArc_mCD1354D807930D1F6582DEB8F93771E4CB0D92C4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcSettings_UpdateFill_mA630CE0D917DC8A62ECB0A3A20F3714893424B93_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArcSettings_UpdateRadius_mA76272BC2CB5513D6048FDCDE205EF3DC6500ED5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:86>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____arc;
+		NullCheck(L_0);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_1;
+		L_1 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_0, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_2 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_2, __this, (intptr_t)((void*)ArcSettings_UpdateArc_mCD1354D807930D1F6582DEB8F93771E4CB0D92C4_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_1, L_2, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:87>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fillProgress;
+		NullCheck(L_3);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_4;
+		L_4 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_3, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_5 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_5, __this, (intptr_t)((void*)ArcSettings_UpdateFill_mA630CE0D917DC8A62ECB0A3A20F3714893424B93_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_4, L_5, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:88>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____angle;
+		NullCheck(L_6);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_7;
+		L_7 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_6, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_8 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_8, __this, (intptr_t)((void*)ArcSettings_UpdateAngle_m74A1DFC09035B962A74F12A1689BFC8D308E209C_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_7, L_8, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:89>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->____radius;
+		NullCheck(L_9);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_10;
+		L_10 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_9, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_11 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_11, __this, (intptr_t)((void*)ArcSettings_UpdateRadius_mA76272BC2CB5513D6048FDCDE205EF3DC6500ED5_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_10, L_11, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:90>
+		return;
+	}
+}
+// Method Definition Index: 133365
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_UpdateArc_mCD1354D807930D1F6582DEB8F93771E4CB0D92C4 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, float ___0_arc, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:98>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_0 = __this->____projector;
+		float L_1 = ___0_arc;
+		NullCheck(L_0);
+		ArcRegionProjector_set_Arc_m3F4CAC8C70FFCB4680C5E5A603DC6586D164E02E(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:99>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_2 = __this->____projector;
+		NullCheck(L_2);
+		ArcRegionProjector_UpdateProjectors_mCF43036B1B46447D6F634BA05E0809362FC7BFB3(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:100>
+		return;
+	}
+}
+// Method Definition Index: 133366
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_UpdateRadius_mA76272BC2CB5513D6048FDCDE205EF3DC6500ED5 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, float ___0_arc, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:108>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_0 = __this->____projector;
+		float L_1 = ___0_arc;
+		NullCheck(L_0);
+		ArcRegionProjector_set_Radius_m042E060194F37C0C4DDB5230529BE7AAE2EE40F8(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:109>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_2 = __this->____projector;
+		NullCheck(L_2);
+		ArcRegionProjector_UpdateProjectors_mCF43036B1B46447D6F634BA05E0809362FC7BFB3(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:110>
+		return;
+	}
+}
+// Method Definition Index: 133367
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_UpdateFill_mA630CE0D917DC8A62ECB0A3A20F3714893424B93 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, float ___0_arc, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:118>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_0 = __this->____projector;
+		float L_1 = ___0_arc;
+		NullCheck(L_0);
+		ArcRegionProjector_set_FillProgress_m53BF379AB28BF08995BA571FADE8B4CB7BB73ED3(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:119>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_2 = __this->____projector;
+		NullCheck(L_2);
+		ArcRegionProjector_UpdateProjectors_mCF43036B1B46447D6F634BA05E0809362FC7BFB3(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:120>
+		return;
+	}
+}
+// Method Definition Index: 133368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_UpdateAngle_m74A1DFC09035B962A74F12A1689BFC8D308E209C (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, float ___0_angle, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:128>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_0 = __this->____projector;
+		float L_1 = ___0_angle;
+		NullCheck(L_0);
+		ArcRegionProjector_set_Angle_m140F62FD9F9E707BED1383824F5AC11D84682176_inline(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:129>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_2 = __this->____projector;
+		NullCheck(L_2);
+		ArcRegionProjector_UpdateProjectors_mCF43036B1B46447D6F634BA05E0809362FC7BFB3(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:130>
+		return;
+	}
+}
+// Method Definition Index: 133369
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_ChangeIndicator_m1C21B6F4377513A3B37821C2E6FCA6AAE447FC47 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* ___0_indic, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:138>
+		ArcSettings_RemoveListerner_m68397E386B1681B863446E7C403243B54784DD0E(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:139>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_0 = ___0_indic;
+		__this->____projector = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____projector), (void*)L_0);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:140>
+		ArcSettings_InitializeSlider_m8625DE1E2A959A5800E6F55058644C2E209CBEE2(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:141>
+		ArcSettings_InitializeIndicator_mE31B16EAFE4ED52C076EEECD065DE29500D5DEB3(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:142>
+		ArcSettings_InitializeValues_m984511D6E5CEB987A66C7174D4246917312C2783(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:143>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = __this->____angle;
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_2 = __this->____projector;
+		NullCheck(L_2);
+		float L_3;
+		L_3 = ArcRegionProjector_get_Angle_m2CD99483F16C796C3A3E6C3F6A43FA1E8956FBAE_inline(L_2, NULL);
+		NullCheck(L_1);
+		VirtualActionInvoker1< float >::Invoke(47, L_1, L_3);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:144>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_4 = __this->____radius;
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_5 = __this->____projector;
+		NullCheck(L_5);
+		float L_6;
+		L_6 = ArcRegionProjector_get_Radius_m9FAC34360F4517ECA76473A7A4A6F74F7225A9EE_inline(L_5, NULL);
+		NullCheck(L_4);
+		VirtualActionInvoker1< float >::Invoke(47, L_4, L_6);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:145>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_7 = __this->____arc;
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_8 = __this->____projector;
+		NullCheck(L_8);
+		float L_9;
+		L_9 = ArcRegionProjector_get_Arc_mFC74E7300A7D39918A55E964E680421911A208B9_inline(L_8, NULL);
+		NullCheck(L_7);
+		VirtualActionInvoker1< float >::Invoke(47, L_7, L_9);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:146>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_10 = __this->____fillProgress;
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_11 = __this->____projector;
+		NullCheck(L_11);
+		float L_12;
+		L_12 = ArcRegionProjector_get_FillProgress_m583AEFF29C0890507524E17A7B0447B3FFCA6AE7_inline(L_11, NULL);
+		NullCheck(L_10);
+		VirtualActionInvoker1< float >::Invoke(47, L_10, L_12);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:147>
+		ArcSettings_AddListener_m2DF75A4CDC2BA78C1D60836E6AB1939DC3D47C6F(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:148>
+		return;
+	}
+}
+// Method Definition Index: 133370
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings_InitializeIndicator_mE31B16EAFE4ED52C076EEECD065DE29500D5DEB3 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ArcSettings.cs:153>
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_0 = __this->____projector;
+		NullCheck(L_0);
+		ArcRegionProjector_set_Radius_m042E060194F37C0C4DDB5230529BE7AAE2EE40F8(L_0, (50.0f), NULL);
+		return;
+	}
+}
+// Method Definition Index: 133371
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArcSettings__ctor_mA5404A1512A7F81770B212105E16976ECC3B54D6 (ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133372
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_InitializeSettings_mFCCDF496A37B93B2E1A5F3D91CF8A9489C8DAF04 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:32>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____radius;
+		NullCheck(L_0);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_0, (50.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:33>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = __this->____radius;
+		NullCheck(L_1);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_1, (200.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:35>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_2 = __this->____fillProgress;
+		NullCheck(L_2);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_2, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:36>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fillProgress;
+		NullCheck(L_3);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_3, (1.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:37>
+		return;
+	}
+}
+// Method Definition Index: 133373
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_InitializeValues_mB46228191FEF944BFB78DDF40A0DDCAA305340B5 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:44>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____radius;
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_1 = __this->____projector;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = CircleRegionProjector_get_Radius_mBD8FD056D9EE9260C1FECBD41906DE5031F10B66_inline(L_1, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< float >::Invoke(47, L_0, L_2);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:45>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fillProgress;
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_4 = __this->____projector;
+		NullCheck(L_4);
+		float L_5;
+		L_5 = CircleRegionProjector_get_FillProgress_m093C884D82AEDD4B68596366CCBBA5ECAE52FDD7_inline(L_4, NULL);
+		NullCheck(L_3);
+		VirtualActionInvoker1< float >::Invoke(47, L_3, L_5);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:46>
+		return;
+	}
+}
+// Method Definition Index: 133374
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_AddListener_m2365E8743E11390E39DC10BAD835E93779EEDE00 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CircleSettings_UpdateFill_m4EA368A0C7491B251E484734CED7F85AEC7A17DC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CircleSettings_UpdateRadius_m40A4A0397A133A99CE3D0A1C47FA02E277F44C74_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:53>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		NullCheck(L_0);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_1;
+		L_1 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_0, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_2 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_2, __this, (intptr_t)((void*)CircleSettings_UpdateFill_m4EA368A0C7491B251E484734CED7F85AEC7A17DC_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_1, L_2, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:54>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____radius;
+		NullCheck(L_3);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_4;
+		L_4 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_3, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_5 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_5, __this, (intptr_t)((void*)CircleSettings_UpdateRadius_m40A4A0397A133A99CE3D0A1C47FA02E277F44C74_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_4, L_5, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:55>
+		return;
+	}
+}
+// Method Definition Index: 133375
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_RemoveListerner_m22A7E9828C90417D4E2739CA920077A8D7B37011 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CircleSettings_UpdateFill_m4EA368A0C7491B251E484734CED7F85AEC7A17DC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CircleSettings_UpdateRadius_m40A4A0397A133A99CE3D0A1C47FA02E277F44C74_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:62>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		NullCheck(L_0);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_1;
+		L_1 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_0, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_2 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_2, __this, (intptr_t)((void*)CircleSettings_UpdateFill_m4EA368A0C7491B251E484734CED7F85AEC7A17DC_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_1, L_2, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:63>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____radius;
+		NullCheck(L_3);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_4;
+		L_4 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_3, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_5 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_5, __this, (intptr_t)((void*)CircleSettings_UpdateRadius_m40A4A0397A133A99CE3D0A1C47FA02E277F44C74_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_4, L_5, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:64>
+		return;
+	}
+}
+// Method Definition Index: 133376
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_UpdateRadius_m40A4A0397A133A99CE3D0A1C47FA02E277F44C74 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, float ___0_radius, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:72>
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_0 = __this->____projector;
+		float L_1 = ___0_radius;
+		NullCheck(L_0);
+		CircleRegionProjector_set_Radius_m4EA56897FBEB9AA1524244FF790DA664C91AE98C(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:73>
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_2 = __this->____projector;
+		NullCheck(L_2);
+		CircleRegionProjector_UpdateProjectors_mBDFFA03A52EB1D4A8355467ABA33FBAA69E328E0(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:74>
+		return;
+	}
+}
+// Method Definition Index: 133377
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_UpdateFill_m4EA368A0C7491B251E484734CED7F85AEC7A17DC (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, float ___0_fill, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:82>
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_0 = __this->____projector;
+		float L_1 = ___0_fill;
+		NullCheck(L_0);
+		CircleRegionProjector_set_FillProgress_m67F8593DEA4BC1E786FF7930AF9B9F95CBFC1DD6(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:83>
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_2 = __this->____projector;
+		NullCheck(L_2);
+		CircleRegionProjector_UpdateProjectors_mBDFFA03A52EB1D4A8355467ABA33FBAA69E328E0(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:84>
+		return;
+	}
+}
+// Method Definition Index: 133378
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_ChangeIndicator_m253B257E8A4FC744B93769B3B6D6A85749D2B68C (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* ___0_indic, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:92>
+		CircleSettings_RemoveListerner_m22A7E9828C90417D4E2739CA920077A8D7B37011(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:93>
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_0 = ___0_indic;
+		__this->____projector = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____projector), (void*)L_0);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:94>
+		CircleSettings_InitializeSettings_mFCCDF496A37B93B2E1A5F3D91CF8A9489C8DAF04(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:95>
+		CircleSettings_InitializeIndicator_m63875FF1FF1A467C83212B3D4B7AB62E476ABA17(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:96>
+		CircleSettings_InitializeValues_mB46228191FEF944BFB78DDF40A0DDCAA305340B5(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:97>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = __this->____radius;
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_2 = __this->____projector;
+		NullCheck(L_2);
+		float L_3;
+		L_3 = CircleRegionProjector_get_Radius_mBD8FD056D9EE9260C1FECBD41906DE5031F10B66_inline(L_2, NULL);
+		NullCheck(L_1);
+		VirtualActionInvoker1< float >::Invoke(47, L_1, L_3);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:98>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_4 = __this->____fillProgress;
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_5 = __this->____projector;
+		NullCheck(L_5);
+		float L_6;
+		L_6 = CircleRegionProjector_get_FillProgress_m093C884D82AEDD4B68596366CCBBA5ECAE52FDD7_inline(L_5, NULL);
+		NullCheck(L_4);
+		VirtualActionInvoker1< float >::Invoke(47, L_4, L_6);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:99>
+		CircleSettings_AddListener_m2365E8743E11390E39DC10BAD835E93779EEDE00(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:100>
+		return;
+	}
+}
+// Method Definition Index: 133379
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings_InitializeIndicator_m63875FF1FF1A467C83212B3D4B7AB62E476ABA17 (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/CircleSettings.cs:105>
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_0 = __this->____projector;
+		NullCheck(L_0);
+		CircleRegionProjector_set_Radius_m4EA56897FBEB9AA1524244FF790DA664C91AE98C(L_0, (50.0f), NULL);
+		return;
+	}
+}
+// Method Definition Index: 133380
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CircleSettings__ctor_m3253035C083709DD60B2F30DE30F8520284BD83C (CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133381
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_InitializeValues_m61699CD07CF44D8767A87BC132C2DB8442086D47 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:51>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_1 = __this->____projector;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = LineRegionProjector_get_FillProgress_m435C08178C41DF92FE78B6EE73DEAC5A2C788CD8_inline(L_1, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< float >::Invoke(47, L_0, L_2);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:52>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fadeAmount;
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_4 = __this->____projector;
+		NullCheck(L_4);
+		float L_5;
+		L_5 = LineRegionProjector_get_FadeAmount_mB5FB1748C81DCC914C6386DD42F6B3381D0F8BF1_inline(L_4, NULL);
+		NullCheck(L_3);
+		VirtualActionInvoker1< float >::Invoke(47, L_3, L_5);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:53>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____angle;
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_7 = __this->____projector;
+		NullCheck(L_7);
+		float L_8;
+		L_8 = LineRegionProjector_get_Angle_mE80DEDF785AC370BBD5B1D2664927A4DFA7BEDE3_inline(L_7, NULL);
+		NullCheck(L_6);
+		VirtualActionInvoker1< float >::Invoke(47, L_6, L_8);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:55>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->____length;
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_10 = __this->____projector;
+		NullCheck(L_10);
+		float L_11;
+		L_11 = LineRegionProjector_get_Length_mE7F932F4FBEBCE3F5287C391E1E05AFAD94BE410_inline(L_10, NULL);
+		NullCheck(L_9);
+		VirtualActionInvoker1< float >::Invoke(47, L_9, L_11);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:56>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_12 = __this->____width;
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_13 = __this->____projector;
+		NullCheck(L_13);
+		float L_14;
+		L_14 = LineRegionProjector_get_Width_m85F88522328A432F1752BFE92F724E7233855354_inline(L_13, NULL);
+		NullCheck(L_12);
+		VirtualActionInvoker1< float >::Invoke(47, L_12, L_14);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 133382
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_InitializeSlider_m178F104DB954B01C4283D7E6E1ECABE1516B9D97 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:64>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		NullCheck(L_0);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_0, (1.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:65>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = __this->____fillProgress;
+		NullCheck(L_1);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_1, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:66>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_2 = __this->____fadeAmount;
+		NullCheck(L_2);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_2, (1.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:67>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fadeAmount;
+		NullCheck(L_3);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_3, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:68>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_4 = __this->____angle;
+		NullCheck(L_4);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_4, (360.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:69>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_5 = __this->____angle;
+		NullCheck(L_5);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_5, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:70>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____length;
+		NullCheck(L_6);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_6, (100.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:71>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_7 = __this->____length;
+		NullCheck(L_7);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_7, (25.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:72>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_8 = __this->____width;
+		NullCheck(L_8);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_8, (25.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:73>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->____width;
+		NullCheck(L_9);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_9, (1.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:74>
+		return;
+	}
+}
+// Method Definition Index: 133383
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_AddListener_m36B9876A1B5F602B2C719E92B945E7A076B693F5 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateAngle_mD1739C22A1BB1CBF4C523475F45B8C41BB337B74_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateFade_mA830B84B5F98E9460EDE5F3833609D704EA62E88_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateFill_m6D5B543DCFB3232E57949C8287202F6B0D10F4DF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateLength_m403EE6B94BD7CD751E8610FC828D80D07FEB9EF5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateWidth_m42DCEAAB5AB8FAEE8DD33D7A0E56DBC55A256A68_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:81>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		NullCheck(L_0);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_1;
+		L_1 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_0, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_2 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_2, __this, (intptr_t)((void*)lineSettings_UpdateFill_m6D5B543DCFB3232E57949C8287202F6B0D10F4DF_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_1, L_2, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:82>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fadeAmount;
+		NullCheck(L_3);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_4;
+		L_4 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_3, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_5 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_5, __this, (intptr_t)((void*)lineSettings_UpdateFade_mA830B84B5F98E9460EDE5F3833609D704EA62E88_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_4, L_5, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:83>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____angle;
+		NullCheck(L_6);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_7;
+		L_7 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_6, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_8 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_8, __this, (intptr_t)((void*)lineSettings_UpdateAngle_mD1739C22A1BB1CBF4C523475F45B8C41BB337B74_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_7, L_8, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:85>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->____length;
+		NullCheck(L_9);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_10;
+		L_10 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_9, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_11 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_11, __this, (intptr_t)((void*)lineSettings_UpdateLength_m403EE6B94BD7CD751E8610FC828D80D07FEB9EF5_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_10, L_11, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:86>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_12 = __this->____width;
+		NullCheck(L_12);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_13;
+		L_13 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_12, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_14 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_14, __this, (intptr_t)((void*)lineSettings_UpdateWidth_m42DCEAAB5AB8FAEE8DD33D7A0E56DBC55A256A68_RuntimeMethod_var), NULL);
+		NullCheck(L_13);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_13, L_14, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:87>
+		return;
+	}
+}
+// Method Definition Index: 133384
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_RemoveListerner_m772AA2F5963B682F38CA317FB13DE03430C82D2E (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateAngle_mD1739C22A1BB1CBF4C523475F45B8C41BB337B74_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateFade_mA830B84B5F98E9460EDE5F3833609D704EA62E88_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateFill_m6D5B543DCFB3232E57949C8287202F6B0D10F4DF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateLength_m403EE6B94BD7CD751E8610FC828D80D07FEB9EF5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&lineSettings_UpdateWidth_m42DCEAAB5AB8FAEE8DD33D7A0E56DBC55A256A68_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:94>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		NullCheck(L_0);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_1;
+		L_1 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_0, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_2 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_2, __this, (intptr_t)((void*)lineSettings_UpdateFill_m6D5B543DCFB3232E57949C8287202F6B0D10F4DF_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_1, L_2, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:95>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fadeAmount;
+		NullCheck(L_3);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_4;
+		L_4 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_3, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_5 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_5, __this, (intptr_t)((void*)lineSettings_UpdateFade_mA830B84B5F98E9460EDE5F3833609D704EA62E88_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_4, L_5, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:96>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____angle;
+		NullCheck(L_6);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_7;
+		L_7 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_6, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_8 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_8, __this, (intptr_t)((void*)lineSettings_UpdateAngle_mD1739C22A1BB1CBF4C523475F45B8C41BB337B74_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_7, L_8, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:98>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->____length;
+		NullCheck(L_9);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_10;
+		L_10 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_9, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_11 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_11, __this, (intptr_t)((void*)lineSettings_UpdateLength_m403EE6B94BD7CD751E8610FC828D80D07FEB9EF5_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_10, L_11, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:99>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_12 = __this->____width;
+		NullCheck(L_12);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_13;
+		L_13 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_12, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_14 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_14, __this, (intptr_t)((void*)lineSettings_UpdateWidth_m42DCEAAB5AB8FAEE8DD33D7A0E56DBC55A256A68_RuntimeMethod_var), NULL);
+		NullCheck(L_13);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_13, L_14, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:100>
+		return;
+	}
+}
+// Method Definition Index: 133385
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_UpdateFade_mA830B84B5F98E9460EDE5F3833609D704EA62E88 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, float ___0_fade, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:108>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_0 = __this->____projector;
+		float L_1 = ___0_fade;
+		NullCheck(L_0);
+		LineRegionProjector_set_FadeAmount_m992F8F8E99BB93D73A0CBC5C5DC96CFCCF515C61(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:109>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_2 = __this->____projector;
+		NullCheck(L_2);
+		LineRegionProjector_UpdateProjectors_m7F245182643DEAFA73C6BA8DA1A9A4E13FC9185D(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:110>
+		return;
+	}
+}
+// Method Definition Index: 133386
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_UpdateAngle_mD1739C22A1BB1CBF4C523475F45B8C41BB337B74 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, float ___0_angle, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:118>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_0 = __this->____projector;
+		float L_1 = ___0_angle;
+		NullCheck(L_0);
+		LineRegionProjector_set_Angle_m2E42FC6275301C6029B76237CAF604C7477A70CB(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:119>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_2 = __this->____projector;
+		NullCheck(L_2);
+		LineRegionProjector_UpdateProjectors_m7F245182643DEAFA73C6BA8DA1A9A4E13FC9185D(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:120>
+		return;
+	}
+}
+// Method Definition Index: 133387
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_UpdateLength_m403EE6B94BD7CD751E8610FC828D80D07FEB9EF5 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, float ___0_length, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:128>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_0 = __this->____projector;
+		float L_1 = ___0_length;
+		NullCheck(L_0);
+		LineRegionProjector_set_Length_mBBDFF7E648BB811A5A5FE9602D73C30323BABD70(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:129>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_2 = __this->____projector;
+		NullCheck(L_2);
+		LineRegionProjector_UpdateProjectors_m7F245182643DEAFA73C6BA8DA1A9A4E13FC9185D(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:130>
+		return;
+	}
+}
+// Method Definition Index: 133388
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_UpdateWidth_m42DCEAAB5AB8FAEE8DD33D7A0E56DBC55A256A68 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, float ___0_width, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:138>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_0 = __this->____projector;
+		float L_1 = ___0_width;
+		NullCheck(L_0);
+		LineRegionProjector_set_Width_m77EADEEA025DB54714E881D377774C38613C5CA3(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:139>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_2 = __this->____projector;
+		NullCheck(L_2);
+		LineRegionProjector_UpdateProjectors_m7F245182643DEAFA73C6BA8DA1A9A4E13FC9185D(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:140>
+		return;
+	}
+}
+// Method Definition Index: 133389
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_UpdateFill_m6D5B543DCFB3232E57949C8287202F6B0D10F4DF (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, float ___0_arc, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:148>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_0 = __this->____projector;
+		float L_1 = ___0_arc;
+		NullCheck(L_0);
+		LineRegionProjector_set_FillProgress_mE7A0D789DFC86E55576EF6FC81F46D74B496212B(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:149>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_2 = __this->____projector;
+		NullCheck(L_2);
+		LineRegionProjector_UpdateProjectors_m7F245182643DEAFA73C6BA8DA1A9A4E13FC9185D(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:150>
+		return;
+	}
+}
+// Method Definition Index: 133390
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_ChangeIndicator_m78E5D39E6E10E04D3F5F1C8266A80B7C2566E961 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* ___0_indic, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:158>
+		lineSettings_RemoveListerner_m772AA2F5963B682F38CA317FB13DE03430C82D2E(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:159>
+		lineSettings_InitializeSlider_m178F104DB954B01C4283D7E6E1ECABE1516B9D97(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:160>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_0 = ___0_indic;
+		__this->____projector = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____projector), (void*)L_0);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:161>
+		lineSettings_InitializeIndicator_m7BEFED027C32162117DB88BA1647263B9D01C58C(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:162>
+		lineSettings_InitializeValues_m61699CD07CF44D8767A87BC132C2DB8442086D47(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:163>
+		lineSettings_AddListener_m36B9876A1B5F602B2C719E92B945E7A076B693F5(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:164>
+		return;
+	}
+}
+// Method Definition Index: 133391
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings_InitializeIndicator_m7BEFED027C32162117DB88BA1647263B9D01C58C (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/lineSettings.cs:169>
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_0 = __this->____projector;
+		NullCheck(L_0);
+		LineRegionProjector_set_Length_mBBDFF7E648BB811A5A5FE9602D73C30323BABD70(L_0, (15.0f), NULL);
+		return;
+	}
+}
+// Method Definition Index: 133392
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void lineSettings__ctor_m29928120792571E53DB369AA1364A346D4DA4AC6 (lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133393
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_InitializeValues_m9767E7BA3E6CC0B8AAC2E2CB859FFD9ED98EEE6C (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:72>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_1 = __this->____projector;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ScatterLineRegionProjector_get_FillProgress_m9ED31825EA0F76D03EB7F5C5DDFD23F6021ED5BA_inline(L_1, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< float >::Invoke(47, L_0, L_2);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:73>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fadeAmount;
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_4 = __this->____projector;
+		NullCheck(L_4);
+		float L_5;
+		L_5 = ScatterLineRegionProjector_get_FadeAmount_m6F2064CCAD15E2426A1DDB60FA2E599D09C191E8_inline(L_4, NULL);
+		NullCheck(L_3);
+		VirtualActionInvoker1< float >::Invoke(47, L_3, L_5);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:74>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____arc;
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_7 = __this->____projector;
+		NullCheck(L_7);
+		float L_8;
+		L_8 = ScatterLineRegionProjector_get_Arc_m06338451DF8D9E57CAB4B912D69E910A1F65951B_inline(L_7, NULL);
+		NullCheck(L_6);
+		VirtualActionInvoker1< float >::Invoke(47, L_6, L_8);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:75>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->____length;
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_10 = __this->____projector;
+		NullCheck(L_10);
+		float L_11;
+		L_11 = ScatterLineRegionProjector_get_Length_m7F1B50250A03005B346673E85805F9E32543629F_inline(L_10, NULL);
+		NullCheck(L_9);
+		VirtualActionInvoker1< float >::Invoke(47, L_9, L_11);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:76>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_12 = __this->____width;
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_13 = __this->____projector;
+		NullCheck(L_13);
+		float L_14;
+		L_14 = ScatterLineRegionProjector_get_Width_mC52DF0BD65096DF3330821263014E754232BAF35_inline(L_13, NULL);
+		NullCheck(L_12);
+		VirtualActionInvoker1< float >::Invoke(47, L_12, L_14);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:77>
+		return;
+	}
+}
+// Method Definition Index: 133394
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_InitializeSlider_m81101441ABDFD08AFC0824A24F4CB114C9E158C1 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:84>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		NullCheck(L_0);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_0, (1.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:85>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = __this->____fillProgress;
+		NullCheck(L_1);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_1, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:86>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_2 = __this->____fadeAmount;
+		NullCheck(L_2);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_2, (1.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:87>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fadeAmount;
+		NullCheck(L_3);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_3, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:88>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_4 = __this->____arc;
+		NullCheck(L_4);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_4, (360.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:89>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_5 = __this->____arc;
+		NullCheck(L_5);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_5, (0.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:91>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____length;
+		NullCheck(L_6);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_6, (100.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:92>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_7 = __this->____length;
+		NullCheck(L_7);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_7, (25.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:94>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_8 = __this->____width;
+		NullCheck(L_8);
+		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_8, (25.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:95>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->____width;
+		NullCheck(L_9);
+		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_9, (1.0f), NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:96>
+		return;
+	}
+}
+// Method Definition Index: 133395
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_AddListener_mD4B487A238CF653C91D1A33FF881653277EDB38D (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_AddLine_m38676800395DC8A962D4163A1A75393BC089FF7E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_RemoveLine_mAC32415240F9D7AE8B69C7DA864018E34D090CC2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateArc_m342F1F6B6DD43214C475CFAFB94839A0DBFB78E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateFade_m92D2D1D555D21E591DB6C5C1ABE28F8969F2522B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateFill_m070C84EFBCDEFF513C752E5779DE8FD23C3E51C2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateLength_m0624654AB3F3C0D9C62030EE403D181FE3B9981E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateWidth_m79E3CBEDF310BB41604ACEE53C5DC82DBE76D24A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:103>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		NullCheck(L_0);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_1;
+		L_1 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_0, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_2 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_2, __this, (intptr_t)((void*)ScatterLineSettings_UpdateFill_m070C84EFBCDEFF513C752E5779DE8FD23C3E51C2_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_1, L_2, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:104>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fadeAmount;
+		NullCheck(L_3);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_4;
+		L_4 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_3, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_5 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_5, __this, (intptr_t)((void*)ScatterLineSettings_UpdateFade_m92D2D1D555D21E591DB6C5C1ABE28F8969F2522B_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_4, L_5, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:105>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____arc;
+		NullCheck(L_6);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_7;
+		L_7 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_6, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_8 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_8, __this, (intptr_t)((void*)ScatterLineSettings_UpdateArc_m342F1F6B6DD43214C475CFAFB94839A0DBFB78E9_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_7, L_8, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:106>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->____plusButton;
+		NullCheck(L_9);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_10;
+		L_10 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_9, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_11 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_11, __this, (intptr_t)((void*)ScatterLineSettings_AddLine_m38676800395DC8A962D4163A1A75393BC089FF7E_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_10, L_11, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:107>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->____minusButton;
+		NullCheck(L_12);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_13;
+		L_13 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_12, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_14 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_14, __this, (intptr_t)((void*)ScatterLineSettings_RemoveLine_mAC32415240F9D7AE8B69C7DA864018E34D090CC2_RuntimeMethod_var), NULL);
+		NullCheck(L_13);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_13, L_14, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:109>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_15 = __this->____length;
+		NullCheck(L_15);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_16;
+		L_16 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_15, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_17 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_17, __this, (intptr_t)((void*)ScatterLineSettings_UpdateLength_m0624654AB3F3C0D9C62030EE403D181FE3B9981E_RuntimeMethod_var), NULL);
+		NullCheck(L_16);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_16, L_17, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:110>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_18 = __this->____width;
+		NullCheck(L_18);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_19;
+		L_19 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_18, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_20 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_20, __this, (intptr_t)((void*)ScatterLineSettings_UpdateWidth_m79E3CBEDF310BB41604ACEE53C5DC82DBE76D24A_RuntimeMethod_var), NULL);
+		NullCheck(L_19);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_19, L_20, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:111>
+		return;
+	}
+}
+// Method Definition Index: 133396
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_RemoveListerner_m3D77326829D9DE79E0B8E10EC3DC0D2D284F31B1 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_AddLine_m38676800395DC8A962D4163A1A75393BC089FF7E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_RemoveLine_mAC32415240F9D7AE8B69C7DA864018E34D090CC2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateArc_m342F1F6B6DD43214C475CFAFB94839A0DBFB78E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateFade_m92D2D1D555D21E591DB6C5C1ABE28F8969F2522B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateFill_m070C84EFBCDEFF513C752E5779DE8FD23C3E51C2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateLength_m0624654AB3F3C0D9C62030EE403D181FE3B9981E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScatterLineSettings_UpdateWidth_m79E3CBEDF310BB41604ACEE53C5DC82DBE76D24A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:118>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____fillProgress;
+		NullCheck(L_0);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_1;
+		L_1 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_0, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_2 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_2, __this, (intptr_t)((void*)ScatterLineSettings_UpdateFill_m070C84EFBCDEFF513C752E5779DE8FD23C3E51C2_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_1, L_2, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:119>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->____fadeAmount;
+		NullCheck(L_3);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_4;
+		L_4 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_3, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_5 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_5, __this, (intptr_t)((void*)ScatterLineSettings_UpdateFade_m92D2D1D555D21E591DB6C5C1ABE28F8969F2522B_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_4, L_5, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:120>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->____arc;
+		NullCheck(L_6);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_7;
+		L_7 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_6, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_8 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_8, __this, (intptr_t)((void*)ScatterLineSettings_UpdateArc_m342F1F6B6DD43214C475CFAFB94839A0DBFB78E9_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_7, L_8, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:121>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->____plusButton;
+		NullCheck(L_9);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_10;
+		L_10 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_9, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_11 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_11, __this, (intptr_t)((void*)ScatterLineSettings_AddLine_m38676800395DC8A962D4163A1A75393BC089FF7E_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_10, L_11, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:122>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->____minusButton;
+		NullCheck(L_12);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_13;
+		L_13 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_12, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_14 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_14, __this, (intptr_t)((void*)ScatterLineSettings_RemoveLine_mAC32415240F9D7AE8B69C7DA864018E34D090CC2_RuntimeMethod_var), NULL);
+		NullCheck(L_13);
+		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_13, L_14, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:124>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_15 = __this->____length;
+		NullCheck(L_15);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_16;
+		L_16 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_15, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_17 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_17, __this, (intptr_t)((void*)ScatterLineSettings_UpdateLength_m0624654AB3F3C0D9C62030EE403D181FE3B9981E_RuntimeMethod_var), NULL);
+		NullCheck(L_16);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_16, L_17, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:125>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_18 = __this->____width;
+		NullCheck(L_18);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_19;
+		L_19 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_18, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_20 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_20, __this, (intptr_t)((void*)ScatterLineSettings_UpdateWidth_m79E3CBEDF310BB41604ACEE53C5DC82DBE76D24A_RuntimeMethod_var), NULL);
+		NullCheck(L_19);
+		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_19, L_20, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:126>
+		return;
+	}
+}
+// Method Definition Index: 133397
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_AddLine_m38676800395DC8A962D4163A1A75393BC089FF7E (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:133>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_0 = __this->____projector;
+		NullCheck(L_0);
+		ScatterLineRegionProjector_Add_mBD7C3C0C9AEE99218EE233F526ACD49CA3084965(L_0, 1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:134>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->____countInfo;
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_2 = __this->____projector;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = ScatterLineRegionProjector_get_NumberOfLines_mE88EF4754F06C997D708B9DD67545F1844275E10(L_2, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_add(L_3, 1));
+		String_t* L_4;
+		L_4 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_1, L_4);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:135>
+		return;
+	}
+}
+// Method Definition Index: 133398
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_RemoveLine_mAC32415240F9D7AE8B69C7DA864018E34D090CC2 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B2_0 = NULL;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B1_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B3_1 = NULL;
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:142>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_0 = __this->____projector;
+		NullCheck(L_0);
+		ScatterLineRegionProjector_Remove_m8193A44CDDF614BC3D6896656C0DA52217B94608(L_0, 1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:143>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->____countInfo;
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_2 = __this->____projector;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = ScatterLineRegionProjector_get_NumberOfLines_mE88EF4754F06C997D708B9DD67545F1844275E10(L_2, NULL);
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			G_B2_0 = L_1;
+			goto IL_0037;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_4 = __this->____projector;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = ScatterLineRegionProjector_get_NumberOfLines_mE88EF4754F06C997D708B9DD67545F1844275E10(L_4, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
+		String_t* L_6;
+		L_6 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
+		G_B3_0 = L_6;
+		G_B3_1 = G_B1_0;
+		goto IL_003c;
+	}
+
+IL_0037:
+	{
+		G_B3_0 = _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_003c:
+	{
+		NullCheck(G_B3_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75, G_B3_1, G_B3_0);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:144>
+		return;
+	}
+}
+// Method Definition Index: 133399
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_UpdateFade_m92D2D1D555D21E591DB6C5C1ABE28F8969F2522B (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, float ___0_fade, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:152>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_0 = __this->____projector;
+		float L_1 = ___0_fade;
+		NullCheck(L_0);
+		ScatterLineRegionProjector_set_FadeAmount_m7CDDE5A905A2F32EF13B074A8B1B3D9F00F24BC8(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:153>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_2 = __this->____projector;
+		NullCheck(L_2);
+		ScatterLineRegionProjector_UpdateLines_m5B3ADAD7A5EF7882090DE64820EEB4ACF2BC4589(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:154>
+		return;
+	}
+}
+// Method Definition Index: 133400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_UpdateArc_m342F1F6B6DD43214C475CFAFB94839A0DBFB78E9 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, float ___0_arc, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:162>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_0 = __this->____projector;
+		float L_1 = ___0_arc;
+		NullCheck(L_0);
+		ScatterLineRegionProjector_set_Arc_mCA2E1BAB9EAD918105188AC8C5D3355317893DA5(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:163>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_2 = __this->____projector;
+		NullCheck(L_2);
+		ScatterLineRegionProjector_UpdateLines_m5B3ADAD7A5EF7882090DE64820EEB4ACF2BC4589(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:164>
+		return;
+	}
+}
+// Method Definition Index: 133401
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_UpdateLength_m0624654AB3F3C0D9C62030EE403D181FE3B9981E (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, float ___0_length, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:172>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_0 = __this->____projector;
+		float L_1 = ___0_length;
+		NullCheck(L_0);
+		ScatterLineRegionProjector_set_Length_m16E58943276E51BE03B7CFC3C15AA05A7ACD13EB(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:173>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_2 = __this->____projector;
+		NullCheck(L_2);
+		ScatterLineRegionProjector_UpdateLines_m5B3ADAD7A5EF7882090DE64820EEB4ACF2BC4589(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:174>
+		return;
+	}
+}
+// Method Definition Index: 133402
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_UpdateWidth_m79E3CBEDF310BB41604ACEE53C5DC82DBE76D24A (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, float ___0_width, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:182>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_0 = __this->____projector;
+		float L_1 = ___0_width;
+		NullCheck(L_0);
+		ScatterLineRegionProjector_set_Width_m175CDE7B391FCD31E1A0B9975D81A6BAC55324A5(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:183>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_2 = __this->____projector;
+		NullCheck(L_2);
+		ScatterLineRegionProjector_UpdateLines_m5B3ADAD7A5EF7882090DE64820EEB4ACF2BC4589(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:184>
+		return;
+	}
+}
+// Method Definition Index: 133403
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_UpdateFill_m070C84EFBCDEFF513C752E5779DE8FD23C3E51C2 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, float ___0_arc, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:192>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_0 = __this->____projector;
+		float L_1 = ___0_arc;
+		NullCheck(L_0);
+		ScatterLineRegionProjector_set_FillProgress_mC06E1AEE777A99E88B38F5981057BDCCD1B3BAE7(L_0, L_1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:193>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_2 = __this->____projector;
+		NullCheck(L_2);
+		ScatterLineRegionProjector_UpdateLines_m5B3ADAD7A5EF7882090DE64820EEB4ACF2BC4589(L_2, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:194>
+		return;
+	}
+}
+// Method Definition Index: 133404
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_ChangeIndicator_mB47DE421C0556DB5C89E3567F59658710C0530E9 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* ___0_indic, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:202>
+		ScatterLineSettings_RemoveListerner_m3D77326829D9DE79E0B8E10EC3DC0D2D284F31B1(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:203>
+		ScatterLineSettings_InitializeSlider_m81101441ABDFD08AFC0824A24F4CB114C9E158C1(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:204>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_0 = ___0_indic;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = ScatterLineRegionProjector_get_NumberOfLines_mE88EF4754F06C997D708B9DD67545F1844275E10(L_0, NULL);
+		__this->____count = L_1;
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:205>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->____countInfo;
+		int32_t* L_3 = (int32_t*)(&__this->____count);
+		String_t* L_4;
+		L_4 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_3, NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_4);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:206>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_5 = ___0_indic;
+		__this->____projector = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____projector), (void*)L_5);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:207>
+		ScatterLineSettings_InitializeIndicator_mC21DE4936FD42605C622759DC9818815A6E0401E(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:208>
+		ScatterLineSettings_InitializeValues_m9767E7BA3E6CC0B8AAC2E2CB859FFD9ED98EEE6C(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:209>
+		ScatterLineSettings_AddListener_mD4B487A238CF653C91D1A33FF881653277EDB38D(__this, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:210>
+		return;
+	}
+}
+// Method Definition Index: 133405
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings_InitializeIndicator_mC21DE4936FD42605C622759DC9818815A6E0401E (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/ScatterLineSettings.cs:215>
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_0 = __this->____projector;
+		NullCheck(L_0);
+		ScatterLineRegionProjector_set_Length_m16E58943276E51BE03B7CFC3C15AA05A7ACD13EB(L_0, (15.0f), NULL);
+		return;
+	}
+}
+// Method Definition Index: 133406
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScatterLineSettings__ctor_m200D644BA5E03FA49B5B00759C162B316F836DD6 (ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133407
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsHandler_UpdateSettings_m307E91A276357AE6502087E4CC6769500D7F6C7C (SettingsHandler_tB636B5A74BCFB7A3A01608E4CCD0FDFFF4F8CF47* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_newindicator, int32_t ___1_type, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5_mEDE8705D63483A4CAAC934FA9BFB0E494A19BDC3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisCircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15_mD48734997407D8FE3765CAFBC47210E4EB4B81E4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisLineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F_mB54F69C3AEB28A70919086078C9D6E8BCA4BB92C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC_m4330D64899951209694626A43798C696B966079D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___1_type;
+		switch (L_0)
+		{
+			case 0:
+			{
+				goto IL_001b;
+			}
+			case 1:
+			{
+				goto IL_003e;
+			}
+			case 2:
+			{
+				goto IL_0061;
+			}
+			case 3:
+			{
+				goto IL_0084;
+			}
+		}
+	}
+	{
+		goto IL_00a7;
+	}
+
+IL_001b:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:46>
+		ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* L_1 = __this->____arcSettings;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = ___0_newindicator;
+		NullCheck(L_2);
+		ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* L_3;
+		L_3 = GameObject_GetComponent_TisArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5_mEDE8705D63483A4CAAC934FA9BFB0E494A19BDC3(L_2, GameObject_GetComponent_TisArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5_mEDE8705D63483A4CAAC934FA9BFB0E494A19BDC3_RuntimeMethod_var);
+		NullCheck(L_1);
+		ArcSettings_ChangeIndicator_m1C21B6F4377513A3B37821C2E6FCA6AAE447FC47(L_1, L_3, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:47>
+		ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* L_4 = __this->____arcSettings;
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
+		SettingsHandler_ShowSettings_m285DA3677A18BE9A0D2188615D1721DC6B5646F7(__this, L_5, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:48>
+		return;
+	}
+
+IL_003e:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:50>
+		CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* L_6 = __this->____circleSettings;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___0_newindicator;
+		NullCheck(L_7);
+		CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* L_8;
+		L_8 = GameObject_GetComponent_TisCircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15_mD48734997407D8FE3765CAFBC47210E4EB4B81E4(L_7, GameObject_GetComponent_TisCircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15_mD48734997407D8FE3765CAFBC47210E4EB4B81E4_RuntimeMethod_var);
+		NullCheck(L_6);
+		CircleSettings_ChangeIndicator_m253B257E8A4FC744B93769B3B6D6A85749D2B68C(L_6, L_8, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:51>
+		CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* L_9 = __this->____circleSettings;
+		NullCheck(L_9);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
+		SettingsHandler_ShowSettings_m285DA3677A18BE9A0D2188615D1721DC6B5646F7(__this, L_10, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:52>
+		return;
+	}
+
+IL_0061:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:54>
+		lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* L_11 = __this->____lineSettings;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = ___0_newindicator;
+		NullCheck(L_12);
+		LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* L_13;
+		L_13 = GameObject_GetComponent_TisLineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F_mB54F69C3AEB28A70919086078C9D6E8BCA4BB92C(L_12, GameObject_GetComponent_TisLineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F_mB54F69C3AEB28A70919086078C9D6E8BCA4BB92C_RuntimeMethod_var);
+		NullCheck(L_11);
+		lineSettings_ChangeIndicator_m78E5D39E6E10E04D3F5F1C8266A80B7C2566E961(L_11, L_13, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:55>
+		lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* L_14 = __this->____lineSettings;
+		NullCheck(L_14);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
+		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
+		SettingsHandler_ShowSettings_m285DA3677A18BE9A0D2188615D1721DC6B5646F7(__this, L_15, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:56>
+		return;
+	}
+
+IL_0084:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:58>
+		ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* L_16 = __this->____scatterSettings;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = ___0_newindicator;
+		NullCheck(L_17);
+		ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* L_18;
+		L_18 = GameObject_GetComponent_TisScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC_m4330D64899951209694626A43798C696B966079D(L_17, GameObject_GetComponent_TisScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC_m4330D64899951209694626A43798C696B966079D_RuntimeMethod_var);
+		NullCheck(L_16);
+		ScatterLineSettings_ChangeIndicator_mB47DE421C0556DB5C89E3567F59658710C0530E9(L_16, L_18, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:59>
+		ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* L_19 = __this->____scatterSettings;
+		NullCheck(L_19);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
+		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_19, NULL);
+		SettingsHandler_ShowSettings_m285DA3677A18BE9A0D2188615D1721DC6B5646F7(__this, L_20, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:60>
+		return;
+	}
+
+IL_00a7:
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:62>
+		int32_t L_21 = ___1_type;
+		int32_t L_22 = L_21;
+		RuntimeObject* L_23 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ProjectorType_t696F3657C2D1DF101BE745F6FE7A6F00BBF44382_il2cpp_TypeInfo_var)), &L_22);
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_24 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85(L_24, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7)), L_23, (String_t*)NULL, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_24, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SettingsHandler_UpdateSettings_m307E91A276357AE6502087E4CC6769500D7F6C7C_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 133408
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsHandler_ShowSettings_m285DA3677A18BE9A0D2188615D1721DC6B5646F7 (SettingsHandler_tB636B5A74BCFB7A3A01608E4CCD0FDFFF4F8CF47* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_settings, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:72>
+		ScatterLineSettings_t8E4138E4EA614FADB824050BD77459C7CA16A9C7* L_0 = __this->____scatterSettings;
+		NullCheck(L_0);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:73>
+		lineSettings_t643AAC879365116F3D0C91FAACF037093A063632* L_2 = __this->____lineSettings;
+		NullCheck(L_2);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:74>
+		CircleSettings_t95DABBB997ADECE41AF8685385F8D2F1AB75E974* L_4 = __this->____circleSettings;
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:75>
+		ArcSettings_tC23AB06EAF151A4B75FC755A45A7B9F7267A4421* L_6 = __this->____arcSettings;
+		NullCheck(L_6);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:77>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___0_settings;
+		NullCheck(L_8);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/SettingsUI/SettingsHandler.cs:78>
+		return;
+	}
+}
+// Method Definition Index: 133409
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsHandler__ctor_m5C10044D08300B819E27E975422E96DB074D3B2A (SettingsHandler_tB636B5A74BCFB7A3A01608E4CCD0FDFFF4F8CF47* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 133410
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainHandler_ChangeState_m8F3F49D2B675E8840E7FC9A880FEA006DCF15758 (TerrainHandler_tA199E733870712DC57B522813E1A32FCACA97D4D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/TerrainHandler.cs:17>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_1, NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), NULL);
+		return;
+	}
+}
+// Method Definition Index: 133411
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainHandler__ctor_mC03F39FC08EFA173D1A445344CD263D4E9626E86 (TerrainHandler_tA199E733870712DC57B522813E1A32FCACA97D4D* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 102717
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs:60>
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_0 = __this->___m_OnClick;
+		return L_0;
+	}
+}
+// Method Definition Index: 60572
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		return;
+	}
+}
+// Method Definition Index: 60594
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), NULL);
+		V_0 = L_8;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 60441
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___forwardVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 60414
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 60448
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 60604
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_4), L_1, L_3, NULL);
+		V_0 = L_4;
+		goto IL_0015;
+	}
+
+IL_0015:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 104249
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerEventData_set_position_m66E8DFE693F550372E6B085C6E2F887FDB092FAA_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.ugui/Runtime/UGUI/EventSystem/EventData/PointerEventData.cs:117>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
+		__this->___U3CpositionU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 104586
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* RaycastResult_get_gameObject_m77014B442B9E2D10F2CC3AEEDC07AA95CDE1E2F1_inline (RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.ugui/Runtime/UGUI/EventSystem/RaycastResult.cs:15>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_GameObject;
+		return L_0;
+	}
+}
+// Method Definition Index: 133327
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MoveObject_ChangeIndicator_mBFEA9AB87D9FFCBE3C1A38EB5A4E75A08D9476E4_inline (MoveObject_t330CBE2729E7A62787EB2088F41C2F2648E00A7A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_projector, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Demo/Interactive Demo/Scripts/MoveObject.cs:86>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_projector;
+		__this->____projector = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____projector), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 130289
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ArcRegionProjector_get_Angle_m2CD99483F16C796C3A3E6C3F6A43FA1E8956FBAE_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ArcRegionProjector.cs:91>
+		float L_0 = __this->____angle;
+		return L_0;
+	}
+}
+// Method Definition Index: 130285
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ArcRegionProjector_get_Radius_m9FAC34360F4517ECA76473A7A4A6F74F7225A9EE_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ArcRegionProjector.cs:73>
+		float L_0 = __this->____radius;
+		return L_0;
+	}
+}
+// Method Definition Index: 130287
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ArcRegionProjector_get_Arc_mFC74E7300A7D39918A55E964E680421911A208B9_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ArcRegionProjector.cs:82>
+		float L_0 = __this->____arc;
+		return L_0;
+	}
+}
+// Method Definition Index: 130283
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ArcRegionProjector_get_FillProgress_m583AEFF29C0890507524E17A7B0447B3FFCA6AE7_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ArcRegionProjector.cs:64>
+		float L_0 = __this->____fillProgress;
+		return L_0;
+	}
+}
+// Method Definition Index: 103841
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.ugui/Runtime/UGUI/UI/Core/Slider.cs:352>
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_0 = __this->___m_OnValueChanged;
+		return L_0;
+	}
+}
+// Method Definition Index: 130290
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ArcRegionProjector_set_Angle_m140F62FD9F9E707BED1383824F5AC11D84682176_inline (ArcRegionProjector_tD92F9D66F37D2854CEFCFC6FD2F763BA7BC450B5* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ArcRegionProjector.cs:92>
+		float L_0 = ___0_value;
+		__this->____angle = L_0;
+		return;
+	}
+}
+// Method Definition Index: 130309
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CircleRegionProjector_get_Radius_mBD8FD056D9EE9260C1FECBD41906DE5031F10B66_inline (CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/CircleRegionProjector.cs:38>
+		float L_0 = __this->____radius;
+		return L_0;
+	}
+}
+// Method Definition Index: 130313
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CircleRegionProjector_get_FillProgress_m093C884D82AEDD4B68596366CCBBA5ECAE52FDD7_inline (CircleRegionProjector_t4620C0C797FE7C92C07CA7D806A32916B91B3B15* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/CircleRegionProjector.cs:56>
+		float L_0 = __this->____fillProgress;
+		return L_0;
+	}
+}
+// Method Definition Index: 130325
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_FillProgress_m435C08178C41DF92FE78B6EE73DEAC5A2C788CD8_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/LineRegionProjector.cs:34>
+		float L_0 = __this->____fillProgress;
+		return L_0;
+	}
+}
+// Method Definition Index: 130329
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_FadeAmount_mB5FB1748C81DCC914C6386DD42F6B3381D0F8BF1_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/LineRegionProjector.cs:52>
+		float L_0 = __this->____fadeAmount;
+		return L_0;
+	}
+}
+// Method Definition Index: 130335
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_Angle_mE80DEDF785AC370BBD5B1D2664927A4DFA7BEDE3_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/LineRegionProjector.cs:108>
+		float L_0 = __this->____angle;
+		return L_0;
+	}
+}
+// Method Definition Index: 130331
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_Length_mE7F932F4FBEBCE3F5287C391E1E05AFAD94BE410_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/LineRegionProjector.cs:61>
+		float L_0 = __this->____length;
+		return L_0;
+	}
+}
+// Method Definition Index: 130333
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float LineRegionProjector_get_Width_m85F88522328A432F1752BFE92F724E7233855354_inline (LineRegionProjector_t53E2AE54081C0DAC8ACA7493327B188FA465595F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/LineRegionProjector.cs:70>
+		float L_0 = __this->____width;
+		return L_0;
+	}
+}
+// Method Definition Index: 130350
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_FillProgress_m9ED31825EA0F76D03EB7F5C5DDFD23F6021ED5BA_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ScatterLineRegionProjector.cs:38>
+		float L_0 = __this->____fillProgress;
+		return L_0;
+	}
+}
+// Method Definition Index: 130352
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_FadeAmount_m6F2064CCAD15E2426A1DDB60FA2E599D09C191E8_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ScatterLineRegionProjector.cs:47>
+		float L_0 = __this->____fadeAmount;
+		return L_0;
+	}
+}
+// Method Definition Index: 130356
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_Arc_m06338451DF8D9E57CAB4B912D69E910A1F65951B_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ScatterLineRegionProjector.cs:65>
+		float L_0 = __this->____arc;
+		return L_0;
+	}
+}
+// Method Definition Index: 130354
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_Length_m7F1B50250A03005B346673E85805F9E32543629F_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ScatterLineRegionProjector.cs:56>
+		float L_0 = __this->____length;
+		return L_0;
+	}
+}
+// Method Definition Index: 130358
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScatterLineRegionProjector_get_Width_mC52DF0BD65096DF3330821263014E754232BAF35_inline (ScatterLineRegionProjector_t097473EBA22BF99874E4DD9D43BCC2D67F488CCC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/devops/wkspaces/New_Mastra_UGS/Assets/Plugins/DTT/Area of Effect Regions/Runtime/Projector Indicators/ScatterLineRegionProjector.cs:74>
+		float L_0 = __this->____width;
+		return L_0;
+	}
+}
+// Method Definition Index: 26285
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 26337
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}

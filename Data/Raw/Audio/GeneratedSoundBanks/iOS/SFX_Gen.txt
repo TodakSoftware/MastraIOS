@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	863376559	UI_Gen_Select_SFX			\Default Work Unit\General\SFX_Gen\UI_General\UI_Gen_Select_SFX	
+	2641035085	UI_Gen_Locked_SFX			\Default Work Unit\General\SFX_Gen\UI_General\UI_Gen_Locked_SFX	
+	3052749650	UI_Gen_Back_SFX			\Default Work Unit\General\SFX_Gen\UI_General\UI_Gen_Back_SFX	
+	3582421101	UI_Gen_Cancel_SFX			\Default Work Unit\General\SFX_Gen\UI_General\UI_Gen_Cancel_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124451032	UI_Gen_Cancel_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_Gen_Cancel_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_General\UI_Gen_Cancel_SFX		2735
+	180056814	UI_Gen_Select_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_Gen_Select_01_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_General\UI_Gen_Select_SFX		6128
+	240399524	UI_Gen_Locked_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_Gen_Locked_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_General\UI_Gen_Locked_SFX		3458
+	743108990	UI_Gen_Back_SFX	D:\MastraMediBeats\Mastra_Wwise\.cache\iOS\SFX\UI_Gen_Back_SFX_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_General\UI_Gen_Back_SFX		4262
+
